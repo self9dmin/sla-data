@@ -1,0 +1,45 @@
+name: "➕ Add a vendor"
+description: "Request a new cloud/SaaS vendor be added to the directory."
+title: "Add vendor: <vendor>"
+labels: ["new-vendor"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a vendor we should track. The more official-source detail you give, the faster it lands.
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor name
+      placeholder: e.g. Fastly
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: https://www.fastly.com
+    validations:
+      required: true
+  - type: input
+    id: sla_url
+    attributes:
+      label: Official SLA URL
+      description: Link to the vendor's own SLA / legal page.
+      placeholder: https://www.fastly.com/legal/sla
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      placeholder: e.g. CDN & Edge, Security & Identity, Finance & Payments
+  - type: textarea
+    id: terms
+    attributes:
+      label: Key SLA terms (if known)
+      description: Uptime commitment, service credits, claim window, per-service differences — whatever you have, with sources.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else? (optional)

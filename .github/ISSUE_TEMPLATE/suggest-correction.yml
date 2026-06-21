@@ -1,0 +1,51 @@
+name: "✏️ Suggest a correction"
+description: "Fix or update SLA data for a vendor already in the directory."
+title: "Correction: <vendor>"
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep SLA.directory accurate! No GitHub/git knowledge needed — just fill this in.
+        **Please link an official source** (the vendor's own SLA page) so we can verify.
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      description: Which vendor does this concern?
+      placeholder: e.g. Stripe, AWS, Datadog
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: What needs correcting?
+      options:
+        - Uptime commitment
+        - Service credit / credit tiers
+        - Claim window / deadline
+        - A specific service's SLA
+        - Official SLA URL (sla_url)
+        - Category
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What's wrong, and what should it say?
+      placeholder: "e.g. Uptime is listed as 99.9% but the SLA says 99.95% for multi-AZ."
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL
+      description: Link to the vendor's own SLA / legal page that proves this.
+      placeholder: https://vendor.com/legal/sla
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else? (optional)
