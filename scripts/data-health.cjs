@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Self-contained data-health check for the SLA dataset.
 // Zero runtime dependencies (Node 20+ global fetch). Reads vendors/*.md,
-// flags stale vendors (last_verified older than 12 months) and broken links,
+// flags stale vendors and individually-dated stale services (last_verified
+// older than 12 months) and broken links,
 // writes data-health-report.md, and exposes a `count` GitHub Actions output.
 
 'use strict';
@@ -32,10 +33,29 @@ function parseVendor(file) {
   const text = fs.readFileSync(file, 'utf8');
   const fm = frontMatter(text);
 
-  // last_verified: a date, possibly quoted.
+  // Vendor-level last_verified: a top-level (column 0) date, possibly quoted.
   let lastVerified = null;
-  const lv = fm.match(/^\s*last_verified:\s*['"]?([0-9]{4}-[0-9]{2}-[0-9]{2})['"]?/m);
+  const lv = fm.match(/^last_verified:\s*['"]?([0-9]{4}-[0-9]{2}-[0-9]{2})['"]?/m);
   if (lv) lastVerified = lv[1];
+
+  // Per-service last_verified (optional). Walk the indented services block and
+  // associate any service-level last_verified with that service's name. Services
+  // without their own date inherit the vendor date and are covered by the
+  // vendor-level freshness check, so only individually-dated services land here.
+  const services = [];
+  let inServices = false, cur = null;
+  for (const line of fm.split(/\r?\n/)) {
+    if (/^services:[ \t]*$/.test(line)) { inServices = true; continue; }
+    if (!inServices) continue;
+    if (/^\S/.test(line)) { if (cur) services.push(cur); inServices = false; cur = null; continue; }
+    const item = line.match(/^\s*-\s+(?:id|name):\s*['"]?(.+?)['"]?\s*$/);
+    if (item) { if (cur) services.push(cur); cur = { name: item[1].trim(), lastVerified: null }; continue; }
+    const nm = line.match(/^\s+name:\s*['"]?(.+?)['"]?\s*$/);
+    if (nm && cur) { cur.name = nm[1].trim(); continue; }
+    const slv = line.match(/^\s+last_verified:\s*['"]?([0-9]{4}-[0-9]{2}-[0-9]{2})['"]?/);
+    if (slv && cur) { cur.lastVerified = slv[1]; continue; }
+  }
+  if (cur) services.push(cur);
 
   // Collect URLs from known fields (front matter only, to avoid prose links).
   const urls = new Set();
@@ -49,6 +69,7 @@ function parseVendor(file) {
   return {
     file: path.basename(file),
     lastVerified,
+    services,
     urls: [...urls],
   };
 }
@@ -187,6 +208,23 @@ async function main() {
   }
   stale.sort((a, b) => a.file.localeCompare(b.file));
 
+  // Per-service freshness: services that carry their own last_verified and are
+  // past the window. (Services without their own date inherit the vendor date
+  // and are already covered by the vendor-level check above.)
+  const staleServices = [];
+  for (const v of vendors) {
+    for (const s of v.services || []) {
+      if (!s.lastVerified) continue;
+      const age = daysSince(s.lastVerified);
+      if (age === null) {
+        staleServices.push({ file: v.file, service: s.name, lastVerified: `(unparseable: ${s.lastVerified})` });
+      } else if (age > STALE_DAYS) {
+        staleServices.push({ file: v.file, service: s.name, lastVerified: s.lastVerified });
+      }
+    }
+  }
+  staleServices.sort((a, b) => a.file.localeCompare(b.file) || String(a.service).localeCompare(String(b.service)));
+
   // Unique URL set + reverse map url -> vendor files.
   const urlToVendors = new Map();
   for (const v of vendors) {
@@ -258,10 +296,29 @@ async function main() {
   }
   lines.push('');
 
-  const count = brokenUrlCount + stale.length;
+  lines.push('## Stale services (individually dated, past the 12-month window)');
+  lines.push('');
+  lines.push(
+    'Services that carry their own `last_verified` date and are past the window. ' +
+      'Services without an individual date inherit their vendor\'s date and appear ' +
+      'under the vendor stale list above, not here.'
+  );
+  lines.push('');
+  if (staleServices.length === 0) {
+    lines.push('No individually-dated services are stale.');
+  } else {
+    lines.push(`${staleServices.length} service(s) past the 12-month window.`);
+    lines.push('');
+    for (const s of staleServices) {
+      lines.push(`- ${s.file} — ${s.service}: last_verified ${s.lastVerified}`);
+    }
+  }
+  lines.push('');
+
+  const count = brokenUrlCount + stale.length + staleServices.length;
 
   if (count === 0) {
-    lines.push('All clear: no broken links and no stale vendors.');
+    lines.push('All clear: no broken links, no stale vendors, no stale services.');
     lines.push('');
   }
 
@@ -270,6 +327,7 @@ async function main() {
   // Human summary.
   console.log(`Broken URLs: ${brokenUrlCount}`);
   console.log(`Stale vendors: ${stale.length}`);
+  console.log(`Stale services: ${staleServices.length}`);
   console.log(`Total issues (count): ${count}`);
   console.log(`Report written to ${path.relative(ROOT, REPORT_PATH)}`);
 

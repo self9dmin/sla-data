@@ -20,20 +20,6 @@ Each vendor in SLA.directory is represented by a single YAML file in `content/ve
 
 ---
 
-## Comparison with endoflife.date
-
-| Aspect | endoflife.date | SLA.directory | Why different |
-|--------|---------------|---------------|---------------|
-| Unit of data | Product release cycle | Vendor SLA record | SLAs are per-vendor, not per-version |
-| Temporal dimension | Release dates, EOL dates | `last_verified` date | SLAs don't have release cycles |
-| Nesting depth | Flat (1 level) | Moderate (3 levels max) | SLAs have credit tiers within services within vendors |
-| File format | YAML front matter + markdown | Pure YAML | Our data is more structured; markdown body is optional |
-| Automated fields | `latest`, `latestReleaseDate` | `last_verified`, `last_changed` | Different freshness indicators |
-| Versioning | Release cycle versions | SLA document version | SLAs version by document revision |
-| Required fields | 4-5 per release | 8-10 per vendor | SLA data is inherently richer |
-
----
-
 ## Complete Schema
 
 ### File Naming Convention
@@ -246,6 +232,7 @@ notes: |
 | `uptime_scope` | enum | Scope of uptime guarantee | `global` |
 | `credit_policy` | object | Override vendor default | Inherits `default_credit_policy` |
 | `exclusions` | string[] | Service-specific exclusions | `[]` |
+| `last_verified` | date | `YYYY-MM-DD` this service was individually re-verified. Set it when you re-check one service without re-verifying the whole vendor; it overrides the vendor's `last_verified` for this service's freshness. | Inherits vendor `last_verified` |
 
 ---
 
