@@ -236,6 +236,29 @@ notes: |
 
 ---
 
+## Higher SLA tiers (optional)
+
+Some vendors commit to a **stronger uptime SLA** on a specific plan, support subscription, or paid add-on (for example, Dynatrace commits to 99.95% on Enterprise Success and Support, versus 99.5% on standard support). The top-level `uptime_commitment` stays the **baseline** that applies by default; `sla_tiers` records the upgrades. List a tier only when the vendor's official SLA states a higher number; never infer one.
+
+```yaml
+sla_tiers:
+  - name: Enterprise Success and Support      # required: the plan / tier / add-on name
+    requirement: Active Enterprise Success and Support subscription   # what the customer must buy
+    uptime_commitment: 99.95                   # required: the higher uptime % (0-100)
+    max_credit_percent: 100                    # optional: credit cap if it differs from baseline
+    source_url: https://...                    # the official SLA stating this tier
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `name` | string | **Required.** The plan, support tier, or add-on that unlocks the higher SLA |
+| `uptime_commitment` | float | **Required.** The higher uptime percentage (0-100) |
+| `requirement` | string | What the customer must purchase or be on to get it |
+| `max_credit_percent` | number | Credit cap for this tier, if it differs from the baseline |
+| `source_url` | URL | The official document stating this tier's SLA |
+
+---
+
 ## Enumerated Values
 
 ### Categories

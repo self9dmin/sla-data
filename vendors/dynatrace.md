@@ -14,6 +14,11 @@ max_credit_percent: 10
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+sla_tiers:
+  - name: Enterprise Success and Support
+    requirement: Active Enterprise Success and Support subscription
+    uptime_commitment: 99.95
+    source_url: https://www.dynatrace.com/company/trust-center/sla/saas/
 credit_policy:
   calculation_type: flat
   remedy_type: credit
