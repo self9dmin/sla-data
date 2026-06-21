@@ -15,7 +15,19 @@ You don't need to know git or fork anything. Just open an issue with a short web
 
 A maintainer reviews each submission, verifies the source, and applies it. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Data health is checked automatically every month: a workflow flags broken SLA links and vendors not re-verified in 12 months, then tracks them in a single open issue labeled `data-health`.
+## How the data stays accurate
+
+SLA pages move and terms change, so the dataset is kept honest by a mix of sourcing rules, community contributions, and automation:
+
+1. **Official sourcing.** Every value should trace to the vendor's own SLA or legal page, recorded in `sla_url` (and per-service `source_url`). No third-party summaries.
+2. **Verification dates.** Each vendor carries a `last_verified` date so you can see how current a record is.
+3. **Automated data-health check.** A scheduled GitHub Action ([`.github/workflows/data-health.yml`](.github/workflows/data-health.yml)) runs on the 1st of each month (and on demand):
+   - **Link rot:** every `sla_url`, per-service `source_url`, and related URL is fetched. Only a confirmed dead status (HTTP 404/410, or a persistent 5xx) counts as broken. Bot-protected pages that time out or return 403/429 are treated as "could not verify" and are not reported, so the signal stays free of false alarms.
+   - **Freshness:** vendors not re-verified in 12 months are flagged for a re-check.
+   - Findings are collected into a single tracking issue labeled [`data-health`](../../issues?q=label%3Adata-health). A maintainer triages it and re-verifies against the official source.
+   - When nothing is flagged, the workflow comments and **closes the issue automatically**, so an open `data-health` issue always means there is real work to do.
+
+The result: broken source links and year-old records surface on their own, get re-verified, and the tracking issue heals itself when the data is clean.
 
 ## License
 
