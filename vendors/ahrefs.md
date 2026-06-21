@@ -16,7 +16,7 @@ review_note: >-
   available" with no availability guarantee or credit remedy. The only
   availability statement is on the Security Measures page
   (https://ahrefs.com/legal/security-measures): "The infrastructure providers
-  use commercially reasonable efforts to ensure a minimum of 99.8% uptime" —
+  use commercially reasonable efforts to ensure a minimum of 99.8% uptime" -
   this is a best-effort infrastructure note, not a binding per-service SLA, and
   cites 99.8% (not the 99.9% in this file). Existing uptime/credit numbers are
   unverified and left unchanged pending a real SLA source. 2026-06-20 cleanup:

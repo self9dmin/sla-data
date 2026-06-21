@@ -15,7 +15,7 @@ min_plan_for_sla: standard
 needs_review: true
 review_note: >-
   2026-06-19: Configured sla_url
-  (https://www.netlify.com/legal/service-level-agreement/) returns HTTP 404 — no
+  (https://www.netlify.com/legal/service-level-agreement/) returns HTTP 404, no
   standalone public SLA document exists. Netlify's 99.99% uptime SLA is
   Enterprise-tier only and confirmed verbatim on the pricing page ("99.99% SLA"
   under Enterprise) and enterprise page ("99.99% uptime SLA and 24/7 support").
@@ -24,7 +24,7 @@ review_note: >-
   non-public Enterprise Master Subscription Agreement. Therefore the following
   fields could NOT be verified on netlify.com and are left UNCHANGED pending
   access to the Enterprise agreement: min_plan_for_sla (likely should be
-  "enterprise", not "standard" — no "Standard" plan exists; public tiers are
+  "enterprise", not "standard", no "Standard" plan exists; public tiers are
   Free/Personal/Pro/Enterprise), credit_policy/credit_tiers, max_credit_percent,
   claim_deadline_days, claim_process, per-service uptime_commitments and their
   source_urls. has_automatic_credits and 99.99 uptime are plausible but
@@ -118,6 +118,6 @@ services:
     source_url: https://www.netlify.com/pricing/
 ---
 
-Netlify is a Cloud Infrastructure provider. Netlify's 99.99% uptime SLA is an Enterprise-tier commitment; see the [Netlify pricing page](https://www.netlify.com/pricing/) and [Netlify for enterprises](https://www.netlify.com/enterprise/). There is no public standalone SLA document — detailed service-credit terms are contained in the non-public Enterprise Master Subscription Agreement.
+Netlify is a Cloud Infrastructure provider. Netlify's 99.99% uptime SLA is an Enterprise-tier commitment; see the [Netlify pricing page](https://www.netlify.com/pricing/) and [Netlify for enterprises](https://www.netlify.com/enterprise/). There is no public standalone SLA document, detailed service-credit terms are contained in the non-public Enterprise Master Subscription Agreement.
 
 <!-- Add human-readable notes about Netlify's SLA nuances here. -->

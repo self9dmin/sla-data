@@ -17,8 +17,8 @@ review_note: >-
   no SLA terms, and the Premier Support SLA covers support response (not
   availability). The on-file 99.999% appears to be Zoom Phone marketing
   ("five-nines"), NOT a general-service commitment. Zoom's current general
-  "Zoom Availability SLA Supplemental Terms" (dated 12 Aug 2025) — found only as
-  a reseller-hosted (Mitel) copy, not an official zoom.com URL — indicates
+  "Zoom Availability SLA Supplemental Terms" (dated 12 Aug 2025), found only as
+  a reseller-hosted (Mitel) copy, not an official zoom.com URL, indicates
   99.9% target with 20%/50% credit tiers and a claim that must be filed DURING
   the outage (not a 30-day window). Per policy these third-party-sourced numbers
   were NOT written in; on-file values (uptime 99.999, max_credit 25,

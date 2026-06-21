@@ -98,7 +98,7 @@ OneLogin is a Security & Identity provider. The SLA is part of the OneLogin Serv
 <!--
 SLA nuances (verified 2026-06-19 against the OneLogin Service Subscription Agreement (US), v08FEB22):
 - 99.9% availability guarantee for the OneLogin Services, measured against OneLogin's published statistics.
-- Remedy is NOT a tiered percentage of monthly fee. Instead: "for every 15 minutes of downtime, Subscriber will receive a credit equal to 5% of Subscriber's annual fee for the affected OneLogin Services, divided by 12." Total monthly credit capped at 100% of the affected fees attributable to that month — hence max_credit_percent: 100.
+- Remedy is NOT a tiered percentage of monthly fee. Instead: "for every 15 minutes of downtime, Subscriber will receive a credit equal to 5% of Subscriber's annual fee for the affected OneLogin Services, divided by 12." Total monthly credit capped at 100% of the affected fees attributable to that month, hence max_credit_percent: 100.
 - Credits are not automatic: must be requested in writing via email with documented proof (traceroute reports) within 30 days of the downtime.
 - Exclusions: Force Majeure and planned downtime with at least 48 hours prior notice.
 - No published per-plan SLA eligibility distinction; SLA applies to the OneLogin Services generally.

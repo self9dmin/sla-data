@@ -18,7 +18,7 @@ review_note: >-
   servicecredit@zendesk.com within 60 days of the impacted month, credits are
   the only remedy and are not automatic. Corrected: claim_deadline_days 45->60,
   min_plan standard->premier. NOT verified: the credit-percentage tier table and
-  max_credit_percent (100) — Zendesk does not publish credit tiers on any public
+  max_credit_percent (100), Zendesk does not publish credit tiers on any public
   page (they live in non-public Premier Support contractual terms); the only
   public comparator (Sunshine Conversations) caps at 10%/month. credit_tiers and
   max_credit_percent below are retained as prior approximations.

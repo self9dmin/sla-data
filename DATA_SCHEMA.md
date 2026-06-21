@@ -1,4 +1,4 @@
-# SLA.directory — Data Schema Specification
+# SLA.directory, Data Schema Specification
 
 > **Version**: 1.0.0
 > **Status**: Draft
@@ -12,11 +12,11 @@ Each vendor in SLA.directory is represented by a single YAML file in `content/ve
 
 ### Design Principles
 
-1. **Source URLs are mandatory** — Every SLA claim must be verifiable
-2. **Normalize for comparison** — Key metrics use consistent types and units
-3. **Vendor-level defaults, service-level overrides** — Reduce redundancy
-4. **Comments welcome** — YAML supports inline documentation of SLA nuances
-5. **Flat where possible** — Minimize nesting to keep diffs readable
+1. **Source URLs are mandatory**, Every SLA claim must be verifiable
+2. **Normalize for comparison**, Key metrics use consistent types and units
+3. **Vendor-level defaults, service-level overrides**, Reduce redundancy
+4. **Comments welcome**, YAML supports inline documentation of SLA nuances
+5. **Flat where possible**, Minimize nesting to keep diffs readable
 
 ---
 
@@ -141,7 +141,7 @@ support_tiers:
     response_time: "< 15 minutes"
 
 # ============================================================
-# SERVICES (required — at least one)
+# SERVICES (required, at least one)
 # Individual products/services with their own SLA terms
 # ============================================================
 services:
@@ -412,8 +412,8 @@ The following table maps OpenClause JSON fields to the new YAML schema:
 
 See `_data/sample/` for complete examples:
 
-- `aws-ec2.yaml` — Complex cloud provider with many services and regional SLAs
-- `salesforce.yaml` — Enterprise SaaS with multiple cloud products
-- `github.yaml` — Developer tools with tier-gated SLA
-- `cloudflare.yaml` — CDN/edge provider with 100% uptime commitments
-- `stripe.yaml` — Payment platform with high uptime guarantees
+- `aws-ec2.yaml`, Complex cloud provider with many services and regional SLAs
+- `salesforce.yaml`, Enterprise SaaS with multiple cloud products
+- `github.yaml`, Developer tools with tier-gated SLA
+- `cloudflare.yaml`, CDN/edge provider with 100% uptime commitments
+- `stripe.yaml`, Payment platform with high uptime guarantees

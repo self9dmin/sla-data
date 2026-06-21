@@ -16,7 +16,7 @@ review_note: >-
   that "Cloudinary's support SLA is your sole and exclusive remedy for any
   failure by Cloudinary to provide the Services." The MSA
   (https://cloudinary.com/msa) states the SLA "is as set forth in the Service
-  Level Agreement (SLA) attached to the Order Form" — i.e. per-contract and not
+  Level Agreement (SLA) attached to the Order Form", i.e. per-contract and not
   published. The Trust page (https://cloudinary.com/trust) mentions a "99.9%
   uptime" commitment but with no service credits, tiers, max credit, or claim
   deadline disclosed. Therefore uptime_commitment, credit_policy/credit_tiers,

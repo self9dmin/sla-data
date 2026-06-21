@@ -109,6 +109,6 @@ services:
 
 Qlik is a Business Intelligence provider. See the official SLA at [https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf](https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf).
 
-Qlik Cloud commits to a 99.9% monthly Uptime Percentage. Service Credits are tiered: 10% of monthly charges for uptime below 99.9% (>=99.0%), 30% below 99.0% (>=95.0%), and 100% below 95.0%. Credits are not automatic — customers must open a Support Case designated as a Service Credit request via the Support Portal within 15 days of the suspected non-Availability period, and credits are applied to the next annual invoice. Per the SLA (v.2025.03.13).
+Qlik Cloud commits to a 99.9% monthly Uptime Percentage. Service Credits are tiered: 10% of monthly charges for uptime below 99.9% (>=99.0%), 30% below 99.0% (>=95.0%), and 100% below 95.0%. Credits are not automatic, customers must open a Support Case designated as a Service Credit request via the Support Portal within 15 days of the suspected non-Availability period, and credits are applied to the next annual invoice. Per the SLA (v.2025.03.13).
 
 <!-- Add human-readable notes about Qlik's SLA nuances here. -->

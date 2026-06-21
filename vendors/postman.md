@@ -10,7 +10,7 @@ sla_url: https://www.postman.com/legal/enterprise-sla/
 last_verified: '2026-06-20'
 last_updated: '2026-06-19'
 needs_review: false
-review_note: 'Verified via browser 2026-06-20 against postman.com/legal/enterprise-sla: 99.9% monthly uptime commitment (Enterprise plan); sole remedy is termination with pro-rated refund after 3 consecutive (or 4 of 12) months'' breach — no service credits.'
+review_note: 'Verified via browser 2026-06-20 against postman.com/legal/enterprise-sla: 99.9% monthly uptime commitment (Enterprise plan); sole remedy is termination with pro-rated refund after 3 consecutive (or 4 of 12) months'' breach, no service credits.'
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: enterprise

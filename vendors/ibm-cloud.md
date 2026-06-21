@@ -10,7 +10,7 @@ sla_url: https://cloud.ibm.com/docs/overview?topic=overview-slas
 last_verified: '2026-06-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: 'Verified via browser 2026-06-20: IBM Cloud publishes per-service SLAs with service credits and no single global uptime number; top-level fields are a representative value — see services[].'
+review_note: 'Verified via browser 2026-06-20: IBM Cloud publishes per-service SLAs with service credits and no single global uptime number; top-level fields are a representative value, see services[].'
 uptime_commitment: 100
 max_credit_percent: 10
 claim_deadline_days: 3

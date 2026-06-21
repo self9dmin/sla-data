@@ -13,7 +13,7 @@ needs_review: true
 review_note: >-
   Official Terms of Service (https://www.bamboohr.com/legal/terms-of-service,
   Section 4.3) commits only to use "commercially reasonable efforts to make the
-  Service available 24 hours a day, 7 days a week" — there is NO published
+  Service available 24 hours a day, 7 days a week", there is NO published
   numeric uptime percentage. The stored uptime_commitment of 99.9 is not
   verifiable on bamboohr.com and was left unchanged pending review (do not
   guess). No public service-credit SLA exists: Section 5.1 states "There will be

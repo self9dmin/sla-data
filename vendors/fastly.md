@@ -134,7 +134,7 @@ SLA nuances (verified 2026-06-19 against docs.fastly.com):
   <99.0%-98.0% (up to 14.4 hr) = 25%; <98.0% (>864 min) = 50%. Max credit = invoice amount for the month.
 - Credit requests must be made within 30 days; credits applied to the invoice two months later.
 - Security (Next-Gen WAF / Cloud WAF Hosted) services have a separate 99.9% SLA with 5/10/15/20%
-  credit tiers (max 20%) and a 15-day claim window — see the Security service SLA page.
+  credit tiers (max 20%) and a 15-day claim window, see the Security service SLA page.
 - DDoS Protection and Mitigation is a managed service with no availability guarantee.
 -->
 

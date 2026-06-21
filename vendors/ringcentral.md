@@ -13,7 +13,7 @@ needs_review: true
 review_note: >-
   2026-06-19: Prior sla_url https://www.ringcentral.com/legal/last-version-sla.html
   returns HTTP 404. No public, canonical RingEX/MVP Service Level Agreement
-  document could be located on ringcentral.com — the legal hub, Trust Center,
+  document could be located on ringcentral.com, the legal hub, Trust Center,
   RingEX Service Attachment, Online Terms of Service, and Master Services
   Agreement PDF contain no public uptime/service-credit SLA terms (RingCentral's
   RingEX SLA appears to be provided contractually per Order Form, not published).

@@ -94,6 +94,6 @@ services:
 
 Looker is a Business Intelligence provider. See the official SLA at [https://cloud.google.com/terms/looker-core/sla](https://cloud.google.com/terms/looker-core/sla).
 
-Looker (Google Cloud core) SLOs vary by edition: Standard Edition 99.5%, Enterprise Edition and Embed Product 99.9%. Credits are tiered (10% for the band above 99.0%, 25% for uptime below 99.0%) and capped at 25% of the monthly bill. Credits are not automatic — the customer must notify Looker support within 30 days of becoming eligible and provide log files showing the Downtime.
+Looker (Google Cloud core) SLOs vary by edition: Standard Edition 99.5%, Enterprise Edition and Embed Product 99.9%. Credits are tiered (10% for the band above 99.0%, 25% for uptime below 99.0%) and capped at 25% of the monthly bill. Credits are not automatic, the customer must notify Looker support within 30 days of becoming eligible and provide log files showing the Downtime.
 
 <!-- Add human-readable notes about Looker's SLA nuances here. -->

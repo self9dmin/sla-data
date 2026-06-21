@@ -15,7 +15,7 @@ review_note: >-
   service credits on surveymonkey.com. Checked Terms of Use
   (/mp/legal/terms-of-use/), Governing Services Agreement (/mp/legal/gsa/),
   Security Statement (/mp/legal/security/), and Enterprise Service-Specific Terms
-  (/mp/legal/survey-platform-tos/) plus status.surveymonkey.com — none define an
+  (/mp/legal/survey-platform-tos/) plus status.surveymonkey.com, none define an
   availability percentage or credit remedy. Enterprise terms section 3.7
   references "availability or uptime calculations" but these are defined only in
   individual enterprise Order Forms, not publicly. Existing fields

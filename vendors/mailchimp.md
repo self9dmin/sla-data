@@ -17,7 +17,7 @@ review_note: >-
   uptime percentage, service-credit, or availability-guarantee language; the terms
   state the Service is provided "as is" with no availability warranty. The "99.9"
   uptime_commitment, 25% max_credit_percent, credit_tiers, and claim_process in
-  this file are NOT verifiable on mailchimp.com and are likely fabricated — left
+  this file are NOT verifiable on mailchimp.com and are likely fabricated, left
   unchanged pending removal/confirmation. The only uptime figures Mailchimp cites
   are marketing claims (e.g. "99.99% uptime" on the Transactional features page,
   https://mailchimp.com/features/transactional-email/), which are not contractual

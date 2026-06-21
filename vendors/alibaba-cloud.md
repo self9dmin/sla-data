@@ -13,7 +13,7 @@ needs_review: true
 review_note: >-
   Alibaba Cloud has no single global uptime number; top-level fields are
   representative of the Elastic Compute Service (ECS) SLA (single-instance
-  99.975%). Other services carry their own SLAs — see services[].
+  99.975%). Other services carry their own SLAs, see services[].
 uptime_commitment: 99.975
 max_credit_percent: 100
 claim_deadline_days: 60

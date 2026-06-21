@@ -117,7 +117,7 @@ needs_review: true
 review_note: >-
   Azure has no single global uptime commitment; top-level fields are per-service
   representative values (a typical figure is Azure VMs at 99.99% across
-  Availability Zones) — see services[] for per-service values and sources.
+  Availability Zones), see services[] for per-service values and sources.
 uptime_commitment: 99.999
 max_credit_percent: 100
 claim_deadline_days: 30

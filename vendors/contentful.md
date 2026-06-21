@@ -17,7 +17,7 @@ review_note: >-
   only on-page availability threshold is 99% (Chronic Service Availability
   Failure). Contentful's MRDI docs state "99.99% availability SLA across the
   multi-region delivery infrastructure, which includes Content Delivery API
-  (CDA), GraphQL Content API, Images API and Asset CDN" — so uptime_commitment
+  (CDA), GraphQL Content API, Images API and Asset CDN", so uptime_commitment
   99.95 and the 10/20/30 credit tiers / max_credit_percent 30 could NOT be
   verified on contentful.com and were left unchanged. Verified changes:
   min_plan_for_sla -> success (SLA "applies to customers who have a Contentful
