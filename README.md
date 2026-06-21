@@ -15,6 +15,8 @@ You don't need to know git or fork anything. Just open an issue with a short web
 
 A maintainer reviews each submission, verifies the source, and applies it. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+Data health is checked automatically every month: a workflow flags broken SLA links and vendors not re-verified in 180 days, then tracks them in a single open issue labeled `data-health`.
+
 ## License
 
 SLA data in this repository is licensed **[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)**: free to use with attribution to SLA.directory. See [`LICENSE`](LICENSE).
