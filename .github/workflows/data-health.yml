@@ -39,3 +39,22 @@ jobs:
             } else {
               await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['data-health'] });
             }
+      - name: Close tracking issue when all clear
+        if: steps.check.outputs.count == 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Data health: broken SLA links and stale vendors';
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'data-health',
+            });
+            const existing = issues.find((i) => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number,
+                body: 'All clear: no broken SLA links or vendors past the 12-month freshness window as of this run.',
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, state: 'closed',
+              });
+            }

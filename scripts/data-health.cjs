@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Self-contained data-health check for the SLA dataset.
 // Zero runtime dependencies (Node 20+ global fetch). Reads vendors/*.md,
-// flags stale vendors (last_verified older than 180 days) and broken links,
+// flags stale vendors (last_verified older than 12 months) and broken links,
 // writes data-health-report.md, and exposes a `count` GitHub Actions output.
 
 'use strict';
@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const STALE_DAYS = 180;
+const STALE_DAYS = 365;
 const CONCURRENCY = 8;
 const REQUEST_TIMEOUT_MS = 15000;
 const USER_AGENT =
@@ -226,12 +226,12 @@ async function main() {
   }
   lines.push('');
 
-  lines.push(`## Stale (${STALE_DAYS}+ days)`);
+  lines.push('## Stale (past the 12-month freshness window)');
   lines.push('');
   if (stale.length === 0) {
     lines.push('No stale vendors found.');
   } else {
-    lines.push(`${stale.length} vendor(s) not verified in ${STALE_DAYS}+ days.`);
+    lines.push(`${stale.length} vendor(s) not verified in the last 12 months.`);
     lines.push('');
     for (const s of stale) {
       lines.push(`- ${s.file}: last_verified ${s.lastVerified}`);
