@@ -11,7 +11,7 @@ const path = require('path');
 
 const STALE_DAYS = 365;
 const CONCURRENCY = 8;
-const REQUEST_TIMEOUT_MS = 15000;
+const REQUEST_TIMEOUT_MS = 20000;
 const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
   '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
@@ -82,55 +82,67 @@ async function fetchWithTimeout(url, method) {
   }
 }
 
+// Classification policy (bias to precision: never cry wolf on a public issue):
+//   OK      -> any response with status < 400.
+//   BROKEN  -> only a definitive dead status: 404 or 410, or a 5xx that
+//              persists after one retry. These are confirmed dead.
+//   BLOCKED -> everything we cannot definitively verify: 401/403/405/429,
+//              any other non-dead 4xx, a timeout / AbortError / network or
+//              DNS error / fetch throw. Not reported.
+//
 // Returns { url, classification: 'OK'|'BLOCKED'|'BROKEN', status, detail }.
 async function checkUrl(url) {
-  const blocked = new Set([401, 403, 405, 429]);
+  const dead = new Set([404, 410]);
 
+  // Perform a request; returns { status } on a real HTTP response, or
+  // { error } when the request timed out / was aborted / threw (network/DNS).
   async function attempt(method) {
-    const res = await fetchWithTimeout(url, method);
-    return res.status;
-  }
-
-  let status = null;
-  try {
-    // HEAD first.
     try {
-      status = await attempt('HEAD');
+      const res = await fetchWithTimeout(url, method);
+      return { status: res.status };
     } catch (e) {
-      status = null;
+      const detail =
+        e && e.name === 'AbortError'
+          ? `timeout after ${REQUEST_TIMEOUT_MS}ms`
+          : (e && e.message) || 'network error';
+      return { error: detail };
     }
-    // GET fallback if HEAD failed or was rejected in a way GET might pass.
-    if (status === null || status === 405 || status === 403 || status >= 400) {
-      try {
-        status = await attempt('GET');
-      } catch (e) {
-        if (status === null) {
-          return { url, classification: 'BROKEN', status: null, detail: e.message || 'network error' };
-        }
-      }
-    }
-  } catch (e) {
-    return { url, classification: 'BROKEN', status: null, detail: e.message || 'network error' };
   }
 
-  if (status === null) {
-    return { url, classification: 'BROKEN', status: null, detail: 'network error' };
+  // HEAD first; if it errors/times out or returns any error status, retry once
+  // with GET before giving up (some hosts reject or hang on HEAD).
+  let r = await attempt('HEAD');
+  if (r.error || (typeof r.status === 'number' && r.status >= 400)) {
+    const g = await attempt('GET');
+    // Prefer the GET outcome; it is the more reliable signal.
+    r = g;
   }
+
+  // Could not get a clear HTTP status: unverifiable -> BLOCKED, never BROKEN.
+  if (r.error || typeof r.status !== 'number') {
+    return { url, classification: 'BLOCKED', status: null, detail: r.error || 'unverifiable' };
+  }
+
+  const status = r.status;
   if (status < 400) return { url, classification: 'OK', status };
-  if (blocked.has(status)) return { url, classification: 'BLOCKED', status };
 
-  // Other 4xx / 5xx: retry 5xx once.
+  // Definitive dead status.
+  if (dead.has(status)) return { url, classification: 'BROKEN', status };
+
+  // 5xx: confirm by retrying once; only BROKEN if it persists.
   if (status >= 500) {
-    try {
-      const retry = await attempt('GET');
-      if (retry < 400) return { url, classification: 'OK', status: retry };
-      if (blocked.has(retry)) return { url, classification: 'BLOCKED', status: retry };
-      return { url, classification: 'BROKEN', status: retry };
-    } catch (e) {
-      return { url, classification: 'BROKEN', status, detail: 'server error' };
+    const retry = await attempt('GET');
+    if (retry.error || typeof retry.status !== 'number') {
+      return { url, classification: 'BLOCKED', status, detail: retry.error || 'unverifiable on retry' };
     }
+    if (retry.status < 400) return { url, classification: 'OK', status: retry.status };
+    if (retry.status >= 500) return { url, classification: 'BROKEN', status: retry.status };
+    if (dead.has(retry.status)) return { url, classification: 'BROKEN', status: retry.status };
+    return { url, classification: 'BLOCKED', status: retry.status };
   }
-  return { url, classification: 'BROKEN', status };
+
+  // Any other 4xx (401/403/405/429 and friends): cannot confirm dead -> BLOCKED.
+  return { url, classification: 'BLOCKED', status };
 }
 
 async function checkAll(urls) {
@@ -209,6 +221,13 @@ async function main() {
   lines.push('');
 
   lines.push('## Broken links');
+  lines.push('');
+  lines.push(
+    'BROKEN means a confirmed dead status (404, 410, or a 5xx that persisted ' +
+      'after one retry). Links we could not verify (timeouts, network errors, ' +
+      'or bot-protection responses such as 401/403/405/429) are treated as ' +
+      'BLOCKED and omitted here to avoid false positives.'
+  );
   lines.push('');
   if (brokenUrlCount === 0) {
     lines.push('No broken links found.');
