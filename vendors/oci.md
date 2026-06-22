@@ -10,10 +10,6 @@ sla_url: https://www.oracle.com/cloud/sla/
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Verified against the Oracle PaaS and IaaS Pillar Document (March 2026); SLA is
-  per-service and top-level fields reflect a representative service (99.995% is
-  the highest-tier figure, e.g. Autonomous Database with Data Guard).
 uptime_commitment: 99.995
 max_credit_percent: 100
 claim_deadline_days: 60

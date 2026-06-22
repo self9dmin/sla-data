@@ -10,17 +10,6 @@ sla_url: https://zapier.com/legal
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Previous sla_url https://zapier.com/legal/service-level-agreement returns HTTP
-  404 (confirmed 2026-06-19). Zapier does not publish a public standalone SLA
-  page with uptime/credit terms; the uptime SLA is Enterprise-tier and provided
-  under the non-public Enterprise Agreement. sla_url repointed to the live legal
-  index (https://zapier.com/legal, HTTP 200). All SLA numbers
-  (uptime_commitment, credit tiers, max_credit_percent, claim_deadline_days,
-  has_automatic_credits, min_plan_for_sla) are UNVERIFIED against any official
-  zapier.com page and left unchanged pending access to the Enterprise Agreement.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

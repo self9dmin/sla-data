@@ -10,7 +10,6 @@ sla_url: https://www.ukg.com/legal
 last_verified: '2026-06-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: '2026-06-20 browser check: ukg.com/legal is an index exposing no public SLA numbers (customer terms gated); unverified numeric values removed.'
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

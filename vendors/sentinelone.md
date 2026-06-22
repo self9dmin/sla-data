@@ -10,10 +10,6 @@ sla_url: https://www.sentinelone.com/legal/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  No public uptime SLA or service-credit policy is published on sentinelone.com
-  (legal docs cover only support response times), so all numeric SLA fields here
-  are unverified.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

@@ -10,22 +10,6 @@ sla_url: https://www.semrush.com/company/legal/terms-of-service/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Semrush does not publish a public credit-backed SLA. Its Terms of Service
-  (https://www.semrush.com/company/legal/terms-of-service/) disclaims
-  availability: the Services are provided "AS-IS" and "AS AVAILABLE" with "no
-  warranty that the Services or the Website ... WILL BE AVAILABLE ON AN
-  UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE BASIS." The only uptime figure
-  on semrush.com is a non-binding infrastructure statement on the Security page
-  (https://www.semrush.com/company/security/): "The infrastructure providers
-  use commercially reasonable efforts to ensure a minimum of 99.9% uptime." No
-  service credits, credit tiers, max-credit percentage, claim deadline, or
-  min-plan SLA could be verified on the vendor's domain. The existing
-  uptime_commitment, credit_policy, claim_process, max_credit_percent,
-  claim_deadline_days, has_automatic_credits, and min_plan_for_sla values are
-  unverified and left unchanged pending review/removal.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

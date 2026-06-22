@@ -10,21 +10,6 @@ sla_url: https://www.kinaxis.com/en/trust-center
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Old sla_url (https://www.kinaxis.com/legal) and services source_url
-  (https://www.kinaxis.com/en/legal/service-level-agreement) both return HTTP
-  404. Kinaxis does not publish a public availability SLA: per the Trust Center
-  (https://www.kinaxis.com/en/trust-center, HTTP 200), "The SaaS Agreement is
-  supported by an Order Form and includes our Support Guide, Security Guide,
-  availability SLA, and Data Processing Agreement." The availability SLA is
-  contractual (signed SaaS Agreement / Order Form) and not publicly disclosed,
-  so uptime_commitment, credit_policy, credit_tiers, max_credit_percent,
-  claim_deadline_days, has_automatic_credits, min_plan_for_sla, support_tiers,
-  and per-service uptime numbers below are UNVERIFIED against the vendor domain
-  and left unchanged pending access to the contractual SLA document. URLs
-  updated to the confirmed-live Trust Center.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

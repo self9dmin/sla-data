@@ -10,20 +10,6 @@ sla_url: https://squareup.com/us/en/legal/general/ua
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Square publishes no public uptime SLA or service-credit policy. The General
-  Terms of Service (https://squareup.com/us/en/legal/general/ua, effective
-  2026-06-01) and the Developer Terms
-  (https://squareup.com/us/en/legal/general/developers) both explicitly disclaim
-  availability: "SQUARE DOES NOT WARRANT...THAT THE SERVICES WILL BE AVAILABLE AT
-  ANY PARTICULAR TIME OR LOCATION, UNINTERRUPTED, ERROR-FREE, WITHOUT DEFECT OR
-  SECURE." The uptime_commitment of 99.9 (on the vendor and all services) is not
-  substantiated by any squareup.com legal page and is contradicted by these
-  disclaimers; left unchanged pending sourcing or removal. max_credit_percent: 0
-  and credit_policy.calculation_type: none are consistent with the finding that
-  no credit SLA exists.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

@@ -10,19 +10,6 @@ sla_url: https://www.freshworks.com/terms/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  No public, binding Service Level Agreement found on freshworks.com as of
-  2026-06-19. The legal index (https://www.freshworks.com/legal/) lists the
-  Terms of Service, Supplemental Terms, DPA, and Professional Services Agreement
-  but no uptime/availability commitment, service-credit policy, or SLA document.
-  The /terms/sla/ path (previously used as services source_url) returns HTTP 404.
-  The freshworks.com/sla/, /helpdesk/sla/, and /itsm/sla/ pages are educational
-  marketing content about building SLAs for one's own customers, not Freshworks'
-  platform commitment. Uptime (99.9), max_credit_percent (25), credit_tiers,
-  and claim_deadline_days could NOT be verified on the vendor domain and are left
-  unchanged pending review (possibly only available in contract/Enterprise terms).
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

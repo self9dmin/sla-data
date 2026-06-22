@@ -10,9 +10,6 @@ sla_url: https://www.intercom.com/legal/service-level-agreement
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Verified against official SLA (2025-07-11); remedy is termination-and-refund
-  after two consecutive months below 99.8%, not service credits.
 uptime_commitment: 99.8
 max_credit_percent: 0
 claim_deadline_days: 30

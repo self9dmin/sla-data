@@ -10,11 +10,6 @@ sla_url: https://contentsquare.com/legal/support-package-slc/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Heap's governing SLA is now the Contentsquare Support Package SLA (parent
-  company), which states 99.5% availability with a day-extension remedy rather
-  than the 99.9% uptime and percentage credits recorded here. Numbers left
-  unchanged pending a decision to remodel to the day-extension structure.
 uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 30

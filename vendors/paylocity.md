@@ -10,20 +10,6 @@ sla_url: https://www.paylocity.com/terms-and-conditions/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  As of 2026-06-19, Paylocity does not publish a public uptime/availability SLA
-  with service credits on paylocity.com. Public legal materials (the legal index
-  at https://www.paylocity.com/legal/, the API End User License Agreement at
-  https://www.paylocity.com/terms-and-conditions/, and the Service Specific Terms
-  PDF) contain no uptime commitment, credit tiers, claim deadline, or downtime
-  remedy. Service-level terms appear to be governed by the customer's
-  contractual Master Subscription Agreement, which is not publicly available.
-  The existing uptime (99.9), max_credit_percent (15), tiered credit policy, and
-  30-day claim deadline could NOT be confirmed on the vendor's own domain and are
-  left unchanged pending sourcing from an official Paylocity document.
-  The sla_url returns HTTP 200 but is JavaScript-rendered and is a general legal
-  index, not a dedicated SLA page. 2026-06-20 cleanup: removed unverified
-  numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

@@ -10,22 +10,6 @@ sla_url: https://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-t
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Old sla_url (cloud-terms.html) now redirects to Cisco's Offer Descriptions
-  index (software-terms.html), updated here. Cisco does NOT publish a public
-  uptime SLA with service credits for core Webex. The official Webex Offer
-  Description (EDCS-12881749 Ver 10.0, 2025-09-10,
-  https://www.cisco.com/c/dam/en_us/about/doing_business/legal/OfferDescriptions/webex.pdf)
-  contains only support response objectives (Sev 1/2 within 1 hour; Sev 3/4
-  next business day) - no availability percentage, no service credits, no
-  credit tiers, no claim deadline, and no automatic-credits language. The
-  99.99/99.999% figures are marketing/blog claims, and the credit terms (e.g.
-  5% MRC cap, 30 business days) come from a Verizon reseller SLA, not
-  cisco.com. Existing uptime_commitment, credit_policy, claim_deadline_days,
-  and services[].uptime_commitment values are therefore UNVERIFIED against any
-  Cisco-domain document and were left unchanged pending review.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

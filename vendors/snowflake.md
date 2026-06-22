@@ -10,7 +10,6 @@ sla_url: https://www.snowflake.com/en/legal/addenda/support-policy-and-service-l
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: false
-review_note: "Verified against the Snowflake SLA (updated 2026-02-24); base availability 99.9%, credits are multipliers of daily Snowflake Credits, represented via credit_unit: multiplier."
 uptime_commitment: 99.9
 max_credit_percent: 7
 credit_unit: multiplier

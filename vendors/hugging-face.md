@@ -10,26 +10,6 @@ sla_url: https://huggingface.co/terms-of-service
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Hugging Face does not publish a public uptime SLA with service credits on its
-  own domain. The Terms of Service (https://huggingface.co/terms-of-service)
-  contains no uptime commitment or credit policy and disclaims availability
-  ("We may at any time modify, suspend, or discontinue, temporarily or
-  permanently, the Services (or any part thereof) with or without notice."). The
-  official Inference Endpoint Service Description
-  (https://cdn-media.huggingface.co/landing/assets/Inference+Endpoint+-+Service+Description.pdf)
-  states the service "is subject to the same Service Level Agreements generally
-  available through the Hugging Face Terms of Use, unless specific Availability,
-  Support or other Service Level Agreements are specified in an applicable Order
-  Form." The Private Hub Service Description defers SLAs to "applicable Order
-  Forms." Enterprise plan docs (https://huggingface.co/docs/hub/enterprise) list
-  only "Email support with SLA" (a support-response SLA, not an uptime/credit
-  SLA). Therefore the 99.9 uptime_commitment, credit_policy, claim_process, and
-  per-service uptime numbers below are NOT verifiable on huggingface.co and were
-  left unchanged pending a public SLA or a customer Order Form. Verified
-  2026-06-19 that no public credit SLA exists.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

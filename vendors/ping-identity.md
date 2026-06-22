@@ -10,10 +10,6 @@ sla_url: https://www.pingidentity.com/en/legal/support-policy.html
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Uptime of 99.99% confirmed in the official Support Policy, but the service
-  credit tiers, cap, claim deadline, and submission process are not published on
-  any public page and remain unverified.
 uptime_commitment: 99.99
 max_credit_percent: 25
 claim_deadline_days: 30

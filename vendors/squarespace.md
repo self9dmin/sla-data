@@ -10,17 +10,6 @@ sla_url: https://www.squarespace.com/terms-of-service
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  No public credit-bearing SLA could be found on squarespace.com. The Terms of
-  Service (sla_url, live as of 2026-06-19) explicitly disclaims uptime: "Squarespace
-  makes no warranty or representation that the Services will: (a) be timely,
-  uninterrupted or error-free." The only "99.9% uptime" reference is marketing copy
-  on the Premium/Enterprise pages ("Get the confidence that comes with 99.9% uptime")
-  with no service-credit terms, tiers, or claim process. All credit_policy / claim_process
-  numbers in this file (max_credit 25%, 30-day deadline, tiers) are unverifiable on the
-  vendor's own domain and were left unchanged pending review.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

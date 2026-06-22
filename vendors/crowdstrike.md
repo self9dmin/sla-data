@@ -10,7 +10,6 @@ sla_url: https://www.crowdstrike.com/en-us/legal/terms-conditions/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: 'CrowdStrike publishes no public credit SLA. Only crowdstrike.com-verifiable figure is the "99.99% guaranteed uptime" marketing claim on Falcon pricing pages (e.g. /en-us/pricing/falcon-enterprise/); the Terms & Conditions contain no availability percentage, service credits, credit tiers, max credit, or claim process (Section 8.6 disclaims uninterrupted operation). max_credit_percent (25), claim_deadline_days (30), credit_tiers, claim_process, and per-service uptime/source_url figures could NOT be verified on crowdstrike.com and are left unchanged pending review. sla_url updated to canonical /en-us/legal/ path; dead /legal/ service source_urls repointed to live terms page. 2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.'
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

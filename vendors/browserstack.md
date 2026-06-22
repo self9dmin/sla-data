@@ -10,20 +10,6 @@ sla_url: https://www.browserstack.com/terms
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  As of 2026-06-19, browserstack.com publishes no public service-credit SLA. The
-  Terms of Service (https://www.browserstack.com/terms) disclaims uptime
-  warranties ("BROWSERSTACK DOES NOT WARRANT THAT CUSTOMER'S USE OF ANY SERVICE
-  WILL BE UNINTERRUPTED OR ERROR-FREE"). The only on-domain uptime statement is a
-  marketing claim on the Enterprise page (https://www.browserstack.com/enterprise):
-  "Run hundreds of tests in parallel backed by 21 Global DCs with 99% uptime
-  SLA." No service-credit percentages, credit tiers, max-credit, claim process,
-  or per-service uptime commitments are published on the vendor domain, so the
-  existing numeric fields (uptime 99.9, max_credit_percent 25, credit_tiers,
-  claim_deadline_days 30) could not be verified and were left unchanged. Any
-  binding SLA appears to live only in custom Enterprise contracts. 2026-06-20
-  cleanup: removed unverified numeric SLA values per the above note; no public
-  credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

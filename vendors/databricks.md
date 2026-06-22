@@ -10,20 +10,6 @@ sla_url: https://www.databricks.com/legal/platform-services-schedule
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Prior sla_url (databricks.com/legal/service-level-agreement) is dead (HTTP
-  404) as of 2026-06-19. Databricks publishes no standalone, openly accessible
-  SLA page on databricks.com; the legal index lists no SLA document, and the
-  live Master Cloud Services Agreement and Platform Services Schedule do not
-  embed uptime/credit terms. sla_url repointed to the confirmed-live Platform
-  Services Schedule as the governing official document. Third-party/search
-  snippets indicate the actual Databricks SLA (AWS/GCP) uses tiers of 10%
-  credit below 99.9% and 25% below 99.0% with a 45-day credit issuance window
-  -- which conflicts with the values currently in this file -- but this could
-  NOT be confirmed on a first-party databricks.com URL, so all numbers and
-  last_verified are left UNCHANGED pending a verifiable official source.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

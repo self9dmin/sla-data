@@ -10,19 +10,6 @@ sla_url: https://www.braze.com/company/legal/terms
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  2026-06-19: Prior sla_url https://www.braze.com/company/legal/sla returns HTTP
-  404. Braze publishes no standalone public SLA: the legal index
-  (https://www.braze.com/company/legal) lists no SLA/Service Level/Availability
-  document, and /legal/sla is also 404. The Main Subscription Agreement
-  (https://www.braze.com/company/legal/terms) Section 2.3 only commits to "use
-  commercially reasonable efforts to make the Services available 24 hours a day,
-  seven days a week" with no uptime percentage, no credit tiers, and no claim
-  process. sla_url repointed to the live MSA. All uptime/credit/deadline numbers
-  below are UNVERIFIED against any current public Braze source and left unchanged
-  pending a customer-contractual SLA. Numbers could not be confirmed on
-  braze.com. 2026-06-20 cleanup: removed unverified numeric SLA values per the
-  above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

@@ -10,17 +10,6 @@ sla_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architec
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Zoho's official SLA pages (CRM, Vault, Connect, Bookings, DataPrep on
-  help.zoho.com) state a 99.9% monthly uptime commitment but contain NO service
-  credit, credit tiers, max credit, claim deadline, or claim process. The
-  general terms (zoho.com/terms.html) disclaim any uptime warranty. The
-  credit_policy, max_credit_percent (100), claim_deadline_days (30), and
-  claim_process in this file are NOT verifiable on zoho.com and appear
-  fabricated; left unchanged pending review/removal. Verified 2026-06-19:
-  uptime_commitment 99.9 and exclusions only.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: standard

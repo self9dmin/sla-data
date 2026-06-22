@@ -10,11 +10,6 @@ sla_url: https://www.docusign.com/legal/terms-and-conditions/schedule-docusign-s
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  The top-line 99.99% uptime and percentage credits could not be confirmed on
-  any live docusign.com SLA page; live attachments instead use a time-based
-  credit table with no stated uptime percentage. Numbers left as-is pending
-  confirmation of the canonical core Signature SLA URL.
 uptime_commitment: 99.99
 max_credit_percent: 25
 claim_deadline_days: 30

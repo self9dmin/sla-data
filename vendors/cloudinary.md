@@ -10,21 +10,6 @@ sla_url: https://cloudinary.com/tou
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Cloudinary publishes no public credit-bearing SLA. The Terms of Use
-  (https://cloudinary.com/tou) state "Cloudinary strives for a 100% Uptime" and
-  that "Cloudinary's support SLA is your sole and exclusive remedy for any
-  failure by Cloudinary to provide the Services." The MSA
-  (https://cloudinary.com/msa) states the SLA "is as set forth in the Service
-  Level Agreement (SLA) attached to the Order Form", i.e. per-contract and not
-  published. The Trust page (https://cloudinary.com/trust) mentions a "99.9%
-  uptime" commitment but with no service credits, tiers, max credit, or claim
-  deadline disclosed. Therefore uptime_commitment, credit_policy/credit_tiers,
-  max_credit_percent, and claim_deadline_days could NOT be verified on
-  cloudinary.com and were left unchanged pending an authoritative public SLA or
-  an Order Form SLA. Verified 2026-06-19 that no public credit SLA exists.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

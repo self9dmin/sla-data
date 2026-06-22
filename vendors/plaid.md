@@ -10,20 +10,6 @@ sla_url: https://plaid.com/legal/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Old sla_url https://plaid.com/legal/service-level-agreement/ returns HTTP 404
-  (dead). Plaid does not publish a public uptime SLA with service credits. The
-  legal index at https://plaid.com/legal/ lists no SLA document. The only "99.9%
-  or higher" availability figure on plaid.com (Terms of Use, Section 10 Baseline
-  Performance Metrics) applies to Data Partners providing data to Plaid, not to
-  Plaid's own customers, and carries no service-credit remedy. Per Plaid support
-  docs, uptime/response-time SLA commitments "with associated service credits"
-  exist only within paid Support Packages (Basic/Plus/Premium) negotiated by
-  contract and are not publicly published. uptime_commitment, max_credit_percent,
-  credit_policy, claim_process, and support_tier specifics below could not be
-  verified on plaid.com and are left unchanged pending a contractual source.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note;
-  no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

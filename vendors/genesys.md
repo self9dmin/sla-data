@@ -10,24 +10,6 @@ sla_url: https://www.genesys.com/company/legal-docs/genesys-master-subscription-
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  2026-06-19: Previous sla_url
-  (genesys.com/company/legal/service-level-agreement) returned HTTP 404.
-  Replaced with the confirmed-live canonical Genesys MSA for Cloud Services,
-  which is the governing agreement but defers the actual SLA metrics to
-  customer-specific "Supplemental Terms ... as identified in the Services
-  Order" (not publicly posted). Genesys does NOT publish a single canonical
-  "Genesys Cloud SLA" page; public legal-docs are dated and product-specific
-  with divergent terms (e.g. the live Outbound Communication Supplemental
-  Terms specifies a 99.9% commitment, tiered credits 1.5%/2.5%/5%/10%, max
-  10%, 30-day notice that must be requested -- materially different from the
-  values stored here). Could not verbatim-confirm this file's uptime (99.99),
-  credit tiers (10/25/100), or max_credit (100) against any single live
-  official page applicable to Genesys Cloud generally, so numbers and
-  last_verified were left UNCHANGED pending access to the governing
-  Supplemental Terms / Services Order.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

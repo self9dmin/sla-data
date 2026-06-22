@@ -10,21 +10,6 @@ sla_url: https://www.ringcentral.com/legal/ringex-service-attachment.html
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  2026-06-19: Prior sla_url https://www.ringcentral.com/legal/last-version-sla.html
-  returns HTTP 404. No public, canonical RingEX/MVP Service Level Agreement
-  document could be located on ringcentral.com, the legal hub, Trust Center,
-  RingEX Service Attachment, Online Terms of Service, and Master Services
-  Agreement PDF contain no public uptime/service-credit SLA terms (RingCentral's
-  RingEX SLA appears to be provided contractually per Order Form, not published).
-  Only product-specific SLAs are public (RingCentral Events, MiCloud/Sky, PCI
-  Pal). Therefore uptime_commitment, credit_policy, credit_tiers, claim_process,
-  max_credit_percent, claim_deadline_days, has_automatic_credits, and
-  min_plan_for_sla are UNVERIFIED and left unchanged; last_verified left
-  unchanged. sla_url and dead services[].source_url updated to the live official
-  RingEX Service Attachment page as the closest canonical RingEX legal terms.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note;
-  no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

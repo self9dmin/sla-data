@@ -17,7 +17,6 @@ claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: annual
 needs_review: false
-review_note: "Verified against the Workable SLA; uptime commitment 99.8% monthly, credits in days of service (7/14/30), represented via credit_unit: days."
 credit_policy:
   calculation_type: tiered
   remedy_type: credit

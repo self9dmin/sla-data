@@ -10,7 +10,6 @@ sla_url: https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: false
-review_note: "Verified against the Splunk Cloud Service Level Schedule; 100% quarterly availability target, time-based credits, represented via credit_unit: time."
 uptime_commitment: 100
 claim_deadline_days: 5
 has_automatic_credits: false

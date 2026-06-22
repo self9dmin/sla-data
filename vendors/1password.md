@@ -10,26 +10,6 @@ sla_url: https://1password.com/legal-center
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  As of 2026-06-19, 1Password publishes no public credit SLA for its core
-  service on 1password.com. The Terms of Service
-  (https://1password.com/legal/terms-of-service/) disclaims uptime: the Service
-  is provided "AS IS" and "AS AVAILABLE" and 1Password "DOES NOT WARRANT...THAT
-  CUSTOMER'S ACCESS THERETO WILL BE UNINTERRUPTED." 1Password's Business/Enterprise
-  plans are marketed as including an SLA, but the actual terms are not published
-  publicly (negotiated/contractual). The only SLA document on 1password.com is the
-  legacy Trelica / SaaS Manager SLA
-  (https://1password.com/legal/saas-manager/service-level-agreement), a separate
-  acquired product, NOT 1Password's password manager. That Trelica SLA states a
-  "99.9% uptime commitment", a formula-based (not tiered) credit "= (Pro-rated
-  Subscription fees per minute x minutes of Service Outage) x 5", a monthly cap
-  of "20% of their total pro-rated Subscription Fees", and a request deadline "no
-  later than 30 days after the last day of the month during which the Service
-  Outage...occurred". The fields below (tiered credit tiers, max_credit_percent 25,
-  claim_deadline_days 30 from incident) are UNVERIFIED against any official
-  1Password SLA and were left unchanged pending a verifiable source. 2026-06-20
-  cleanup: removed unverified numeric SLA values per the above note; no public
-  credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

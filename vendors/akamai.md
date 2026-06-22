@@ -10,11 +10,6 @@ sla_url: https://www.akamai.com/legal/sla-compute
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Only the Compute (Linode) SLA is verifiable on akamai.com (99.99% monthly,
-  pro-rata credit); the CDN/delivery/security SLAs backing the 100% uptime and
-  tiered credits here are gated behind Control Center login and remain
-  unverified.
 uptime_commitment: 100
 max_credit_percent: 100
 claim_deadline_days: 30

@@ -10,7 +10,6 @@ sla_url: https://www.vonage.com/legal/
 last_verified: '2026-06-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: '2026-06-20 browser check: vonage.com/legal/sla returns HTTP 404 and no public SLA page was found; unverified numeric values removed.'
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

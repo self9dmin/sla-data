@@ -10,7 +10,6 @@ sla_url: https://circleci.com/legal/terms-of-service/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: 'CircleCI publishes no public uptime SLA with service credits. The former sla_url (https://circleci.com/legal/sla/) returns HTTP 404. The SaaS Agreement (terms-of-service) commits only to "commercially reasonable efforts to make the Services available 24 hours per day, 7 days per week" with no uptime percentage and no service credits; remedy is termination for uncured material breach. Support plans (Elite/Starter/Community) provide response-time targets only, not uptime credits. uptime_commitment=99.9 is not supported by any official CircleCI page and could not be verified; left unchanged pending review. 2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.'
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

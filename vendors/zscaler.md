@@ -17,7 +17,6 @@ claim_deadline_days: 10
 has_automatic_credits: false
 min_plan_for_sla: standard
 needs_review: false
-review_note: "Verified against the Zscaler SLA (zscaler.com/legal/sla-support); credits are calendar days of paid SaaS, represented via credit_unit: days."
 credit_policy:
   calculation_type: tiered
   remedy_type: credit

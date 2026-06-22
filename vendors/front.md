@@ -10,22 +10,6 @@ sla_url: https://front.com/legal/saas-services-agreement
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  2026-06-19: Previous sla_url https://front.com/legal/terms returns HTTP 404
-  (dead). Front does not publish a public uptime SLA with service credits on its
-  own domain. The front.com/legal index lists no Service Level Agreement, SLA,
-  uptime, or availability document, and front.com/legal/sla is 404. The
-  canonical live legal doc is the SaaS Services Agreement, which DISCLAIMS
-  availability rather than committing to it: "FRONT SHALL NOT BE LIABLE FOR
-  DELAYS, INTERRUPTIONS, SERVICE FAILURES OR OTHER PROBLEMS INHERENT IN USE OF
-  THE INTERNET..." (https://front.com/legal/saas-services-agreement). The
-  Supplemental Terms also contain no uptime/credit terms. Therefore the existing
-  uptime_commitment (99.9), max_credit_percent (25), credit_tiers, claim_process,
-  and min_plan_for_sla values could NOT be verified against any front.com source
-  and are left unchanged pending review. sla_url repointed from the dead
-  /legal/terms to the live SaaS Services Agreement.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

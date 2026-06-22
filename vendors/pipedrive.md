@@ -10,18 +10,6 @@ sla_url: https://www.pipedrive.com/en/terms-of-service
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  As of 2026-06-19, Pipedrive publishes no public uptime SLA with service
-  credits. The Terms of Service (https://www.pipedrive.com/en/terms-of-service,
-  Section 5.1) only commits to "use commercially reasonable efforts to make the
-  Pipedrive Services available 24 hours a day, 7 days a week" with no uptime
-  percentage, no credits, and no claim process. No SLA/uptime document is listed
-  on the Legal Hub (https://www.pipedrive.com/en/legal) or in the Supplemental
-  Terms, and the status page (https://status.pipedrive.com) states no
-  commitment. The uptime_commitment of 99.9 (overall and per-service) is NOT
-  supported by any official Pipedrive page and could not be verified; left
-  unchanged pending a definitive source. 2026-06-20 cleanup: removed unverified
-  numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

@@ -10,7 +10,6 @@ sla_url: https://workspace.google.com/terms/sla.html
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: false
-review_note: "Verified against the Google Workspace SLA; credits are denominated in days of service (3/7/15), represented via credit_unit: days."
 uptime_commitment: 99.9
 max_credit_percent: 15
 credit_unit: days

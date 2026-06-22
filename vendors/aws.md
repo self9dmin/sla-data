@@ -75,10 +75,6 @@ sla_url: https://aws.amazon.com/legal/service-level-agreements/
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  AWS has no single global uptime number; top-level fields are representative of
-  the EC2/Compute region-level SLA (99.99%) and other services differ, see
-  services[] for per-service values and sources.
 uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 30

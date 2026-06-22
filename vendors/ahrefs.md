@@ -10,18 +10,6 @@ sla_url: https://ahrefs.com/legal/terms
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Ahrefs publishes no public uptime SLA with service credits. The Terms of
-  Service (https://ahrefs.com/legal/terms) provide the service "as is" and "as
-  available" with no availability guarantee or credit remedy. The only
-  availability statement is on the Security Measures page
-  (https://ahrefs.com/legal/security-measures): "The infrastructure providers
-  use commercially reasonable efforts to ensure a minimum of 99.8% uptime" -
-  this is a best-effort infrastructure note, not a binding per-service SLA, and
-  cites 99.8% (not the 99.9% in this file). Existing uptime/credit numbers are
-  unverified and left unchanged pending a real SLA source. 2026-06-20 cleanup:
-  removed unverified numeric SLA values per the above note; no public
-  credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

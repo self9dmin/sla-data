@@ -10,7 +10,6 @@ sla_url: https://linear.app/terms
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: 'Linear does not publish a public uptime SLA, availability percentage, or service-credit policy on its own domain (linear.app). The canonical Terms of Service (https://linear.app/terms, effective 2026-06-09) explicitly disclaims uninterrupted service ("LINEAR DOES NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE.") and contains no uptime commitment or credits. The /enterprise and /security pages also state no uptime %. The "SLAs" docs/changelog pages refer to a product feature (issue deadlines), not Linear''s own service availability. The uptime_commitment (99.9) and support tier response times below are NOT verifiable on linear.app and are left unchanged pending confirmation (likely Enterprise-contract-only or nonexistent). Old sla_url https://linear.app/legal/terms returned 404; corrected to live https://linear.app/terms. Legal entity is Linear Orbit, Inc. 2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.'
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

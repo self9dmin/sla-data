@@ -10,20 +10,6 @@ sla_url: https://www.lastpass.com/legal-center/terms-of-service/business
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Official LastPass Business Terms of Service (Last Updated January 2024)
-  publishes NO uptime commitment, NO availability percentage, and NO service
-  credits. The warranty section explicitly disclaims uptime: "WE DO NOT
-  REPRESENT OR WARRANT THAT: (i) THE USE OF OUR SERVICES WILL BE TIMELY,
-  UNINTERRUPTED, SECURE, OR ERROR-FREE." The exclusive remedy is conforming
-  services or a pro-rated refund, not service credits. The numeric fields in
-  this file (uptime_commitment, max_credit_percent, credit_tiers,
-  claim_deadline_days, claim_process) are NOT verifiable on lastpass.com and
-  may be inaccurate/fabricated; left unchanged pending review. The prior
-  sla_url (https://www.lastpass.com/legal) returns HTTP 404; updated to the
-  confirmed-live Business Terms of Service. No public SLA document exists.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note;
-  no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

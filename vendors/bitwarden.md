@@ -10,19 +10,6 @@ sla_url: https://bitwarden.com/terms/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Bitwarden publishes no public credit-bearing SLA. The sla_url
-  (https://bitwarden.com/terms/) is live but is a Terms of Service that
-  explicitly disclaims availability: "we do not warrant that...the Service will
-  be uninterrupted, timely, secure, or error-free; that...the Service will be
-  available at any particular time or location." No uptime percentage, service
-  credits, or claim process are published on bitwarden.com (compliance and
-  status pages confirm uptime is delegated to Microsoft Azure infrastructure).
-  The uptime_commitment 99.9 values and credit/claim fields below are NOT
-  supported by any Bitwarden official source and could not be verified
-  (2026-06-19); left unchanged pending review/removal. 2026-06-20 cleanup: removed
-  unverified numeric SLA values per the above note; no public credit-bearing SLA
-  confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

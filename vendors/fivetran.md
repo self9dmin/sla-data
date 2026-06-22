@@ -10,11 +10,6 @@ sla_url: https://www.fivetran.com/legal/sla
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  SLA pages are JS-rendered and could not be read verbatim, so credit tiers,
-  claim deadline, and uptime figures were not re-verified; search snippets
-  suggest a per-service credit model (core 1%, data delivery 0.25%) that does
-  not match the tiered model recorded here. Manual verification required.
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 30

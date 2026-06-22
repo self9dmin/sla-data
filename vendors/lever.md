@@ -15,7 +15,6 @@ credit_unit: multiplier
 credit_note: "Automatic credit equal to 10x the fees attributable to the downtime period (impact must exceed $10), capped at 30 days of paid service; not a percentage tier."
 min_plan_for_sla: all
 needs_review: false
-review_note: "Verified against the Lever SLA (lever.co/agreements/sla); uptime 99.9%, automatic 10x-downtime-cost credit capped at 30 days, represented via credit_unit: multiplier."
 credit_policy:
   calculation_type: multiplier
   remedy_type: automatic

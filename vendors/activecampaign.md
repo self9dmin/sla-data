@@ -15,8 +15,6 @@ claim_deadline_days: 10
 has_automatic_credits: false
 min_plan_for_sla: enterprise
 needs_review: false
-review_note: >-
-  Verified against ActiveCampaign's official SLA on 2026-06-19.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit

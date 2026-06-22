@@ -10,22 +10,6 @@ sla_url: https://www.zoom.com/en/trust/terms/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Former sla_url (zoom.us/docs/en-us/sla.html) now 301-redirects to a 404. No
-  canonical public Zoom-hosted general availability SLA page could be located:
-  the Zoom API SLA disclaims any uptime guarantee, the Services Description has
-  no SLA terms, and the Premier Support SLA covers support response (not
-  availability). The on-file 99.999% appears to be Zoom Phone marketing
-  ("five-nines"), NOT a general-service commitment. Zoom's current general
-  "Zoom Availability SLA Supplemental Terms" (dated 12 Aug 2025), found only as
-  a reseller-hosted (Mitel) copy, not an official zoom.com URL, indicates
-  99.9% target with 20%/50% credit tiers and a claim that must be filed DURING
-  the outage (not a 30-day window). Per policy these third-party-sourced numbers
-  were NOT written in; on-file values (uptime 99.999, max_credit 25,
-  claim_deadline 30) are UNVERIFIED and retained. sla_url repointed to Zoom's
-  master Terms of Service (live). last_verified not bumped.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

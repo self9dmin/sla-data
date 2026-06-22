@@ -10,7 +10,6 @@ sla_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: 'Umbrella Microsoft Online Services entry; values are representative across many services per the consolidated SLA (June 2026). Claim deadline differs by service: Azure within 60 days of the Incident; all other Services by end of the Applicable Period following the month of the Incident.'
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 60

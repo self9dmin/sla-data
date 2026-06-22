@@ -10,20 +10,6 @@ sla_url: https://stripe.com/legal/ssa
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Stripe publishes no public uptime/availability SLA with service credits. The
-  former sla_url (stripe.com/legal/sla) returns 404; the Stripe Services
-  Agreement (stripe.com/legal/ssa, last modified 2025-11-18) explicitly
-  disclaims uptime ("does not warrant that ... use of the Services ... will be
-  uninterrupted or error-free") and contains no service-level or credit clause.
-  The only published "SLA" is a 15-minute support RESPONSE SLA on paid support
-  plans (stripe.com/support-plans), not an uptime guarantee. All numeric values
-  below (uptime_commitment, max_credit_percent, claim_deadline_days, credit
-  tiers, service uptimes) are UNVERIFIED against any official Stripe source and
-  are retained unchanged from the prior record pending an authoritative
-  (likely contractual/enterprise) source. last_verified intentionally not bumped.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

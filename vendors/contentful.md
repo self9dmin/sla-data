@@ -10,21 +10,6 @@ sla_url: https://www.contentful.com/legal/service-level-agreement/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  SLA page (https://www.contentful.com/legal/service-level-agreement/, verified
-  2026-06-19) does not publish a fixed uptime percentage or credit tiers; it
-  defers Committed Uptime and credit tables to "Customer's Service Order". The
-  only on-page availability threshold is 99% (Chronic Service Availability
-  Failure). Contentful's MRDI docs state "99.99% availability SLA across the
-  multi-region delivery infrastructure, which includes Content Delivery API
-  (CDA), GraphQL Content API, Images API and Asset CDN", so uptime_commitment
-  99.95 and the 10/20/30 credit tiers / max_credit_percent 30 could NOT be
-  verified on contentful.com and were left unchanged. Verified changes:
-  min_plan_for_sla -> success (SLA "applies to customers who have a Contentful
-  Success Plan"); claim anchor -> impacted_month; submission_url ->
-  https://support.contentful.com/; services list corrected to the four Service
-  Components named in the SLA. 2026-06-20 cleanup: removed unverified numeric SLA
-  values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: success
 credit_policy:

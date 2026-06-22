@@ -10,11 +10,6 @@ sla_url: https://konghq.com/legal/service-level-agreement
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Verified against the canonical Kong SLA, but headline per-service uptime
-  numbers and the credit-tier table are published only as images and could not
-  be extracted as text; 99.99% applies only to Dedicated Cloud Gateways
-  multi-region, not all services.
 uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 30

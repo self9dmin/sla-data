@@ -10,11 +10,6 @@ sla_url: https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.p
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  The only SLA verifiable on bmc.com (a public PDF) covers Control-M SaaS at
-  99.95% with a pro-rata (non-tiered) credit; the 99.9% Helix-wide figure and
-  tiered 15% credits recorded here cannot be confirmed on-domain and conflict
-  with that PDF, pending reconciliation.
 uptime_commitment: 99.9
 max_credit_percent: 15
 claim_deadline_days: 30

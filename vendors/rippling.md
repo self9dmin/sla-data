@@ -10,19 +10,6 @@ sla_url: https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_ser
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Rippling does not publish a public uptime SLA or service-credit commitment.
-  Its Customer Terms of Service explicitly disclaims any service level: "RIPPLING
-  DOES NOT WARRANT THAT THE RIPPLING SERVICES, WILL BE ERROR-FREE OR THAT THEY
-  WILL MEET ANY SPECIFIED SERVICE LEVEL, OR WILL OPERATE WITHOUT INTERRUPTIONS OR
-  DOWNTIME"
-  (https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html).
-  The 99.9 uptime_commitment values in this file are NOT verifiable on
-  rippling.com and are contradicted by the official terms; left unchanged pending
-  review. Old sla_url https://www.rippling.com/terms returned HTTP 404. Any
-  contractual SLA, if it exists, is negotiated per Order Form and not public.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

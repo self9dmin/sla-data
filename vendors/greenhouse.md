@@ -17,7 +17,6 @@ claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
 needs_review: false
-review_note: "Verified against the Greenhouse SLA (greenhouse.com/service-level-agreement); credits are day-of-fees increments, represented via credit_unit: days."
 credit_policy:
   calculation_type: tiered
   remedy_type: credit

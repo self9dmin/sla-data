@@ -10,20 +10,6 @@ sla_url: https://mailchimp.com/legal/terms/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Mailchimp (Intuit) publishes no public SLA with an uptime commitment or
-  service credits. The Standard Terms of Use (https://mailchimp.com/legal/terms/),
-  Additional Terms, and the legal index (https://mailchimp.com/legal/) contain no
-  uptime percentage, service-credit, or availability-guarantee language; the terms
-  state the Service is provided "as is" with no availability warranty. The "99.9"
-  uptime_commitment, 25% max_credit_percent, credit_tiers, and claim_process in
-  this file are NOT verifiable on mailchimp.com and are likely fabricated, left
-  unchanged pending removal/confirmation. The only uptime figures Mailchimp cites
-  are marketing claims (e.g. "99.99% uptime" on the Transactional features page,
-  https://mailchimp.com/features/transactional-email/), which are not contractual
-  SLAs. sla_url confirmed live but is the general Terms of Use, not an SLA.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note;
-  no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

@@ -10,27 +10,6 @@ sla_url: https://www.xero.com/legal/terms/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Xero does NOT publish a formal public SLA with a committed uptime percentage,
-  fixed service-credit tiers, or a maximum credit percent. Its Terms of Use
-  (https://www.xero.com/legal/terms/, US variant
-  https://www.xero.com/us/legal/terms/) only provide DISCRETIONARY downtime
-  compensation. Verbatim: "If you ask us, we may in our discretion provide
-  compensation in the event of any system-wide downtime of our services which is
-  greater than four consecutive hours. Any compensation may be provided on a
-  pro-rata basis and may be in the form of a refund or a credit for a future
-  subscription period (at our option)." Compensation requests "must be provided
-  in writing to Xero, within 21 days of the downtime occurring." There is NO
-  99.9% uptime commitment, NO 25% max credit, NO tiered credits, and NO 30-day
-  deadline on the vendor's own domain. The existing uptime_commitment (99.9),
-  max_credit_percent (25), credit_tiers, and claim_deadline_days (30) fields are
-  unverified/likely fabricated and are LEFT UNCHANGED pending a human decision on
-  how to represent a discretionary, no-committed-uptime policy. Note the actual
-  written-request window is 21 days (not 30) and the downtime threshold is 4
-  consecutive hours. WebFetch returned 503 (bot protection) so quotes were
-  confirmed via xero.com-scoped search of the official Terms of Use.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

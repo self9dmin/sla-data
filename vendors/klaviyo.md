@@ -10,19 +10,6 @@ sla_url: https://www.klaviyo.com/legal
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Prior sla_url (klaviyo.com/legal/sla) returns HTTP 404. Klaviyo publishes no
-  public uptime SLA or service-credit policy on its own domain. The Terms of
-  Service (klaviyo.com/legal/terms-of-service) explicitly disclaims availability:
-  S9.4 "KLAVIYO DOES NOT WARRANT THAT THE SERVICES WILL ... (B) OPERATE WITHOUT
-  INTERRUPTION OR DOWNTIME", and S3.3 acknowledges possible scheduled/unscheduled
-  downtime. The premium-support page publishes support response-time targets only
-  (no uptime % or credits). Therefore the uptime_commitment (99.9), max_credit_percent
-  (25), credit_tiers, claim_process, and per-service uptimes are NOT verifiable on
-  klaviyo.com and were left unchanged pending review. sla_url repointed to the live
-  legal index (no canonical SLA page exists). Verified 2026-06-19.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

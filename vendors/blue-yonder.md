@@ -10,24 +10,6 @@ sla_url: https://blueyonder.com/legal
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Blue Yonder does not publish a public, contractual SLA with service-credit
-  terms. The /legal index (https://blueyonder.com/legal, HTTP 200) lists only
-  corporate/policy documents (Privacy, Terms of Use, Impressum, etc.) and links
-  to no SLA, "Cloud Services Standards", or availability document. The former
-  PDFs (Cloud Services Standards / Cloud Services Subscription Agreement) were
-  hosted on medialibrarycdn.blueyonder.com, which no longer resolves in public
-  DNS (NXDOMAIN). The actual SLA is contractual and gated behind the customer
-  portal (success.blueyonder.com, auth required). The only public availability
-  figures are marketing/FAQ copy on info.blueyonder.com ("99.9% uptime" for
-  platform infrastructure; "99.99% uptime for critical integration flows" for
-  Connect - Enterprise) - not a credit-backed SLA. Therefore uptime_commitment,
-  credit_policy tiers/percentages, max_credit_percent, claim_deadline_days, and
-  has_automatic_credits could NOT be verified on the vendor domain and are left
-  unchanged. Broken source/submission URLs (/legal/service-level-agreement and
-  /support, both HTTP 404) were repointed to live official pages. (Checked
-  2026-06-19.) 2026-06-20 cleanup: removed unverified numeric SLA values per the
-  above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

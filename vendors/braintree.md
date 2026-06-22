@@ -13,19 +13,6 @@ max_credit_percent: 0
 has_automatic_credits: false
 min_plan_for_sla: standard
 needs_review: true
-review_note: >-
-  As of 2026-06-19, braintreepayments.com/legal 301-redirects to the canonical
-  PayPal legal hub (paypal.com/us/legalhub/braintree/home). The governing
-  Braintree Payment Services Agreement publishes NO uptime commitment and NO
-  service credits: "THE BRAINTREE PAYMENT SERVICE IS PROVIDED 'AS IS' WITHOUT
-  ANY WARRANTY WHATSOEVER" (Section 8.03, Disclaimer of Warranties,
-  https://www.paypal.com/us/legalhub/braintree/payment-services-agreement).
-  No public credit SLA exists, so max_credit_percent=0 / has_automatic_credits=false
-  are correct, but the uptime_commitment of 99.99 is NOT supported by any vendor
-  document and should be reviewed (likely set to null / no published commitment).
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
-
 credit_policy:
   calculation_type: none
   remedy_type: no_credit

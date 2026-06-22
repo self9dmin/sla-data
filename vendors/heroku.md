@@ -10,20 +10,6 @@ sla_url: https://www.heroku.com/policy/promise
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Could not verify quantitative SLA on heroku.com/salesforce.com. sla_url
-  https://www.heroku.com/policy/promise is live but is a legal-agreements hub,
-  not an SLA page. The former services source_url
-  https://www.heroku.com/policy/sla returns HTTP 404 (replaced with the live
-  policy hub). The Salesforce-Heroku MSA only commits to "commercially
-  reasonable efforts to make the Heroku Services available 24 hours a day, 7
-  days a week" with no uptime percentage, service credits, credit tiers, or
-  claim deadline. No public Heroku/Salesforce page defines the 99.95% uptime,
-  100% max credit, credit tiers, or 30-day claim deadline currently in this
-  file, so those numbers are left UNCHANGED pending an authoritative source
-  (likely the current Salesforce MSA or an enterprise contract SLA exhibit).
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

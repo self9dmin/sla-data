@@ -10,17 +10,6 @@ sla_url: https://www.mux.com/terms
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Mux does not publish a public uptime SLA with service credits. The live Terms
-  of Service (https://www.mux.com/terms) states only that an SLA is a
-  separately-negotiated document: "the Services will perform in material
-  conformance with our Documentation and any Service Level Agreement agreed to
-  between the parties." No uptime percentage, credit tiers, max credit, or claim
-  deadline is published on mux.com, so the existing numeric fields could not be
-  verified and were left unchanged pending review. The /sla and
-  /legal/terms-of-service pages return 404; canonical legal page is /terms.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note;
-  no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

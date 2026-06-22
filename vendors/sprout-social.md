@@ -10,21 +10,6 @@ sla_url: https://sproutsocial.com/legal/terms/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Sprout Social publishes no public credit-bearing SLA. The canonical Terms of
-  Service (https://sproutsocial.com/legal/terms/) and the Service Subscription
-  Agreement (https://sproutsocial.com/service-subscription-agreement/us/) both
-  disclaim availability: ToS 3.6 "the Applications may be unavailable from time
-  to time" and "Interruptions ... shall not ... entitle you to a full or partial
-  refund or credit of subscription fees"; SSA "SPROUT SOCIAL DOES NOT WARRANT
-  THAT SUBSCRIBER'S USE OF THE SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE."
-  The only on-domain uptime figure is a non-binding KPI on the Security page:
-  "Our Engineering team strives to maintain 99.9% uptime for each of our
-  products as a key performance indicator (KPI)." The credit_policy (tiered,
-  max 25%, 30-day claim), claim_process, has_automatic_credits, and
-  min_plan_for_sla=standard are NOT verifiable on sproutsocial.com and are
-  likely fabricated; any real SLA would be contractual (Enterprise Service
-  Order). sla_url updated from /terms/ to live canonical /legal/terms/.
 uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 30

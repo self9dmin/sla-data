@@ -15,10 +15,6 @@ claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
 needs_review: true
-review_note: >-
-  Verified against the official SLA, which defines tiers by monthly Downtime
-  minutes; the uptime_below percentages here are derived (not verbatim) and the
-  claim deadline and required evidence could not be confirmed on the page.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit

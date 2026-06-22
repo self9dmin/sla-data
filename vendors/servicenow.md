@@ -10,7 +10,6 @@ sla_url: https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/d
 last_verified: '2026-06-21'
 last_updated: '2026-06-21'
 needs_review: true
-review_note: 'Verified 2026-06-21 against ServiceNow''s public Subscription Service
   Guide PDF, which resolves and states the 99.8% monthly Availability SLA for production
   instances plus the credit or term-extension remedy and 30-day written request window.
   The prior sla_url and the per-service source_url both pointed at pages that now 404

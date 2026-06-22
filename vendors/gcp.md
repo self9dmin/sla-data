@@ -103,11 +103,6 @@ sla_url: https://cloud.google.com/terms/sla
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  GCP has no single global uptime number; top-level fields are representative of
-  the flagship Compute Engine SLA (99.99%, multi-zone). Most other products cap
-  credits at 50% with a 30-day claim window, see services[] for per-product
-  values and sources.
 uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 60

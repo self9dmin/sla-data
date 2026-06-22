@@ -27,20 +27,6 @@ claim_process:
   review_timeline: As confirmed by Webflow
   credit_application: Applied toward ensuing Renewal Term
 needs_review: true
-review_note: >-
-  Official Webflow SLA (https://webflow.com/legal/sla, "Last Updated 08.01.2024")
-  is Enterprise-only and incorporated into the MSA/Order Form. Verified verbatim:
-  Downtime Credit of "2% of the total Fees paid by Customer prorated for the month"
-  per Qualifying Downtime (downtime >30 consecutive min exceeding the Uptime Level
-  threshold); cap "shall not accrue Downtime Credits exceeding 25% of the Monthly
-  Fees per calendar month"; must "request such Downtime Credits in writing within
-  seven (7) calendar days from the initial time of downtime". The SLA does NOT
-  publish a fixed uptime percentage: Section 1.1 ties Hosting/Application Uptime
-  Levels to "the thresholds for the Service Tier subscribed to by Customer on the
-  applicable Order Form." The 99.9 uptime_commitment and per-service values are
-  carried over from prior data and could NOT be confirmed verbatim on the public
-  SLA (set by individual Order Form). Per-service source_url updated to the
-  canonical SLA page.
 global_exclusions:
   - Scheduled maintenance
   - Outages of third-party applications, utilities, or connections integrated by Customer (e.g. plug-ins or APIs)

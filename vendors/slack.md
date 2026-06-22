@@ -10,21 +10,6 @@ sla_url: https://slack.com/terms/service-level-agreement
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  On 2026-06-19 the official Slack SLA at
-  https://slack.com/terms/service-level-agreement (Effective: July 11, 2024) was
-  found to contain only a Salesforce-style availability clause ("Salesforce uses
-  commercially reasonable efforts to make the online Slack Services available 24
-  hours a day, 7 days a week...") with NO numeric uptime commitment, NO service
-  credit tiers/percentages, NO maximum credit cap, NO claim process, and NO
-  plan-tier eligibility. The existing 99.99% uptime, 30% max credit,
-  99.99/99.9/99 credit tiers, automatic credits, and standard min plan are from
-  a superseded pre-Salesforce SLA and could NOT be verified on slack.com; they
-  were left unchanged pending manual review. Only the dead sla_url and dead
-  services[].source_url values were corrected to the confirmed-live canonical
-  URL.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

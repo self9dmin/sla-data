@@ -10,20 +10,6 @@ sla_url: https://www.bamboohr.com/legal/terms-of-service
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Official Terms of Service (https://www.bamboohr.com/legal/terms-of-service,
-  Section 4.3) commits only to use "commercially reasonable efforts to make the
-  Service available 24 hours a day, 7 days a week", there is NO published
-  numeric uptime percentage. The stored uptime_commitment of 99.9 is not
-  verifiable on bamboohr.com and was left unchanged pending review (do not
-  guess). No public service-credit SLA exists: Section 5.1 states "There will be
-  no refunds or credits for partial months of service," and the sole remedy for
-  BambooHR's failure to provide the Service (after a 30-day cure period) is
-  termination plus a refund of prepaid, unused fees. Hence max_credit_percent=0,
-  has_automatic_credits=false, and remedy_type=termination_only are confirmed
-  accurate. Verified 2026-06-19 via curl (WebFetch blocked by bot protection).
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 max_credit_percent: 0
 has_automatic_credits: false
 min_plan_for_sla: standard

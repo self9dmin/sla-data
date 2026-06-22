@@ -15,11 +15,6 @@ claim_deadline_days: 60
 has_automatic_credits: false
 min_plan_for_sla: standard
 needs_review: true
-review_note: >-
-  Verified against the Microsoft Online Services Consolidated SLA (June 2026);
-  top-level values are representative across many per-product commitments
-  (99.9% suite up to 99.999% Teams Calling). The Microsoft 365 Copilot entry is
-  not covered by the consolidated SLA and its 99.9% is unconfirmed.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit

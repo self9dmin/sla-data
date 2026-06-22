@@ -10,24 +10,6 @@ sla_url: https://openai.com/api-scale-tier/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  The previous sla_url (https://openai.com/policies/service-level-agreement/)
-  returns HTTP 404. The only publicly documented OpenAI uptime SLA is the Scale
-  Tier / Priority Processing 99.9% uptime SLA for Enterprise customers, confirmed
-  at https://openai.com/api-scale-tier/ ("Scale Tier traffic offers a 99.9%
-  uptime SLA and prioritized compute." / "This offering is available to
-  Enterprise customers."). OpenAI does NOT publicly publish service credit
-  percentages, credit tiers, a maximum credit percent, or an SLA claim deadline
-  for SLA breaches; the reliability FAQ only states "You will be credited with
-  the greater of the two SLA amounts for the calendar month of that Scale Tier
-  token unit purchase." The credit_tiers, max_credit_percent, claim_deadline_days
-  (30), and submission details in this file are NOT verifiable on openai.com and
-  have been left unchanged pending an enterprise Order Form / SLA exhibit. Note:
-  https://openai.com/policies/service-credit-terms/ governs prepaid/promo Service
-  Credit balances, not uptime SLA credits; the 30-day window in the Services
-  Agreement (Sec 6.4) is for invoice disputes via ar-enterprise@openai.com, not
-  SLA credit claims. 2026-06-20 cleanup: removed unverified numeric SLA values
-  per the above note; no public credit-bearing SLA confirmed.
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: enterprise

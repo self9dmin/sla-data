@@ -10,20 +10,6 @@ sla_url: https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zende
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Former sla_url (zendesk.com/company/legal/service-level-agreement/) returns
-  404; Zendesk no longer hosts a standalone public SLA doc. Verified from the
-  official "About Zendesk service availability" article: 99.9% guarantee for
-  Premier Support customers on qualifying plans, claim by emailing
-  servicecredit@zendesk.com within 60 days of the impacted month, credits are
-  the only remedy and are not automatic. Corrected: claim_deadline_days 45->60,
-  min_plan standard->premier. NOT verified: the credit-percentage tier table and
-  max_credit_percent (100), Zendesk does not publish credit tiers on any public
-  page (they live in non-public Premier Support contractual terms); the only
-  public comparator (Sunshine Conversations) caps at 10%/month. credit_tiers and
-  max_credit_percent below are retained as prior approximations.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: premier

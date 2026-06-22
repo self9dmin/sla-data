@@ -10,19 +10,6 @@ sla_url: https://docs.getdbt.com/docs/dbt-support
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  2026-06-19: Prior sla_url (https://www.getdbt.com/cloud/sla) returns HTTP 404.
-  dbt Cloud does not publish a public uptime SLA with service credits. Official
-  dbt support page states Developer and Starter plans have "no service level
-  agreement (SLA)", and "For specific ticket response time or other questions
-  that relate to your Enterprise or Enterprise+ account's SLA, please refer to
-  your Enterprise contract." SLA terms (uptime %, credits, claim process) are
-  governed by individual, non-public Enterprise contracts and could not be
-  verified on getdbt.com. sla_url updated to the live official support page;
-  numeric fields (uptime 99.9, max_credit 25, tiers, deadline) and last_verified
-  left UNCHANGED pending confirmation against an authoritative dbt SLA document.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

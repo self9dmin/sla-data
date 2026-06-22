@@ -10,7 +10,6 @@ sla_url: https://www.mongodb.com/legal/sla/cloud/atlas-database
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: false
-review_note: Verified against the official MongoDB Atlas Database SLA on 2026-06-19.
 uptime_commitment: 99.995
 max_credit_percent: 100
 claim_deadline_days: 30

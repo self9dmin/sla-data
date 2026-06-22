@@ -10,15 +10,6 @@ sla_url: https://www.adp.com/legal.aspx
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  ADP publishes no public uptime SLA with service credits on adp.com; the
-  /legal.aspx Terms and Conditions provide services "as is without warranty of
-  any kind" and SLA terms are set in individually negotiated Master Services
-  Agreements. The uptime_commitment (99.9), credit tiers, max_credit_percent
-  (15), claim_deadline_days (60) and related values are unverified against the
-  vendor's own domain and left unchanged pending a verifiable source. 2026-06-20
-  cleanup: removed unverified numeric SLA values per the above note; no public
-  credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

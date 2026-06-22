@@ -10,21 +10,6 @@ sla_url: https://www.figma.com/ssa/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Prior sla_url (figma.com/legal/enterprise-terms/) returns HTTP 404. Figma's
-  public legal index (figma.com/legal/) lists no SLA, service-level,
-  availability, uptime, or service-credit document. The live Software Services
-  Agreement (figma.com/ssa/, governing Organization/Enterprise plans) contains
-  no uptime commitment or service credits, and the Master Subscription Agreement
-  (figma.com/legal/msa/) expressly disclaims that "operation of the Figma
-  Platform will be secure or uninterrupted." No public credit SLA exists; any
-  SLA terms are negotiated privately in Enterprise/Organization Service Orders.
-  All uptime/credit/claim numbers below are UNVERIFIED on figma.com and were
-  left unchanged pending a verifiable source. sla_url repointed to the live SSA;
-  dead services source_urls (figma.com/legal/terms-of-service/, 404) repointed
-  to the live ToS (figma.com/legal/tos/). Verified 2026-06-19.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

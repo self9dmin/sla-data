@@ -10,18 +10,6 @@ sla_url: https://amplitude.com/terms
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  As of 2026-06-19, no public Service Level Agreement (uptime commitment, service
-  credits, or claim process) could be found on amplitude.com. The Terms of Service
-  (https://amplitude.com/terms) and Master Service Agreement (https://www.amplitude.com/msa)
-  both explicitly disclaim availability: "AMPLITUDE ... DOES NOT WARRANT THAT THE
-  SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE." The status page
-  (https://status.amplitude.com) reports historical uptime only, not a commitment.
-  Any SLA appears to be Enterprise-tier/contractual and not publicly published, so
-  the uptime_commitment (99.9), max_credit_percent (30), credit_tiers, and claim_process
-  fields below are UNVERIFIED against the vendor's own domain and were left unchanged.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

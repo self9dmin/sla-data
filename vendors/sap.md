@@ -10,10 +10,6 @@ sla_url: https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Verified against the SAP Cloud Services SLA (v8-2023); top-level 99.7% is the
-  representative standard floor, with per-service overrides (e.g. 99.9% for BTP
-  and flagship services) documented in services[].
 uptime_commitment: 99.7
 max_credit_percent: 100
 claim_deadline_days: 30

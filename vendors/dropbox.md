@@ -10,23 +10,6 @@ sla_url: https://www.dropbox.com/business_agreement
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  2026-06-19: Current official sla_url (https://www.dropbox.com/terms/business_agreement)
-  returned HTTP 404. Replaced with the confirmed-live canonical Dropbox Business
-  Agreement (DSA) at https://www.dropbox.com/business_agreement. Dropbox does NOT
-  publish a public uptime SLA with service credits. The DSA, the Service Specific
-  Terms (https://assets.dropbox.com/documents/en-us/legal/service-specific-terms.pdf,
-  effective 2025-04-01), and the Dropbox Sign Terms all DISCLAIM availability:
-  "DROPBOX MAKES NO REPRESENTATION, WARRANTY OR GUARANTEE THAT ... THE SERVICES WILL
-  BE TIMELY, UNINTERRUPTED OR ERROR-FREE." No uptime percentage, credit tiers, claim
-  process, or service credits are published on dropbox.com. The existing numeric
-  fields below (uptime 99.9, tiered 30% credits, 30-day claim deadline, etc.) could
-  NOT be verified on the vendor's own domain and are left unchanged pending review;
-  they may need to be removed or marked unverified. The dead services[].source_url
-  (https://www.dropbox.com/business/trust/sla, also 404) were repointed to the live
-  Business Agreement.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

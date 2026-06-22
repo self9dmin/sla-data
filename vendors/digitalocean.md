@@ -61,10 +61,6 @@ sla_url: https://www.digitalocean.com/sla
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  DigitalOcean has no single global uptime number; top-level fields model the
-  flagship Droplets SLA (99.99%) while credit_tiers reflect a representative
-  tiered product. Per-product values are in services[] with individual sources.
 uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 30

@@ -10,20 +10,6 @@ sla_url: https://www.okta.com/agreements/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Former sla_url (okta.com/agreements/service-level-agreement/) returns 404;
-  Okta no longer publishes a standalone core-product SLA page. The core Okta MSA
-  contains no numeric uptime SLA ("commercially reasonable efforts"); 99.99% is
-  shown as an availability METRIC on trust.okta.com and historically in an Okta
-  blog ("99.99% uptime for all"), so uptime_commitment is retained at 99.99 but
-  is not a quotable contractual figure. The only live, fully-quotable official
-  Okta SLA document is the Auth0 Platform SLA (PDF), which caps credits at 50%
-  (tiers 5/10/20/50%) and requires a claim within 5 business days, so the
-  on-file max_credit_percent 100 is UNVERIFIED/likely wrong, and credit_tiers
-  are unverified for the core product. sla_url repointed to Okta's live legal
-  agreements index. last_verified not bumped pending a definitive core-Okta SLA. 2026-06-20
-  cleanup: removed unverified numeric SLA values per the above note; no public
-  credit-bearing SLA confirmed.
 uptime_commitment: 99.99
 has_automatic_credits: false
 min_plan_for_sla: standard

@@ -10,21 +10,6 @@ sla_url: https://www.typeform.com/terms-service/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Typeform publishes no public uptime SLA with service credits. Its Master
-  Enterprise Agreement (https://www.typeform.com/mea) provides the Services on an
-  "as is" / "as available" basis and states "TYPEFORM cannot accept any
-  responsibility for slow loading, latency, or failure to view or access forms";
-  the usage policy disclaims liability for suspension. The no-credit fields
-  (max_credit_percent 0, has_automatic_credits false, calculation_type none) are
-  consistent with this. However, the 99.9 uptime_commitment values (top-level and
-  per service) could NOT be verified on any typeform.com page and appear
-  contradicted by the disclaimers, so they were left unchanged pending review.
-  sla_url (terms-service) is live (301 -> legal chooser form). The previous
-  services source_url (admin.typeform.com/to/terms-of-service) was a dead/invalid
-  link redirecting to a marketing "incorrectURL" page; replaced with the MEA.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no
-  public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

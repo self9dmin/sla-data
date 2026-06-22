@@ -10,18 +10,6 @@ sla_url: https://www.helpscout.com/company/legal/terms-of-service/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Help Scout publishes no public uptime SLA with service credits. The Terms of
-  Service (https://www.helpscout.com/company/legal/terms-of-service/) explicitly
-  disclaim uptime: "Help Scout does not warrant that the Help Scout Service will
-  be uninterrupted, uncorrupted, timely, or error-free." The status page
-  (https://status.helpscout.com/) reports historical uptime (~99.99%) but states
-  these are not contractual commitments. No max_credit, claim deadline, or
-  credit tiers are published on helpscout.com. The 99.9 uptime_commitment and
-  per-service uptime values are unverifiable as a contractual SLA and were left
-  unchanged pending a verifiable source (e.g. an Enterprise SLA addendum).
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

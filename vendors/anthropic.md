@@ -10,7 +10,6 @@ sla_url: https://docs.anthropic.com/en/api/service-tiers
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: 'Old sla_url https://www.anthropic.com/legal/sla returns HTTP 404. Anthropic publishes no public SLA with a numeric uptime commitment and service credits: the Commercial Terms and Service-Specific Terms contain no SLA/credit language. The only official public availability figure is the Priority Tier "Target 99.5% uptime" stated on the Service Tiers docs page (https://docs.anthropic.com/en/api/service-tiers), which is a contractual/sales-provisioned target with no service credits and no claim process. The file''s uptime_commitment=99.9 is not supported by any official anthropic.com source and was left unchanged pending review; the only supportable official figure is 99.5% (Priority Tier target, no credits). 2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.'
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

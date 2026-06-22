@@ -10,20 +10,6 @@ sla_url: https://www.paypal.com/us/legalhub/braintree/home
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  braintreepayments.com/legal now 301-redirects to the canonical PayPal legal
-  hub (paypal.com/us/legalhub/braintree/home); sla_url updated accordingly. The
-  official US Braintree Payment Services Agreement
-  (paypalobjects.com/marketing/ua/pdf/US/en/payment-services-agreement-bt-022625.pdf)
-  publishes NO uptime SLA and NO service credits. Sec 8.03 states the service is
-  provided "AS IS WITHOUT ANY WARRANTY WHATSOEVER" and "PayPal does not
-  guarantee continuous or uninterrupted access to the Braintree Payment
-  Services." The existing uptime_commitment (99.99) and per-service uptime
-  figures are NOT supported by any official PayPal/Braintree document and could
-  not be verified; left unchanged pending review/removal. max_credit_percent: 0
-  and has_automatic_credits: false are consistent with the no-credit finding.
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note;
-  no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

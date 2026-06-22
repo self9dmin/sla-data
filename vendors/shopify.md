@@ -10,7 +10,6 @@ sla_url: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans
 last_verified: '2026-06-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: '2026-06-20 browser check: shopify.com/legal/sla returns 404; the SLA is a Shopify Plus feature (99.99% uptime per the help center) but credit terms are not public, credit numbers removed, uptime retained.'
 uptime_commitment: 99.99
 has_automatic_credits: false
 min_plan_for_sla: plus

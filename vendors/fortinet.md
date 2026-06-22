@@ -10,22 +10,6 @@ sla_url: https://www.fortinet.com/support/support-services
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Could not verify a public uptime SLA or service-credit policy for
-  FortiCloud / FortiGate Cloud on fortinet.com (checked 2026-06-19). The
-  listed sla_url (https://www.fortinet.com/support/support-services) is live
-  but is a FortiCare support-services marketing page with no quantified
-  uptime commitment, service credits, or claim deadline. Fortinet's legal
-  index (https://www.fortinet.com/corporate/about-us/legal) publishes SLAs
-  only for specific products (FortiCNAPP, Opaq) - not FortiCloud/FortiGate
-  Cloud. The Opaq SLA (99.999% availability, credits capped at 100% MRC) is a
-  different/legacy product and does not cover these services. Existing
-  numbers (uptime 99.99, max_credit 25, tiered credits, 30-day claim) are
-  unverifiable on the vendor domain and were left unchanged - they may be
-  fabricated or contract-only. Fortinet cloud SLAs appear to be contractual
-  (per-order), not publicly published.
-
-  2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

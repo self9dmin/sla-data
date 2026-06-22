@@ -10,7 +10,6 @@ sla_url: https://mixpanel.com/legal/terms-of-use/
 last_verified: '2025-12-20'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: 'Prior sla_url https://mixpanel.com/legal/sla/ returns 404 (not live). As of 2026-06-19 Mixpanel publishes no public Service Level Agreement: the legal index (https://mixpanel.com/legal/) lists no SLA document, and the Terms of Use explicitly disclaim availability ("MIXPANEL DOES NOT WARRANT THAT CUSTOMER''S USE OF THE APPLICATION SERVICES WILL BE UNINTERRUPTED, ERROR-FREE OR ALWAYS AVAILABLE."). No public uptime commitment, service-credit percentages, tiers, or claim deadline are verifiable on mixpanel.com; any SLA appears to be negotiated/Enterprise-only and not published. Existing numeric fields are UNVERIFIED and left unchanged pending a contractual/Enterprise source. sla_url repointed to the live Terms of Use as the canonical public legal reference. 2026-06-20 cleanup: removed unverified numeric SLA values per the above note; no public credit-bearing SLA confirmed.'
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:

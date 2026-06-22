@@ -10,10 +10,6 @@ sla_url: https://assets.confluent.io/m/7cc915b8d26e73a7/original/Confluent-Cloud
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
 needs_review: true
-review_note: >-
-  Verified against the official Confluent Cloud SLA (July 2025). Top-line 99.99%
-  models the multi-zone Kafka tier; uptime/credit thresholds vary by cluster
-  type (Basic/single-zone/1-ECKU are lower).
 uptime_commitment: 99.95
 max_credit_percent: 100
 claim_deadline_days: 5
