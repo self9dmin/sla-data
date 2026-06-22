@@ -117,6 +117,22 @@ services:
     description: Cloud application platform
     sla_eligible: true
     source_url: https://www.heroku.com/policy/agreements/
+support:
+  tiers:
+    - "Standard"
+    - "Premier"
+    - "Signature"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.salesforce.com/services/success-plans/"
+  note: "Premier (roughly 30 percent of license) and Signature (custom) add 24x7 support and faster Sev1 targets; Signature adds a designated CSM, annual technical health review, and architect reviews. Salesforce publishes no credited uptime SLA, and support response times are targets."
 ---
 
 Salesforce is a CRM & Marketing provider. See the official SLA at [https://www.salesforce.com/company/legal/agreements/](https://www.salesforce.com/company/legal/agreements/).

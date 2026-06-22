@@ -97,6 +97,21 @@ services:
     uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.dynatrace.com/company/trust-center/sla/saas/
+support:
+  tiers:
+    - "Standard Support"
+    - "Enterprise Success and Support"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: false
+  pricing: custom
+  source_url: "https://www.dynatrace.com/company/trust-center/support-policy/"
+  note: "Enterprise Success and Support adds 24x7, priority response targets, a success manager, and config/environment reviews. Deeper architecture work is separate professional services. Response times are targets, not credit-backed."
 ---
 
 Dynatrace is a Monitoring & Observability provider. See the official SLA at [https://www.dynatrace.com/company/trust-center/sla/saas/](https://www.dynatrace.com/company/trust-center/sla/saas/).

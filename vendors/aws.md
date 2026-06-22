@@ -418,6 +418,23 @@ services:
   - id: kms
     name: AWS KMS
     uptime_commitment: 99.999
+support:
+  tiers:
+    - "Developer"
+    - "Business"
+    - "Enterprise On-Ramp"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://aws.amazon.com/premiumsupport/plans/"
+  note: "Enterprise Support adds a designated TAM, a roughly 15-minute business-critical response target (an SLO, not credit-backed), Well-Architected reviews, and Countdown event support. Priced as the greater of a flat minimum or a percentage of AWS spend."
 ---
 
 AWS is a Cloud Infrastructure provider. See the official SLA at [https://aws.amazon.com/legal/service-level-agreements/](https://aws.amazon.com/legal/service-level-agreements/).

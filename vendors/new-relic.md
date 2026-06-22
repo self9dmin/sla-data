@@ -107,6 +107,22 @@ services:
     uptime_commitment: 99.8
     sla_eligible: true
     source_url: https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/service-level-availability-commitment/
+support:
+  tiers:
+    - "Standard"
+    - "Pro"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: custom
+  source_url: "https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings/"
+  note: "Enterprise edition adds a TAM, phone/Slack, and a 1-hour P1 target (explicitly an estimate, not guaranteed). Health checks and migrations are paid professional services."
 ---
 
 New Relic is a Monitoring & Observability provider. See the official SLA at [https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/service-level-availability-commitment/](https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/service-level-availability-commitment/).

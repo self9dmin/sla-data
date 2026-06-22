@@ -259,6 +259,48 @@ sla_tiers:
 
 ---
 
+## Support & Services (optional, complementary)
+
+A separate layer from the SLA. The SLA is what the provider legally owes you in credits if uptime slips. The Support & Services layer describes what you can **buy** to get more help: faster support response targets, designated humans, architecture reviews, professional services, training. These are almost always **targets or entitlements**, not credit-backed SLAs. Capture them only when the vendor publishes them officially, and use `response_is_sla` to mark the rare case where a support response time actually carries a remedy.
+
+```yaml
+support:
+  tiers:                                  # the vendor's named plan names
+    - Standard Support
+    - Enterprise Success and Support
+  has_24x7: true                          # top tier offers 24x7 coverage
+  fastest_response: "30 min"              # top-tier Sev1 / business-critical target
+  response_is_sla: false                  # true ONLY if the response time carries a credit/remedy
+  designated_contact: csm                 # none | csm | tam | team
+  architecture_review: true               # available (paid or included)
+  professional_services: true             # SOW-based engagements
+  success_program: true                   # named customer-success offering
+  training: false                         # paid or included training/enablement
+  pricing: custom                         # included | flat | percent_of_spend | custom
+  source_url: https://...                 # the official support/plans page
+  note: |                                 # one-paragraph explanation, especially what is NOT contractual
+    Enterprise Success and Support adds 24x7, priority response targets, a
+    success manager, and config reviews. Deeper architecture work is separate
+    professional services. Response times are targets, not credit-backed.
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `tiers` | string[] | Named support plans, in order from base to top |
+| `has_24x7` | boolean | True if the top tier offers 24x7 coverage |
+| `fastest_response` | string | Verbatim top-tier critical-case response (e.g. "15 min") |
+| `response_is_sla` | boolean | True ONLY if the response time carries a credit/remedy. Default false. |
+| `designated_contact` | enum | `none` / `csm` / `tam` / `team` — top tier's named contact |
+| `architecture_review` | boolean | Architecture / Well-Architected review available |
+| `professional_services` | boolean | SOW-based engagements (migrations, optimization) |
+| `success_program` | boolean | Customer-success program at any tier |
+| `training` | boolean | Paid or included training/enablement |
+| `pricing` | enum | `included` / `flat` / `percent_of_spend` / `custom` |
+| `source_url` | URL | Official support page |
+| `note` | string | One paragraph; flag the contractual line clearly |
+
+---
+
 ## Enumerated Values
 
 ### Categories

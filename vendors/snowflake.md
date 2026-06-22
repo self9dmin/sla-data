@@ -103,6 +103,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/
+support:
+  tiers:
+    - "Premier"
+    - "Priority"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: custom
+  source_url: "https://www.snowflake.com/legal-files/Snowflake-Support-Policy-And-Service-Level-Agreement.pdf"
+  note: "Priority Support adds 24x7 for Sev1-2, a Support Account Manager, and a 15-min Sev1 target. It explicitly excludes customer success programs and professional services (sold separately). Uptime (99.9%) is the credit-backed SLA; response times are targets."
 ---
 
 Snowflake is a Database & Data Infrastructure provider. See the official SLA at [https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/](https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/).

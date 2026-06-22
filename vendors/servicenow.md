@@ -92,6 +92,22 @@ services:
     description: GovCommunity and FedRAMP offerings, availability commitment not stated in the public Subscription Service Guide
     sla_eligible: true
     source_url: https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/subscription-service-guide-upgrade.pdf
+support:
+  tiers:
+    - "Now Support (standard)"
+    - "Impact Guided"
+    - "Impact Total"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.servicenow.com/impact.html"
+  note: "ServiceNow Impact (paid, roughly percent-of-ACV) adds faster response targets and Accelerator engagements; Impact Total adds a named team (Customer Success Executive, Platform Architect, CSM, and SAM). Uptime IS credit-backed (99.8 percent); support response times are targets."
 ---
 
 ServiceNow is a Enterprise Software provider. See the official availability terms in ServiceNow's Subscription Service Guide at [https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/subscription-service-guide-upgrade.pdf](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/subscription-service-guide-upgrade.pdf).

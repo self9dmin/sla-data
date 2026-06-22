@@ -99,6 +99,21 @@ services:
     uptime_commitment: 99.8
     sla_eligible: true
     source_url: https://www.datadoghq.com/legal/msa/
+support:
+  tiers:
+    - "Standard"
+    - "Premier"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: custom
+  source_url: "https://www.datadoghq.com/support-services/plans/"
+  note: "Premier adds phone/video, a designated team of support engineers, and priority escalation. A TAM and professional services are separate paid offerings. Response times are targets (the only stated remedy is re-performance of support, not credits)."
 ---
 
 Datadog is a Monitoring & Observability provider. The SLA is contained in the Master Subscription Agreement at [https://www.datadoghq.com/legal/msa/](https://www.datadoghq.com/legal/msa/). Datadog commits to 99.8% availability; the sole remedy for missing it is a termination right plus pro-rated refund (no service credits).

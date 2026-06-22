@@ -518,6 +518,22 @@ services:
   - id: kms
     name: Cloud Key Management Service
     uptime_commitment: 99.95
+support:
+  tiers:
+    - "Standard"
+    - "Enhanced"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://cloud.google.com/support"
+  note: "Premium (>=$15k/mo or percent-of-spend) adds a TAM, a 15-minute P1 response target, and event/onboarding guidance. Response times are targets, not credit-backed; per-product uptime SLAs are the credited layer."
 ---
 
 GCP is a Cloud Infrastructure provider. See the official SLA at [https://cloud.google.com/terms/sla](https://cloud.google.com/terms/sla).

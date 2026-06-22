@@ -627,6 +627,23 @@ services:
     name: Viva Topics
   - id: viva-learning
     name: Viva Learning
+support:
+  tiers:
+    - "Developer"
+    - "Standard"
+    - "Professional Direct"
+    - "Microsoft Unified"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://azure.microsoft.com/support/plans/"
+  note: "Microsoft Unified (custom, roughly percent-of-spend) adds a CSAM, a designated technical team for critical cases, a roughly 15-minute Azure-critical response target, and proactive assessments. Response times are targets, not credited."
 ---
 
 Azure is a Cloud Infrastructure provider. See the official SLA at [https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).
