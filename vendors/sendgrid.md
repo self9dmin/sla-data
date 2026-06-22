@@ -88,6 +88,12 @@ services:
     uptime_commitment: 99.95
     sla_eligible: true
     source_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
+sla_tiers:
+  - name: 'Premium email package'
+    requirement: 'Qualifying SendGrid premium email package'
+    uptime_commitment: 99.99
+    max_credit_percent: 10
+    source_url: 'https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis'
 ---
 
 SendGrid (Twilio SendGrid) is a Communication & Collaboration provider. Its SLA is now governed by the Twilio APIs Service Level Agreement, which covers the "SendGrid Services API" (the Mail Send API). See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis](https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis).

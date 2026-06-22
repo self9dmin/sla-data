@@ -9,7 +9,7 @@ scope: global
 sla_url: https://launchdarkly.com/policies/service-level-agreement/
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
-uptime_commitment: 99.99
+uptime_commitment: 99.9
 max_credit_percent: 50
 claim_deadline_days: 5
 has_automatic_credits: false
@@ -98,6 +98,11 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://launchdarkly.com/policies/service-level-agreement/
+sla_tiers:
+  - name: 'Premium Support'
+    requirement: 'Premium Support subscription'
+    uptime_commitment: 99.99
+    source_url: 'https://launchdarkly.com/policies/service-level-agreement/'
 ---
 
 LaunchDarkly is a DevOps & Development provider. See the official SLA at [https://launchdarkly.com/policies/service-level-agreement/](https://launchdarkly.com/policies/service-level-agreement/).

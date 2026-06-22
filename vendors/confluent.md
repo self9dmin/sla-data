@@ -14,7 +14,7 @@ review_note: >-
   Verified against the official Confluent Cloud SLA (July 2025). Top-line 99.99%
   models the multi-zone Kafka tier; uptime/credit thresholds vary by cluster
   type (Basic/single-zone/1-ECKU are lower).
-uptime_commitment: 99.99
+uptime_commitment: 99.95
 max_credit_percent: 100
 claim_deadline_days: 5
 has_automatic_credits: false
@@ -115,6 +115,12 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://assets.confluent.io/m/7cc915b8d26e73a7/original/Confluent-Cloud-Unified-SLA-July-2025-Legal.pdf
+sla_tiers:
+  - name: 'Dedicated Multi-Zone cluster'
+    requirement: 'Multi-zone Dedicated cluster (min 2 CKU across 3 AZs)'
+    uptime_commitment: 99.99
+    max_credit_percent: 100
+    source_url: 'https://www.confluent.io/confluent-cloud-uptime-sla/'
 ---
 
 Confluent is a Database & Data Infrastructure provider. See the official Confluent Cloud Service Level Agreement (effective July 25, 2025) at [Confluent Cloud Unified SLA (July 2025)](https://assets.confluent.io/m/7cc915b8d26e73a7/original/Confluent-Cloud-Unified-SLA-July-2025-Legal.pdf), linked from [confluent.io/legal/archive](https://www.confluent.io/legal/archive/confluent-cloud-service-level-agreement/).

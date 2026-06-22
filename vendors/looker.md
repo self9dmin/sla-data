@@ -90,6 +90,12 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://cloud.google.com/terms/looker-core/sla
+sla_tiers:
+  - name: 'Advanced / Elite edition'
+    requirement: 'Looker Advanced or Elite (Enterprise/Embed) edition'
+    uptime_commitment: 99.9
+    max_credit_percent: 25
+    source_url: 'https://cloud.google.com/terms/looker/legal/customers/sla'
 ---
 
 Looker is a Business Intelligence provider. See the official SLA at [https://cloud.google.com/terms/looker-core/sla](https://cloud.google.com/terms/looker-core/sla).

@@ -116,6 +116,12 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf
+sla_tiers:
+  - name: 'AEM as a Cloud Service 99.99% SLA'
+    requirement: 'AEM as a Cloud Service with the Additional Publish Region and 99.99% SLA add-ons'
+    uptime_commitment: 99.99
+    max_credit_percent: 25
+    source_url: 'https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/unified-sla-actionabilityaddendum2025oct12.pdf'
 ---
 
 Adobe is a Content & Media provider. The official Unified SLA (effective 12 October 2025) covers Adobe On-demand and Managed Services including Analytics, Campaign, Commerce, Experience Manager, Marketo, and Target, with a 99.9% Minimum Uptime Percentage and tiered service credits (5/10/15/25% of Monthly Fees), capped at a 25% cumulative monthly credit. Customers must notify Adobe in writing within 30 days of the Downtime. See [Adobe Service Commitments](https://www.adobe.com/legal/service-commitments.html) and the [Unified SLA PDF](https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf).

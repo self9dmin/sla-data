@@ -9,7 +9,7 @@ scope: global
 sla_url: https://redis.io/legal/redis-cloud-service-level-agreement/
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
-uptime_commitment: 99.999
+uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 1
 has_automatic_credits: false
@@ -115,6 +115,15 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://redis.io/legal/redis-cloud-service-level-agreement/
+sla_tiers:
+  - name: 'Multi-AZ'
+    requirement: 'Multi-AZ deployment with replication'
+    uptime_commitment: 99.99
+    source_url: 'https://redis.io/legal/redis-cloud-service-level-agreement/'
+  - name: 'Active-Active'
+    requirement: 'Active-Active geo-replicated deployment'
+    uptime_commitment: 99.999
+    source_url: 'https://redis.io/legal/redis-cloud-service-level-agreement/'
 ---
 
 Redis Cloud is a Database & Data Infrastructure provider. See the official SLA at [https://redis.io/legal/redis-cloud-service-level-agreement/](https://redis.io/legal/redis-cloud-service-level-agreement/).

@@ -122,6 +122,12 @@ services:
     uptime_commitment: 99.95
     sla_eligible: true
     source_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
+sla_tiers:
+  - name: 'Enterprise Edition'
+    requirement: 'Twilio Enterprise Edition'
+    uptime_commitment: 99.99
+    max_credit_percent: 10
+    source_url: 'https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis'
 ---
 
 Twilio is a Communication & Collaboration provider. See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis](https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis).

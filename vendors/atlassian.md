@@ -143,6 +143,11 @@ services:
     description: Status page hosting
     sla_eligible: false
     source_url: https://www.atlassian.com/legal/sla
+sla_tiers:
+  - name: 'Enterprise'
+    requirement: 'Enterprise plan'
+    uptime_commitment: 99.95
+    source_url: 'https://support.atlassian.com/subscriptions-and-billing/docs/service-level-agreement-for-atlassian-cloud-products/'
 ---
 
 Atlassian is a DevOps & Development provider. See the official SLA at [https://www.atlassian.com/legal/sla](https://www.atlassian.com/legal/sla).

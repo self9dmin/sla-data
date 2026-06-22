@@ -9,7 +9,7 @@ scope: global
 sla_url: https://planetscale.com/legal/sla
 last_verified: '2026-06-19'
 last_updated: '2026-06-19'
-uptime_commitment: 99.999
+uptime_commitment: 99.99
 max_credit_percent: 50
 claim_deadline_days: 30
 has_automatic_credits: false
@@ -87,6 +87,11 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://planetscale.com/legal/sla
+sla_tiers:
+  - name: 'Multi-region'
+    requirement: 'Multi-region database cluster'
+    uptime_commitment: 99.999
+    source_url: 'https://planetscale.com/legal/sla'
 ---
 
 PlanetScale is a Database & Data Infrastructure provider. See the official SLA at [https://planetscale.com/legal/sla](https://planetscale.com/legal/sla).

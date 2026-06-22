@@ -147,6 +147,11 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/service-level-agreement-for-sap-cloud-services-english-v8-2023.pdf
+sla_tiers:
+  - name: 'BTP High Availability'
+    requirement: 'Paid High Availability option (HANA Cloud, ASE, etc.)'
+    uptime_commitment: 99.95
+    source_url: 'https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/sap-business-technology-platform-supplement-english-v11-2025.pdf'
 ---
 
 SAP is a Enterprise Software provider. See the official SLA at [Service Level Agreement for SAP Cloud Services (v8-2023)](https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/service-level-agreement-for-sap-cloud-services-english-v8-2023.pdf).
