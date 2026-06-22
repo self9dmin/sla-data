@@ -94,6 +94,23 @@ sla_tiers:
     uptime_commitment: 99.99
     max_credit_percent: 10
     source_url: 'https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis'
+support:
+  tiers:
+    - "Developer"
+    - "Production"
+    - "Business"
+    - "Personalized"
+  has_24x7: true
+  fastest_response: "1 business hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: false
+  pricing: percent_of_spend
+  source_url: "https://www.twilio.com/en-us/support-plans"
+  note: "Personalized tier adds a named TAM; pricing 4-8% of monthly spend. Targets, not credit-backed."
 ---
 
 SendGrid (Twilio SendGrid) is a Communication & Collaboration provider. Its SLA is now governed by the Twilio APIs Service Level Agreement, which covers the "SendGrid Services API" (the Mail Send API). See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis](https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis).

@@ -151,6 +151,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
+support:
+  tiers:
+    - "Unified Core"
+    - "Unified Advanced"
+    - "Unified Performance"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.microsoft.com/en-us/microsoft-unified/plan-details"
+  note: "Covered under Microsoft Unified; CSAM and proactive services scale by tier. Targets, not credit-backed."
 ---
 
 Microsoft 365 is a Enterprise Software provider. See the official SLA at [https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).

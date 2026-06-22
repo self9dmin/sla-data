@@ -110,6 +110,24 @@ services:
     description: Speech recognition API
     sla_eligible: true
     source_url: https://openai.com/api-scale-tier/
+support:
+  tiers:
+    - "Free"
+    - "Plus"
+    - "Team"
+    - "Business"
+    - "Enterprise"
+    - "API Scale Tier"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://openai.com/chatgpt/enterprise/"
+  note: "Enterprise: 24/7 support, AI advisors, account director/CSM. API Scale Tier carries an uptime SLA; support response times are targets."
 ---
 
 OpenAI is a AI & Machine Learning provider. See the official SLA at [https://openai.com/api-scale-tier/](https://openai.com/api-scale-tier/).

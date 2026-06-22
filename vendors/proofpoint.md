@@ -114,6 +114,21 @@ services:
     source_url: https://www.proofpoint.com/us/legal/license
     needs_review: true
     review_note: No public service-specific SLA with an uptime commitment found on proofpoint.com for Threat Response (TRAP); 99.99 unverified.
+support:
+  tiers:
+    - "Standard"
+    - "Platinum"
+    - "Premium"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.proofpoint.com/us/support/technical-support-offerings"
+  note: "Platinum adds 24/7 phone for P1; Premium adds a designated TAM and proactive service."
 ---
 
 Proofpoint is a Security & Identity provider. See the official SLAs at [https://www.proofpoint.com/us/legal/license](https://www.proofpoint.com/us/legal/license).

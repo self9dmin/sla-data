@@ -108,6 +108,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://jumpcloud.com/policies
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: flat
+  source_url: "https://jumpcloud.com/premium-support"
+  note: "Premium add-on lists a 1-hour Sev1 target with 24/7/365 coverage; treated as a target."
 ---
 
 JumpCloud is a Security & Identity provider. The uptime/service-credit SLA is published in the Premium Support Description, linked from JumpCloud's support policies page at [https://jumpcloud.com/policies](https://jumpcloud.com/policies) and incorporated into the DAASA customer agreement ([https://jumpcloud.com/legal/daasa](https://jumpcloud.com/legal/daasa)).

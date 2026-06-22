@@ -96,6 +96,20 @@ services:
     uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.cornerstoneondemand.com/service-level-agreements/
+support:
+  tiers:
+    - "Standard"
+    - "Customer Success Package (Choice)"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.cornerstoneondemand.com/community-and-support/"
+  note: "Tier matrix is gated; CSP Choice adds a CSM and success programs."
 ---
 
 Cornerstone is a Other SaaS provider. See the official SLA at [https://www.cornerstoneondemand.com/service-level-agreements/](https://www.cornerstoneondemand.com/service-level-agreements/).

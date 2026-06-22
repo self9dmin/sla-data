@@ -84,6 +84,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.backblaze.com/company/policy/sla
+support:
+  tiers:
+    - "GIGA"
+    - "TERA"
+    - "PETA"
+  has_24x7: true
+  fastest_response: "2 hours"
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: flat
+  source_url: "https://www.backblaze.com/help/customer-support"
+  note: "PETA tier publishes a 2-hour response target; we treat it as a target unless an explicit credit schedule is provided."
 ---
 
 Backblaze is a Cloud Infrastructure provider. See the official SLA at [https://www.backblaze.com/company/policy/sla](https://www.backblaze.com/company/policy/sla).

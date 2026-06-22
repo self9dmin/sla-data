@@ -86,6 +86,21 @@ services:
     description: Time tracking
     sla_eligible: true
     source_url: https://gusto.com/legal/terms
+support:
+  tiers:
+    - "Simple"
+    - "Plus"
+    - "Premium"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: false
+  pricing: included
+  source_url: "https://gusto.com/product/pricing"
+  note: "Premium adds a CSM and priority support; no published response-time SLA."
 ---
 
 Gusto is a HR & People Operations provider. See the official terms at [https://gusto.com/legal/terms](https://gusto.com/legal/terms). Gusto does not publish a public uptime SLA with service credits.

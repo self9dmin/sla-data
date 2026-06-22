@@ -105,6 +105,19 @@ services:
     description: Time and scheduling
     sla_eligible: true
     source_url: https://www.paylocity.com/terms-and-conditions/
+support:
+  tiers:
+    - "Standard"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: included
+  source_url: "https://www.paylocity.com/contact/client-support/"
+  note: "No tier structure; dedicated Account Manager plus a service team, business hours only."
 ---
 
 Paylocity is a HR & People Operations provider. Paylocity publishes no public uptime SLA; see its legal terms at [https://www.paylocity.com/terms-and-conditions/](https://www.paylocity.com/terms-and-conditions/).

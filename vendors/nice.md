@@ -115,6 +115,19 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://www.nice.com/company/sla-guarantee
+support:
+  tiers:
+    - "CXsuccess Care"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://www.nice.com/services/customer-support"
+  note: "CXsuccess Care is included; higher tiers exist but details are not publicly disclosed."
 ---
 
 NICE is a Other SaaS provider. See the official SLA at [https://www.nice.com/company/sla-guarantee](https://www.nice.com/company/sla-guarantee).

@@ -74,6 +74,22 @@ services:
     description: Self-hosted build agents
     sla_eligible: true
     source_url: https://circleci.com/legal/terms-of-service/
+support:
+  tiers:
+    - "Community"
+    - "Starter"
+    - "Elite"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://circleci.com/support/plans/"
+  note: "Elite tier targets are not contractual SLAs."
 ---
 
 CircleCI is a DevOps & Development provider. CircleCI publishes no public uptime SLA with service credits; the SaaS Agreement commits only to "commercially reasonable efforts" to keep the Services available, with termination as the sole remedy. See the official SaaS Agreement at [https://circleci.com/legal/terms-of-service/](https://circleci.com/legal/terms-of-service/).

@@ -107,6 +107,21 @@ services:
     description: Social media management
     sla_eligible: true
     source_url: https://www.semrush.com/company/legal/terms-of-service/
+support:
+  tiers:
+    - "Free"
+    - "Paid"
+    - "Enterprise"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.semrush.com/kb/264-contact-semrush"
+  note: "Enterprise adds dedicated account management, onboarding, and training."
 ---
 
 Semrush is a Marketing & Analytics provider. See the official SLA at [https://www.semrush.com/company/legal/terms-of-service/](https://www.semrush.com/company/legal/terms-of-service/).

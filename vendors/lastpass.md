@@ -99,6 +99,21 @@ services:
     description: Password vault storage
     sla_eligible: true
     source_url: https://www.lastpass.com/legal-center/terms-of-service/business
+support:
+  tiers:
+    - "Basic"
+    - "Personal"
+    - "Business"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: true
+  pricing: included
+  source_url: "https://support.lastpass.com/help/what-levels-of-customer-support-does-lastpass-offer"
+  note: "Tiers tied to product plan; Business adds phone/chat; no published response SLAs."
 ---
 
 LastPass is a Security & Identity provider. LastPass does not publish a public uptime SLA with service credits; see the [LastPass Business Terms of Service](https://www.lastpass.com/legal-center/terms-of-service/business) (Last Updated January 2024), which disclaims any uptime/availability warranty.

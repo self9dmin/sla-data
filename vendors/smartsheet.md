@@ -103,6 +103,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.smartsheet.com/legal/sla
+support:
+  tiers:
+    - "Standard"
+    - "Professional"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.smartsheet.com/support-plans"
+  note: "Enterprise includes 24/7 and a 1-hour P1 target; published as a target."
 ---
 
 Smartsheet is a Productivity & Collaboration provider. See the official SLA at [https://www.smartsheet.com/legal/sla](https://www.smartsheet.com/legal/sla).

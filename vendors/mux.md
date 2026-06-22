@@ -96,6 +96,17 @@ services:
     description: Video encoding and delivery
     sla_eligible: true
     source_url: https://www.mux.com/terms
+support:
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: custom
+  source_url: "https://www.mux.com/contact"
+  note: "No public support tiers; enterprise support negotiated per agreement."
 ---
 
 Mux is a Content & Media provider. See the official SLA at [https://www.mux.com/terms](https://www.mux.com/terms).

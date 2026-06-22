@@ -80,6 +80,22 @@ services:
     description: Custom reports and dashboards
     sla_eligible: true
     source_url: https://mixpanel.com/legal/terms-of-use/
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://mixpanel.com/pricing/services/"
+  note: "Tiered support with response targets; CSM and services on higher plans."
 ---
 
 Mixpanel is a Monitoring & Observability provider. As of 2026-06-19 Mixpanel publishes no public Service Level Agreement; the prior SLA URL (https://mixpanel.com/legal/sla/) returns a 404 and the legal index lists no SLA document. See the official legal terms at [https://mixpanel.com/legal/terms-of-use/](https://mixpanel.com/legal/terms-of-use/), which disclaim any availability commitment.

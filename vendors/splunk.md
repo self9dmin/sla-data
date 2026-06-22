@@ -100,6 +100,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.html
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.splunk.com/en_us/support-and-services/support-programs.html"
+  note: "Premium publishes a 30-min P1 target; not stated as a credit-backed SLA."
 ---
 
 Splunk is a Monitoring & Observability provider. See the official SLA at [https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.html](https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.html).

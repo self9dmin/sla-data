@@ -120,6 +120,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://docs.fastly.com/products/security-service-sla
+support:
+  tiers:
+    - "Standard"
+    - "Gold"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: true
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://docs.fastly.com/products/network-services-support-description-and-sla"
+  note: "Contractual: a fixed credit applies to a missed Sev1 response target on Gold/Enterprise."
 ---
 
 Fastly is a CDN & Edge provider. See the official Network Services service availability SLA at [https://docs.fastly.com/products/network-services-service-availability-sla](https://docs.fastly.com/products/network-services-service-availability-sla).

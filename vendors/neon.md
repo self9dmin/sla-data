@@ -124,6 +124,24 @@ services:
     description: Instant database branching - not covered by the SLA
     sla_eligible: false
     source_url: https://neon.com/neon-business-sla
+support:
+  tiers:
+    - "Free"
+    - "Launch"
+    - "Scale"
+    - "Business"
+    - "Production"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: flat
+  source_url: "https://neon.com/docs/introduction/support"
+  note: "Response times are targets/commercially reasonable; dedicated engineer is a paid add-on."
 ---
 
 Neon is a Database & Data Infrastructure provider. See the official SLA at [https://neon.com/neon-business-sla](https://neon.com/neon-business-sla).

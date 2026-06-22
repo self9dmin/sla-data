@@ -102,6 +102,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.wix.com/about/terms-of-use/enterprise
+support:
+  tiers:
+    - "Standard Customer Care"
+    - "Enterprise (Priority)"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.wix.com/enterprise/services"
+  note: "Enterprise bundles 24/7 priority support, a 1-hour first-response commitment, and a dedicated CSM."
 ---
 
 Wix is a E-commerce provider. The public credit-backed SLA ("Exhibit B - Wix Enterprise Plan SLA") applies only to the Wix Enterprise Plan: 99.9% Annual Uptime Percentage, 10% Service Credit, claims within 30 days, request-based (not automatic). See the official SLA at [https://www.wix.com/about/terms-of-use/enterprise](https://www.wix.com/about/terms-of-use/enterprise).

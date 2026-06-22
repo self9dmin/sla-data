@@ -128,6 +128,23 @@ sla_tiers:
     uptime_commitment: 99.99
     max_credit_percent: 10
     source_url: 'https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis'
+support:
+  tiers:
+    - "Developer"
+    - "Production"
+    - "Business"
+    - "Personalized"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.twilio.com/en-us/support-plans"
+  note: "Paid tiers priced as flat minimum or % of spend; response times are targets."
 ---
 
 Twilio is a Communication & Collaboration provider. See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis](https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis).

@@ -181,6 +181,23 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.digitalocean.com/sla/regional-load-balancers
+support:
+  tiers:
+    - "Starter"
+    - "Developer"
+    - "Standard"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: false
+  success_program: true
+  training: false
+  pricing: flat
+  source_url: "https://www.digitalocean.com/pricing/support"
+  note: "Premium adds CSM/TAM and a dedicated Slack; response times are targets, not SLAs."
 ---
 
 DigitalOcean is a Cloud Infrastructure provider. DigitalOcean publishes per-product SLAs; see the official SLA hub at [https://www.digitalocean.com/sla](https://www.digitalocean.com/sla).

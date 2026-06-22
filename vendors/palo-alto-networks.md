@@ -117,6 +117,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/datasheets/prisma/prisma-cloud-service-level-agreement.pdf
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+    - "Platinum"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.paloaltonetworks.com/services/support"
+  note: "TAM via Focused Services add-on; support priced as a percentage of product list. Targets, not credit-backed."
 ---
 
 Palo Alto Networks is a Security & Identity provider. Each cloud-delivered service has its own published SLA; see the SLA list at [paloaltonetworks.com/services/support/support-policies](https://www.paloaltonetworks.com/services/support/support-policies).

@@ -104,6 +104,21 @@ services:
     description: Centralized metrics definitions
     sla_eligible: true
     source_url: https://docs.getdbt.com/docs/dbt-support
+support:
+  tiers:
+    - "Developer/Starter"
+    - "Enterprise"
+    - "Premier"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://docs.getdbt.com/docs/dbt-support"
+  note: "Premier tier adds support response targets and a Resident Architect; pro packages available."
 ---
 
 dbt Labs is a Other SaaS provider. dbt Cloud does not publish a public uptime SLA with service credits; Enterprise/Enterprise+ SLA terms are governed by the individual Enterprise contract. See the official support and SLA scope page at [https://docs.getdbt.com/docs/dbt-support](https://docs.getdbt.com/docs/dbt-support).

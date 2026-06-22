@@ -121,6 +121,23 @@ services:
     uptime_commitment: 99.995
     sla_eligible: true
     source_url: https://www.mongodb.com/legal/sla/cloud/atlas-database
+support:
+  tiers:
+    - "Developer"
+    - "Basic"
+    - "Pro"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.mongodb.com/services/support"
+  note: "Response times are targets; TAM and architecture review at Enterprise."
 ---
 
 MongoDB Atlas is a Database & Data Infrastructure provider. See the official SLA at [https://www.mongodb.com/legal/service-level-agreement](https://www.mongodb.com/legal/sla/cloud/atlas-database).

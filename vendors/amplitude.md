@@ -97,6 +97,23 @@ services:
     description: Session recording and replay
     sla_eligible: true
     source_url: https://amplitude.com/terms
+support:
+  tiers:
+    - "Standard"
+    - "Premium Success Basic"
+    - "Premium Success Advanced"
+    - "Premium Success Signature"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://gethelp.amplitude.com/hc/en-us/articles/13513083850267-Amplitude-Technical-Support-offerings"
+  note: "Premium Success tiers list response targets, not credit-backed SLAs."
 ---
 
 Amplitude is a Monitoring & Observability provider. See the official SLA at [https://amplitude.com/terms](https://amplitude.com/terms).

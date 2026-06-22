@@ -99,6 +99,21 @@ services:
     description: ACH transfers
     sla_eligible: true
     source_url: https://plaid.com/legal/
+support:
+  tiers:
+    - "Pay-as-you-go"
+    - "Growth"
+    - "Scale/Enterprise"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: false
+  pricing: custom
+  source_url: "https://plaid.com/pricing/"
+  note: "Growth adds priority support and an account manager; Enterprise adds dedicated support and integration help."
 ---
 
 Plaid is a Finance & Payments provider. Plaid does not publish a public uptime SLA with service credits; uptime and response-time SLA commitments are offered only through paid Support Packages negotiated by contract. See Plaid's legal documents at [https://plaid.com/legal/](https://plaid.com/legal/).

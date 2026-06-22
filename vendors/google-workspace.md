@@ -124,6 +124,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://workspace.google.com/terms/sla.html
+support:
+  tiers:
+    - "Standard"
+    - "Enhanced"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://workspace.google.com/support/"
+  note: "Premium includes a TAM; response times are SLOs, not credit-backed SLAs."
 ---
 
 Google Workspace is a Productivity & Collaboration provider. See the official SLA at [https://workspace.google.com/terms/sla.html](https://workspace.google.com/terms/sla.html).

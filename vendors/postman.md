@@ -93,6 +93,21 @@ services:
     description: Scheduled API monitoring
     sla_eligible: true
     source_url: https://www.postman.com/legal/enterprise-sla/
+support:
+  tiers:
+    - "Standard"
+    - "Premium Support"
+  has_24x7: false
+  fastest_response: "1 business day"
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: custom
+  source_url: "https://www.postman.com/pricing/"
+  note: "Enterprise support 24x5 PT; onboarding and training available as paid services."
 ---
 
 Postman is a DevOps & Development provider. See the official SLA at [https://www.postman.com/legal/enterprise-sla/](https://www.postman.com/legal/enterprise-sla/).

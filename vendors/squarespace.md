@@ -102,6 +102,19 @@ services:
     description: Website hosting and builder
     sla_eligible: true
     source_url: https://www.squarespace.com/terms-of-service
+support:
+  tiers:
+    - "Standard"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: true
+  pricing: included
+  source_url: "https://support.squarespace.com/hc/en-us/articles/206541167-Contacting-Customer-Support"
+  note: "Flat 24/7 email and live chat included; no paid tiers."
 ---
 
 Squarespace is a E-commerce provider. See the official SLA at [https://www.squarespace.com/terms-of-service](https://www.squarespace.com/terms-of-service).

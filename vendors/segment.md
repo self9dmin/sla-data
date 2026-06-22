@@ -77,6 +77,24 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api
+support:
+  tiers:
+    - "Standard"
+    - "Advanced"
+    - "Premium"
+    - "Premium+"
+    - "Personalized"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.twilio.com/en-us/support-plans/cdp"
+  note: "Premium+ adds a TAM and business reviews; pricing 8-15% of license. Targets, not credit-backed."
 ---
 
 Segment is a Monitoring & Observability provider. See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api](https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api).

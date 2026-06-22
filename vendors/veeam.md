@@ -106,6 +106,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html
+support:
+  tiers:
+    - "Basic"
+    - "Production"
+    - "Premier"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.veeam.com/legal/support-policy.html"
+  note: "Production is 24/7; Premier adds a Support Account Manager and proactive services."
 ---
 
 Veeam is a Storage & Backup provider. See the official SLA at [https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html).

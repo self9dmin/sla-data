@@ -148,6 +148,22 @@ sla_tiers:
     requirement: 'Enterprise plan'
     uptime_commitment: 99.95
     source_url: 'https://support.atlassian.com/subscriptions-and-billing/docs/service-level-agreement-for-atlassian-cloud-products/'
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: false
+  success_program: true
+  training: false
+  pricing: flat
+  source_url: "https://confluence.atlassian.com/support/atlassian-support-offerings-193299636.html"
+  note: "Atlassian uses commercially reasonable efforts to meet target response times; no credit remedy."
 ---
 
 Atlassian is a DevOps & Development provider. See the official SLA at [https://www.atlassian.com/legal/sla](https://www.atlassian.com/legal/sla).

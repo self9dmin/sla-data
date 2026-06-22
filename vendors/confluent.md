@@ -121,6 +121,23 @@ sla_tiers:
     uptime_commitment: 99.99
     max_credit_percent: 100
     source_url: 'https://www.confluent.io/confluent-cloud-uptime-sla/'
+support:
+  tiers:
+    - "Free"
+    - "Developer"
+    - "Business"
+    - "Premier"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.confluent.io/confluent-cloud/support/"
+  note: "Premier 30-min critical-response is a published target; CSTA assigned at Premier."
 ---
 
 Confluent is a Database & Data Infrastructure provider. See the official Confluent Cloud Service Level Agreement (effective July 25, 2025) at [Confluent Cloud Unified SLA (July 2025)](https://assets.confluent.io/m/7cc915b8d26e73a7/original/Confluent-Cloud-Unified-SLA-July-2025-Legal.pdf), linked from [confluent.io/legal/archive](https://www.confluent.io/legal/archive/confluent-cloud-service-level-agreement/).

@@ -103,6 +103,23 @@ sla_tiers:
     requirement: 'Premium Support subscription'
     uptime_commitment: 99.99
     source_url: 'https://launchdarkly.com/policies/service-level-agreement/'
+support:
+  tiers:
+    - "Starter"
+    - "Pro"
+    - "Enterprise"
+    - "Premium Support"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://support.launchdarkly.com/hc/en-us/articles/4408252686875"
+  note: "Premium Support adds 24/7, a 30-min Sev1 target, and a TAM. Pro Services are sold separately."
 ---
 
 LaunchDarkly is a DevOps & Development provider. See the official SLA at [https://launchdarkly.com/policies/service-level-agreement/](https://launchdarkly.com/policies/service-level-agreement/).

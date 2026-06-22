@@ -124,6 +124,21 @@ sla_tiers:
     requirement: 'Active-Active geo-replicated deployment'
     uptime_commitment: 99.999
     source_url: 'https://redis.io/legal/redis-cloud-service-level-agreement/'
+support:
+  tiers:
+    - "Standard"
+    - "Production"
+    - "Premium"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://redis.io/legal/redis-enterprise-cloud-support-policy/"
+  note: "Premium adds 24/7 coverage, a designated TAM, and proactive monitoring; ~10-20% uplift."
 ---
 
 Redis Cloud is a Database & Data Infrastructure provider. See the official SLA at [https://redis.io/legal/redis-cloud-service-level-agreement/](https://redis.io/legal/redis-cloud-service-level-agreement/).

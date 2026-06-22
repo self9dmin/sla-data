@@ -97,6 +97,20 @@ services:
     description: Backlink and organic traffic analysis
     sla_eligible: true
     source_url: https://ahrefs.com/legal/terms
+support:
+  tiers:
+    - "Standard (all paid plans)"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://ahrefs.com/enterprise"
+  note: "Enterprise adds a dedicated account manager, tailored onboarding, and 24/7 multilingual chat."
 ---
 
 Ahrefs is a Marketing & Analytics provider. Ahrefs does not publish a public uptime SLA with service credits; the [Terms of Service](https://ahrefs.com/legal/terms) provide the service "as is" / "as available" with no availability guarantee. The only availability statement is in the [Security Measures](https://ahrefs.com/legal/security-measures) page (99.8% best-effort infrastructure uptime, not a binding SLA).

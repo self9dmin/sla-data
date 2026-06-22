@@ -94,6 +94,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.workday.com/content/dam/web/en-us/documents/legal/usla.pdf
+support:
+  tiers:
+    - "Standard"
+    - "Accelerate Essentials"
+    - "Accelerate"
+    - "Accelerate Plus"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.workday.com/en-us/services/support.html"
+  note: "Accelerate Plus adds a named TAM and governance guidance; per-tier response SLAs are not publicly published."
 ---
 
 Workday is a HR & People Operations provider. See the official SLA at [Universal Service Level Availability and Support Policy](https://www.workday.com/content/dam/web/en-us/documents/legal/usla.pdf) (last updated June 4, 2026). Workday commits to 99.9% monthly uptime for all Workday Service product lines (HiredScore is 99.5%). Service credits are not automatic: a customer must request remedies, which escalate by the number of Failures in a rolling six-month period (corrective-action meeting for the 1st, then 10%/20%/30% of the affected Service's monthly Subscription Fee for the 2nd/3rd/4th).

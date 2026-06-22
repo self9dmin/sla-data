@@ -100,6 +100,21 @@ services:
     description: Video conferencing
     sla_eligible: true
     source_url: https://www.ringcentral.com/legal/ringex-service-attachment.html
+support:
+  tiers:
+    - "Standard"
+    - "Premium Support"
+    - "Enterprise Support"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: flat
+  source_url: "https://www.ringcentral.com/legal/advancedsupport-service-attachment.html"
+  note: "Premium Support add-on adds a TAM; Enterprise Support adds priority routing."
 ---
 
 RingCentral is a Communication & Collaboration provider. See the official RingEX Service Attachment at [https://www.ringcentral.com/legal/ringex-service-attachment.html](https://www.ringcentral.com/legal/ringex-service-attachment.html). Note: as of 2026-06-19 RingCentral does not appear to publish a standalone public RingEX/MVP SLA document; the prior SLA URL (last-version-sla.html) returns 404, and SLA uptime/credit terms are provided contractually per Order Form. SLA figures below are unverified pending a confirmed source.

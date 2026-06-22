@@ -102,6 +102,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.airtable.com/company/sla
+support:
+  tiers:
+    - "Standard"
+    - "Premium Support"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.airtable.com/services/premium-support"
+  note: "Premium Support is a paid add-on with a TAM, 24/7 coverage, and a 1-hour critical-issue target."
 ---
 
 Airtable is a Productivity & Collaboration provider. See the official SLA at [https://www.airtable.com/company/sla](https://www.airtable.com/company/sla).

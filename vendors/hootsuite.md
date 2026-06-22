@@ -99,6 +99,20 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.hootsuite.com/legal/enterprise-service-level-agreement
+support:
+  tiers:
+    - "Standard Services"
+    - "Premier Services"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.hootsuite.com/services"
+  note: "Premier adds a designated account manager and phone support; no published response-time SLA."
 ---
 
 Hootsuite is a Marketing & Analytics provider. See the official SLA at [https://www.hootsuite.com/legal/enterprise-service-level-agreement](https://www.hootsuite.com/legal/enterprise-service-level-agreement).

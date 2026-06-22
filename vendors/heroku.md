@@ -111,6 +111,22 @@ services:
     description: Application runtime (dynos)
     sla_eligible: true
     source_url: https://www.heroku.com/policy/
+support:
+  tiers:
+    - "Standard Success"
+    - "Premier Success"
+    - "Signature Success"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.heroku.com/support/"
+  note: "Signature adds a TAM and 1-hour critical target; published as targets, not credit-backed."
 ---
 
 Heroku is a Cloud Infrastructure provider. See the official SLA at [https://www.heroku.com/policy/promise](https://www.heroku.com/policy/promise).

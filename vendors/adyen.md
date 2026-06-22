@@ -92,6 +92,19 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.adyen.com/legal/terms-and-conditions
+support:
+  tiers:
+    - "Standard (included)"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: false
+  pricing: included
+  source_url: "https://www.adyen.com/en_GB/customer-success/your-journey-with-us"
+  note: "24/7 technical support and a CSM are included; no tiered support plans."
 ---
 
 Adyen is a Finance & Payments provider. See the official SLA at [https://www.adyen.com/legal/terms-and-conditions](https://www.adyen.com/legal/terms-and-conditions).

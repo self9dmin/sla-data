@@ -101,6 +101,25 @@ services:
     uptime_commitment: 99.7
     sla_eligible: true
     source_url: https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf
+support:
+  tiers:
+    - "Basic"
+    - "Premium"
+    - "ACS Advise"
+    - "ACS Monitor"
+    - "ACS Optimize"
+    - "ACS Architect"
+    - "ACS Platform"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.netsuite.com/portal/services/support-services/advanced-customer-support.shtml"
+  note: "Premium adds 24/7 for Sev1/2; ACS tiers add CSM, reviews, and optimization services."
 ---
 
 NetSuite is a Finance & Payments provider. See the official Service Level Commitment at [https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf](https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf).

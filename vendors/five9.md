@@ -105,6 +105,20 @@ services:
     uptime_commitment: 99.999
     sla_eligible: true
     source_url: https://www.five9.com/legal/sla-service-level
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.five9.com/supportservices"
+  note: "Premium adds a TAM and faster targets; specific response times not publicly documented."
 ---
 
 Five9 is a Communication & Collaboration provider. See the official SLA at [https://www.five9.com/legal/sla-service-level](https://www.five9.com/legal/sla-service-level).

@@ -98,6 +98,22 @@ services:
     description: Vulnerability management
     sla_eligible: true
     source_url: https://www.crowdstrike.com/en-us/legal/terms-conditions/
+support:
+  tiers:
+    - "Standard"
+    - "Express"
+    - "Essential"
+    - "Elite"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.crowdstrike.com/en-us/resources/data-sheets/crowdstrike-falcon-support-offerings/"
+  note: "Essential/Elite include a TAM; specific response targets are not publicly published."
 ---
 
 CrowdStrike is a Security & Identity provider. See the official terms at [https://www.crowdstrike.com/en-us/legal/terms-conditions/](https://www.crowdstrike.com/en-us/legal/terms-conditions/). Note: CrowdStrike does not publish a public uptime/credit SLA; the only public availability figure is the "99.99% guaranteed uptime" marketing claim on Falcon pricing pages.

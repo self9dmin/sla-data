@@ -92,6 +92,21 @@ services:
     description: Voice APIs
     sla_eligible: true
     source_url: https://www.vonage.com/legal/
+support:
+  tiers:
+    - "Essentials"
+    - "Premium"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: false
+  pricing: custom
+  source_url: "https://www.vonage.com/communications-apis/services/support/"
+  note: "Premium adds 24/7 and a designated support engineer; Enterprise adds an account manager."
 ---
 
 Vonage is a Communication & Collaboration provider. See the official SLA at [https://www.vonage.com/legal/sla/](https://www.vonage.com/legal/sla/).

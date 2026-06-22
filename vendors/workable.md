@@ -105,6 +105,20 @@ services:
     uptime_commitment: 99.8
     sla_eligible: true
     source_url: https://www.workable.com/legal/additional-terms?tab=service-level-agreement
+support:
+  tiers:
+    - "Priority support (all paid plans)"
+  has_24x7: true
+  fastest_response: "3 hours"
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: included
+  source_url: "https://www.workable.com/pricing"
+  note: "Single support level across paid plans; 24/7 email, 3-hour target. No credits."
 ---
 
 Workable is a HR & People Operations provider. See the official SLA at [https://www.workable.com/legal/additional-terms?tab=service-level-agreement](https://www.workable.com/legal/additional-terms?tab=service-level-agreement).

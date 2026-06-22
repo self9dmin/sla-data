@@ -105,6 +105,22 @@ services:
     description: Website builder
     sla_eligible: true
     source_url: https://mailchimp.com/legal/terms/
+support:
+  tiers:
+    - "Free"
+    - "Essentials"
+    - "Standard"
+    - "Premium"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://mailchimp.com/help/about-mailchimp-support/"
+  note: "Premium plan gets phone support and dedicated onboarding; no published response SLAs."
 ---
 
 Mailchimp is a Communication & Collaboration provider. See the official SLA at [https://mailchimp.com/legal/terms/](https://mailchimp.com/legal/terms/).

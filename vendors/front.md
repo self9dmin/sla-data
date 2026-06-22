@@ -101,6 +101,22 @@ services:
     description: Workflow automation
     sla_eligible: true
     source_url: https://front.com/legal/saas-services-agreement
+support:
+  tiers:
+    - "Starter"
+    - "Growth"
+    - "Scale"
+    - "Premier"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://front.com/pricing"
+  note: "24/5 helpdesk; no published response-time SLA with credits."
 ---
 
 Front is a Communication & Collaboration provider. Front does not publish a public uptime SLA with service credits on its own domain; the canonical legal terms are the [SaaS Services Agreement](https://front.com/legal/saas-services-agreement), which disclaims availability rather than committing to an uptime percentage. The uptime/credit values in this record are unverified and flagged for review.

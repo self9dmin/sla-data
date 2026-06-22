@@ -105,6 +105,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.fivetran.com/legal/sla
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise"
+    - "Business Critical"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://support.fivetran.com/hc/en-us/articles/5893119459223-Fivetran-Support-Policy"
+  note: "Published response targets per severity; not described as credit-backed SLAs."
 ---
 
 Fivetran is a Database & Data Infrastructure provider. See the official SLA at [https://www.fivetran.com/legal/sla](https://www.fivetran.com/legal/sla).

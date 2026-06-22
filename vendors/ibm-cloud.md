@@ -475,6 +475,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.ibm.com/support/customer/csol/terms/?id=i126-9268
+support:
+  tiers:
+    - "Basic"
+    - "Advanced"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans"
+  note: "Premium adds a TAM and a 15-min Sev1 target; response times are targets, not credit-backed."
 ---
 
 IBM Cloud is a Cloud Infrastructure provider. See the official SLA at [https://cloud.ibm.com/docs/overview?topic=overview-slas](https://cloud.ibm.com/docs/overview?topic=overview-slas). IBM Cloud SLAs are per-service: each service's availability target and credit amounts are defined in its individual Transaction Document / Service Description.

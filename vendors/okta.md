@@ -106,6 +106,22 @@ services:
     description: Identity management
     sla_eligible: true
     source_url: https://www.okta.com/agreements/
+support:
+  tiers:
+    - "Basic"
+    - "Silver"
+    - "Gold"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.okta.com/services/success-and-support/"
+  note: "Premier Success Plans; response times are targets, not credit-backed SLAs."
 ---
 
 Okta is a Security & Identity provider. See the official SLA at [https://www.okta.com/agreements/](https://www.okta.com/agreements/).

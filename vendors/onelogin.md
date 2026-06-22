@@ -91,6 +91,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://resources.onelogin.com/professional-services/onelogin-ssa-us.pdf
+support:
+  tiers:
+    - "Standard"
+    - "Premier"
+    - "Premier Plus"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://support.onelogin.com/hc/en-us/articles/115001710103-Severity-Definitions-Target-Response-SLA-s"
+  note: "OneLogin explicitly labels response times as targets; no credits. Premier Plus adds a TAM."
 ---
 
 OneLogin is a Security & Identity provider. The SLA is part of the OneLogin Service Subscription Agreement (Section 5.1): see the official agreement at [https://resources.onelogin.com/professional-services/onelogin-ssa-us.pdf](https://resources.onelogin.com/professional-services/onelogin-ssa-us.pdf).

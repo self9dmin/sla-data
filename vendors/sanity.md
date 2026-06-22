@@ -95,6 +95,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.sanity.io/legal/sla
+support:
+  tiers:
+    - "Free"
+    - "Growth"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.sanity.io/enterprise"
+  note: "Enterprise includes a dedicated Slack channel with engineers; response times are targets."
 ---
 
 Sanity is a Content & Media provider. See the official SLA at [https://www.sanity.io/legal/sla](https://www.sanity.io/legal/sla).

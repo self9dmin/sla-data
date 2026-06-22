@@ -102,6 +102,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf
+support:
+  tiers:
+    - "Silver"
+    - "Gold"
+    - "Platinum"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html"
+  note: "Uses Adobe Enterprise Support tiers; Platinum adds a named TAM. Response times are targets."
 ---
 
 Marketo is a Marketing & Analytics provider. Marketo Engage is a Covered Service under the Adobe Unified Service Level Agreement (Adobe On-demand Services and Managed Services). See the official SLA at [Adobe Unified SLA (effective 12 October 2025)](https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf).

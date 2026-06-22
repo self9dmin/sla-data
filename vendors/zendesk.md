@@ -118,6 +118,23 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zendesk-service-availability
+support:
+  tiers:
+    - "Standard"
+    - "Premier Access"
+    - "Premier Plus"
+    - "Premier Enterprise"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: true
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://support.zendesk.com/hc/en-us/articles/10563447642906"
+  note: "Zendesk Premier tiers carry credit-backed availability and support SLAs; Premier Enterprise adds weekly TAM reviews."
 ---
 
 Zendesk is a Communication & Collaboration provider. See the official SLA at [https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zendesk-service-availability](https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zendesk-service-availability).

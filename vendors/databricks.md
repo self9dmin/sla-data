@@ -105,6 +105,22 @@ services:
     description: Unified data governance
     sla_eligible: true
     source_url: https://www.databricks.com/legal/platform-services-schedule
+support:
+  tiers:
+    - "Business"
+    - "Production"
+    - "Mission Critical"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: custom
+  source_url: "https://www.databricks.com/support"
+  note: "Mission Critical lists a 15-min Sev1 target and 24/7 escalation managers; pro services sold separately."
 ---
 
 Databricks is a Database & Data Infrastructure provider. See the official SLA at [https://www.databricks.com/legal/platform-services-schedule](https://www.databricks.com/legal/platform-services-schedule).

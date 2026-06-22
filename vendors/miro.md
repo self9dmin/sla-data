@@ -96,6 +96,21 @@ services:
     uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://miro.com/legal/documents/Miro-Service-Level-Agreement.pdf
+support:
+  tiers:
+    - "Standard"
+    - "Advanced"
+    - "Signature"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://miro.com/enterprise/customer-success/"
+  note: "Three success packages; Premium Support add-on advertises SLAs but response times are not publicly published."
 ---
 
 Miro is a Communication & Collaboration provider. See the official SLA at [https://miro.com/legal/documents/Miro-Service-Level-Agreement.pdf](https://miro.com/legal/documents/Miro-Service-Level-Agreement.pdf).

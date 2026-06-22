@@ -99,6 +99,21 @@ services:
     description: ML app hosting
     sla_eligible: true
     source_url: https://huggingface.co/terms-of-service
+support:
+  tiers:
+    - "Enterprise"
+    - "Enterprise Plus"
+    - "Expert Acceleration Program"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://huggingface.co/support"
+  note: "Enterprise Plus adds private Slack with Solutions Engineering; Expert Acceleration is custom advisory."
 ---
 
 Hugging Face is a AI & Machine Learning provider. See the official SLA at [https://huggingface.co/terms-of-service](https://huggingface.co/terms-of-service).

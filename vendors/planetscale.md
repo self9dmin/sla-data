@@ -92,6 +92,21 @@ sla_tiers:
     requirement: 'Multi-region database cluster'
     uptime_commitment: 99.999
     source_url: 'https://planetscale.com/legal/sla'
+support:
+  tiers:
+    - "Standard"
+    - "Business"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: custom
+  source_url: "https://planetscale.com/enterprise"
+  note: "Enterprise support adds a Slack channel, bi-weekly architecture meetings, optional TAM, and phone escalation."
 ---
 
 PlanetScale is a Database & Data Infrastructure provider. See the official SLA at [https://planetscale.com/legal/sla](https://planetscale.com/legal/sla).

@@ -96,6 +96,23 @@ sla_tiers:
     uptime_commitment: 99.9
     max_credit_percent: 25
     source_url: 'https://cloud.google.com/terms/looker/legal/customers/sla'
+support:
+  tiers:
+    - "Basic"
+    - "Standard"
+    - "Enhanced"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://cloud.google.com/terms/tssg/looker"
+  note: "Looker support is delivered via Google Cloud Customer Care; response times are targets per TSSG."
 ---
 
 Looker is a Business Intelligence provider. See the official SLA at [https://cloud.google.com/terms/looker-core/sla](https://cloud.google.com/terms/looker-core/sla).

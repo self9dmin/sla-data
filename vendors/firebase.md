@@ -119,6 +119,23 @@ services:
     uptime_commitment: 99.95
     sla_eligible: true
     source_url: https://firebase.google.com/terms/service-level-agreement
+support:
+  tiers:
+    - "Basic"
+    - "Standard"
+    - "Enhanced"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: flat
+  source_url: "https://cloud.google.com/terms/tssg/firebase"
+  note: "Inherits Google Cloud Customer Care; response times are SLOs/targets per TSSG."
 ---
 
 Firebase is a Database provider. See the official SLA at [https://firebase.google.com/terms/service-level-agreement](https://firebase.google.com/terms/service-level-agreement).

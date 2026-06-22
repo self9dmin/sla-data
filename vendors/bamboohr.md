@@ -101,6 +101,20 @@ services:
     description: Time tracking and PTO
     sla_eligible: true
     source_url: https://www.bamboohr.com/legal/terms-of-service
+support:
+  tiers:
+    - "Standard Support"
+    - "Premium Services"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.bamboohr.com/why-bamboohr/services"
+  note: "Business-hours live support plus 24/7 AI chat; Premium Services adds training and guidance."
 ---
 
 BambooHR is a HR & People Operations provider. See the official SLA at [https://www.bamboohr.com/legal/terms-of-service](https://www.bamboohr.com/legal/terms-of-service).

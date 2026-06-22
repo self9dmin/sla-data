@@ -111,6 +111,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise Support"
+    - "Advanced XM Success"
+    - "ManagedXM"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.qualtrics.com/support/getting-started-qualtrics/support-portal/program-strategy-enablement/"
+  note: "Success Packages include a Technical Success Manager, XM Scientist office hours, coaching, and audits."
 ---
 
 Qualtrics is a Enterprise Software provider. See the official SLA at [https://www.qualtrics.com/legal/customers/service-level-agreement/](https://www.qualtrics.com/legal/customers/service-level-agreement/).

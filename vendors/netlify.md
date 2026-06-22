@@ -116,6 +116,21 @@ services:
     description: User authentication
     sla_eligible: true
     source_url: https://www.netlify.com/pricing/
+support:
+  tiers:
+    - "Standard"
+    - "Business Day Support"
+    - "Premium Support"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: custom
+  source_url: "https://www.netlify.com/support-scope/"
+  note: "Enterprise can purchase Business Day or Premium Support; response times not publicly published."
 ---
 
 Netlify is a Cloud Infrastructure provider. Netlify's 99.99% uptime SLA is an Enterprise-tier commitment; see the [Netlify pricing page](https://www.netlify.com/pricing/) and [Netlify for enterprises](https://www.netlify.com/enterprise/). There is no public standalone SLA document, detailed service-credit terms are contained in the non-public Enterprise Master Subscription Agreement.

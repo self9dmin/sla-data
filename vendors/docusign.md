@@ -108,6 +108,23 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.docusign.com/legal/terms-and-conditions/msa-service-schedules
+support:
+  tiers:
+    - "Standard"
+    - "Plus"
+    - "Premier"
+    - "Enterprise Premier"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: false
+  pricing: custom
+  source_url: "https://www.docusign.com/legal/terms-and-conditions/schedule-support"
+  note: "Response times are targets, not SLAs; 24/7 only for Sev1."
 ---
 
 DocuSign is a Enterprise Software provider. See the official SLA at [https://www.docusign.com/legal/terms-and-conditions/schedule-docusign-signature/attachment-eu-advanced-signature-sla](https://www.docusign.com/legal/terms-and-conditions/schedule-docusign-signature/attachment-eu-advanced-signature-sla). Current Master Services Agreement schedules and SLA attachments are indexed at [https://www.docusign.com/legal/terms-and-conditions/msa-service-schedules](https://www.docusign.com/legal/terms-and-conditions/msa-service-schedules).

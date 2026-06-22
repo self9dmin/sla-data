@@ -105,6 +105,23 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://www.okta.com/sites/default/files/2022-02/ServiceLevelAgreement-for-Auth0-Platform-02-7-22.pdf
+support:
+  tiers:
+    - "Self Service"
+    - "Premier Success Basic"
+    - "Premier Success Silver"
+    - "Premier Success Gold"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://auth0.com/docs/troubleshoot/customer-support/support-plans"
+  note: "Okta uses reasonable efforts to meet target response times; not credit-backed."
 ---
 
 Auth0 is a Security & Identity provider. See the official Auth0 Platform Service Level Agreement at [https://www.okta.com/sites/default/files/2022-02/ServiceLevelAgreement-for-Auth0-Platform-02-7-22.pdf](https://www.okta.com/sites/default/files/2022-02/ServiceLevelAgreement-for-Auth0-Platform-02-7-22.pdf).

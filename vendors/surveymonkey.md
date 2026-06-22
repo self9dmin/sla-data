@@ -93,6 +93,21 @@ services:
     description: Online form builder
     sla_eligible: true
     source_url: https://www.surveymonkey.com/mp/legal/terms-of-use/
+support:
+  tiers:
+    - "Standard"
+    - "Premier"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.surveymonkey.com/mp/enterprise/"
+  note: "Enterprise adds a dedicated CSM, 24/7 phone/email, and professional services."
 ---
 
 SurveyMonkey (Momentive) is a Enterprise Software provider. See the official legal terms at [https://www.surveymonkey.com/mp/legal/terms-of-use/](https://www.surveymonkey.com/mp/legal/terms-of-use/) and the [Governing Services Agreement](https://www.surveymonkey.com/mp/legal/gsa/).

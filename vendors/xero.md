@@ -112,6 +112,19 @@ services:
     description: Project tracking
     sla_eligible: true
     source_url: https://www.xero.com/legal/terms/
+support:
+  tiers:
+    - "Standard (uniform)"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: true
+  pricing: included
+  source_url: "https://www.xero.com/us/support/contact-support/"
+  note: "Free unlimited 24/7 online support; email/callback only, no tiered offering, no SLA."
 ---
 
 Xero is a Finance & Payments provider. See the official SLA at [https://www.xero.com/legal/terms/](https://www.xero.com/legal/terms/).

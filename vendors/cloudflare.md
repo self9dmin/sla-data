@@ -235,6 +235,24 @@ services:
     name: Cloudflare Always Online
   - id: cloudflare-time-services
     name: Cloudflare Time Services
+support:
+  tiers:
+    - "Basic"
+    - "Pro"
+    - "Business"
+    - "Enterprise"
+    - "Premium Success"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.cloudflare.com/plans/enterprise/"
+  note: "Enterprise includes 24/7/365 support; TAM and Premium Success are paid add-ons. Response times are targets."
 ---
 
 Cloudflare is a CDN & Edge provider. See the official SLA at [https://www.cloudflare.com/business-sla/](https://www.cloudflare.com/business-sla/).

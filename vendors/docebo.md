@@ -87,6 +87,24 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.docebo.com/company/service-level-agreement/
+support:
+  tiers:
+    - "Standard"
+    - "Essential"
+    - "Advantage"
+    - "Premier"
+    - "Elite"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.docebo.com/company/service-level-agreement/"
+  note: "Premier publishes a 30-min urgent target; Elite advertises a 15-min target. Treated as targets without verified credit schedules."
 ---
 
 Docebo is a Other SaaS provider. See the official SLA at [https://www.docebo.com/company/service-level-agreement/](https://www.docebo.com/company/service-level-agreement/).

@@ -81,6 +81,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.lever.co/agreements/sla/
+support:
+  tiers:
+    - "Lever Care"
+    - "Lever Preferred"
+    - "Lever Premium"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: flat
+  source_url: "https://www.lever.co/customer-success-agreement/"
+  note: "Preferred/Premium add a CSM and elevated service levels for an additional fee."
 ---
 
 Lever is a HR & People Operations provider. See the official SLA at [https://www.lever.co/agreements/sla/](https://www.lever.co/agreements/sla/).

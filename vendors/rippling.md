@@ -98,6 +98,20 @@ services:
     description: Payroll processing
     sla_eligible: true
     source_url: https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.rippling.com/support-status"
+  note: "Premium tier adds a dedicated account manager; published metrics are not SLA-backed."
 ---
 
 Rippling is a HR & People Operations provider. Rippling does not publish a public uptime SLA or service-credit commitment; its Customer Terms of Service explicitly disclaims any specified service level. See the official terms at [https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html](https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html).

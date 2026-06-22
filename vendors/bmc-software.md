@@ -114,6 +114,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf
+support:
+  tiers:
+    - "Base Support"
+    - "Premier Support Foundation"
+    - "Premier Support Gold"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.bmc.com/it-services/customer-support-offerings.html"
+  note: "Response times are stated as goals/targets, not contractual SLAs."
 ---
 
 BMC Software is a Other SaaS provider. See the official SLA at [https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf](https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf).

@@ -109,6 +109,23 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://www.pingidentity.com/en/legal/support-policy.html
+support:
+  tiers:
+    - "Base"
+    - "Select"
+    - "Premium"
+    - "Elite"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.pingidentity.com/en/legal/support-policy.html"
+  note: "Elite includes a TAM up to 20 hrs/month; CSR at Select and above. Targets, not credit-backed."
 ---
 
 Ping Identity is a Security & Identity provider. The 99.99% uptime commitment is published in the official [Support Policy](https://www.pingidentity.com/en/legal/support-policy.html) ("maintain Uptime Availability for the Service of 99.99%", Section 1.1(c)). The previous SLA page (legal/sla.html) now returns HTTP 404. The service-credit tier table, maximum credit, claim deadline, and submission process are not published on any public pingidentity.com page (they are referenced as a "Customer's entitlement to service credits" but the terms live in contractual/login-gated documents), so those fields are unverified and flagged for review.

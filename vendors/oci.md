@@ -448,6 +448,23 @@ services:
   - id: oracle-apex
     name: Oracle APEX Application Development
     uptime_commitment: 99.9
+support:
+  tiers:
+    - "Basic"
+    - "Developer"
+    - "Premier"
+    - "Advanced Customer Services"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/contactingsupport.htm"
+  note: "Premier Support included with paid OCI; Advanced Customer Services adds a TAM and architecture services."
 ---
 
 OCI is a Cloud Infrastructure provider. See the official SLA at [https://www.oracle.com/cloud/sla/](https://www.oracle.com/cloud/sla/). The authoritative terms are in the [Oracle PaaS and IaaS Public Cloud Services Pillar Document (PDF)](https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf).

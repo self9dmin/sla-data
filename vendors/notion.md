@@ -77,6 +77,23 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.notion.so/notion/Service-Level-Terms-6f805fa1d4ca4463b805e2832ae8ff0d
+support:
+  tiers:
+    - "Free"
+    - "Plus"
+    - "Business"
+    - "Enterprise"
+    - "Premium Support add-on"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.notion.com/pricing"
+  note: "Enterprise includes a CSM; Premium Support add-on adds 24/7 and a dedicated engineer."
 ---
 
 Notion is a Productivity & Collaboration provider. See the official Service Level Terms at [https://www.notion.so/notion/Service-Level-Terms-6f805fa1d4ca4463b805e2832ae8ff0d](https://www.notion.so/notion/Service-Level-Terms-6f805fa1d4ca4463b805e2832ae8ff0d).

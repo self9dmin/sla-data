@@ -122,6 +122,23 @@ sla_tiers:
     uptime_commitment: 99.99
     max_credit_percent: 25
     source_url: 'https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/unified-sla-actionabilityaddendum2025oct12.pdf'
+support:
+  tiers:
+    - "Standard"
+    - "Business"
+    - "Enterprise"
+    - "Elite"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://experienceleague.adobe.com/docs/support-resources/data-sheets/data-sheets/enterprise.html"
+  note: "Elite adds a TAM and Named Support Engineer with a 15-min target; service-level targets are not credit-backed."
 ---
 
 Adobe is a Content & Media provider. The official Unified SLA (effective 12 October 2025) covers Adobe On-demand and Managed Services including Analytics, Campaign, Commerce, Experience Manager, Marketo, and Target, with a 99.9% Minimum Uptime Percentage and tiered service credits (5/10/15/25% of Monthly Fees), capped at a 25% cumulative monthly credit. Customers must notify Adobe in writing within 30 days of the Downtime. See [Adobe Service Commitments](https://www.adobe.com/legal/service-commitments.html) and the [Unified SLA PDF](https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf).

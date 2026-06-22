@@ -100,6 +100,19 @@ services:
     description: HCM platform
     sla_eligible: true
     source_url: https://www.adp.com/legal.aspx
+support:
+  tiers:
+    - "Standard"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.adp.com/contact-us/customer-service.aspx"
+  note: "24/7 phone support is included; professional services and client success are available, but no published support tiers."
 ---
 
 ADP is a HR & People Operations provider. ADP does not publish a public uptime SLA with service credits; its [Terms and Conditions](https://www.adp.com/legal.aspx) provide services "as is" and service-level terms are governed by individually negotiated Master Services Agreements.

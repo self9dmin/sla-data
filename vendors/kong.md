@@ -105,6 +105,23 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://konghq.com/legal/service-level-agreement
+support:
+  tiers:
+    - "Basic"
+    - "Standard"
+    - "Plus"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://konghq.com/legal/kong-support-and-maintenance-policy"
+  note: "Premium lists a 24/7 30-min Sev1 target and a TAM; published as targets."
 ---
 
 Kong is a Integration & Automation provider. See the official SLA at [https://konghq.com/legal/service-level-agreement](https://konghq.com/legal/service-level-agreement).

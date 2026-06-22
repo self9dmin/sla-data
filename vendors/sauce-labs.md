@@ -89,6 +89,22 @@ services:
     description: Cross-browser web testing
     sla_eligible: true
     source_url: https://saucelabs.com/doc/terms-of-service
+support:
+  tiers:
+    - "Essential"
+    - "Professional"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://saucelabs.com/enterprise-support"
+  note: "Premium adds a private Slack channel and a designated TAM queue. Targets, not credit-backed."
 ---
 
 Sauce Labs is a DevOps & Development provider. As of 2026-06-19, Sauce Labs does not appear to publish a public uptime SLA with service credits; its current official terms ([Service-Specific Terms](https://saucelabs.com/doc/service-specific-terms), [Terms of Service](https://saucelabs.com/doc/terms-of-service), and [Support Policy](https://saucelabs.com/doc/support-policy)) define only support response-time tiers. The numeric SLA fields in this record are unverified and flagged for review.

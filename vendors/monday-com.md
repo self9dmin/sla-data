@@ -93,6 +93,20 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://monday.com/l/legal/monday-com-service-level-agreement-for-enterprise-plan/
+support:
+  tiers:
+    - "Standard Support"
+    - "Premium Support"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://monday.com/w/enterprise-pro-services"
+  note: "Premium Support advertises fastest SLAs; no published response time or credit remedy."
 ---
 
 Monday.com is a Productivity & Collaboration provider. See the official SLA at [https://monday.com/l/legal/monday-com-service-level-agreement-for-enterprise-plan/](https://monday.com/l/legal/monday-com-service-level-agreement-for-enterprise-plan/). The financial SLA (99.9% uptime, tiered service credits) applies to Enterprise Plan customers only; lower tiers (Standard/Pro) have no financial SLA.

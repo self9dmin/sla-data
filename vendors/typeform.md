@@ -94,6 +94,20 @@ services:
     description: Video-based interactions
     sla_eligible: true
     source_url: https://www.typeform.com/mea
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.typeform.com/enterprise/"
+  note: "Enterprise includes a dedicated CSM and VIP priority support; no published response SLA."
 ---
 
 Typeform is a Enterprise Software provider. See the official SLA at [https://www.typeform.com/terms-service/](https://www.typeform.com/terms-service/).

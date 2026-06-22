@@ -104,6 +104,22 @@ services:
     uptime_commitment: 99.95
     sla_eligible: true
     source_url: https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/mulesoft-cloud-offerings-SLA-forSalesforce-uMSA.pdf
+support:
+  tiers:
+    - "Standard"
+    - "Premier"
+    - "Signature"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.salesforce.com/services/success-plans/signature/"
+  note: "MuleSoft uses Salesforce Success Plans; response times are targets, not credit-backed."
 ---
 
 MuleSoft is a Integration & Automation provider. See the official MuleSoft Cloud Offerings SLA at [https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/mulesoft-cloud-offerings-SLA-forSalesforce-uMSA.pdf](https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/mulesoft-cloud-offerings-SLA-forSalesforce-uMSA.pdf).

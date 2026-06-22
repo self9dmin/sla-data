@@ -105,6 +105,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf
+support:
+  tiers:
+    - "Base"
+    - "Standard"
+    - "Signature"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.qlik.com/us/services"
+  note: "Signature Success includes a CSM, 24/7 senior engineers, and a 15-min critical-response target."
 ---
 
 Qlik is a Business Intelligence provider. See the official SLA at [https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf](https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf).

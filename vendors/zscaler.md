@@ -112,6 +112,24 @@ services:
     uptime_commitment: 99.999
     sla_eligible: true
     source_url: https://www.zscaler.com/legal/sla-support
+support:
+  tiers:
+    - "Standard"
+    - "Essentials"
+    - "Support Plus"
+    - "Premium Advanced"
+    - "Premium Advanced Plus"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: false
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://help.zscaler.com/support-offerings"
+  note: "Premium tiers add biannual architecture reviews and a focal support pod; response times are SLOs, not credit-backed SLAs."
 ---
 
 Zscaler is a Security & Identity provider. See the official SLA at [https://www.zscaler.com/legal/sla-support](https://www.zscaler.com/legal/sla-support).

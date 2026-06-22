@@ -80,6 +80,20 @@ services:
     description: Product roadmapping
     sla_eligible: true
     source_url: https://linear.app/terms
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: false
+  pricing: custom
+  source_url: "https://linear.app/enterprise"
+  note: "Enterprise adds a dedicated CSM and custom SLAs; no public tiered support catalog."
 ---
 
 Linear is a DevOps & Development provider operated by Linear Orbit, Inc. See the official Terms of Service at [https://linear.app/terms](https://linear.app/terms).

@@ -92,6 +92,24 @@ services:
     uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.pagerduty.com/standard-service-level-agreement/
+support:
+  tiers:
+    - "Tech Touch"
+    - "Standard Success"
+    - "Premium Support"
+    - "Silver Services"
+    - "Gold Services"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.pagerduty.com/support-policy/"
+  note: "CSM at Standard Success; Silver/Gold add QBRs and instructor-led training."
 ---
 
 PagerDuty is a Monitoring & Observability provider. See the official SLA at [https://www.pagerduty.com/standard-service-level-agreement/](https://www.pagerduty.com/standard-service-level-agreement/).

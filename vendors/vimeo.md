@@ -106,6 +106,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://vimeo.com/legal/enterprise-terms/sla
+support:
+  tiers:
+    - "Standard"
+    - "Advanced"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://help.vimeo.com/hc/en-us/articles/12425669477137-About-contacting-Vimeo-Support-and-response-times"
+  note: "Enterprise lists a first-response target and a dedicated account manager."
 ---
 
 Vimeo is a Content & Media provider. See the official SLA at [https://vimeo.com/legal/enterprise-terms/sla](https://vimeo.com/legal/enterprise-terms/sla).

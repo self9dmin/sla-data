@@ -101,6 +101,20 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://www.greenhouse.com/service-level-agreement
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.greenhouse.com/customers/services"
+  note: "Premium Support and CSM tiers referenced; response times not publicly disclosed."
 ---
 
 Greenhouse is a HR & People Operations provider. See the official SLA at [https://www.greenhouse.com/service-level-agreement](https://www.greenhouse.com/service-level-agreement).

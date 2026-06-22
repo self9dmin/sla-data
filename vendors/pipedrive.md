@@ -91,6 +91,23 @@ services:
     description: Sales project management
     sla_eligible: true
     source_url: https://www.pipedrive.com/en/terms-of-service
+support:
+  tiers:
+    - "Essential"
+    - "Advanced"
+    - "Professional"
+    - "Power"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://www.pipedrive.com/en/pricing"
+  note: "24/7 chat/phone on Power and Enterprise; personalized onboarding above a spend threshold."
 ---
 
 Pipedrive is a CRM & Sales provider. See the official SLA at [https://www.pipedrive.com/en/terms-of-service](https://www.pipedrive.com/en/terms-of-service).

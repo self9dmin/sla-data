@@ -104,6 +104,22 @@ services:
     description: SMS marketing
     sla_eligible: true
     source_url: https://www.klaviyo.com/legal/terms-of-service
+support:
+  tiers:
+    - "Standard"
+    - "Professional"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.klaviyo.com/success/premium-support"
+  note: "Standard included on paid plans; Professional/Enterprise require minimum spend and a custom quote."
 ---
 
 Klaviyo is a Marketing & Analytics provider. Klaviyo does not publish a public uptime SLA or service-credit policy; its [Terms of Service](https://www.klaviyo.com/legal/terms-of-service) disclaims any availability guarantee. See Klaviyo's legal documents at [https://www.klaviyo.com/legal](https://www.klaviyo.com/legal).

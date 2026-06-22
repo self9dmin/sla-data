@@ -99,6 +99,20 @@ services:
     description: Online store hosting
     sla_eligible: true
     source_url: https://www.shopify.com/legal/terms
+support:
+  tiers:
+    - "Standard"
+    - "Plus Priority"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://www.shopify.com/plus/services/merchant-success"
+  note: "Plus includes Merchant Success; a dedicated MSM applies above a revenue threshold."
 ---
 
 Shopify is a E-commerce provider. See the official SLA at [https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-plus-plan](https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-plus-plan).

@@ -92,6 +92,23 @@ services:
     description: No-code automation builder
     sla_eligible: true
     source_url: https://slack.com/terms/service-level-agreement
+support:
+  tiers:
+    - "Free"
+    - "Pro"
+    - "Business+"
+    - "Enterprise Grid"
+  has_24x7: true
+  fastest_response: "4 hours"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://slack.com/help"
+  note: "Business+ and Grid get a 4-hour first-response target; Grid adds an account manager."
 ---
 
 Slack is a Communication & Collaboration provider. See the official SLA at [https://slack.com/terms/service-level-agreement](https://slack.com/terms/service-level-agreement).

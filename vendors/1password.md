@@ -105,6 +105,21 @@ services:
     description: Password health monitoring
     sla_eligible: true
     source_url: https://1password.com/legal-center
+support:
+  tiers:
+    - "Teams"
+    - "Business"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://1password.com/pricing"
+  note: "24/7 support and a CSM are marketed inclusions, not contractual response-time SLAs."
 ---
 
 1Password is a Security & Identity provider. 1Password does not publish a public credit SLA for its core service; its [Terms of Service](https://1password.com/legal/terms-of-service/) provide the service "AS IS" / "AS AVAILABLE" with no uptime warranty. See 1Password's [Legal Center](https://1password.com/legal-center) for all policies. The only published SLA on 1password.com is the legacy [Trelica / SaaS Manager SLA](https://1password.com/legal/saas-manager/service-level-agreement), which covers a separate acquired product rather than the 1Password password manager.

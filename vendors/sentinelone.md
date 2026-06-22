@@ -89,6 +89,22 @@ services:
     description: Extended detection and response
     sla_eligible: true
     source_url: https://www.sentinelone.com/legal/terms-of-service/
+support:
+  tiers:
+    - "Standard"
+    - "Premium Support"
+    - "Technical Account Management"
+  has_24x7: true
+  fastest_response: "2 hours"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: flat
+  source_url: "https://www.sentinelone.com/global-services/services-overview/"
+  note: "Premium adds 24/7 and a published response target; TAM sold separately."
 ---
 
 SentinelOne is a Security & Identity provider. See the official SLA at [https://www.sentinelone.com/legal/](https://www.sentinelone.com/legal/).

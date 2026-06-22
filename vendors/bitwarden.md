@@ -92,6 +92,21 @@ services:
     description: Password vault
     sla_eligible: true
     source_url: https://bitwarden.com/terms/
+support:
+  tiers:
+    - "Free"
+    - "Priority (Premium/Teams/Enterprise)"
+    - "Enterprise Services"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: flat
+  source_url: "https://bitwarden.com/products/business-support/"
+  note: "24/7/365 priority support; published as a target, not a credit-backed SLA."
 ---
 
 Bitwarden is a Security & Identity provider. See the official SLA at [https://bitwarden.com/terms/](https://bitwarden.com/terms/).

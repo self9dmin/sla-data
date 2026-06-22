@@ -107,6 +107,22 @@ services:
     description: Team messaging
     sla_eligible: true
     source_url: https://www.cisco.com/c/dam/en_us/about/doing_business/legal/OfferDescriptions/webex.pdf
+support:
+  tiers:
+    - "Basic"
+    - "Enhanced"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "60 min"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: flat
+  source_url: "https://www.cisco.com/c/dam/en/us/products/collateral/conferencing/webex-meeting-center/cisco-software-support-data-sheet.pdf"
+  note: "Basic included; Enhanced/Premium are paid add-ons; Premium has a designated service manager."
 ---
 
 Webex is a Communication & Collaboration provider. Cisco's official terms are published at [https://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html](https://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html). Cisco does not publish a public uptime SLA with service credits for Webex; the [Webex Offer Description](https://www.cisco.com/c/dam/en_us/about/doing_business/legal/OfferDescriptions/webex.pdf) defines support response objectives only.

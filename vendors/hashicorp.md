@@ -120,6 +120,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://cloud.hashicorp.com/sla
+support:
+  tiers:
+    - "Silver"
+    - "Gold"
+    - "Platinum"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.hashicorp.com/customer-success/enterprise-support"
+  note: "Platinum lists a 30-min Sev1 target and a TAM; no credit-remedy language on official pages."
 ---
 
 HashiCorp is a DevOps & Development provider. See the official SLA at [https://cloud.hashicorp.com/sla](https://cloud.hashicorp.com/sla).

@@ -77,6 +77,23 @@ services:
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://vercel.com/legal/sla
+support:
+  tiers:
+    - "Community"
+    - "Standard"
+    - "Premium"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "2 hours"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: false
+  pricing: custom
+  source_url: "https://vercel.com/legal/support-terms"
+  note: "Enterprise tiers (Standard/Premium) publish severity-based response targets; pro services available."
 ---
 
 Vercel is a Cloud Infrastructure provider. See the official SLA at [https://vercel.com/legal/sla](https://vercel.com/legal/sla).

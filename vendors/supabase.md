@@ -119,6 +119,23 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://supabase.com/sla
+support:
+  tiers:
+    - "Free"
+    - "Pro"
+    - "Team"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: false
+  pricing: flat
+  source_url: "https://supabase.com/support-policy"
+  note: "Team and Enterprise list response targets; Priority Plus add-on available."
 ---
 
 Supabase is a Database & Data Infrastructure provider. See the official SLA at [https://supabase.com/sla](https://supabase.com/sla).

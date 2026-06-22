@@ -96,6 +96,22 @@ services:
     description: Workflow automations
     sla_eligible: true
     source_url: https://zapier.com/legal/terms-of-service
+support:
+  tiers:
+    - "Professional"
+    - "Team"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://help.zapier.com/hc/en-us/articles/8496213764877-Get-help-and-support-with-Zapier"
+  note: "Response times are explicitly stated as \"goals,\" not credit-backed. Enterprise gets 6 hrs/month TAM."
 ---
 
 Zapier is a Integration & Automation provider. See Zapier's legal documents at [https://zapier.com/legal](https://zapier.com/legal). Note: Zapier does not publish a public standalone SLA; its uptime SLA is Enterprise-tier and provided under the Enterprise Agreement.

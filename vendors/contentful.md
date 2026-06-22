@@ -111,6 +111,24 @@ services:
       experience.ninetailed.co)
     sla_eligible: true
     source_url: https://www.contentful.com/legal/service-level-agreement/
+support:
+  tiers:
+    - "Standard"
+    - "Silver"
+    - "Gold"
+    - "Platinum"
+    - "Titanium"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.contentful.com/services/customer-support/"
+  note: "Premium tiers (Silver-Titanium) assign a support engineer and TAM guidance; response times are targets."
 ---
 
 Contentful is a Content & Media provider. See the official SLA at [https://www.contentful.com/legal/service-level-agreement/](https://www.contentful.com/legal/service-level-agreement/).

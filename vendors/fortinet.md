@@ -107,6 +107,22 @@ services:
     description: Secure access service edge
     sla_eligible: true
     source_url: https://www.fortinet.com/support/support-services
+support:
+  tiers:
+    - "FortiCare Essential"
+    - "FortiCare Premium"
+    - "FortiCare Elite"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: false
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticare.pdf"
+  note: "Per-device tier; commercially reasonable efforts language, no credit remedy."
 ---
 
 Fortinet is a Security & Identity provider. See the official SLA at [https://www.fortinet.com/support/support-services](https://www.fortinet.com/support/support-services).

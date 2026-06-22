@@ -106,6 +106,22 @@ services:
     description: Image and video upload
     sla_eligible: true
     source_url: https://cloudinary.com/tou
+support:
+  tiers:
+    - "Free"
+    - "Plus"
+    - "Advanced"
+    - "Enterprise"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://cloudinary.com/pricing"
+  note: "Enterprise SLAs referenced but response times not publicly published."
 ---
 
 Cloudinary is a CDN & Edge provider. Cloudinary does not publish a credit-bearing SLA: its Terms of Use state it "strives for a 100% Uptime" and that the "support SLA is your sole and exclusive remedy," while the MSA notes the SLA is "attached to the Order Form" (per-contract, not public). See the Terms of Use at [https://cloudinary.com/tou](https://cloudinary.com/tou).

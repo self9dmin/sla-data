@@ -103,6 +103,21 @@ services:
     uptime_commitment: 99.95
     sla_eligible: true
     source_url: https://legal.hubspot.com/product-specific-terms
+support:
+  tiers:
+    - "Starter"
+    - "Professional"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://www.hubspot.com/customer-support"
+  note: "24/7 chat/email on paid tiers; phone on Pro/Enterprise. CSM and Academy."
 ---
 
 HubSpot is a CRM & Sales provider. The "Service Uptime Commitment" is published in HubSpot's [Product Specific Terms](https://legal.hubspot.com/product-specific-terms): a 99.95% monthly Service Uptime target for paid Subscription Services. A credit (pro-rated fees for the downtime) is available only if uptime falls below 99.95% for two (2) or more consecutive calendar months, and the customer must request it within twenty (20) days of the end of the relevant month. There is no tiered credit schedule or stated maximum credit cap, and credits are not automatic.

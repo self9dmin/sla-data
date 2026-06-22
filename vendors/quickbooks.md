@@ -91,6 +91,20 @@ services:
     description: Payroll processing
     sla_eligible: true
     source_url: https://quickbooks.intuit.com/global/terms-of-service/
+support:
+  tiers:
+    - "Standard"
+    - "Priority Circle"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://quickbooks.intuit.com/priority-circle/"
+  note: "Priority Circle included with Enterprise and Online Advanced; premium care specialists plus a training library."
 ---
 
 QuickBooks is a Finance & Payments provider. Intuit does not publish a public uptime SLA with service credits for QuickBooks Online; the Terms of Service provide the Platform "as-is" and disclaim availability. See the official terms at [https://www.intuit.com/legal/terms/en-us/quickbooks/online/](https://www.intuit.com/legal/terms/en-us/quickbooks/online/).

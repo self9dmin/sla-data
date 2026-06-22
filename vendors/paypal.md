@@ -105,6 +105,17 @@ services:
     description: Venmo payment acceptance
     sla_eligible: true
     source_url: https://www.paypal.com/us/legalhub/braintree/home
+support:
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: none
+  architecture_review: false
+  professional_services: false
+  success_program: false
+  training: false
+  pricing: custom
+  source_url: "https://www.paypal.com/us/cshelp/business"
+  note: "No public support tiers; PayPal support is general customer service, not a tiered enterprise plan."
 ---
 
 PayPal is a Finance & Payments provider. See the official Braintree legal hub at [https://www.paypal.com/us/legalhub/braintree/home](https://www.paypal.com/us/legalhub/braintree/home). Note: the Braintree Payment Services Agreement does not publish a public uptime SLA or service credits; the service is provided "as is" with no guarantee of uninterrupted access.

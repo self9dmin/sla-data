@@ -86,6 +86,24 @@ services:
     description: Visual collaboration
     sla_eligible: true
     source_url: https://clickup.com/terms
+support:
+  tiers:
+    - "Free"
+    - "Unlimited"
+    - "Business"
+    - "Enterprise"
+    - "Premium (add-on)"
+  has_24x7: true
+  fastest_response: "8 hours"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://clickup.com/support-services"
+  note: "Published first-response targets, not contractual SLAs."
 ---
 
 ClickUp is a Productivity & Collaboration provider. See the official SLA at [https://clickup.com/terms](https://clickup.com/terms).

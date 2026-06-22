@@ -119,6 +119,23 @@ services:
     uptime_commitment: 99.95
     sla_eligible: true
     source_url: https://www.elastic.co/agreements/sla-elastic-cloud-hosted
+support:
+  tiers:
+    - "Standard"
+    - "Gold"
+    - "Platinum"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.elastic.co/subscriptions"
+  note: "Published response targets; TAM and consulting at Enterprise. Targets, not credit-backed."
 ---
 
 Elastic is a Monitoring & Observability provider. See the official SLA at [https://www.elastic.co/agreements/sla-elastic-cloud-hosted](https://www.elastic.co/agreements/sla-elastic-cloud-hosted).

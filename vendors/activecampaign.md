@@ -101,6 +101,20 @@ services:
     uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.activecampaign.com/legal/service-level-agreement
+support:
+  tiers:
+    - "Basic (Starter/Plus)"
+    - "Priority (Pro/Enterprise)"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://www.activecampaign.com/pricing"
+  note: "Enterprise plans get a dedicated account team and priority support; no published response-time SLA."
 ---
 
 ActiveCampaign is a Marketing & Analytics provider. See the official SLA at [https://www.activecampaign.com/legal/service-level-agreement](https://www.activecampaign.com/legal/service-level-agreement).

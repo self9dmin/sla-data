@@ -113,6 +113,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+support:
+  tiers:
+    - "Classic"
+    - "Premium"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.zoho.com/one/pricing/support-plans.html"
+  note: "Premium 20% / Enterprise 25% of license; response times are targets, no credit remedy."
 ---
 
 Zoho is a CRM & Sales provider. See the official SLA at [https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability](https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability).

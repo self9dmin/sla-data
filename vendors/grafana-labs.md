@@ -101,6 +101,23 @@ services:
     uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://grafana.com/legal/grafana-cloud-sla/
+support:
+  tiers:
+    - "Pro"
+    - "Advanced"
+    - "Enterprise"
+    - "Premium"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://grafana.com/support/"
+  note: "Premium publishes a 30-min P1 target; treated as a target without verified credit schedule."
 ---
 
 Grafana Labs is a Monitoring & Observability provider. See the official SLA at [https://grafana.com/legal/grafana-cloud-sla/](https://grafana.com/legal/grafana-cloud-sla/).

@@ -106,6 +106,20 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://webflow.com/legal/sla
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://webflow.com/enterprise"
+  note: "Enterprise includes a dedicated CSM, priority queue, and onboarding; response details negotiated per contract."
 ---
 
 Webflow is a E-commerce provider. See the official SLA at [https://webflow.com/legal/sla](https://webflow.com/legal/sla).

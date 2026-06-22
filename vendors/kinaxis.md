@@ -100,6 +100,20 @@ services:
     description: Supply chain planning and S&OP
     sla_eligible: true
     source_url: https://www.kinaxis.com/en/trust-center
+support:
+  tiers:
+    - "Standard"
+    - "Premier"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.kinaxis.com/en/support-services"
+  note: "Premier adds 1-on-1 guidance and proactive monitoring; specifics not publicly published."
 ---
 
 Kinaxis is a Other SaaS provider. Kinaxis does not publish a public availability SLA; per its [Trust Center](https://www.kinaxis.com/en/trust-center), the availability SLA is part of the contractual SaaS Agreement (Order Form, Support Guide, Security Guide, availability SLA, and Data Processing Agreement) and is not publicly disclosed.

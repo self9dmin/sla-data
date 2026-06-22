@@ -110,6 +110,23 @@ services:
     description: IT service management
     sla_eligible: true
     source_url: https://www.freshworks.com/legal/
+support:
+  tiers:
+    - "Standard"
+    - "Premium 24x5"
+    - "Premium 24x7"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: flat
+  source_url: "https://www.freshworks.com/assets/resources/Premium-Support-Collateral-V2.pdf"
+  note: "Severity-based response targets stated in support collateral; not credit-backed."
 ---
 
 Freshworks is a CRM & Sales provider. See the official SLA at [https://www.freshworks.com/terms/](https://www.freshworks.com/terms/).

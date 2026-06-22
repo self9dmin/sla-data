@@ -91,6 +91,21 @@ services:
     description: In-app messaging
     sla_eligible: true
     source_url: https://www.helpscout.com/company/legal/terms-of-service/
+support:
+  tiers:
+    - "Standard"
+    - "Plus"
+    - "Pro"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: false
+  pricing: included
+  source_url: "https://www.helpscout.com/pricing/"
+  note: "Pro plan adds priority email and a strategic account manager; no published response SLAs."
 ---
 
 Help Scout is a Other SaaS provider. See the official SLA at [https://www.helpscout.com/company/legal/terms-of-service/](https://www.helpscout.com/company/legal/terms-of-service/).

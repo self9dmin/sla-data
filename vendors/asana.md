@@ -77,6 +77,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://asana.com/service-levels
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise"
+    - "Enterprise+"
+  has_24x7: true
+  fastest_response: "2 business hours"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://asana.com/service-levels"
+  note: "Asana publishes a 2-hour response target on top tiers; not credit-backed."
 ---
 
 Asana is a Productivity & Collaboration provider. See the official SLA at [https://asana.com/service-levels](https://asana.com/service-levels).

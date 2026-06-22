@@ -121,6 +121,22 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://github.com/customer-terms/github-online-services-sla
+support:
+  tiers:
+    - "Standard"
+    - "Premium"
+    - "Premium Plus"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://docs.github.com/en/enterprise-cloud@latest/support/learning-about-github-support/about-github-premium-support"
+  note: "Premium Plus adds a named CRE team, health checks, training; targets, not credit-backed."
 ---
 
 GitHub is a DevOps & Development provider. See the official SLA at [https://github.com/customer-terms/github-online-services-sla](https://github.com/customer-terms/github-online-services-sla).

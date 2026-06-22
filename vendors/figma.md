@@ -106,6 +106,21 @@ services:
     description: Multi-user editing
     sla_eligible: true
     source_url: https://www.figma.com/legal/tos/
+support:
+  tiers:
+    - "Professional"
+    - "Organization"
+    - "Enterprise"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://www.figma.com/enterprise/plan/"
+  note: "Enterprise advertises priority response targets and a CSM; not credit-backed."
 ---
 
 Figma is a Productivity & Collaboration provider. Figma does not publish a public service-level agreement with uptime commitments or service credits; its Software Services Agreement governs Organization and Enterprise plans. See [https://www.figma.com/ssa/](https://www.figma.com/ssa/).

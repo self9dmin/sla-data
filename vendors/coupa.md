@@ -103,6 +103,21 @@ services:
     uptime_commitment: 99.8
     sla_eligible: true
     source_url: https://www.coupa.com/master-subscription-agreement/
+support:
+  tiers:
+    - "Premium Support"
+    - "Premium Support + SAM add-on"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: team
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://get.coupa.com/rs/950-OLU-185/images/Coupa-Premium_Support_datasheet.pdf"
+  note: "Sev1 30-min target; SAM add-on sized to subscription. Targets, not credit-backed."
 ---
 
 Coupa is a Finance & Payments provider. See the official SLA (Master Subscription Agreement, Exhibit A-2) at [https://www.coupa.com/master-subscription-agreement/](https://www.coupa.com/master-subscription-agreement/).

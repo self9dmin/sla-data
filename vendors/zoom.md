@@ -107,6 +107,22 @@ services:
     description: Large-scale events
     sla_eligible: true
     source_url: https://www.zoom.com/en/trust/premier-support-terms/
+support:
+  tiers:
+    - "Standard"
+    - "Premier"
+    - "Premier+"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: false
+  professional_services: false
+  success_program: true
+  training: false
+  pricing: custom
+  source_url: "https://www.zoom.com/en/support-plans/"
+  note: "Premier+ adds an assigned TAM and prioritized tickets; response times are objectives."
 ---
 
 Zoom is a Communication & Collaboration provider. See the official SLA at [https://www.zoom.com/en/trust/terms/](https://www.zoom.com/en/trust/terms/).

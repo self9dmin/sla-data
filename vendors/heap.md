@@ -96,6 +96,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://contentsquare.com/legal/support-package-slc/
+support:
+  tiers:
+    - "Basic"
+    - "Standard"
+    - "Premium"
+  has_24x7: false
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://help.heap.io/hc/en-us/articles/37271906133521-Heap-support-offerings"
+  note: "CSM included from Pro plan; severity response table not publicly accessible."
 ---
 
 Heap is a Monitoring & Observability provider. Heap (Product Analytics) is now a Contentsquare company; its governing SLA is the Contentsquare Support Package & SLA at [https://contentsquare.com/legal/support-package-slc/](https://contentsquare.com/legal/support-package-slc/) (referenced from Heap's Master Services Agreement). The former heap.io SLA page is no longer published.

@@ -152,6 +152,24 @@ sla_tiers:
     requirement: 'Paid High Availability option (HANA Cloud, ASE, etc.)'
     uptime_commitment: 99.95
     source_url: 'https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/sap-business-technology-platform-supplement-english-v11-2025.pdf'
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise Support"
+    - "Preferred Success"
+    - "ActiveAttention"
+    - "MaxAttention"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://support.sap.com/en/offerings-programs.html"
+  note: "Enterprise Support priced as a percentage of license; premium engagements add designated SAP contacts. Targets, not credit-backed."
 ---
 
 SAP is a Enterprise Software provider. See the official SLA at [Service Level Agreement for SAP Cloud Services (v8-2023)](https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/service-level-agreement-for-sap-cloud-services-english-v8-2023.pdf).

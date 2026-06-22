@@ -126,6 +126,21 @@ services:
     uptime_commitment: 100
     sla_eligible: true
     source_url: https://www.akamai.com/legal/sla-compute
+support:
+  tiers:
+    - "Standard Support"
+    - "Advanced Service and Support"
+    - "Premium Service and Support 3.0"
+  has_24x7: true
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: custom
+  source_url: "https://www.akamai.com/global-services/services/standard-support"
+  note: "Premium 3.0 adds a TAM and proactive guidance; Standard is 24/7 pooled support."
 ---
 
 Akamai is a CDN & Edge provider. See the official SLA at [https://www.akamai.com/legal/sla-compute](https://www.akamai.com/legal/sla-compute).

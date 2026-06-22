@@ -286,6 +286,24 @@ services:
   - id: ros
     name: Resource Orchestration Service (ROS)
     uptime_commitment: 99.9
+support:
+  tiers:
+    - "Basic"
+    - "Developer"
+    - "Business"
+    - "Enterprise On-Ramp"
+    - "Enterprise"
+  has_24x7: true
+  fastest_response: "15 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: percent_of_spend
+  source_url: "https://www.alibabacloud.com/help/en/after-sales-support/latest/pricing-overview"
+  note: "Enterprise includes a TAM, 24/7, and architecture optimization; priced as a minimum or percentage of spend."
 ---
 
 Alibaba Cloud is a Cloud Infrastructure provider. Alibaba Cloud publishes a separate SLA per product rather than a single canonical index; the representative Elastic Compute Service (ECS) SLA is at [https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement](https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement).

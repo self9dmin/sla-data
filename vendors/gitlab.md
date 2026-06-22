@@ -105,6 +105,21 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/
+support:
+  tiers:
+    - "Free"
+    - "Priority"
+  has_24x7: true
+  fastest_response: "30 min"
+  response_is_sla: false
+  designated_contact: tam
+  architecture_review: true
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://about.gitlab.com/support/"
+  note: "Priority Support is included with Premium/Ultimate; 30-min Sev1 target, 24/7 emergency only."
 ---
 
 GitLab is a DevOps & Development provider. See the official SLA at [https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/).

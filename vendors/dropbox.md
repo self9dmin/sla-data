@@ -108,6 +108,22 @@ services:
     description: File sync
     sla_eligible: true
     source_url: https://www.dropbox.com/business_agreement
+support:
+  tiers:
+    - "Standard"
+    - "Enterprise"
+    - "Premium Support add-on"
+  has_24x7: true
+  fastest_response: "1 hour"
+  response_is_sla: false
+  designated_contact: csm
+  architecture_review: false
+  professional_services: true
+  success_program: true
+  training: true
+  pricing: included
+  source_url: "https://help.dropbox.com/account-settings/customer-support-levels"
+  note: "Response times are stated as targets in help docs, not credit-backed SLAs."
 ---
 
 Dropbox is a Productivity & Collaboration provider. See the official Dropbox Business Agreement at [https://www.dropbox.com/business_agreement](https://www.dropbox.com/business_agreement). Note: Dropbox does not publish a public uptime SLA with service credits; its agreements disclaim any availability guarantee.
