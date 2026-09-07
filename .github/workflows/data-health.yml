@@ -19,54 +19,75 @@ permissions:
 jobs:
   data-health:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
-      - name: Install validation dependency
+      - id: install
+        name: Install validation dependency
+        continue-on-error: true
         run: npm ci --ignore-scripts
       - id: validate
         name: Validate data structure
+        if: steps.install.outcome == 'success'
         continue-on-error: true
         run: node scripts/validate-data.cjs 2>&1 | tee validation-report.md
       - id: check
+        name: Run data health check
+        if: steps.install.outcome == 'success'
+        continue-on-error: true
         run: node scripts/data-health.cjs
       - name: Open or update tracking issue
-        if: steps.validate.outcome == 'failure' || steps.check.outputs.count > 0
+        if: always()
         uses: actions/github-script@v9
+        env:
+          INSTALL_OUTCOME: ${{ steps.install.outcome }}
+          VALIDATE_OUTCOME: ${{ steps.validate.outcome }}
+          CHECK_OUTCOME: ${{ steps.check.outcome }}
+          CHECK_COUNT: ${{ steps.check.outputs.count }}
         with:
           script: |
             const fs = require('fs');
-            const health = fs.readFileSync('data-health-report.md', 'utf8');
-            const validation = fs.existsSync('validation-report.md') ? fs.readFileSync('validation-report.md', 'utf8') : 'Validation report unavailable.';
-            const body = '# Structural validation\n\n' + validation + '\n\n' + health;
+            const read = (file, fallback) => fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : fallback;
+            const install = process.env.INSTALL_OUTCOME || 'unknown';
+            const validate = process.env.VALIDATE_OUTCOME || 'not run';
+            const check = process.env.CHECK_OUTCOME || 'not run';
+            const rawCount = process.env.CHECK_COUNT || '';
+            const count = rawCount === '' ? null : Number(rawCount);
+            const findings = Number.isFinite(count) && count > 0;
+            const automationFailed = install !== 'success' || validate !== 'success' || check !== 'success';
             const title = 'Data health: broken SLA links and stale data';
+            const health = read('data-health-report.md', 'Health check report unavailable because the checker did not complete.');
+            const validation = read('validation-report.md', 'Structural validation report unavailable because validation did not run.');
+            const status = [
+              `- Dependency install: ${install}`,
+              `- Structural validation: ${validate}`,
+              `- Health check: ${check}`,
+              `- Health findings: ${Number.isFinite(count) ? count : 'unavailable'}`,
+            ].join('\n');
+            const body = '# Automation status\n\n' + status + '\n\n' +
+              '# Structural validation\n\n' + validation + '\n\n' + health;
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'data-health',
             });
             const existing = issues.find((i) => i.title === title);
-            if (existing) {
-              await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body });
-            } else {
-              await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['data-health'] });
+            if (automationFailed || findings) {
+              if (existing) {
+                await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body });
+              } else {
+                await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['data-health'] });
+              }
             }
-      - name: Close tracking issue when all clear
-        if: steps.validate.outcome == 'success' && steps.check.outputs.count == 0
-        uses: actions/github-script@v9
-        with:
-          script: |
-            const title = 'Data health: broken SLA links and stale data';
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'data-health',
-            });
-            const existing = issues.find((i) => i.title === title);
-            if (existing) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number,
-                body: 'All clear: no broken SLA links and nothing past the 12-month freshness window as of this run.',
-              });
-              await github.rest.issues.update({
-                owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, state: 'closed',
-              });
+            if (!automationFailed && !findings) {
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number,
+                  body: 'All clear: no broken SLA links and nothing past the 12-month freshness window as of this run.',
+                });
+                await github.rest.issues.update({
+                  owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, state: 'closed',
+                });
+              }
             }
