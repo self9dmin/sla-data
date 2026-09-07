@@ -39,6 +39,11 @@ jobs:
         if: steps.install.outcome == 'success'
         continue-on-error: true
         run: node scripts/data-health.cjs
+      - id: remediation
+        name: Propose safe URL remediation
+        if: steps.install.outcome == 'success' && steps.check.outcome == 'success'
+        continue-on-error: true
+        run: node scripts/remediate.cjs
       - id: parity
         name: Verify website data mirror parity
         if: steps.install.outcome == 'success'
@@ -53,6 +58,7 @@ jobs:
           INSTALL_OUTCOME: ${{ steps.install.outcome }}
           VALIDATE_OUTCOME: ${{ steps.validate.outcome }}
           CHECK_OUTCOME: ${{ steps.check.outcome }}
+          REMEDIATION_OUTCOME: ${{ steps.remediation.outcome }}
           PARITY_OUTCOME: ${{ steps.parity.outcome }}
           CHECK_COUNT: ${{ steps.check.outputs.count }}
         with:
@@ -62,35 +68,39 @@ jobs:
             const install = process.env.INSTALL_OUTCOME || 'unknown';
             const validate = process.env.VALIDATE_OUTCOME || 'not run';
             const check = process.env.CHECK_OUTCOME || 'not run';
+            const remediation = process.env.REMEDIATION_OUTCOME || 'not run';
             const parity = process.env.PARITY_OUTCOME || 'not run';
             const rawCount = process.env.CHECK_COUNT || '';
             const count = rawCount === '' ? null : Number(rawCount);
             const findings = Number.isFinite(count) && count > 0;
             const automationFailed = install !== 'success' || validate !== 'success' ||
-              check !== 'success' || parity !== 'success';
+              check !== 'success' || remediation !== 'success' || parity !== 'success';
             const title = 'Data health: broken SLA links and stale data';
             const health = read('data-health-report.md', 'Health check report unavailable because the checker did not complete.');
             const validation = read('validation-report.md', 'Structural validation report unavailable because validation did not run.');
             const mirror = read('mirror-parity-report.md', 'Mirror parity report unavailable because the comparison did not run.');
+            const remediationReport = read('data-remediation-report.md', 'Remediation report unavailable because the remediation step did not run.');
             const status = [
               `- Dependency install: ${install}`,
               `- Structural validation: ${validate}`,
               `- Health check: ${check}`,
+              `- Safe remediation: ${remediation}`,
               `- Website/data mirror parity: ${parity}`,
               `- Health findings: ${Number.isFinite(count) ? count : 'unavailable'}`,
             ].join('\n');
-            const body = '# Automation status\n\n' + status + '\n\n' +
+            const fullBody = '# Automation status\n\n' + status + '\n\n' +
               '# Structural validation\n\n' + validation + '\n\n' +
-              '# Website/data mirror parity\n\n' + mirror + '\n\n' + health;
+              '# Website/data mirror parity\n\n' + mirror + '\n\n' +
+              '# Remediation\n\n' + remediationReport + '\n\n' + health;
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'data-health',
             });
             const existing = issues.find((i) => i.title === title);
             if (automationFailed || findings) {
               if (existing) {
-                await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body });
+                await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body: fullBody });
               } else {
-                await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['data-health'] });
+                await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body: fullBody, labels: ['data-health'] });
               }
             }
             if (!automationFailed && !findings) {

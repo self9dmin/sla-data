@@ -25,6 +25,7 @@ SLA pages move and terms change, so the dataset is kept honest by a mix of sourc
    - **Link rot:** every `sla_url`, per-service `source_url`, and related URL is fetched. Only a confirmed dead status (HTTP 404/410, or a persistent 5xx) counts as broken. Bot-protected pages that time out or return 403/429 are treated as "could not verify" and are not reported, so the signal stays free of false alarms.
    - **Freshness:** a six-month review is advisory, while vendors not re-verified in 12 months are flagged for a required re-check. Fast-moving categories and records marked `needs_review` should be prioritized during the advisory window.
    - **Publication parity:** the monthly run compares this repository's vendor set with the live website API, so a website/data drift such as a partial mirror is surfaced automatically.
+   - **Bounded remediation:** permanent HTTPS redirects that stay on the same vendor host are identified as safe canonicalization candidates. Confirmed-dead SLA sources are never guessed or silently replaced; the issue includes them for official-source verification so the data mirror and published site can be updated together.
    - Findings are collected into a single tracking issue labeled [`data-health`](../../issues?q=label%3Adata-health). A maintainer triages it and re-verifies against the official source.
    - When nothing is flagged, the workflow comments and **closes the issue automatically**, so an open `data-health` issue always means there is real work to do.
 

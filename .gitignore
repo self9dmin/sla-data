@@ -3,3 +3,5 @@ node_modules/
 validation-report.md
 data-health-run.log
 mirror-parity-report.md
+data-health-findings.json
+data-remediation-report.md

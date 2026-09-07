@@ -2,6 +2,9 @@
   "name": "sla-data-health",
   "private": true,
   "type": "commonjs",
+  "scripts": {
+    "test:remediation": "node --test test/remediation.test.cjs"
+  },
   "devDependencies": {
     "js-yaml": "^4.1.1"
   }

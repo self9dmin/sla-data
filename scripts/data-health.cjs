@@ -21,6 +21,7 @@ const USER_AGENT =
 const ROOT = path.resolve(__dirname, '..');
 const VENDORS_DIR = path.join(ROOT, 'vendors');
 const REPORT_PATH = path.join(ROOT, 'data-health-report.md');
+const FINDINGS_PATH = path.join(ROOT, 'data-health-findings.json');
 
 // --- Parse vendor files ----------------------------------------------------
 
@@ -33,6 +34,8 @@ function frontMatter(text) {
 function parseVendor(file) {
   const text = fs.readFileSync(file, 'utf8');
   const fm = frontMatter(text);
+  const websiteMatch = fm.match(/^website:\s*['"]?(https?:\/\/[^\s'"]+)/m);
+  const website = websiteMatch ? websiteMatch[1].replace(/[)>,.;]+$/, '') : null;
 
   // Vendor-level last_verified: a top-level (column 0) date, possibly quoted.
   let lastVerified = null;
@@ -69,6 +72,7 @@ function parseVendor(file) {
 
   return {
     file: path.basename(file),
+    website,
     lastVerified,
     services,
     urls: [...urls],
@@ -89,16 +93,29 @@ async function fetchWithTimeout(url, method) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), REQUEST_TIMEOUT_MS);
   try {
-    return await fetch(url, {
-      method,
-      redirect: 'follow',
-      signal: ctrl.signal,
-      headers: {
-        'User-Agent': USER_AGENT,
-        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
-    });
+    let currentUrl = url;
+    const redirectChain = [];
+    for (let hop = 0; hop <= 5; hop++) {
+      const response = await fetch(currentUrl, {
+        method,
+        redirect: 'manual',
+        signal: ctrl.signal,
+        headers: {
+          'User-Agent': USER_AGENT,
+          Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'Accept-Language': 'en-US,en;q=0.9',
+        },
+      });
+      if (response.status < 300 || response.status >= 400) {
+        return { response, finalUrl: currentUrl, redirectChain };
+      }
+      const location = response.headers.get('location');
+      if (!location) return { response, finalUrl: currentUrl, redirectChain };
+      const nextUrl = new URL(location, currentUrl).href;
+      redirectChain.push({ from: currentUrl, status: response.status, to: nextUrl });
+      currentUrl = nextUrl;
+    }
+    throw new Error('redirect limit exceeded');
   } finally {
     clearTimeout(timer);
   }
@@ -120,8 +137,12 @@ async function checkUrl(url) {
   // { error } when the request timed out / was aborted / threw (network/DNS).
   async function attempt(method) {
     try {
-      const res = await fetchWithTimeout(url, method);
-      return { status: res.status };
+      const result = await fetchWithTimeout(url, method);
+      return {
+        status: result.response.status,
+        finalUrl: result.finalUrl,
+        redirectChain: result.redirectChain,
+      };
     } catch (e) {
       const detail =
         e && e.name === 'AbortError'
@@ -146,7 +167,15 @@ async function checkUrl(url) {
   }
 
   const status = r.status;
-  if (status < 400) return { url, classification: 'OK', status };
+  if (status < 400) {
+    return {
+      url,
+      classification: 'OK',
+      status,
+      finalUrl: r.finalUrl,
+      redirectChain: r.redirectChain || [],
+    };
+  }
 
   // Definitive dead status.
   if (dead.has(status)) return { url, classification: 'BROKEN', status };
@@ -157,9 +186,17 @@ async function checkUrl(url) {
     if (retry.error || typeof retry.status !== 'number') {
       return { url, classification: 'BLOCKED', status, detail: retry.error || 'unverifiable on retry' };
     }
-    if (retry.status < 400) return { url, classification: 'OK', status: retry.status };
-    if (retry.status >= 500) return { url, classification: 'BROKEN', status: retry.status };
-    if (dead.has(retry.status)) return { url, classification: 'BROKEN', status: retry.status };
+    if (retry.status < 400) {
+      return {
+        url,
+        classification: 'OK',
+        status: retry.status,
+        finalUrl: retry.finalUrl,
+        redirectChain: retry.redirectChain || [],
+      };
+    }
+    if (retry.status >= 500) return { url, classification: 'BROKEN', status: retry.status, finalUrl: retry.finalUrl };
+    if (dead.has(retry.status)) return { url, classification: 'BROKEN', status: retry.status, finalUrl: retry.finalUrl };
     return { url, classification: 'BLOCKED', status: retry.status };
   }
 
@@ -260,6 +297,36 @@ async function main() {
   }
   const brokenVendorFiles = [...brokenByVendor.keys()].sort((a, b) => a.localeCompare(b));
 
+  // Provide a machine-readable handoff for the remediation step. Only a
+  // permanent redirect that stays on the same origin is eligible for an
+  // automatic canonical URL update. A dead SLA source still needs human
+  // verification because guessing a replacement could change the meaning of
+  // a contractual record.
+  const vendorByFile = new Map(vendors.map((vendor) => [vendor.file, vendor]));
+  const redirects = [];
+  for (const [url, result] of results) {
+    if (result.classification !== 'OK' || !result.finalUrl || !result.redirectChain?.length) continue;
+    let original;
+    let final;
+    try {
+      original = new URL(url);
+      final = new URL(result.finalUrl);
+    } catch {
+      continue;
+    }
+    const permanent = result.redirectChain.every(({ status }) => status === 301 || status === 308);
+    const sameOrigin = original.protocol === final.protocol && original.host === final.host;
+    if (!permanent || !sameOrigin || original.href === final.href) continue;
+    redirects.push({
+      originalUrl: url,
+      finalUrl: result.finalUrl,
+      status: result.status,
+      redirectChain: result.redirectChain,
+      files: [...(urlToVendors.get(url) || [])].sort(),
+    });
+  }
+  redirects.sort((a, b) => a.originalUrl.localeCompare(b.originalUrl));
+
   // Build report.
   const lines = [];
   lines.push('# Data health report');
@@ -354,6 +421,15 @@ async function main() {
   }
 
   fs.writeFileSync(REPORT_PATH, lines.join('\n'), 'utf8');
+  fs.writeFileSync(FINDINGS_PATH, JSON.stringify({
+    generated: new Date().toISOString(),
+    broken: [...brokenByVendor.entries()].flatMap(([file, findings]) => findings.map((finding) => ({
+      ...finding,
+      file,
+      website: vendorByFile.get(file)?.website || null,
+    }))),
+    redirects,
+  }, null, 2) + '\n', 'utf8');
 
   // Human summary.
   console.log(`Broken URLs: ${brokenUrlCount}`);
@@ -370,7 +446,15 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  checkUrl,
+  fetchWithTimeout,
+  main,
+};
