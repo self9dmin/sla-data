@@ -6,7 +6,7 @@ const path = require('path');
 const yaml = require('js-yaml');
 
 const ROOT = path.resolve(__dirname, '..');
-const DIR = path.join(ROOT, 'vendors');
+const DIR = path.resolve(process.env.VENDORS_DIR || path.join(ROOT, 'vendors'));
 const today = new Date().toISOString().slice(0, 10);
 const errors = [];
 const slugs = new Map();
