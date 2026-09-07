@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Self-contained data-health check for the SLA dataset.
 // Zero runtime dependencies (Node 20+ global fetch). Reads vendors/*.md,
-// flags stale vendors and individually-dated stale services (last_verified
-// older than 12 months) and broken links,
+// flags advisory reviews after 6 months, stale vendors and individually-dated
+// stale services after 12 months, and broken links,
 // writes data-health-report.md, and exposes a `count` GitHub Actions output.
 
 'use strict';
@@ -10,6 +10,7 @@
 const fs = require('fs');
 const path = require('path');
 
+const REVIEW_DAYS = 180;
 const STALE_DAYS = 365;
 const CONCURRENCY = 8;
 const REQUEST_TIMEOUT_MS = 20000;
@@ -193,6 +194,7 @@ async function main() {
   const vendors = files.map(parseVendor);
 
   // Freshness.
+  const review = [];
   const stale = [];
   for (const v of vendors) {
     if (!v.lastVerified) {
@@ -202,15 +204,19 @@ async function main() {
     const age = daysSince(v.lastVerified);
     if (age === null) {
       stale.push({ file: v.file, lastVerified: `(unparseable: ${v.lastVerified})` });
-    } else if (age > STALE_DAYS) {
+    } else if (age >= STALE_DAYS) {
       stale.push({ file: v.file, lastVerified: v.lastVerified });
+    } else if (age >= REVIEW_DAYS) {
+      review.push({ file: v.file, lastVerified: v.lastVerified });
     }
   }
+  review.sort((a, b) => a.file.localeCompare(b.file));
   stale.sort((a, b) => a.file.localeCompare(b.file));
 
   // Per-service freshness: services that carry their own last_verified and are
   // past the window. (Services without their own date inherit the vendor date
   // and are already covered by the vendor-level check above.)
+  const reviewServices = [];
   const staleServices = [];
   for (const v of vendors) {
     for (const s of v.services || []) {
@@ -218,11 +224,14 @@ async function main() {
       const age = daysSince(s.lastVerified);
       if (age === null) {
         staleServices.push({ file: v.file, service: s.name, lastVerified: `(unparseable: ${s.lastVerified})` });
-      } else if (age > STALE_DAYS) {
+      } else if (age >= STALE_DAYS) {
         staleServices.push({ file: v.file, service: s.name, lastVerified: s.lastVerified });
+      } else if (age >= REVIEW_DAYS) {
+        reviewServices.push({ file: v.file, service: s.name, lastVerified: s.lastVerified });
       }
     }
   }
+  reviewServices.sort((a, b) => a.file.localeCompare(b.file) || String(a.service).localeCompare(String(b.service)));
   staleServices.sort((a, b) => a.file.localeCompare(b.file) || String(a.service).localeCompare(String(b.service)));
 
   // Unique URL set + reverse map url -> vendor files.
@@ -283,6 +292,28 @@ async function main() {
   }
   lines.push('');
 
+  lines.push('## Advisory review (6 to 12 months)');
+  lines.push('');
+  lines.push(
+    'This is an informational queue for a rolling review. It does not count as a ' +
+      'data-health failure. Prioritize fast-moving categories and records marked ' +
+      '`needs_review` when practical.'
+  );
+  lines.push('');
+  if (review.length === 0) {
+    lines.push('No vendors are in the advisory review window.');
+  } else {
+    lines.push(`${review.length} vendor(s) are in the advisory review window.`);
+    lines.push('');
+    for (const r of review) lines.push(`- ${r.file}: last_verified ${r.lastVerified}`);
+  }
+  if (reviewServices.length) {
+    lines.push('');
+    lines.push(`${reviewServices.length} individually-dated service(s) are in the advisory review window.`);
+    for (const r of reviewServices) lines.push(`- ${r.file} — ${r.service}: last_verified ${r.lastVerified}`);
+  }
+  lines.push('');
+
   lines.push('## Stale (past the 12-month freshness window)');
   lines.push('');
   if (stale.length === 0) {
@@ -326,6 +357,8 @@ async function main() {
 
   // Human summary.
   console.log(`Broken URLs: ${brokenUrlCount}`);
+  console.log(`Advisory review vendors: ${review.length}`);
+  console.log(`Advisory review services: ${reviewServices.length}`);
   console.log(`Stale vendors: ${stale.length}`);
   console.log(`Stale services: ${staleServices.length}`);
   console.log(`Total issues (count): ${count}`);
