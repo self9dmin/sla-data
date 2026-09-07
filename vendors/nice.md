@@ -7,8 +7,8 @@ category: Communication & Collaboration
 website: https://www.nice.com
 scope: global
 sla_url: https://www.nice.com/company/sla-guarantee
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 30
@@ -23,7 +23,7 @@ credit_policy:
       credit_percent: 3.33
     - uptime_below: 99.95
       credit_percent: 6.67
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 14.29
     - uptime_below: 97
       credit_percent: 100
@@ -117,17 +117,20 @@ services:
     source_url: https://www.nice.com/company/sla-guarantee
 support:
   tiers:
-    - "CXsuccess Care"
+    - CXsuccess Care
   has_24x7: true
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: included
-  source_url: "https://www.nice.com/services/customer-support"
-  note: "CXsuccess Care is included; higher tiers exist but details are not publicly disclosed."
+  source_url: https://www.nice.com/services/customer-support
+  note: CXsuccess Care is included; higher tiers exist but details are not publicly disclosed. Only Sev1 is 24x7; Sev2-Sev4 are business hours. Two trained Designated Contacts; phone + portal (per-severity numbers not public). Only Sev1 is 24x7; Sev2-Sev4 are business hours. Two trained Designated Contacts; phone + portal (per-severity numbers not public).
+  channels:
+    - phone
+    - portal
 ---
 
 NICE is a Other SaaS provider. See the official SLA at [https://www.nice.com/company/sla-guarantee](https://www.nice.com/company/sla-guarantee).

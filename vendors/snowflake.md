@@ -7,13 +7,13 @@ category: Databases & Data Infrastructure
 website: https://www.snowflake.com
 scope: global
 sla_url: https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 needs_review: false
 uptime_commitment: 99.9
 max_credit_percent: 7
 credit_unit: multiplier
-credit_note: "Service Level Credits are multiples of Average Daily Snowflake Credits (1x below 99.9%, 3x below 99.0%, 7x below 95.0%), not a percentage of fees and with no percent cap."
+credit_note: Service Level Credits are multiples of Average Daily Snowflake Credits (1x below 99.9%, 3x below 99.0%, 7x below 95.0%), not a percentage of fees and with no percent cap.
 claim_deadline_days: 21
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -104,10 +104,10 @@ services:
     source_url: https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/
 support:
   tiers:
-    - "Premier"
-    - "Priority"
+    - Premier
+    - Priority
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (Sev1, Priority Support)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -115,8 +115,11 @@ support:
   success_program: false
   training: true
   pricing: custom
-  source_url: "https://www.snowflake.com/legal-files/Snowflake-Support-Policy-And-Service-Level-Agreement.pdf"
-  note: "Priority Support adds 24x7 for Sev1-2, a Support Account Manager, and a 15-min Sev1 target. It explicitly excludes customer success programs and professional services (sold separately). Uptime (99.9%) is the credit-backed SLA; response times are targets."
+  source_url: https://www.snowflake.com/legal-files/Snowflake-Support-Policy-And-Service-Level-Agreement.pdf
+  note: Priority Support adds 24x7 for Sev1-2, a Support Account Manager, and a 15-min Sev1 target. It explicitly excludes customer success programs and professional services (sold separately). Uptime (99.9%) is the credit-backed SLA; response times are targets. Snowflake Lodge portal/community + email; phone is last-resort intake only (when portal and email both fail). Premier Sev1 24x7; Priority adds a Support Account Manager + senior engineers. For-fee consultation/training via SoW. Snowflake Lodge portal/community + email; phone is last-resort intake only (when portal and email both fail). Premier Sev1 24x7; Priority adds a Support Account Manager + senior engineers. For-fee consultation/training via SoW.
+  channels:
+    - portal
+    - email
 ---
 
 Snowflake is a Database & Data Infrastructure provider. See the official SLA at [https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/](https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/).

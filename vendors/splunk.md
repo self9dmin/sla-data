@@ -7,14 +7,15 @@ category: Monitoring & Observability
 website: https://www.splunk.com
 scope: global
 sla_url: https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.html
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 needs_review: false
 uptime_commitment: 100
+max_credit_percent: 100
 claim_deadline_days: 5
 has_automatic_credits: false
 credit_unit: time
-credit_note: "Credits are time-based amounts of subscription fees by tier (2h / 4h / 8h / 1 day / 1 month), capped at one month's fees per calendar quarter; not a percentage."
+credit_note: Credits are time-based amounts of subscription fees by tier (2h / 4h / 8h / 1 day / 1 month), capped at one month's fees per calendar quarter; not a percentage.
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: tiered
@@ -101,10 +102,10 @@ services:
     source_url: https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.html
 support:
   tiers:
-    - "Standard"
-    - "Premium"
+    - Standard
+    - Premium
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (P1/Sev1, Premium)
   response_is_sla: false
   designated_contact: none
   architecture_review: false
@@ -112,8 +113,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.splunk.com/en_us/support-and-services/support-programs.html"
-  note: "Premium publishes a 30-min P1 target; not stated as a credit-backed SLA."
+  source_url: https://www.splunk.com/en_us/support-and-services/support-programs.html
+  note: Premium publishes a 30-min P1 target; not stated as a credit-backed SLA. Portal all tiers + phone for P1; Premium 24x7x365 all severities (Standard 24x7 for P1 only). No named TAM/CSM tied to support tiers. OnDemand + Professional Services. Portal all tiers + phone for P1; Premium 24x7x365 all severities (Standard 24x7 for P1 only). No named TAM/CSM tied to support tiers. OnDemand + Professional Services.
+  channels:
+    - portal
+    - phone
 ---
 
 Splunk is a Monitoring & Observability provider. See the official SLA at [https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.html](https://www.splunk.com/en_us/legal/splunk-cloud-service-level-schedule.html).

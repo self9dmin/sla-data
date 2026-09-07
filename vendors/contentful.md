@@ -7,11 +7,14 @@ category: Content & Media
 website: https://www.contentful.com
 scope: global
 sla_url: https://www.contentful.com/legal/service-level-agreement/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: false
+uptime_commitment: 99.99
+claim_deadline_days: 30
 has_automatic_credits: false
-min_plan_for_sla: success
+min_plan_for_sla: enterprise
+credit_note: 'Contentful commits uptime per Customer Service Order, up to 99.99% (incl. its 99.99% multi-region MRDI). Service credits are the exclusive remedy (claim within 30 days); the exact committed % and credit-tier table are set in each Order and not published. Chronic failure (below 99% for three months in a year) adds a termination-with-refund right. SLA help wanted: the per-order credit table.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -21,9 +24,7 @@ claim_process:
       days: 30
       business_days: false
       anchor_point: impacted_month
-      description: >-
-        Open a Support Ticket within thirty (30) days following an Impacted
-        Month
+      description: Open a Support Ticket within thirty (30) days following an Impacted Month
   submission_method: Support Ticket
   submission_url: https://support.contentful.com/
   required_evidence:
@@ -66,45 +67,36 @@ services:
   - id: delivery
     name: Content Delivery API
     category: CMS
-    description: >-
-      Content delivery endpoints (cdn.contentful.com,
-      graphql.contentful.com)
+    description: Content delivery endpoints (cdn.contentful.com, graphql.contentful.com)
     sla_eligible: true
     source_url: https://www.contentful.com/legal/service-level-agreement/
   - id: asset-cdn
     name: Content Asset CDN
     category: Media
-    description: >-
-      Asset and image delivery (assets.contentful.com,
-      images.contentful.com, videos.contentful.com, downloads.contentful.com)
+    description: Asset and image delivery (assets.contentful.com, images.contentful.com, videos.contentful.com, downloads.contentful.com)
     sla_eligible: true
     source_url: https://www.contentful.com/legal/service-level-agreement/
   - id: management
     name: Content Management
     category: CMS
-    description: >-
-      Management and authoring endpoints (api.contentful.com,
-      preview.contentful.com, app.contentful.com, compose.contentful.com,
-      launch.contentful.com)
+    description: Management and authoring endpoints (api.contentful.com, preview.contentful.com, app.contentful.com, compose.contentful.com, launch.contentful.com)
     sla_eligible: true
     source_url: https://www.contentful.com/legal/service-level-agreement/
   - id: personalization
     name: Contentful Personalization Experience API
     category: CMS
-    description: >-
-      Personalization experience endpoints (experience.eu.ninetailed.co,
-      experience.ninetailed.co)
+    description: Personalization experience endpoints (experience.eu.ninetailed.co, experience.ninetailed.co)
     sla_eligible: true
     source_url: https://www.contentful.com/legal/service-level-agreement/
 support:
   tiers:
-    - "Standard"
-    - "Silver"
-    - "Gold"
-    - "Platinum"
-    - "Titanium"
+    - Standard
+    - Silver
+    - Gold
+    - Platinum
+    - Titanium
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Sev1, Platinum/Titanium)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -112,8 +104,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.contentful.com/services/customer-support/"
-  note: "Premium tiers (Silver-Titanium) assign a support engineer and TAM guidance; response times are targets."
+  source_url: https://www.contentful.com/services/customer-support/
+  note: Premium tiers (Silver-Titanium) assign a support engineer and TAM guidance; response times are targets. Premium support (Silver/Gold/Platinum/Titanium); 24/7 global, portal/email/video (no phone). Dedicated CSM + assigned support engineer at top tiers. (The "9-min" figure is a marketing metric, not the contractual SLA.)
+  channels:
+    - portal
+    - email
 ---
 
 Contentful is a Content & Media provider. See the official SLA at [https://www.contentful.com/legal/service-level-agreement/](https://www.contentful.com/legal/service-level-agreement/).

@@ -7,8 +7,8 @@ category: Productivity
 website: https://www.smartsheet.com
 scope: global
 sla_url: https://www.smartsheet.com/legal/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 50
 claim_deadline_days: 30
@@ -105,20 +105,25 @@ services:
     source_url: https://www.smartsheet.com/legal/sla
 support:
   tiers:
-    - "Standard"
-    - "Professional"
-    - "Enterprise"
+    - Standard
+    - Professional
+    - Enterprise
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 2 hours (first response, Premium)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: none
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.smartsheet.com/support-plans"
-  note: "Enterprise includes 24/7 and a 1-hour P1 target; published as a target."
+  source_url: https://www.smartsheet.com/support-plans
+  note: Enterprise includes 24/7 and a 1-hour P1 target; published as a target. 24x7 phone/chat at Standard & Premium. Support packages include Pro Desk coaching but no named CSM/TAM.
+  channels:
+    - portal
+    - phone
+    - chat
+    - email
 ---
 
 Smartsheet is a Productivity & Collaboration provider. See the official SLA at [https://www.smartsheet.com/legal/sla](https://www.smartsheet.com/legal/sla).

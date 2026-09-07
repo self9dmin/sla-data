@@ -7,14 +7,14 @@ category: Finance & Payments
 website: https://www.xero.com
 scope: global
 sla_url: https://www.xero.com/legal/terms/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Xero's Terms set no committed uptime %; they disclaim warranties ("as is") and offer only DISCRETIONARY compensation ("we may in our discretion") for system-wide downtime over 4 consecutive hours, requested in writing within 21 days. Not an enforceable SLA. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,7 +93,7 @@ services:
     source_url: https://www.xero.com/legal/terms/
 support:
   tiers:
-    - "Standard (uniform)"
+    - Standard (uniform)
   has_24x7: true
   response_is_sla: false
   designated_contact: none
@@ -102,8 +102,12 @@ support:
   success_program: false
   training: true
   pricing: included
-  source_url: "https://www.xero.com/us/support/contact-support/"
-  note: "Free unlimited 24/7 online support; email/callback only, no tiered offering, no SLA."
+  source_url: https://www.xero.com/us/support/contact-support/
+  note: Free unlimited 24/7 online support; email/callback only, no tiered offering, no SLA. Free unlimited 24/7 online support via Xero Central -> AI chat -> case (+ callback; no inbound phone line). No paid support tiers or first-party professional services (implementation via the advisor/partner ecosystem).
+  channels:
+    - portal
+    - chat
+    - email
 ---
 
 Xero is a Finance & Payments provider. See the official SLA at [https://www.xero.com/legal/terms/](https://www.xero.com/legal/terms/).

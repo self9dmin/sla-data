@@ -7,12 +7,13 @@ category: E-commerce
 website: https://www.webflow.com
 scope: global
 sla_url: https://webflow.com/legal/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 25
 has_automatic_credits: false
 min_plan_for_sla: enterprise
+credit_note: Verified against Webflow's SLA (Aug 2024 PDF). Uptime thresholds vary by service tier (Hosting and Application Uptime Levels). Credit is 2% of fees per qualifying-downtime period, applied to the renewal term, capped at 25% of fees; sole and exclusive remedy.
 credit_policy:
   calculation_type: flat
   remedy_type: service_credit
@@ -26,7 +27,6 @@ claim_process:
     - Initial time of downtime
   review_timeline: As confirmed by Webflow
   credit_application: Applied toward ensuing Renewal Term
-needs_review: true
 global_exclusions:
   - Scheduled maintenance
   - Outages of third-party applications, utilities, or connections integrated by Customer (e.g. plug-ins or APIs)
@@ -94,8 +94,8 @@ services:
     source_url: https://webflow.com/legal/sla
 support:
   tiers:
-    - "Standard"
-    - "Enterprise"
+    - Standard
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -104,8 +104,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://webflow.com/enterprise"
-  note: "Enterprise includes a dedicated CSM, priority queue, and onboarding; response details negotiated per contract."
+  source_url: https://webflow.com/enterprise
+  note: Enterprise includes a dedicated CSM, priority queue, and onboarding; response details negotiated per contract. Email via Support Portal all tiers; Enterprise adds priority queue, contractual (non-public) response SLAs, a Solutions Architect, and phone (Enterprise-only, business hours M-F 6am-6pm PT). Hands-on builds routed to Certified Partners.
+  channels:
+    - email
+    - phone
 ---
 
 Webflow is a E-commerce provider. See the official SLA at [https://webflow.com/legal/sla](https://webflow.com/legal/sla).

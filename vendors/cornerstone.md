@@ -7,20 +7,20 @@ category: HR & People Operations
 website: https://www.cornerstone.com
 scope: global
 sla_url: https://www.cornerstoneondemand.com/service-level-agreements/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.5
 max_credit_percent: null
+credit_unit: days
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Incremental credit: for each 0.3% (or part) of availability below 99.5% in a month, a credit of 1/365th of annual fees, applied to the next invoice. No fixed % tiers or stated maximum cap.'
 credit_policy:
   calculation_type: incremental
   remedy_type: credit
   max_credit_percent: null
-  credit_formula: For each 0.3% (or portion thereof) of availability below 99.5% per
-    calendar month, a credit equal to 1/365th of the annual Software fees, applied
-    to the next invoice. No fixed percentage tiers or stated maximum cap.
+  credit_formula: For each 0.3% (or portion thereof) of availability below 99.5% per calendar month, a credit equal to 1/365th of the annual Software fees, applied to the next invoice. No fixed percentage tiers or stated maximum cap.
   credit_tiers: []
 claim_process:
   deadlines:
@@ -28,8 +28,7 @@ claim_process:
       days: 30
       business_days: false
       anchor_point: incident_date
-      description: Customer must submit a credit request within 30 days of the event
-        giving rise to a credit
+      description: Customer must submit a credit request within 30 days of the event giving rise to a credit
   submission_method: Credit request to Cornerstone
   submission_url: https://www.cornerstoneondemand.com/service-level-agreements/
   required_evidence: []
@@ -98,8 +97,8 @@ services:
     source_url: https://www.cornerstoneondemand.com/service-level-agreements/
 support:
   tiers:
-    - "Standard"
-    - "Customer Success Package (Choice)"
+    - Standard
+    - Customer Success Package (Choice)
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -108,8 +107,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.cornerstoneondemand.com/community-and-support/"
-  note: "Tier matrix is gated; CSP Choice adds a CSM and success programs."
+  source_url: https://www.cornerstoneondemand.com/community-and-support/
+  note: Tier matrix is gated; CSP Choice adds a CSM and success programs. SupportCentral portal + Global Care phone; severity-based response times defined in the SLA but not published. Dedicated CSM is a Premium add-on. SupportCentral portal + Global Care phone; severity-based response times defined in the SLA but not published. Dedicated CSM is a Premium add-on.
+  channels:
+    - email
+    - portal
+    - phone
 ---
 
 Cornerstone is a Other SaaS provider. See the official SLA at [https://www.cornerstoneondemand.com/service-level-agreements/](https://www.cornerstoneondemand.com/service-level-agreements/).

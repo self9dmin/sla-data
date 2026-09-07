@@ -7,9 +7,8 @@ category: Cloud Infrastructure
 website: https://www.alibabacloud.com
 scope: global
 sla_url: https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.975
 max_credit_percent: 100
 claim_deadline_days: 60
@@ -32,10 +31,7 @@ claim_process:
       days: 60
       business_days: false
       anchor_point: calendar_month_end
-      description: >-
-        Claim may be filed from the sixth working day of the following calendar
-        month and must be received within sixty (60) days after the last day of
-        the calendar month in which the incident occurred
+      description: Claim may be filed from the sixth working day of the following calendar month and must be received within sixty (60) days after the last day of the calendar month in which the incident occurred
   submission_method: Ticket System
   submission_url: https://www.alibabacloud.com/support
   required_evidence:
@@ -100,7 +96,6 @@ services:
     name: Disk (Cloud Disks)
     category: Storage
     description: Block storage attached to ECS
-    uptime_commitment: 99.995
     sla_eligible: true
     source_url: https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement
   - id: alibaba-ecs-multizone
@@ -183,114 +178,142 @@ services:
   - id: ecs-multi-zone
     name: Elastic Compute Service (ECS) - Multi-Zone
     uptime_commitment: 99.995
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement
   - id: ecs-single
     name: Elastic Compute Service (ECS) - Single Instance
     uptime_commitment: 99.975
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement
   - id: disk
     name: Elastic Block Storage (Cloud Disks)
-    uptime_commitment: 99.995
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement
   - id: rds-multi-zone-3
     name: ApsaraDB RDS - Multi-Zone (3+ zones)
     uptime_commitment: 99.997
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/apsaradb-for-rds-service-level-agreement-new
   - id: rds-multi-zone-2
     name: ApsaraDB RDS - Multi-Zone (2 zones)
     uptime_commitment: 99.995
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/apsaradb-for-rds-service-level-agreement-new
   - id: rds-single-zone
     name: ApsaraDB RDS - Single Zone
     uptime_commitment: 99.99
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/apsaradb-for-rds-service-level-agreement-new
   - id: apsaradb-redis
     name: ApsaraDB for Redis
     uptime_commitment: 99.99
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/apsaradb-for-redis-service-level-agreement
   - id: apsaradb-mongodb
     name: ApsaraDB for MongoDB
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/apsaradb-for-mongodb-service-level-agreement
   - id: tablestore
     name: Tablestore
-    uptime_commitment: 99.99
+    uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/table-store-service-level-agreement
   - id: analyticdb-mysql
     name: AnalyticDB for MySQL
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/analyticdb-for-mysql-service-level-agreement
   - id: analyticdb-postgresql
     name: AnalyticDB for PostgreSQL
-    uptime_commitment: 99.95
+    uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/analyticdb-for-postgresql-service-level-agreement
   - id: elasticsearch
     name: Elasticsearch
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/elasticsearch-service-level-agreement
   - id: maxcompute
     name: MaxCompute
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/maxcompute-service-level-agreement
   - id: dataworks
     name: DataWorks
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/dataworks-service-level-agreement
   - id: log-service
     name: Log Service
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/log-service-service-level-agreement
   - id: slb-alb-nlb
     name: Server Load Balancer (ALB/NLB) - Multi-Zone
     uptime_commitment: 99.995
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/server-load-balancer-service-level-agreement
   - id: slb-clb
     name: Server Load Balancer (CLB) - Multi-Zone
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/server-load-balancer-service-level-agreement
   - id: cdn
     name: CDN
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/content-delivery-network-service-level-agreement
   - id: mq-kafka
     name: Message Queue for Apache Kafka
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/message-queue-for-apache-kafka-service-level-agreement
   - id: mq-rocketmq
     name: Message Queue for RocketMQ
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/message-queue-for-apache-rocketmq-service-level-agreement
   - id: api-gateway
     name: API Gateway
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/api-gateway-service-level-agreement
   - id: eventbridge
     name: EventBridge
-    uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal
   - id: pai
     name: Machine Learning Platform for AI (PAI)
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/machine-learning-platform-for-ai-service-level-agreement
   - id: model-studio
     name: Model Studio
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-model-studio-model-inference-service-level-agreement
   - id: intelligent-speech
     name: Intelligent Speech Interaction
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/intelligent-speech-interaction-service-level-agreement
   - id: image-search
     name: Image Search
-    uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal
   - id: security-center
     name: Security Center
-    uptime_commitment: 99.9
+    uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/security-center-service-level-agreement
   - id: waf
     name: Web Application Firewall (WAF)
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/web-application-firewall-service-level-agreement
   - id: anti-ddos
     name: Anti-DDoS
     uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/anti-ddos-proxy-service-level-agreement
   - id: kms
     name: Key Management Service (KMS)
-    uptime_commitment: 99.9
+    uptime_commitment: 99.95
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/key-management-service-service-level-agreement
   - id: ram
     name: Resource Access Management (RAM)
-    uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal
   - id: cloud-monitor
     name: Cloud Monitor
     uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal/latest/cloudmonitor-service-level-agreement
   - id: actiontrail
     name: ActionTrail
-    uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal
   - id: ros
     name: Resource Orchestration Service (ROS)
-    uptime_commitment: 99.9
+    source_url: https://www.alibabacloud.com/help/en/legal
 support:
   tiers:
-    - "Basic"
-    - "Developer"
-    - "Business"
-    - "Enterprise On-Ramp"
-    - "Enterprise"
+    - Basic
+    - Developer
+    - Business
+    - Enterprise On-Ramp
+    - Enterprise
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (business-critical, Enterprise)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -298,8 +321,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.alibabacloud.com/help/en/after-sales-support/latest/pricing-overview"
-  note: "Enterprise includes a TAM, 24/7, and architecture optimization; priced as a minimum or percentage of spend."
+  source_url: https://www.alibabacloud.com/help/en/after-sales-support/latest/pricing-overview
+  note: Enterprise includes a TAM, 24/7, and architecture optimization; priced as a minimum or percentage of spend. Tiered support (Basic/Developer/Business/Enterprise); 24/7 + TAM + phone at Enterprise. Full-lifecycle professional services.
+  channels:
+    - portal
+    - chat
+    - phone
 ---
 
 Alibaba Cloud is a Cloud Infrastructure provider. Alibaba Cloud publishes a separate SLA per product rather than a single canonical index; the representative Elastic Compute Service (ECS) SLA is at [https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement](https://www.alibabacloud.com/help/en/legal/latest/elastic-compute-service-service-level-agreement).

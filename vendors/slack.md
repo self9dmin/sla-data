@@ -6,17 +6,21 @@ legal_entity: Slack
 category: Communication & Collaboration
 website: https://www.slack.com
 scope: global
-sla_url: https://slack.com/terms/service-level-agreement
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-has_automatic_credits: false
-min_plan_for_sla: standard
+sla_url: https://slack.com/policy-archives/service-level-agreement/2015-01-07
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+has_automatic_credits: true
+min_plan_for_sla: business
+uptime_commitment: 99.99
+max_credit_percent: 100
+credit_note: Slack guarantees 99.99% monthly uptime on the Plus/Business+ plan and above — a deliberate "fourth nine." If missed, Service Credits equal 100x the fees paid for the period Slack was down, credited to your account balance and drawn before future charges, capped at a maximum of 30 days of paid service. Scheduled maintenance is capped at 10 hours/year with 48 hours' notice. Source is Slack's published SLA (archived 2015-01-07 version); current Business+ / Enterprise Grid contract terms should be confirmed against the MSA.
 credit_policy:
-  calculation_type: automatic
-  remedy_type: automatic
+  calculation_type: multiplier
+  remedy_type: credit
+  max_credit_percent: 100
 claim_process:
-  credit_application: Applied to next invoice
+  submission_method: Automatic
+  credit_application: Credited to account balance, drawn before future charges
 global_exclusions:
   - Scheduled maintenance
   - Force majeure events
@@ -79,12 +83,12 @@ services:
     source_url: https://slack.com/terms/service-level-agreement
 support:
   tiers:
-    - "Free"
-    - "Pro"
-    - "Business+"
-    - "Enterprise Grid"
+    - Free
+    - Pro
+    - Business+
+    - Enterprise Grid
   has_24x7: true
-  fastest_response: "4 hours"
+  fastest_response: 4 hours (Business+/Enterprise Grid)
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
@@ -92,10 +96,13 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://slack.com/help"
-  note: "Business+ and Grid get a 4-hour first-response target; Grid adds an account manager."
+  source_url: https://slack.com/help
+  note: Business+ and Grid get a 4-hour first-response target; Grid adds an account manager. Priority support (4-hour response, 24/7) is gated to Business+ and Enterprise Grid; no phone. Customer Success teams at Grid. Priority support (4-hour response, 24/7) is gated to Business+ and Enterprise Grid; no phone. Customer Success teams at Grid.
+  channels:
+    - email
+    - portal
 ---
 
-Slack is a Communication & Collaboration provider. See the official SLA at [https://slack.com/terms/service-level-agreement](https://slack.com/terms/service-level-agreement).
+Slack is a Communication & Collaboration provider. See the official SLA at [https://slack.com/policy-archives/service-level-agreement/2015-01-07](https://slack.com/policy-archives/service-level-agreement/2015-01-07).
 
 <!-- Add human-readable notes about Slack's SLA nuances here. -->

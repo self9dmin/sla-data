@@ -7,8 +7,8 @@ category: Finance & Payments
 website: https://www.adyen.com
 scope: global
 sla_url: https://www.adyen.com/legal/terms-and-conditions
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 0
 has_automatic_credits: false
@@ -94,7 +94,7 @@ services:
     source_url: https://www.adyen.com/legal/terms-and-conditions
 support:
   tiers:
-    - "Standard (included)"
+    - Standard (included)
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -103,8 +103,12 @@ support:
   success_program: true
   training: false
   pricing: included
-  source_url: "https://www.adyen.com/en_GB/customer-success/your-journey-with-us"
-  note: "24/7 technical support and a CSM are included; no tiered support plans."
+  source_url: https://www.adyen.com/en_GB/customer-success/your-journey-with-us
+  note: 24/7 technical support and a CSM are included; no tiered support plans. 24/7 is urgent/critical-only (follow-the-sun); phone connects 24/7 for urgent matters. Assigned Account Manager (pooled CS for mid-market); professional services are partner-led, not a merchant SKU.
+  channels:
+    - portal
+    - email
+    - phone
 ---
 
 Adyen is a Finance & Payments provider. See the official SLA at [https://www.adyen.com/legal/terms-and-conditions](https://www.adyen.com/legal/terms-and-conditions).

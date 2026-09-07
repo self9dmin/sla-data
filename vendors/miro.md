@@ -7,8 +7,8 @@ category: Productivity
 website: https://www.miro.com
 scope: global
 sla_url: https://miro.com/legal/documents/Miro-Service-Level-Agreement.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.5
 max_credit_percent: 30
 claim_deadline_days: 30
@@ -98,9 +98,9 @@ services:
     source_url: https://miro.com/legal/documents/Miro-Service-Level-Agreement.pdf
 support:
   tiers:
-    - "Standard"
-    - "Advanced"
-    - "Signature"
+    - Standard
+    - Advanced
+    - Signature
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -109,8 +109,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://miro.com/enterprise/customer-success/"
-  note: "Three success packages; Premium Support add-on advertises SLAs but response times are not publicly published."
+  source_url: https://miro.com/enterprise/customer-success/
+  note: Three success packages; Premium Support add-on advertises SLAs but response times are not publicly published. Ticketing portal only (no phone). Fixed response times require the paid Premium Support add-on; only Urgent severity is 24x7.
+  channels:
+    - portal
+  fastest_response: 2 hours (Urgent, Premium add-on)
 ---
 
 Miro is a Communication & Collaboration provider. See the official SLA at [https://miro.com/legal/documents/Miro-Service-Level-Agreement.pdf](https://miro.com/legal/documents/Miro-Service-Level-Agreement.pdf).

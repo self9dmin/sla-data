@@ -7,12 +7,12 @@ category: HR & People Operations
 website: https://www.lever.co
 scope: global
 sla_url: https://www.lever.co/agreements/sla/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-24'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 has_automatic_credits: true
-credit_unit: multiplier
-credit_note: "Automatic credit equal to 10x the fees attributable to the downtime period (impact must exceed $10), capped at 30 days of paid service; not a percentage tier."
+max_credit_multiplier: 10
+credit_note: Automatic credit equal to 10x the fees attributable to the downtime period (impact must exceed $10), capped at 30 days of paid service; not a percentage tier.
 min_plan_for_sla: all
 needs_review: false
 credit_policy:
@@ -82,9 +82,9 @@ services:
     source_url: https://www.lever.co/agreements/sla/
 support:
   tiers:
-    - "Lever Care"
-    - "Lever Preferred"
-    - "Lever Premium"
+    - Lever Care
+    - Lever Preferred
+    - Lever Premium
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -93,8 +93,11 @@ support:
   success_program: true
   training: true
   pricing: flat
-  source_url: "https://www.lever.co/customer-success-agreement/"
-  note: "Preferred/Premium add a CSM and elevated service levels for an additional fee."
+  source_url: https://www.lever.co/customer-success-agreement/
+  note: Preferred/Premium add a CSM and elevated service levels for an additional fee. Help Center portal + email (no vendor-confirmed phone); Preferred/Premium add an assigned CSM and elevated service. Help Center portal + email (no vendor-confirmed phone); Preferred/Premium add an assigned CSM and elevated service.
+  channels:
+    - portal
+    - email
 ---
 
 Lever is a HR & People Operations provider. See the official SLA at [https://www.lever.co/agreements/sla/](https://www.lever.co/agreements/sla/).

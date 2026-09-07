@@ -7,8 +7,8 @@ category: Content & Media
 website: https://www.vimeo.com
 scope: global
 sla_url: https://vimeo.com/legal/enterprise-terms/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 60
@@ -21,7 +21,7 @@ credit_policy:
   credit_tiers:
     - uptime_below: 99.9
       credit_percent: 10
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 25
 claim_process:
   deadlines:
@@ -108,9 +108,9 @@ services:
     source_url: https://vimeo.com/legal/enterprise-terms/sla
 support:
   tiers:
-    - "Standard"
-    - "Advanced"
-    - "Enterprise"
+    - Standard
+    - Advanced
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -119,8 +119,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://help.vimeo.com/hc/en-us/articles/12425669477137-About-contacting-Vimeo-Support-and-response-times"
-  note: "Enterprise lists a first-response target and a dedicated account manager."
+  source_url: https://help.vimeo.com/hc/en-us/articles/12425669477137-About-contacting-Vimeo-Support-and-response-times
+  note: Enterprise lists a first-response target and a dedicated account manager. Contact form 24/7 all plans; live chat at Advanced+; phone is Enterprise-only (24/7 on Gold/Platinum). Professional services for OTT/Enterprise.
+  channels:
+    - email
+    - chat
+    - phone
+  fastest_response: 30 min (critical, Enterprise Platinum)
 ---
 
 Vimeo is a Content & Media provider. See the official SLA at [https://vimeo.com/legal/enterprise-terms/sla](https://vimeo.com/legal/enterprise-terms/sla).

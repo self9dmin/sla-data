@@ -7,14 +7,14 @@ category: Analytics & BI
 website: https://www.qualtrics.com
 scope: global
 sla_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.93
 max_credit_percent: 10
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
-needs_review: true
+credit_note: 'Verified: 99.93% availability. Credits are downtime-duration based — 5% (31-120 min), 7.5% (121-240 min), 10% (241+ min) of 1/12 of annual fees per month; max 10%. Tiers below map those bands to uptime %.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -109,11 +109,11 @@ services:
     source_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
 support:
   tiers:
-    - "Standard"
-    - "Enterprise Support"
-    - "Advanced XM Success"
-    - "ManagedXM"
-  has_24x7: false
+    - Standard
+    - Enterprise Support
+    - Advanced XM Success
+    - ManagedXM
+  has_24x7: true
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
@@ -121,8 +121,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.qualtrics.com/support/getting-started-qualtrics/support-portal/program-strategy-enablement/"
-  note: "Success Packages include a Technical Success Manager, XM Scientist office hours, coaching, and audits."
+  source_url: https://www.qualtrics.com/support/getting-started-qualtrics/support-portal/program-strategy-enablement/
+  note: Success Packages include a Technical Success Manager, XM Scientist office hours, coaching, and audits. Standard email/phone is 24x7 (Enterprise email/phone is Sun 5pm-Fri 5pm MT; chat weekday-only). No published severity response SLA. TSM for Enterprise/Success Package customers; onboarding/training/implementation.
+  channels:
+    - email
+    - phone
+    - chat
 ---
 
 Qualtrics is a Enterprise Software provider. See the official SLA at [https://www.qualtrics.com/legal/customers/service-level-agreement/](https://www.qualtrics.com/legal/customers/service-level-agreement/).

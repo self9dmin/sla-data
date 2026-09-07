@@ -7,8 +7,8 @@ category: Developer Tools
 website: https://www.atlassian.com
 scope: global
 sla_url: https://www.atlassian.com/legal/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 50
 claim_deadline_days: 15
@@ -144,17 +144,17 @@ services:
     sla_eligible: false
     source_url: https://www.atlassian.com/legal/sla
 sla_tiers:
-  - name: 'Enterprise'
-    requirement: 'Enterprise plan'
+  - name: Enterprise
+    requirement: Enterprise plan
     uptime_commitment: 99.95
-    source_url: 'https://support.atlassian.com/subscriptions-and-billing/docs/service-level-agreement-for-atlassian-cloud-products/'
+    source_url: https://support.atlassian.com/subscriptions-and-billing/docs/service-level-agreement-for-atlassian-cloud-products/
 support:
   tiers:
-    - "Standard"
-    - "Premium"
-    - "Enterprise"
+    - Standard
+    - Premium
+    - Enterprise
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (L1, Enterprise tier)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -162,8 +162,13 @@ support:
   success_program: true
   training: false
   pricing: flat
-  source_url: "https://confluence.atlassian.com/support/atlassian-support-offerings-193299636.html"
-  note: "Atlassian uses commercially reasonable efforts to meet target response times; no credit remedy."
+  source_url: https://confluence.atlassian.com/support/atlassian-support-offerings-193299636.html
+  note: Atlassian uses commercially reasonable efforts to meet target response times; no credit remedy.
+  channels:
+    - portal
+    - email
+    - chat
+    - phone
 ---
 
 Atlassian is a DevOps & Development provider. See the official SLA at [https://www.atlassian.com/legal/sla](https://www.atlassian.com/legal/sla).

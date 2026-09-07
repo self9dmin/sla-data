@@ -7,14 +7,14 @@ category: CRM & Marketing
 website: https://www.ahrefs.com
 scope: global
 sla_url: https://ahrefs.com/legal/terms
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://help.ahrefs.com
@@ -87,8 +87,8 @@ services:
     source_url: https://ahrefs.com/legal/terms
 support:
   tiers:
-    - "Standard (all paid plans)"
-    - "Enterprise"
+    - Standard (all paid plans)
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -97,8 +97,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://ahrefs.com/enterprise"
-  note: "Enterprise adds a dedicated account manager, tailored onboarding, and 24/7 multilingual chat."
+  source_url: https://ahrefs.com/enterprise
+  note: Enterprise adds a dedicated account manager, tailored onboarding, and 24/7 multilingual chat. 24/7 multilingual chat on all plans (no phone); Enterprise adds a dedicated account manager. No SoW professional services. 24/7 multilingual chat on all plans (no phone); Enterprise adds a dedicated account manager. No SoW professional services.
+  channels:
+    - chat
+    - email
 ---
 
 Ahrefs is a Marketing & Analytics provider. Ahrefs does not publish a public uptime SLA with service credits; the [Terms of Service](https://ahrefs.com/legal/terms) provide the service "as is" / "as available" with no availability guarantee. The only availability statement is in the [Security Measures](https://ahrefs.com/legal/security-measures) page (99.8% best-effort infrastructure uptime, not a binding SLA).

@@ -7,8 +7,8 @@ category: Communication & Collaboration
 website: https://www.five9.com
 scope: global
 sla_url: https://www.five9.com/legal/sla-service-level
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.999
 max_credit_percent: 100
 claim_deadline_days: 30
@@ -107,18 +107,22 @@ services:
     source_url: https://www.five9.com/legal/sla-service-level
 support:
   tiers:
-    - "Standard"
-    - "Premium"
+    - Standard
+    - Premium
   has_24x7: true
   response_is_sla: false
-  designated_contact: tam
+  designated_contact: team
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.five9.com/supportservices"
-  note: "Premium adds a TAM and faster targets; specific response times not publicly documented."
+  source_url: https://www.five9.com/supportservices
+  note: Premium adds a TAM and faster targets; specific response times not publicly documented. 24x7x365, single support offering with up to 3 Named Contacts. Phone hotline + portal (not email/chat). 24x7x365, single support offering with up to 3 Named Contacts. Phone hotline + portal (not email/chat).
+  channels:
+    - phone
+    - portal
+  fastest_response: 15 min (P1)
 ---
 
 Five9 is a Communication & Collaboration provider. See the official SLA at [https://www.five9.com/legal/sla-service-level](https://www.five9.com/legal/sla-service-level).

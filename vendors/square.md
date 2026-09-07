@@ -7,14 +7,14 @@ category: Finance & Payments
 website: https://www.square.com
 scope: global
 sla_url: https://squareup.com/us/en/legal/general/ua
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://squareup.com/help/us/en/contact
@@ -85,6 +85,15 @@ services:
     description: Point of sale system
     sla_eligible: true
     source_url: https://squareup.com/us/en/legal/general/ua
+support:
+  channels:
+    - phone
+    - chat
+  designated_contact: none
+  professional_services: false
+  has_24x7: true
+  note: Phone (callback option) + chat; standard sellers are business hours (Mon-Fri 6am-6pm PT). 24/7 phone only for specific paid products (Register, Terminal, Restaurants/Retail Plus). No dedicated CSM/TAM for general sellers.
+  source_url: https://squareup.com/help/us/en/article/4993-contact-square-support
 ---
 
 Square is a Finance & Payments provider. See the official SLA at [https://squareup.com/us/en/legal/general/ua](https://squareup.com/us/en/legal/general/ua).

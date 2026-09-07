@@ -7,8 +7,8 @@ category: Monitoring & Observability
 website: https://www.dynatrace.com
 scope: global
 sla_url: https://www.dynatrace.com/company/trust-center/sla/saas/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.5
 max_credit_percent: 10
 claim_deadline_days: 30
@@ -99,19 +99,22 @@ services:
     source_url: https://www.dynatrace.com/company/trust-center/sla/saas/
 support:
   tiers:
-    - "Standard Support"
-    - "Enterprise Success and Support"
+    - Standard Support
+    - Enterprise Success and Support
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Sev1, Enterprise)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: true
   professional_services: true
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://www.dynatrace.com/company/trust-center/support-policy/"
-  note: "Enterprise Success and Support adds 24x7, priority response targets, a success manager, and config/environment reviews. Deeper architecture work is separate professional services. Response times are targets, not credit-backed."
+  source_url: https://www.dynatrace.com/company/trust-center/support-policy/
+  note: Enterprise Success and Support adds 24x7, priority response targets, a success manager, and config/environment reviews. Deeper architecture work is separate professional services. Response times are targets, not credit-backed. In-product chat + portal + Zoom for Sev1 (no phone hotline published). Enterprise 24x7 (Standard business hours). ACE consultants are a separate professional-services purchase. In-product chat + portal + Zoom for Sev1 (no phone hotline published). Enterprise 24x7 (Standard business hours). ACE consultants are a separate professional-services purchase.
+  channels:
+    - chat
+    - portal
 ---
 
 Dynatrace is a Monitoring & Observability provider. See the official SLA at [https://www.dynatrace.com/company/trust-center/sla/saas/](https://www.dynatrace.com/company/trust-center/sla/saas/).

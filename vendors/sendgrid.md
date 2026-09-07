@@ -7,8 +7,8 @@ category: Communication & Collaboration
 website: https://www.sendgrid.com
 scope: global
 sla_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.95
 max_credit_percent: 10
 claim_deadline_days: 30
@@ -89,19 +89,19 @@ services:
     sla_eligible: true
     source_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
 sla_tiers:
-  - name: 'Premium email package'
-    requirement: 'Qualifying SendGrid premium email package'
+  - name: Premium email package
+    requirement: Qualifying SendGrid premium email package
     uptime_commitment: 99.99
     max_credit_percent: 10
-    source_url: 'https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis'
+    source_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
 support:
   tiers:
-    - "Developer"
-    - "Production"
-    - "Business"
-    - "Personalized"
+    - Developer
+    - Production
+    - Business
+    - Personalized
   has_24x7: true
-  fastest_response: "1 business hour"
+  fastest_response: 1 hour (P1, Business+ — 24/7)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
@@ -109,8 +109,12 @@ support:
   success_program: false
   training: false
   pricing: percent_of_spend
-  source_url: "https://www.twilio.com/en-us/support-plans"
-  note: "Personalized tier adds a named TAM; pricing 4-8% of monthly spend. Targets, not credit-backed."
+  source_url: https://www.twilio.com/en-us/support-plans
+  note: Personalized tier adds a named TAM; pricing 4-8% of monthly spend. Targets, not credit-backed. Covered by Twilio support plans; phone/chat at Production+, designated TAM only at Personalized. 24x7 is tier-gated. Covered by Twilio support plans; phone/chat at Production+, designated TAM only at Personalized. 24x7 is tier-gated.
+  channels:
+    - portal
+    - phone
+    - chat
 ---
 
 SendGrid (Twilio SendGrid) is a Communication & Collaboration provider. Its SLA is now governed by the Twilio APIs Service Level Agreement, which covers the "SendGrid Services API" (the Mail Send API). See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis](https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis).

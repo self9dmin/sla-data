@@ -7,8 +7,8 @@ category: CRM & Marketing
 website: https://www.marketo.com
 scope: global
 sla_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 30
@@ -23,9 +23,9 @@ credit_policy:
       credit_percent: 5
     - uptime_below: 99.5
       credit_percent: 10
-    - uptime_below: 95.0
+    - uptime_below: 95
       credit_percent: 15
-    - uptime_below: 90.0
+    - uptime_below: 90
       credit_percent: 25
 claim_process:
   deadlines:
@@ -104,20 +104,23 @@ services:
     source_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf
 support:
   tiers:
-    - "Silver"
-    - "Gold"
-    - "Platinum"
+    - Silver
+    - Gold
+    - Platinum
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 15 min (P1, top Adobe tier)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: tam
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html"
-  note: "Uses Adobe Enterprise Support tiers; Platinum adds a named TAM. Response times are targets."
+  source_url: https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html
+  note: Uses Adobe Enterprise Support tiers; Platinum adds a named TAM. Response times are targets. Adobe support plans; top tier = 24x7 P1 (15 min) + named TAM/Support Engineer; lower tiers business hours, no TAM. Adobe support plans; top tier = 24x7 P1 (15 min) + named TAM/Support Engineer; lower tiers business hours, no TAM.
+  channels:
+    - portal
+    - phone
 ---
 
 Marketo is a Marketing & Analytics provider. Marketo Engage is a Covered Service under the Adobe Unified Service Level Agreement (Adobe On-demand Services and Managed Services). See the official SLA at [Adobe Unified SLA (effective 12 October 2025)](https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf).

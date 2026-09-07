@@ -7,30 +7,19 @@ category: HR & People Operations
 website: https://www.paylocity.com
 scope: global
 sla_url: https://www.paylocity.com/terms-and-conditions/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'Paylocity publishes no standard uptime SLA. Availability and any service-credit terms are set in the client Subscription Services Agreement, not posted publicly (paylocity.com/terms-and-conditions is an API EULA with no uptime commitment). SLA help wanted: a contract holder can contribute the terms.'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
-  deadlines:
-    - type: submission
-      days: 30
-      business_days: false
-      anchor_point: incident_date
-      description: Submit within 30 days of incident
-  submission_method: Support
+  submission_method: N/A - No public SLA credits
   submission_url: https://www.paylocity.com/contact/
-  required_evidence:
-    - Account ID
-    - Affected services
-    - Incident timestamps
-    - Impact description
-  review_timeline: 30 business days
-  credit_application: Applied to next invoice
+  required_evidence: []
 global_exclusions:
   - Scheduled maintenance
   - Force majeure events
@@ -93,7 +82,7 @@ services:
     source_url: https://www.paylocity.com/terms-and-conditions/
 support:
   tiers:
-    - "Standard"
+    - Standard
   has_24x7: false
   response_is_sla: false
   designated_contact: team
@@ -102,8 +91,12 @@ support:
   success_program: false
   training: true
   pricing: included
-  source_url: "https://www.paylocity.com/contact/client-support/"
-  note: "No tier structure; dedicated Account Manager plus a service team, business hours only."
+  source_url: https://www.paylocity.com/contact/client-support/
+  note: No tier structure; dedicated Account Manager plus a service team, business hours only. Phone Mon-Fri 6am-7:30pm CT (explicitly not 24-hour); dedicated Account Manager + service team. Phone Mon-Fri 6am-7:30pm CT (explicitly not 24-hour); dedicated Account Manager + service team.
+  channels:
+    - phone
+    - portal
+    - email
 ---
 
 Paylocity is a HR & People Operations provider. Paylocity publishes no public uptime SLA; see its legal terms at [https://www.paylocity.com/terms-and-conditions/](https://www.paylocity.com/terms-and-conditions/).

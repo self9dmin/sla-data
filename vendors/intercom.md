@@ -7,14 +7,14 @@ category: Communication & Collaboration
 website: https://www.intercom.com
 scope: global
 sla_url: https://www.intercom.com/legal/service-level-agreement
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.8
 max_credit_percent: 0
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Verified against Intercom''s SLA: 99.8% monthly availability (AI Agent & Core Platform). No service credits — the sole remedy is termination with a refund of pre-paid fees, available after two consecutive failed months (30-day notice).'
 credit_policy:
   calculation_type: none
   remedy_type: termination_refund
@@ -26,10 +26,7 @@ claim_process:
       days: 30
       business_days: false
       anchor_point: end_of_second_consecutive_failed_month
-      description: >-
-        Customer may terminate the impacted Service by sending written notice of
-        termination within thirty (30) days after the end of the second
-        consecutive month in which the Target Availability was not met.
+      description: Customer may terminate the impacted Service by sending written notice of termination within thirty (30) days after the end of the second consecutive month in which the Target Availability was not met.
   submission_method: Written notice of termination
   submission_url: https://www.intercom.com/legal/service-level-agreement
   required_evidence:
@@ -69,28 +66,24 @@ services:
   - id: ai-agent
     name: AI Agent (Fin)
     category: Automation
-    description: >-
-      Uptime is achieved when Intercom's AI Agent, Fin, can generate text
-      responses to customer inquiries.
+    description: Uptime is achieved when Intercom's AI Agent, Fin, can generate text responses to customer inquiries.
     uptime_commitment: 99.8
     sla_eligible: true
     source_url: https://www.intercom.com/legal/service-level-agreement
   - id: core-platform
     name: Core Platform
     category: Chat
-    description: >-
-      Uptime is achieved when users can successfully engage in key actions such
-      as replying within the Inbox or Messenger platforms.
+    description: Uptime is achieved when users can successfully engage in key actions such as replying within the Inbox or Messenger platforms.
     uptime_commitment: 99.8
     sla_eligible: true
     source_url: https://www.intercom.com/legal/service-level-agreement
 support:
   tiers:
-    - "Standard"
-    - "Premier Support"
-    - "Premier Support Rapid Response"
+    - Standard
+    - Premier Support
+    - Premier Support Rapid Response
   has_24x7: true
-  fastest_response: "10 min"
+  fastest_response: 1 hour (Premier; ~10 min urgent on Rapid Response)
   response_is_sla: false
   designated_contact: team
   architecture_review: false
@@ -98,8 +91,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.intercom.com/help/en/articles/5952022-premier-services"
-  note: "Premier tiers add onboarding, support, and rapid response with a dedicated point of contact."
+  source_url: https://www.intercom.com/help/en/articles/5952022-premier-services
+  note: Premier tiers add onboarding, support, and rapid response with a dedicated point of contact. Premier Support tiers are paid add-ons, 24/7 follow-the-sun. Email/chat (+video on Rapid Response); no phone. Premier Support tiers are paid add-ons, 24/7 follow-the-sun. Email/chat (+video on Rapid Response); no phone.
+  channels:
+    - email
+    - chat
 ---
 
 Intercom is a Communication & Collaboration provider. See the official SLA at [https://www.intercom.com/legal/service-level-agreement](https://www.intercom.com/legal/service-level-agreement).

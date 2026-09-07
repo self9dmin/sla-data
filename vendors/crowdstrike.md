@@ -7,14 +7,15 @@ category: Security & Identity
 website: https://www.crowdstrike.com
 scope: global
 sla_url: https://www.crowdstrike.com/en-us/legal/terms-conditions/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'CrowdStrike''s master Terms & Conditions contain no public availability SLA or service credits. The 99.9%/99.99% figures surface only in government contracts and marketing; any availability commitment is negotiated per contract. SLA help wanted: a contract holder can contribute the negotiated terms.'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -99,10 +100,10 @@ services:
     source_url: https://www.crowdstrike.com/en-us/legal/terms-conditions/
 support:
   tiers:
-    - "Standard"
-    - "Express"
-    - "Essential"
-    - "Elite"
+    - Standard
+    - Express
+    - Essential
+    - Elite
   has_24x7: true
   response_is_sla: false
   designated_contact: tam
@@ -111,8 +112,14 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.crowdstrike.com/en-us/resources/data-sheets/crowdstrike-falcon-support-offerings/"
-  note: "Essential/Elite include a TAM; specific response targets are not publicly published."
+  source_url: https://www.crowdstrike.com/en-us/resources/data-sheets/crowdstrike-falcon-support-offerings/
+  note: 'Essential/Elite include a TAM; specific response targets are not publicly published. Express and above: 24x7, phone + chat, pooled TAM (named specialist at Elite).'
+  channels:
+    - phone
+    - chat
+    - portal
+    - email
+  fastest_response: 1 hour (P1/Sev1, 24x7)
 ---
 
 CrowdStrike is a Security & Identity provider. See the official terms at [https://www.crowdstrike.com/en-us/legal/terms-conditions/](https://www.crowdstrike.com/en-us/legal/terms-conditions/). Note: CrowdStrike does not publish a public uptime/credit SLA; the only public availability figure is the "99.99% guaranteed uptime" marketing claim on Falcon pricing pages.

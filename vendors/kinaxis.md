@@ -7,14 +7,15 @@ category: Enterprise & Operations
 website: https://www.kinaxis.com
 scope: global
 sla_url: https://www.kinaxis.com/en/trust-center
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+needs_review: false
+sla_help_wanted: true
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: tiered
-  remedy_type: credit
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -87,18 +88,22 @@ services:
     source_url: https://www.kinaxis.com/en/trust-center
 support:
   tiers:
-    - "Standard"
-    - "Premier"
-  has_24x7: true
+    - Standard
+    - Premier
+  has_24x7: false
   response_is_sla: false
-  designated_contact: team
+  designated_contact: none
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.kinaxis.com/en/support-services"
-  note: "Premier adds 1-on-1 guidance and proactive monitoring; specifics not publicly published."
+  source_url: https://www.kinaxis.com/en/support-services
+  note: Premier adds 1-on-1 guidance and proactive monitoring; specifics not publicly published. Standard + Premier support; phone + Knowledge Network portal. No public 24x7, response-time, or named-contact commitment on Kinaxis pages. Professional & Technical Services are SoW-based.
+  channels:
+    - phone
+    - portal
+credit_note: Kinaxis does not publish a public service-credit schedule; SLA credit amounts and tiers are defined in the customer subscription agreement.
 ---
 
 Kinaxis is a Other SaaS provider. Kinaxis does not publish a public availability SLA; per its [Trust Center](https://www.kinaxis.com/en/trust-center), the availability SLA is part of the contractual SaaS Agreement (Order Form, Support Guide, Security Guide, availability SLA, and Data Processing Agreement) and is not publicly disclosed.

@@ -7,14 +7,14 @@ category: Analytics & BI
 website: https://www.amplitude.com
 scope: global
 sla_url: https://amplitude.com/terms
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Amplitude's Terms provide the Services "as is" and disclaim uninterrupted or error-free service — no public uptime SLA or credits. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -87,21 +87,25 @@ services:
     source_url: https://amplitude.com/terms
 support:
   tiers:
-    - "Standard"
-    - "Premium Success Basic"
-    - "Premium Success Advanced"
-    - "Premium Success Signature"
-  has_24x7: true
-  fastest_response: "1 hour"
+    - Standard
+    - Premium Success Basic
+    - Premium Success Advanced
+    - Premium Success Signature
+  has_24x7: false
+  fastest_response: 1 hour (P0, Premium Success Signature)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://gethelp.amplitude.com/hc/en-us/articles/13513083850267-Amplitude-Technical-Support-offerings"
-  note: "Premium Success tiers list response targets, not credit-backed SLAs."
+  source_url: https://gethelp.amplitude.com/hc/en-us/articles/13513083850267-Amplitude-Technical-Support-offerings
+  note: Premium Success tiers list response targets, not credit-backed SLAs. No phone/video support. Generally follow-the-sun business hours; round-the-clock only for P0 on Premium Success. Live chat/Slack/Zoom at Premium Success; implementations + training/certification.
+  channels:
+    - portal
+    - chat
+    - slack
 ---
 
 Amplitude is a Monitoring & Observability provider. See the official SLA at [https://amplitude.com/terms](https://amplitude.com/terms).

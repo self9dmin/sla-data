@@ -7,25 +7,16 @@ category: CDN & Edge
 website: https://www.akamai.com
 scope: global
 sla_url: https://www.akamai.com/legal/sla-compute
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 100
-max_credit_percent: 100
-claim_deadline_days: 30
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: false
+uptime_commitment: 99.99
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Akamai''s only public credit-backed SLA is the Compute (Linode) SLA: 99.99% general availability with pro-rata service credits, requested within 30 days. Akamai''s CDN-product SLAs (Ion, AMD, Edge DNS) are negotiated/login-gated and not public. SLA help wanted: a contract holder can contribute the CDN SLA.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
-  max_credit_percent: 100
-  credit_tiers:
-    - uptime_below: 100
-      credit_percent: 10
-    - uptime_below: 99.9
-      credit_percent: 25
-    - uptime_below: 99
-      credit_percent: 100
 claim_process:
   deadlines:
     - type: submission
@@ -123,19 +114,25 @@ services:
     source_url: https://www.akamai.com/legal/sla-compute
 support:
   tiers:
-    - "Standard Support"
-    - "Advanced Service and Support"
-    - "Premium Service and Support 3.0"
+    - Standard Support
+    - Advanced Service and Support
+    - Premium Service and Support 3.0
   has_24x7: true
   response_is_sla: false
-  designated_contact: tam
+  designated_contact: team
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.akamai.com/global-services/services/standard-support"
-  note: "Premium 3.0 adds a TAM and proactive guidance; Standard is 24/7 pooled support."
+  source_url: https://www.akamai.com/global-services/services/standard-support
+  note: Premium 3.0 adds a TAM and proactive guidance; Standard is 24/7 pooled support. Top tier (Premium 3.0 / Guardicore Premium-Elite) is 24x7x365 with an integrated technical account team + support delivery manager. Akamai Global Professional Services. Top tier (Premium 3.0 / Guardicore Premium-Elite) is 24x7x365 with an integrated technical account team + support delivery manager. Akamai Global Professional Services.
+  channels:
+    - portal
+    - email
+    - phone
+    - slack
+  fastest_response: 15 min (Sev1, Premium Service & Support 3.0)
 ---
 
 Akamai is a CDN & Edge provider. See the official SLA at [https://www.akamai.com/legal/sla-compute](https://www.akamai.com/legal/sla-compute).

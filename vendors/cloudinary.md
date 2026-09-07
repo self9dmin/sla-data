@@ -7,14 +7,14 @@ category: Content & Media
 website: https://www.cloudinary.com
 scope: global
 sla_url: https://cloudinary.com/tou
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Cloudinary "strives for 100% uptime" but offers no availability credits — the support-plan SLA (response times) is the sole remedy. No uptime SLA with credits. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,11 +93,11 @@ services:
     source_url: https://cloudinary.com/tou
 support:
   tiers:
-    - "Free"
-    - "Plus"
-    - "Advanced"
-    - "Enterprise"
-  has_24x7: false
+    - Free
+    - Plus
+    - Advanced
+    - Enterprise
+  has_24x7: true
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
@@ -105,8 +105,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://cloudinary.com/pricing"
-  note: "Enterprise SLAs referenced but response times not publicly published."
+  source_url: https://cloudinary.com/pricing
+  note: Enterprise SLAs referenced but response times not publicly published. P1 is 24/7 on Platinum (1 hr) and Diamond (15 min); Gold is best-effort business hours. Higher tiers add a dedicated Support Engineer + Slack; Professional Services for implementation/migration.
+  channels:
+    - email
+    - phone
+    - slack
+  fastest_response: 15 min (P1, Diamond)
 ---
 
 Cloudinary is a CDN & Edge provider. Cloudinary does not publish a credit-bearing SLA: its Terms of Use state it "strives for a 100% Uptime" and that the "support SLA is your sole and exclusive remedy," while the MSA notes the SLA is "attached to the Order Form" (per-contract, not public). See the Terms of Use at [https://cloudinary.com/tou](https://cloudinary.com/tou).

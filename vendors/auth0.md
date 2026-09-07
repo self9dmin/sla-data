@@ -7,8 +7,8 @@ category: Security & Identity
 website: https://www.auth0.com
 scope: global
 sla_url: https://www.okta.com/sites/default/files/2022-02/ServiceLevelAgreement-for-Auth0-Platform-02-7-22.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 50
 claim_deadline_days: 5
@@ -107,12 +107,12 @@ services:
     source_url: https://www.okta.com/sites/default/files/2022-02/ServiceLevelAgreement-for-Auth0-Platform-02-7-22.pdf
 support:
   tiers:
-    - "Self Service"
-    - "Premier Success Basic"
-    - "Premier Success Silver"
-    - "Premier Success Gold"
+    - Self Service
+    - Premier Success Basic
+    - Premier Success Silver
+    - Premier Success Gold
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (P1, Gold)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -120,8 +120,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://auth0.com/docs/troubleshoot/customer-support/support-plans"
-  note: "Okta uses reasonable efforts to meet target response times; not credit-backed."
+  source_url: https://auth0.com/docs/troubleshoot/customer-support/support-plans
+  note: Okta uses reasonable efforts to meet target response times; not credit-backed. Online support center; phone optional on Premier. Basic 24x5, Silver/Gold 24x7.
+  channels:
+    - portal
+    - phone
 ---
 
 Auth0 is a Security & Identity provider. See the official Auth0 Platform Service Level Agreement at [https://www.okta.com/sites/default/files/2022-02/ServiceLevelAgreement-for-Auth0-Platform-02-7-22.pdf](https://www.okta.com/sites/default/files/2022-02/ServiceLevelAgreement-for-Auth0-Platform-02-7-22.pdf).

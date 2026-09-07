@@ -7,11 +7,13 @@ category: Communication & Collaboration
 website: https://www.vonage.com
 scope: global
 sla_url: https://www.vonage.com/legal/
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
+uptime_commitment: 99.999
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'Vonage advertises a 99.999% uptime SLA, and its Enterprise Terms of Service state a service credit is issued per the applicable SLA when missed. The committed credit % schedule lives in the enterprise SLA / order form and is not published. SLA help wanted: a contract holder can contribute the credit table.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -93,9 +95,9 @@ services:
     source_url: https://www.vonage.com/legal/
 support:
   tiers:
-    - "Essentials"
-    - "Premium"
-    - "Enterprise"
+    - Essentials
+    - Premium
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: team
@@ -104,8 +106,11 @@ support:
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://www.vonage.com/communications-apis/services/support/"
-  note: "Premium adds 24/7 and a designated support engineer; Enterprise adds an account manager."
+  source_url: https://www.vonage.com/communications-apis/services/support/
+  note: Premium adds 24/7 and a designated support engineer; Enterprise adds an account manager. Essentials 24/5; Premium & Enterprise 24/7 with an SLA + Designated Support Engineer. Per-severity numbers not public. Accelerate Service Packs for consulting/deploy. Essentials 24/5; Premium & Enterprise 24/7 with an SLA + Designated Support Engineer. Per-severity numbers not public. Accelerate Service Packs for consulting/deploy.
+  channels:
+    - email
+    - phone
 ---
 
 Vonage is a Communication & Collaboration provider. See the official SLA at [https://www.vonage.com/legal/sla/](https://www.vonage.com/legal/sla/).

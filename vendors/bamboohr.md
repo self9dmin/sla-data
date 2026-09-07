@@ -7,15 +7,15 @@ category: HR & People Operations
 website: https://www.bamboohr.com
 scope: global
 sla_url: https://www.bamboohr.com/legal/terms-of-service
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 max_credit_percent: 0
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
   max_credit_percent: 0
 claim_process:
   submission_method: N/A - No SLA credits available
@@ -89,8 +89,8 @@ services:
     source_url: https://www.bamboohr.com/legal/terms-of-service
 support:
   tiers:
-    - "Standard Support"
-    - "Premium Services"
+    - Standard Support
+    - Premium Services
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -99,8 +99,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.bamboohr.com/why-bamboohr/services"
-  note: "Business-hours live support plus 24/7 AI chat; Premium Services adds training and guidance."
+  source_url: https://www.bamboohr.com/why-bamboohr/services
+  note: Business-hours live support plus 24/7 AI chat; Premium Services adds training and guidance. Human support Mon-Fri 6am-6pm MT (AI chat 24/7). HR Consulting/coaching available as add-ons. Human support Mon-Fri 6am-6pm MT (AI chat 24/7). HR Consulting/coaching available as add-ons.
+  channels:
+    - phone
+    - email
+    - chat
 ---
 
 BambooHR is a HR & People Operations provider. See the official SLA at [https://www.bamboohr.com/legal/terms-of-service](https://www.bamboohr.com/legal/terms-of-service).

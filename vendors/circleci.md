@@ -7,14 +7,14 @@ category: Developer Tools
 website: https://www.circleci.com
 scope: global
 sla_url: https://circleci.com/legal/terms-of-service/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: Support Ticket
   submission_url: https://support.circleci.com
@@ -75,11 +75,11 @@ services:
     source_url: https://circleci.com/legal/terms-of-service/
 support:
   tiers:
-    - "Community"
-    - "Starter"
-    - "Elite"
+    - Community
+    - Starter
+    - Elite
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Urgent, Elite tier)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -87,8 +87,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://circleci.com/support/plans/"
-  note: "Elite tier targets are not contractual SLAs."
+  source_url: https://circleci.com/support/plans/
+  note: Elite tier targets are not contractual SLAs. No phone support; Elite adds a dedicated Slack channel and screen-share.
+  channels:
+    - email
+    - portal
+    - slack
 ---
 
 CircleCI is a DevOps & Development provider. CircleCI publishes no public uptime SLA with service credits; the SaaS Agreement commits only to "commercially reasonable efforts" to keep the Services available, with termination as the sole remedy. See the official SaaS Agreement at [https://circleci.com/legal/terms-of-service/](https://circleci.com/legal/terms-of-service/).

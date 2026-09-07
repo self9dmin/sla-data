@@ -7,8 +7,8 @@ category: Security & Identity
 website: https://www.paloaltonetworks.com
 scope: global
 sla_url: https://www.paloaltonetworks.com/services/support/support-policies
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.999
 max_credit_percent: 100
 claim_deadline_days: 1
@@ -35,12 +35,12 @@ claim_process:
       days: 1
       business_days: false
       anchor_point: incident_date
-      description: 'Open a case on the Customer Support Portal within 24 hours of the outage/incident.'
+      description: Open a case on the Customer Support Portal within 24 hours of the outage/incident.
     - type: submission
       days: 5
       business_days: true
       anchor_point: incident_date
-      description: 'Prisma Access and Cloud NGFW also require submitting a claim on the Claim Dashboard within 5 business days of the outage.'
+      description: Prisma Access and Cloud NGFW also require submitting a claim on the Claim Dashboard within 5 business days of the outage.
   submission_method: Support Portal
   submission_url: https://support.paloaltonetworks.com
   required_evidence:
@@ -119,11 +119,11 @@ services:
     source_url: https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/datasheets/prisma/prisma-cloud-service-level-agreement.pdf
 support:
   tiers:
-    - "Standard"
-    - "Premium"
-    - "Platinum"
+    - Standard
+    - Premium
+    - Platinum
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (Sev1/Critical call, Platinum)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -131,8 +131,11 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.paloaltonetworks.com/services/support"
-  note: "TAM via Focused Services add-on; support priced as a percentage of product list. Targets, not credit-backed."
+  source_url: https://www.paloaltonetworks.com/services/support
+  note: TAM via Focused Services add-on; support priced as a percentage of product list. Targets, not credit-backed. 24x7 phone across tiers; Platinum adds a dedicated senior-engineer team and Focused Services.
+  channels:
+    - portal
+    - phone
 ---
 
 Palo Alto Networks is a Security & Identity provider. Each cloud-delivered service has its own published SLA; see the SLA list at [paloaltonetworks.com/services/support/support-policies](https://www.paloaltonetworks.com/services/support/support-policies).

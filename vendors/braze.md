@@ -7,14 +7,14 @@ category: CRM & Marketing
 website: https://www.braze.com
 scope: global
 sla_url: https://www.braze.com/company/legal/terms
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Braze's Subscription Agreement promises only "commercially reasonable efforts" for 24/7 availability — no committed uptime %, no service credits, and no separate SLA document. Any availability commitment is enterprise/contract-private.
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -91,6 +91,14 @@ services:
     description: Persistent in-app messages
     sla_eligible: true
     source_url: https://www.braze.com/company/legal/terms
+support:
+  channels:
+    - portal
+  designated_contact: csm
+  professional_services: true
+  has_24x7: false
+  note: Support portal/web form for designated contacts (no phone/chat); off-hours = next business day. SoW-based Customer Support Services catalog. Support portal/web form for designated contacts (no phone/chat); off-hours = next business day. SoW-based Customer Support Services catalog.
+  source_url: https://www.braze.com/customer-support-services
 ---
 
 Braze is a Marketing & Analytics provider. Braze does not publish a standalone public SLA; service-availability terms appear in the [Main Subscription Agreement](https://www.braze.com/company/legal/terms) (Section 2.3), which commits only to "commercially reasonable efforts" to keep the Services available, with no published uptime percentage or service-credit schedule.

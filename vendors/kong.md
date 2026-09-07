@@ -7,25 +7,25 @@ category: Developer Tools
 website: https://www.kong.com
 scope: global
 sla_url: https://konghq.com/legal/service-level-agreement
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.99
-max_credit_percent: 100
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.9
+max_credit_percent: 50
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Schedule shown is Kong Konnect Dedicated Cloud Gateways, Multi-Region (99.9%): 10% / 25% / 50% credits as uptime falls. The Konnect control plane and single-region Dedicated commit 99.5% (10/25/50). Claim within 30 days; max credit 50%. (Corrected: prior record had 99.99% / 100% which Kong''s SLA does not offer.)'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
-  max_credit_percent: 100
+  max_credit_percent: 50
   credit_tiers:
-    - uptime_below: 99.99
-      credit_percent: 10
     - uptime_below: 99.9
-      credit_percent: 25
+      credit_percent: 10
     - uptime_below: 99
-      credit_percent: 100
+      credit_percent: 25
+    - uptime_below: 95
+      credit_percent: 50
 claim_process:
   deadlines:
     - type: submission
@@ -102,12 +102,12 @@ services:
     source_url: https://konghq.com/legal/service-level-agreement
 support:
   tiers:
-    - "Basic"
-    - "Standard"
-    - "Plus"
-    - "Premium"
+    - Basic
+    - Standard
+    - Plus
+    - Premium
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Sev-1, Diamond tier)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -115,8 +115,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://konghq.com/legal/kong-support-and-maintenance-policy"
-  note: "Premium lists a 24/7 30-min Sev1 target and a TAM; published as targets."
+  source_url: https://konghq.com/legal/kong-support-and-maintenance-policy
+  note: Premium lists a 24/7 30-min Sev1 target and a TAM; published as targets.
+  channels:
+    - portal
+    - email
 ---
 
 Kong is a Integration & Automation provider. See the official SLA at [https://konghq.com/legal/service-level-agreement](https://konghq.com/legal/service-level-agreement).

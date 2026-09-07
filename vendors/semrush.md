@@ -7,14 +7,14 @@ category: CRM & Marketing
 website: https://www.semrush.com
 scope: global
 sla_url: https://www.semrush.com/company/legal/terms-of-service/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Semrush's Terms disclaim uninterrupted/timely/error-free availability and set no uptime SLA or credits. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,9 +93,9 @@ services:
     source_url: https://www.semrush.com/company/legal/terms-of-service/
 support:
   tiers:
-    - "Free"
-    - "Paid"
-    - "Enterprise"
+    - Free
+    - Paid
+    - Enterprise
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -104,8 +104,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.semrush.com/kb/264-contact-semrush"
-  note: "Enterprise adds dedicated account management, onboarding, and training."
+  source_url: https://www.semrush.com/kb/264-contact-semrush
+  note: Enterprise adds dedicated account management, onboarding, and training. Email/chat continuous, phone business hours (no published 24x7 or response SLA); higher plans add dedicated reps. No SoW professional services. Email/chat continuous, phone business hours (no published 24x7 or response SLA); higher plans add dedicated reps. No SoW professional services.
+  channels:
+    - email
+    - chat
+    - phone
 ---
 
 Semrush is a Marketing & Analytics provider. See the official SLA at [https://www.semrush.com/company/legal/terms-of-service/](https://www.semrush.com/company/legal/terms-of-service/).

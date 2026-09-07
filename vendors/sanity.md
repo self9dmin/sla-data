@@ -7,13 +7,14 @@ category: Content & Media
 website: https://www.sanity.com
 scope: global
 sla_url: https://www.sanity.io/legal/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-uptime_commitment: 99.9
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.95
 max_credit_percent: 10
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: enterprise
+credit_note: 'Schedule shown is for Enterprise E2 (99.95% commitment): 10% credit for uptime in the 99.9%–99.95% band. Enterprise E1 plans carry a lower 99.9% commitment.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -97,10 +98,10 @@ services:
     source_url: https://www.sanity.io/legal/sla
 support:
   tiers:
-    - "Free"
-    - "Growth"
-    - "Enterprise"
-  has_24x7: true
+    - Free
+    - Growth
+    - Enterprise
+  has_24x7: false
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -108,8 +109,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.sanity.io/enterprise"
-  note: "Enterprise includes a dedicated Slack channel with engineers; response times are targets."
+  source_url: https://www.sanity.io/enterprise
+  note: 'Enterprise includes a dedicated Slack channel with engineers; response times are targets. Enterprise: dedicated Slack/Teams channel + email + check-in calls (no phone). 24/7 is platform monitoring, not a support-response commitment. Solutions engineer guides implementation/migration/training.'
+  channels:
+    - slack
+    - email
 ---
 
 Sanity is a Content & Media provider. See the official SLA at [https://www.sanity.io/legal/sla](https://www.sanity.io/legal/sla).

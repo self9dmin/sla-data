@@ -7,8 +7,8 @@ category: Monitoring & Observability
 website: https://newrelic.com
 scope: global
 sla_url: https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/service-level-availability-commitment/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.8
 max_credit_percent: 0
 has_automatic_credits: false
@@ -109,20 +109,25 @@ services:
     source_url: https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/service-level-availability-commitment/
 support:
   tiers:
-    - "Standard"
-    - "Pro"
-    - "Enterprise"
+    - Standard
+    - Pro
+    - Enterprise
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (P1 business-critical, Enterprise)
   response_is_sla: false
-  designated_contact: tam
+  designated_contact: csm
   architecture_review: true
   professional_services: true
   success_program: false
   training: true
   pricing: custom
-  source_url: "https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings/"
-  note: "Enterprise edition adds a TAM, phone/Slack, and a 1-hour P1 target (explicitly an estimate, not guaranteed). Health checks and migrations are paid professional services."
+  source_url: https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings/
+  note: Enterprise edition adds a TAM, phone/Slack, and a 1-hour P1 target (explicitly an estimate, not guaranteed). Health checks and migrations are paid professional services. 24x7x365 follow-the-sun applies to P1 business-critical only. Enterprise includes a Designated Support Account Manager; Expert Services consultants. 24x7x365 follow-the-sun applies to P1 business-critical only. Enterprise includes a Designated Support Account Manager; Expert Services consultants.
+  channels:
+    - portal
+    - chat
+    - phone
+    - slack
 ---
 
 New Relic is a Monitoring & Observability provider. See the official SLA at [https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/service-level-availability-commitment/](https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/service-level-availability-commitment/).

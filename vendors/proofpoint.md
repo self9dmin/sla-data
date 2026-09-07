@@ -7,8 +7,8 @@ category: Security & Identity
 website: https://www.proofpoint.com
 scope: global
 sla_url: https://www.proofpoint.com/us/legal/license
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.999
 max_credit_percent: 100
 claim_deadline_days: 5
@@ -21,9 +21,9 @@ credit_policy:
   credit_tiers:
     - uptime_below: 99.999
       credit_percent: 25
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 50
-    - uptime_below: 98.0
+    - uptime_below: 98
       credit_percent: 100
 claim_process:
   deadlines:
@@ -116,9 +116,9 @@ services:
     review_note: No public service-specific SLA with an uptime commitment found on proofpoint.com for Threat Response (TRAP); 99.99 unverified.
 support:
   tiers:
-    - "Standard"
-    - "Platinum"
-    - "Premium"
+    - Standard
+    - Platinum
+    - Premium
   has_24x7: true
   response_is_sla: false
   designated_contact: tam
@@ -127,8 +127,11 @@ support:
   success_program: false
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.proofpoint.com/us/support/technical-support-offerings"
-  note: "Platinum adds 24/7 phone for P1; Premium adds a designated TAM and proactive service."
+  source_url: https://www.proofpoint.com/us/support/technical-support-offerings
+  note: 'Platinum adds 24/7 phone for P1; Premium adds a designated TAM and proactive service. Portal 24/7; phone for P1 is business hours (Platinum) or 24x7x365 (Premium). Named TAM at Premium. (Note: Premium > Platinum.)'
+  channels:
+    - portal
+    - phone
 ---
 
 Proofpoint is a Security & Identity provider. See the official SLAs at [https://www.proofpoint.com/us/legal/license](https://www.proofpoint.com/us/legal/license).

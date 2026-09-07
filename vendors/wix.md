@@ -7,8 +7,8 @@ category: E-commerce
 website: https://www.wix.com
 scope: global
 sla_url: https://www.wix.com/about/terms-of-use/enterprise
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 10
 claim_deadline_days: 30
@@ -104,10 +104,10 @@ services:
     source_url: https://www.wix.com/about/terms-of-use/enterprise
 support:
   tiers:
-    - "Standard Customer Care"
-    - "Enterprise (Priority)"
+    - Standard Customer Care
+    - Enterprise (Priority)
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Enterprise Priority, 24/7)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -115,8 +115,10 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.wix.com/enterprise/services"
-  note: "Enterprise bundles 24/7 priority support, a 1-hour first-response commitment, and a dedicated CSM."
+  source_url: https://www.wix.com/enterprise/services
+  note: 'Enterprise bundles 24/7 priority support, a 1-hour first-response commitment, and a dedicated CSM. Enterprise Priority Support: up to a 1-hour first response, 24/7 (verified on Wix Enterprise terms), via ticket/"Get Help" routed to a named CSM (phone not committed for top tier). Up to 15 educational hours included; further training scoped separately.'
+  channels:
+    - portal
 ---
 
 Wix is a E-commerce provider. The public credit-backed SLA ("Exhibit B - Wix Enterprise Plan SLA") applies only to the Wix Enterprise Plan: 99.9% Annual Uptime Percentage, 10% Service Credit, claims within 30 days, request-based (not automatic). See the official SLA at [https://www.wix.com/about/terms-of-use/enterprise](https://www.wix.com/about/terms-of-use/enterprise).

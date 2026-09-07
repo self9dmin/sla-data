@@ -6,16 +6,20 @@ legal_entity: OpenAI
 category: AI & Machine Learning
 website: https://www.openai.com
 scope: global
-sla_url: https://openai.com/api-scale-tier/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.9
+sla_url: https://openai.com/policies/service-terms/
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: enterprise
+credit_note: Standard (default) API is best-effort with no SLA (Service Terms provide it "as is"). The paid Scale Tier (Enterprise) DOES carry a published 99.9% uptime SLA and a 99% latency SLA — see SLA tiers. Base classification stays no_sla because the default offering has no commitment; the public credit/remedy schedule for Scale Tier is contract-based.
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
+sla_tiers:
+  - name: Scale Tier
+    requirement: Paid Scale Tier capacity commitment (Enterprise, via Sales)
+    uptime_commitment: 99.9
+    source_url: https://openai.com/api-scale-tier/
 claim_process:
   deadlines:
     - type: submission
@@ -94,12 +98,12 @@ services:
     source_url: https://openai.com/api-scale-tier/
 support:
   tiers:
-    - "Free"
-    - "Plus"
-    - "Team"
-    - "Business"
-    - "Enterprise"
-    - "API Scale Tier"
+    - Free
+    - Plus
+    - Team
+    - Business
+    - Enterprise
+    - API Scale Tier
   has_24x7: true
   response_is_sla: false
   designated_contact: team
@@ -108,8 +112,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://openai.com/chatgpt/enterprise/"
-  note: "Enterprise: 24/7 support, AI advisors, account director/CSM. API Scale Tier carries an uptime SLA; support response times are targets."
+  source_url: https://openai.com/chatgpt/enterprise/
+  note: 'Enterprise: 24/7 support, AI advisors, account director/CSM. API Scale Tier carries an uptime SLA; support response times are targets. In-product/help-center messaging + email; ChatGPT Enterprise adds 24/7 support, a dedicated contact, and on-call (premium) — no public numeric response SLA or phone. Deployment guidance, training, AI advisors (select Enterprise). In-product/help-center messaging + email; ChatGPT Enterprise adds 24/7 support, a dedicated contact, and on-call (premium) — no public numeric response SLA or phone. Deployment guidance, training, AI advisors (select Enterprise).'
+  channels:
+    - portal
+    - email
 ---
 
 OpenAI is a AI & Machine Learning provider. See the official SLA at [https://openai.com/api-scale-tier/](https://openai.com/api-scale-tier/).

@@ -7,9 +7,8 @@ category: Enterprise & Operations
 website: https://www.microsoft.com
 scope: global
 sla_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 60
@@ -100,11 +99,11 @@ services:
     source_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
 support:
   tiers:
-    - "Unified Core"
-    - "Unified Advanced"
-    - "Unified Performance"
+    - Unified Core
+    - Unified Advanced
+    - Unified Performance
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 1 hour (Severity A, 24x7)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -112,8 +111,13 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.microsoft.com/en-us/microsoft-unified/plan-details"
-  note: "Azure Sev1 15-min response under Unified; CSAM and proactive hours scale by tier. Targets, not credit-backed."
+  source_url: https://www.microsoft.com/en-us/microsoft-unified/plan-details
+  note: Azure Sev1 15-min response under Unified; CSAM and proactive hours scale by tier. Targets, not credit-backed. Microsoft Unified Support; CSAM included. Sev A initial response is ~1 hour on Microsoft’s own table — the 15-min figure is third-party blog speculation, not published by Microsoft.
+  channels:
+    - phone
+    - portal
+    - chat
+    - email
 ---
 
 Microsoft is a Other SaaS provider. See the official SLA at [https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).

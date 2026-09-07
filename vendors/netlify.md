@@ -7,12 +7,13 @@ category: Cloud Infrastructure
 website: https://www.netlify.com
 scope: global
 sla_url: https://www.netlify.com/pricing/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 has_automatic_credits: false
-min_plan_for_sla: standard
-needs_review: true
+min_plan_for_sla: enterprise
+sla_help_wanted: true
+credit_note: 'Netlify''s Enterprise plan provides a 99.99% uptime SLA with service credits; the exact credit schedule and claim terms are contract-negotiated and not published. SLA help wanted: an Enterprise customer can contribute the schedule.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -100,9 +101,9 @@ services:
     source_url: https://www.netlify.com/pricing/
 support:
   tiers:
-    - "Standard"
-    - "Business Day Support"
-    - "Premium Support"
+    - Standard
+    - Business Day Support
+    - Premium Support
   has_24x7: true
   response_is_sla: false
   designated_contact: none
@@ -111,8 +112,12 @@ support:
   success_program: false
   training: false
   pricing: custom
-  source_url: "https://www.netlify.com/support-scope/"
-  note: "Enterprise can purchase Business Day or Premium Support; response times not publicly published."
+  source_url: https://www.netlify.com/support-scope/
+  note: Enterprise can purchase Business Day or Premium Support; response times not publicly published. Enterprise/Premium add 24/7/365 with contractual response times (Business Day Support is business hours); specific thresholds not public. Slack/phone at Enterprise.
+  channels:
+    - email
+    - slack
+    - phone
 ---
 
 Netlify is a Cloud Infrastructure provider. Netlify's 99.99% uptime SLA is an Enterprise-tier commitment; see the [Netlify pricing page](https://www.netlify.com/pricing/) and [Netlify for enterprises](https://www.netlify.com/enterprise/). There is no public standalone SLA document, detailed service-credit terms are contained in the non-public Enterprise Master Subscription Agreement.

@@ -7,8 +7,8 @@ category: Cloud Infrastructure
 website: https://www.veeam.com
 scope: global
 sla_url: https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 30
@@ -21,9 +21,9 @@ credit_policy:
   credit_tiers:
     - uptime_below: 99.9
       credit_percent: 10
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 25
-    - uptime_below: 95.0
+    - uptime_below: 95
       credit_percent: 100
 claim_process:
   deadlines:
@@ -108,20 +108,24 @@ services:
     source_url: https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html
 support:
   tiers:
-    - "Basic"
-    - "Production"
-    - "Premier"
+    - Basic
+    - Production
+    - Premier
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 30 min (Sev1, Premier)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
-  professional_services: true
+  professional_services: false
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.veeam.com/legal/support-policy.html"
-  note: "Production is 24/7; Premier adds a Support Account Manager and proactive services."
+  source_url: https://www.veeam.com/legal/support-policy.html
+  note: Production is 24/7; Premier adds a Support Account Manager and proactive services. Production 1-hr / Premier 30-min Sev1 (24/7); Premier adds a Support Account Manager. Solution design/architecture/training are explicitly OUT of support scope (sold separately).
+  channels:
+    - phone
+    - portal
+    - email
 ---
 
 Veeam is a Storage & Backup provider. See the official SLA at [https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html](https://www.veeam.com/legal/veeam-data-cloud-service-agreement.html).

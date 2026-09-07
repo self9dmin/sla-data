@@ -7,25 +7,18 @@ category: Databases & Data Infrastructure
 website: https://www.fivetran.com
 scope: global
 sla_url: https://www.fivetran.com/legal/sla
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
-max_credit_percent: 100
+max_credit_percent: 25
 claim_deadline_days: 30
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'Verified against Fivetran''s SLA (Enterprise & Business Critical plans): Platform and Data Delivery commit 99.9%, Reverse ETL (Activation) 99.5%. Credits accrue incrementally (~1% of fees per band below the target, claimed per connection) and are capped at 25% of the applicable monthly service fees; sole and exclusive remedy. (Corrected: prior record had a 100% max with a fabricated 10/25/100 ladder.)'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
-  max_credit_percent: 100
-  credit_tiers:
-    - uptime_below: 99.9
-      credit_percent: 10
-    - uptime_below: 99
-      credit_percent: 25
-    - uptime_below: 95
-      credit_percent: 100
+  max_credit_percent: 25
 claim_process:
   deadlines:
     - type: submission
@@ -102,20 +95,23 @@ services:
     source_url: https://www.fivetran.com/legal/sla
 support:
   tiers:
-    - "Standard"
-    - "Enterprise"
-    - "Business Critical"
+    - Standard
+    - Enterprise
+    - Business Critical
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 30 min (Sev1, Business Critical)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: tam
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: included
-  source_url: "https://support.fivetran.com/hc/en-us/articles/5893119459223-Fivetran-Support-Policy"
-  note: "Published response targets per severity; not described as credit-backed SLAs."
+  source_url: https://support.fivetran.com/hc/en-us/articles/5893119459223-Fivetran-Support-Policy
+  note: Published response targets per severity; not described as credit-backed SLAs. Portal/email only (no phone). 24/7 with tier-gated speed; Business Critical adds a dedicated TAM + custom SLAs. Resident Solution Architect + training. Portal/email only (no phone). 24/7 with tier-gated speed; Business Critical adds a dedicated TAM + custom SLAs. Resident Solution Architect + training.
+  channels:
+    - portal
+    - email
 ---
 
 Fivetran is a Database & Data Infrastructure provider. See the official SLA at [https://www.fivetran.com/legal/sla](https://www.fivetran.com/legal/sla).

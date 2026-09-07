@@ -7,14 +7,14 @@ category: Databases & Data Infrastructure
 website: https://www.getdbt.com
 scope: global
 sla_url: https://docs.getdbt.com/docs/dbt-support
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: dbt Cloud Developer/Starter plans have no SLA; any SLA (uptime, credits) is defined per Enterprise/Enterprise+ contract and is not public. No standard public SLA. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,9 +93,9 @@ services:
     source_url: https://docs.getdbt.com/docs/dbt-support
 support:
   tiers:
-    - "Developer/Starter"
-    - "Enterprise"
-    - "Premier"
+    - Developer/Starter
+    - Enterprise
+    - Premier
   has_24x7: true
   response_is_sla: false
   designated_contact: team
@@ -104,8 +104,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://docs.getdbt.com/docs/dbt-support"
-  note: "Premier tier adds support response targets and a Resident Architect; pro packages available."
+  source_url: https://docs.getdbt.com/docs/dbt-support
+  note: Premier tier adds support response targets and a Resident Architect; pro packages available. Email + in-product portal + Community Slack (no phone). Premier Sev1 24x7x365 (Sev2-4 24x5), with a named senior engineer + monthly support reviews. Resident Architect engagements. Email + in-product portal + Community Slack (no phone). Premier Sev1 24x7x365 (Sev2-4 24x5), with a named senior engineer + monthly support reviews. Resident Architect engagements.
+  channels:
+    - email
+    - portal
+    - slack
+  fastest_response: 1 hour (Sev1, Premier Support)
 ---
 
 dbt Labs is a Other SaaS provider. dbt Cloud does not publish a public uptime SLA with service credits; Enterprise/Enterprise+ SLA terms are governed by the individual Enterprise contract. See the official support and SLA scope page at [https://docs.getdbt.com/docs/dbt-support](https://docs.getdbt.com/docs/dbt-support).

@@ -7,14 +7,14 @@ category: Productivity
 website: https://www.dropbox.com
 scope: global
 sla_url: https://www.dropbox.com/business_agreement
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: The Dropbox Business Agreement provides the service "as is" / "as available" and disclaims any warranty of uninterrupted service — no public uptime SLA or service credits. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,11 +93,11 @@ services:
     source_url: https://www.dropbox.com/business_agreement
 support:
   tiers:
-    - "Standard"
-    - "Enterprise"
-    - "Premium Support add-on"
+    - Standard
+    - Enterprise
+    - Premium Support add-on
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (email, Enterprise)
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
@@ -105,8 +105,13 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://help.dropbox.com/account-settings/customer-support-levels"
-  note: "Response times are stated as targets in help docs, not credit-backed SLAs."
+  source_url: https://help.dropbox.com/account-settings/customer-support-levels
+  note: Response times are stated as targets in help docs, not credit-backed SLAs. Phone/chat are Business/Enterprise (and Premium add-on); 24x7 phone at Enterprise.
+  channels:
+    - portal
+    - email
+    - chat
+    - phone
 ---
 
 Dropbox is a Productivity & Collaboration provider. See the official Dropbox Business Agreement at [https://www.dropbox.com/business_agreement](https://www.dropbox.com/business_agreement). Note: Dropbox does not publish a public uptime SLA with service credits; its agreements disclaim any availability guarantee.

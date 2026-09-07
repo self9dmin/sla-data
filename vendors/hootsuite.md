@@ -7,8 +7,8 @@ category: CRM & Marketing
 website: https://www.hootsuite.com
 scope: global
 sla_url: https://www.hootsuite.com/legal/enterprise-service-level-agreement
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-24'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_days: 15
 claim_deadline_days: 30
@@ -22,9 +22,9 @@ credit_policy:
   credit_tiers:
     - uptime_below: 99.9
       credit_days: 3
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_days: 7
-    - uptime_below: 95.0
+    - uptime_below: 95
       credit_days: 15
 claim_process:
   deadlines:
@@ -101,8 +101,8 @@ services:
     source_url: https://www.hootsuite.com/legal/enterprise-service-level-agreement
 support:
   tiers:
-    - "Standard Services"
-    - "Premier Services"
+    - Standard Services
+    - Premier Services
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -111,8 +111,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.hootsuite.com/services"
-  note: "Premier adds a designated account manager and phone support; no published response-time SLA."
+  source_url: https://www.hootsuite.com/services
+  note: Premier adds a designated account manager and phone support; no published response-time SLA. Premier Services adds a designated account manager + phone support; no published response-time SLA.
+  channels:
+    - chat
+    - email
+    - phone
 ---
 
 Hootsuite is a Marketing & Analytics provider. See the official SLA at [https://www.hootsuite.com/legal/enterprise-service-level-agreement](https://www.hootsuite.com/legal/enterprise-service-level-agreement).

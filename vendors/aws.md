@@ -72,9 +72,8 @@ regions:
     continent: africa
 region_pattern: \b(us-east-[12]|us-west-[12]|eu-west-[123]|eu-central-1|eu-north-1|ap-southeast-[12]|ap-northeast-[123]|ap-south-1|sa-east-1|ca-central-1|me-south-1|af-south-1|ap-east-1|eu-south-1|me-central-1|ap-south-2|ap-southeast-3|eu-central-2|eu-south-2|il-central-1)\b
 sla_url: https://aws.amazon.com/legal/service-level-agreements/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 30
@@ -261,167 +260,216 @@ services:
   - id: aurora
     name: Amazon Aurora
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/rds/aurora/sla/
   - id: api-gateway
     name: Amazon API Gateway
     uptime_commitment: 99.95
+    source_url: https://aws.amazon.com/api-gateway/sla/
   - id: ecs
     name: Amazon ECS
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/ecs/sla/
   - id: fargate
     name: AWS Fargate
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/ecs/sla/
   - id: kinesis-streams
     name: Amazon Kinesis Data Streams
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/kinesis/sla/
   - id: redshift
     name: Amazon Redshift
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/redshift/sla/
   - id: elasticache
     name: Amazon ElastiCache
-    uptime_commitment: 99.9
+    uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/elasticache/sla/
   - id: opensearch
     name: Amazon OpenSearch Service
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/elasticsearch-service/sla
   - id: bedrock
     name: Amazon Bedrock
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/bedrock/sla/
   - id: sagemaker
     name: Amazon SageMaker
-    uptime_commitment: 99.9
+    uptime_commitment: 99.95
+    source_url: https://aws.amazon.com/sagemaker/sla/
   - id: cognito
     name: Amazon Cognito
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/cognito/sla/
   - id: step-functions
     name: AWS Step Functions
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/step-functions/sla/
   - id: eventbridge
     name: Amazon EventBridge
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/eventbridge/sla/
   - id: secrets-manager
     name: AWS Secrets Manager
-    uptime_commitment: 99.9
+    uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/secrets-manager/sla/
   - id: ssm-parameter-store
     name: AWS Systems Manager Parameter Store
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/systems-manager/sla/
   - id: vpc
     name: Amazon VPC
-    uptime_commitment: 99.99
+    uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/vpc/sla/
   - id: direct-connect
     name: AWS Direct Connect
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/directconnect/sla/
   - id: elb
     name: Elastic Load Balancing
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/elasticloadbalancing/sla/
   - id: cloudwatch
     name: Amazon CloudWatch
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/cloudwatch/sla/
   - id: waf
     name: AWS WAF
     uptime_commitment: 99.95
+    source_url: https://aws.amazon.com/waf/sla/
   - id: shield-advanced
     name: AWS Shield Advanced
-    uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/shield/sla/
   - id: ebs
     name: Amazon EBS
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/ebs/sla/
   - id: efs
     name: Amazon EFS
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/efs/sla/
   - id: app-runner
     name: AWS App Runner
-    uptime_commitment: 99.95
+    source_url: https://aws.amazon.com/legal/service-level-agreements/
   - id: amplify-hosting
     name: AWS Amplify Hosting
     uptime_commitment: 99.95
+    source_url: https://aws.amazon.com/amplify/sla/
   - id: msk
     name: Amazon MSK
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/msk/sla/
   - id: mq
     name: Amazon MQ
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/amazon-mq/sla/
   - id: documentdb
     name: Amazon DocumentDB
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/documentdb/sla/
   - id: neptune
     name: Amazon Neptune
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/neptune/sla/
   - id: keyspaces
     name: Amazon Keyspaces
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/keyspaces/sla/
   - id: qldb
     name: Amazon QLDB
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/qldb/sla/
   - id: timestream
     name: Amazon Timestream
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/timestream/sla/
   - id: backup
     name: AWS Backup
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/backup/sla/
   - id: transfer-family
     name: AWS Transfer Family
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/transfer/sla/
   - id: connect
     name: Amazon Connect
     uptime_commitment: 99.99
+    source_url: https://aws.amazon.com/products/connect/customer/sla0/
   - id: lex
     name: Amazon Lex
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/machine-learning/language/sla
   - id: polly
     name: Amazon Polly
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/machine-learning/language/sla
   - id: transcribe
     name: Amazon Transcribe
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/machine-learning/language/sla
   - id: translate
     name: Amazon Translate
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/machine-learning/language/sla
   - id: rekognition
     name: Amazon Rekognition
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/rekognition/sla/
   - id: textract
     name: Amazon Textract
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/textract/sla/
   - id: comprehend
     name: Amazon Comprehend
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/machine-learning/language/sla
   - id: codebuild
     name: AWS CodeBuild
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/codebuild/sla/
   - id: codepipeline
     name: AWS CodePipeline
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/codepipeline/sla/
   - id: codedeploy
     name: AWS CodeDeploy
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/codedeploy/sla/
   - id: glue
     name: AWS Glue
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/glue/sla/
   - id: athena
     name: Amazon Athena
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/athena/sla/
   - id: quicksight
     name: Amazon QuickSight
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/quicksight/sla/
   - id: appsync
     name: AWS AppSync
     uptime_commitment: 99.95
+    source_url: https://aws.amazon.com/appsync/sla/
   - id: iot-core
     name: AWS IoT Core
     uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/iot-core/sla/
   - id: acm
     name: AWS Certificate Manager
-    uptime_commitment: 99.9
+    source_url: https://aws.amazon.com/legal/service-level-agreements/
   - id: kms
     name: AWS KMS
     uptime_commitment: 99.999
+    source_url: https://aws.amazon.com/kms/sla/
 support:
   tiers:
-    - "Developer"
-    - "Business"
-    - "Enterprise On-Ramp"
-    - "Enterprise"
+    - Developer
+    - Business
+    - Enterprise On-Ramp
+    - Enterprise
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (critical, Enterprise; ~5 min on Unified Operations)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -429,8 +477,13 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://aws.amazon.com/premiumsupport/plans/"
-  note: "Enterprise Support adds a designated TAM, a roughly 15-minute business-critical response target (an SLO, not credit-backed), Well-Architected reviews, and Countdown event support. Priced as the greater of a flat minimum or a percentage of AWS spend."
+  source_url: https://aws.amazon.com/premiumsupport/plans/
+  note: Enterprise Support adds a designated TAM, a roughly 15-minute business-critical response target (an SLO, not credit-backed), Well-Architected reviews, and Countdown event support. Priced as the greater of a flat minimum or a percentage of AWS spend. Designated TAM at Enterprise; AWS ProServe + proactive reviews. New Unified Operations tier adds an Incident Management Engineer with ~5-min critical response.
+  channels:
+    - portal
+    - phone
+    - chat
+    - email
 ---
 
 AWS is a Cloud Infrastructure provider. See the official SLA at [https://aws.amazon.com/legal/service-level-agreements/](https://aws.amazon.com/legal/service-level-agreements/).

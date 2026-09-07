@@ -7,8 +7,8 @@ category: Developer Tools
 website: https://github.com
 scope: global
 sla_url: https://github.com/customer-terms/github-online-services-sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 30
@@ -123,11 +123,11 @@ services:
     source_url: https://github.com/customer-terms/github-online-services-sla
 support:
   tiers:
-    - "Standard"
-    - "Premium"
-    - "Premium Plus"
+    - Standard
+    - Premium
+    - Premium Plus
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Urgent, Premium tier)
   response_is_sla: false
   designated_contact: team
   architecture_review: false
@@ -135,8 +135,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://docs.github.com/en/enterprise-cloud@latest/support/learning-about-github-support/about-github-premium-support"
-  note: "Premium Plus adds a named CRE team, health checks, training; targets, not credit-backed."
+  source_url: https://docs.github.com/en/enterprise-cloud@latest/support/learning-about-github-support/about-github-premium-support
+  note: Premium Plus adds a named CRE team, health checks, training; targets, not credit-backed. Phone is callback-only (not a direct line). Named CRE only at Premium Plus.
+  channels:
+    - portal
+    - phone
+    - screen-share
 ---
 
 GitHub is a DevOps & Development provider. See the official SLA at [https://github.com/customer-terms/github-online-services-sla](https://github.com/customer-terms/github-online-services-sla).

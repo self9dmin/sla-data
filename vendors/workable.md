@@ -7,12 +7,12 @@ category: HR & People Operations
 website: https://www.workable.com
 scope: global
 sla_url: https://www.workable.com/legal/additional-terms?tab=service-level-agreement
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.8
 max_credit_percent: 30
 credit_unit: days
-credit_note: "Credits are days of Services pro-rated against the Annual Plan (tiers: 7 / 14 / 30 days), capped at 30 days; not a percentage."
+credit_note: 'Credits are days of Services pro-rated against the Annual Plan (tiers: 7 / 14 / 30 days), capped at 30 days; not a percentage.'
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: annual
@@ -21,13 +21,10 @@ credit_policy:
   calculation_type: tiered
   remedy_type: credit
   max_credit_percent: 30
-  # NOTE: Workable's SLA remedy is in DAYS of Services, not percent of fees.
-  # Verbatim tiers: 99.8%-98.0% = 7 days; 98.0%-97% = 14 days; <97.0% = 30 days.
-  # credit_percent values below are LEGACY/UNVERIFIED (see review_note).
   credit_tiers:
     - uptime_below: 99.8
       credit_percent: 10
-    - uptime_below: 97.0
+    - uptime_below: 97
       credit_percent: 25
 claim_process:
   deadlines:
@@ -106,9 +103,9 @@ services:
     source_url: https://www.workable.com/legal/additional-terms?tab=service-level-agreement
 support:
   tiers:
-    - "Priority support (all paid plans)"
-  has_24x7: true
-  fastest_response: "3 hours"
+    - Priority support (all paid plans)
+  has_24x7: false
+  fastest_response: 3 hours (first response, business hours)
   response_is_sla: false
   designated_contact: none
   architecture_review: false
@@ -116,8 +113,12 @@ support:
   success_program: false
   training: false
   pricing: included
-  source_url: "https://www.workable.com/pricing"
-  note: "Single support level across paid plans; 24/7 email, 3-hour target. No credits."
+  source_url: https://www.workable.com/pricing
+  note: Single support level across paid plans; 24/7 email, 3-hour target. No credits. Email 24/7; phone/chat Mon-Fri 3am-5pm ET. No dedicated CSM/TAM. Email 24/7; phone/chat Mon-Fri 3am-5pm ET. No dedicated CSM/TAM.
+  channels:
+    - email
+    - phone
+    - chat
 ---
 
 Workable is a HR & People Operations provider. See the official SLA at [https://www.workable.com/legal/additional-terms?tab=service-level-agreement](https://www.workable.com/legal/additional-terms?tab=service-level-agreement).

@@ -7,14 +7,14 @@ category: Cloud Infrastructure
 website: https://www.heroku.com
 scope: global
 sla_url: https://www.heroku.com/policy/promise
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Heroku publishes no uptime SLA or service credits for general dyno availability — only support-response-time targets on paid support plans. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -99,11 +99,11 @@ services:
     source_url: https://www.heroku.com/policy/
 support:
   tiers:
-    - "Standard Success"
-    - "Premier Success"
-    - "Signature Success"
+    - Standard Success
+    - Premier Success
+    - Signature Success
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (business-stopping, Signature)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -111,8 +111,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.heroku.com/support/"
-  note: "Signature adds a TAM and 1-hour critical target; published as targets, not credit-backed."
+  source_url: https://www.heroku.com/support/
+  note: Signature adds a TAM and 1-hour critical target; published as targets, not credit-backed. 24/7 case submission is Signature-only (Standard/Premier business hours); Signature adds a dedicated TAM + emergency phone line.
+  channels:
+    - portal
+    - email
+    - phone
 ---
 
 Heroku is a Cloud Infrastructure provider. See the official SLA at [https://www.heroku.com/policy/promise](https://www.heroku.com/policy/promise).

@@ -7,15 +7,15 @@ category: Monitoring & Observability
 website: https://www.datadoghq.com
 scope: global
 sla_url: https://www.datadoghq.com/legal/msa/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.8
 max_credit_percent: 0
 has_automatic_credits: false
 min_plan_for_sla: pro
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: termination_with_refund
   max_credit_percent: 0
 claim_process:
   submission_method: N/A - No SLA credits; availability info via Support request
@@ -101,10 +101,10 @@ services:
     source_url: https://www.datadoghq.com/legal/msa/
 support:
   tiers:
-    - "Standard"
-    - "Premier"
+    - Standard
+    - Premier
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Business Critical, Premier)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -112,8 +112,12 @@ support:
   success_program: false
   training: true
   pricing: custom
-  source_url: "https://www.datadoghq.com/support-services/plans/"
-  note: "Premier adds phone/video, a designated team of support engineers, and priority escalation. A TAM and professional services are separate paid offerings. Response times are targets (the only stated remedy is re-performance of support, not credits)."
+  source_url: https://www.datadoghq.com/support-services/plans/
+  note: 'Premier adds phone/video, a designated team of support engineers, and priority escalation. A TAM and professional services are separate paid offerings. Response times are targets (the only stated remedy is re-performance of support, not credits). Premier (8% of spend, $2k/mo min): 24x7 all channels + a designated team of support engineers (TAM is a separate add-on). Standard is 24x7 for business-critical only. Premier (8% of spend, $2k/mo min): 24x7 all channels + a designated team of support engineers (TAM is a separate add-on). Standard is 24x7 for business-critical only.'
+  channels:
+    - email
+    - chat
+    - phone
 ---
 
 Datadog is a Monitoring & Observability provider. The SLA is contained in the Master Subscription Agreement at [https://www.datadoghq.com/legal/msa/](https://www.datadoghq.com/legal/msa/). Datadog commits to 99.8% availability; the sole remedy for missing it is a termination right plus pro-rated refund (no service credits).

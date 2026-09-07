@@ -7,17 +7,9 @@ category: Enterprise & Operations
 website: https://www.servicenow.com
 scope: global
 sla_url: https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/subscription-service-guide-upgrade.pdf
-last_verified: '2026-06-21'
-last_updated: '2026-06-21'
-needs_review: true
-  Guide PDF, which resolves and states the 99.8% monthly Availability SLA for production
-  instances plus the credit or term-extension remedy and 30-day written request window.
-  The prior sla_url and the per-service source_url both pointed at pages that now 404
-  (the legal/sla PDF redirects to page-not-found, and the trust/compliance SLA HTML
-  is gone), so all links were repointed at the Subscription Service Guide. The 99.9%
-  figure previously listed for the Regulated Markets (FedRAMP) offering is not stated
-  in this public document, so it has been removed pending a confirmable official
-  source. The base 99.8% commitment and credit terms are confirmed public.'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+credit_note: 'Verified against ServiceNow''s Subscription Service Guide: 99.8% monthly Availability SLA for production instances, with a credit / term-extension remedy and a 30-day written request window. (The legal/sla and trust- compliance pages now 404, so sla_url was repointed to the Subscription Service Guide. A previously listed 99.9% FedRAMP figure was removed pending a confirmable source.)'
 uptime_commitment: 99.8
 max_credit_percent: 100
 has_automatic_credits: false
@@ -31,14 +23,11 @@ claim_process:
     - type: claim_submission
       days: 30
       anchor_point: end of the month in which the Availability SLA was not met
-      description: Customer must request all service credits or extensions in writing
-        to ServiceNow within 30 days of the end of the month in which the Availability
-        SLA was not met.
+      description: Customer must request all service credits or extensions in writing to ServiceNow within 30 days of the end of the month in which the Availability SLA was not met.
   submission_method: Written request to ServiceNow
   required_evidence:
     - Support requests relating to the period the production instances were not Available
-  credit_application: Applied to next invoice for subscription fees (ServiceNow may
-    delay issuing credits until amounts reach $1,000 USD)
+  credit_application: Applied to next invoice for subscription fees (ServiceNow may delay issuing credits until amounts reach $1,000 USD)
 global_exclusions:
   - Maintenance Time of up to two hours per month
   - Force Majeure Events
@@ -93,11 +82,11 @@ services:
     source_url: https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/subscription-service-guide-upgrade.pdf
 support:
   tiers:
-    - "Now Support (standard)"
-    - "Impact Guided"
-    - "Impact Total"
+    - Now Support (standard)
+    - Impact Guided
+    - Impact Total
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (P1, Impact Total tier)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -105,8 +94,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.servicenow.com/impact.html"
-  note: "ServiceNow Impact (paid, roughly percent-of-ACV) adds faster response targets and Accelerator engagements; Impact Total adds a named team (Customer Success Executive, Platform Architect, CSM, and SAM). Uptime IS credit-backed (99.8 percent); support response times are targets."
+  source_url: https://www.servicenow.com/impact.html
+  note: ServiceNow Impact (paid, roughly percent-of-ACV) adds faster response targets and Accelerator engagements; Impact Total adds a named team (Customer Success Executive, Platform Architect, CSM, and SAM). Uptime IS credit-backed (99.8 percent); support response times are targets. Impact subscription support; 15-min P1 on the Total tier, 30-min on Guided. Impact Accelerators are 50+ fixed-scope consultant engagements.
+  channels:
+    - phone
+    - portal
+    - chat
 ---
 
 ServiceNow is a Enterprise Software provider. See the official availability terms in ServiceNow's Subscription Service Guide at [https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/subscription-service-guide-upgrade.pdf](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/subscription-service-guide-upgrade.pdf).

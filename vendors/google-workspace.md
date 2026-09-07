@@ -7,13 +7,13 @@ category: Productivity
 website: https://workspace.google.com
 scope: global
 sla_url: https://workspace.google.com/terms/sla.html
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 needs_review: false
 uptime_commitment: 99.9
 max_credit_percent: 15
 credit_unit: days
-credit_note: "Service credits are Days of Service added to the end of the term (tiers: 3 / 7 / 15 days), not a percentage of fees."
+credit_note: 'Service credits are Days of Service added to the end of the term (tiers: 3 / 7 / 15 days), not a percentage of fees.'
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -125,11 +125,11 @@ services:
     source_url: https://workspace.google.com/terms/sla.html
 support:
   tiers:
-    - "Standard"
-    - "Enhanced"
-    - "Premium"
+    - Standard
+    - Enhanced
+    - Premium
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (P1, Premium — an SLO)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -137,8 +137,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://workspace.google.com/support/"
-  note: "Premium includes a TAM; response times are SLOs, not credit-backed SLAs."
+  source_url: https://workspace.google.com/support/
+  note: Premium includes a TAM; response times are SLOs, not credit-backed SLAs. 24x7 across paid tiers; designated TAM at Premium. 15-min P1 is an objective (SLO), not a credit-backed SLA.
+  channels:
+    - phone
+    - email
+    - chat
+    - portal
 ---
 
 Google Workspace is a Productivity & Collaboration provider. See the official SLA at [https://workspace.google.com/terms/sla.html](https://workspace.google.com/terms/sla.html).

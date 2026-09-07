@@ -7,8 +7,8 @@ category: Monitoring & Observability
 website: https://www.elastic.com
 scope: global
 sla_url: https://www.elastic.co/agreements/sla-elastic-cloud-hosted
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.95
 max_credit_percent: 100
 claim_deadline_days: 10
@@ -121,21 +121,24 @@ services:
     source_url: https://www.elastic.co/agreements/sla-elastic-cloud-hosted
 support:
   tiers:
-    - "Standard"
-    - "Gold"
-    - "Platinum"
-    - "Enterprise"
+    - Standard
+    - Gold
+    - Platinum
+    - Enterprise
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 30 min (Urgent/Sev1, Cloud Platinum)
   response_is_sla: false
-  designated_contact: tam
+  designated_contact: team
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.elastic.co/subscriptions"
-  note: "Published response targets; TAM and consulting at Enterprise. Targets, not credit-backed."
+  source_url: https://www.elastic.co/subscriptions
+  note: Published response targets; TAM and consulting at Enterprise. Targets, not credit-backed. 24x7x365 at Platinum/Enterprise (self-managed Critical = 1 hr). Designated Support Engineer add-on (up to 25 hrs/mo) + consulting. 24x7x365 at Platinum/Enterprise (self-managed Critical = 1 hr). Designated Support Engineer add-on (up to 25 hrs/mo) + consulting.
+  channels:
+    - portal
+    - phone
 ---
 
 Elastic is a Monitoring & Observability provider. See the official SLA at [https://www.elastic.co/agreements/sla-elastic-cloud-hosted](https://www.elastic.co/agreements/sla-elastic-cloud-hosted).

@@ -7,12 +7,12 @@ category: HR & People Operations
 website: https://www.greenhouse.com
 scope: global
 sla_url: https://www.greenhouse.com/service-level-agreement
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-uptime_commitment: 99.9
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.5
 max_credit_percent: 10
 credit_unit: days
-credit_note: "Service credits are awarded in one-day increments of fees (5 credits below 99.5%, 10 below 99.0%; Job Boards 5 below 99.9%, 10 below 99.5%), not a percentage."
+credit_note: Service credits are awarded in one-day increments of fees (5 credits below 99.5%, 10 below 99.0%; Job Boards 5 below 99.9%, 10 below 99.5%), not a percentage.
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -22,9 +22,9 @@ credit_policy:
   remedy_type: credit
   max_credit_percent: 10
   credit_tiers:
-    - uptime_below: 99.9
-      credit_percent: 10
     - uptime_below: 99.5
+      credit_percent: 10
+    - uptime_below: 99
       credit_percent: 25
 claim_process:
   deadlines:
@@ -76,44 +76,48 @@ services:
     name: Greenhouse API
     category: API
     description: Integration API
-    uptime_commitment: 99.9
+    uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.greenhouse.com/service-level-agreement
   - id: onboarding
     name: Greenhouse Onboarding
     category: Onboarding
     description: New hire onboarding
-    uptime_commitment: 99.9
+    uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.greenhouse.com/service-level-agreement
   - id: recruiting
     name: Greenhouse Recruiting
     category: ATS
     description: Applicant tracking system
-    uptime_commitment: 99.9
+    uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.greenhouse.com/service-level-agreement
   - id: sourcing
     name: Greenhouse Sourcing
     category: Sourcing
     description: Candidate sourcing
-    uptime_commitment: 99.9
+    uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://www.greenhouse.com/service-level-agreement
 support:
   tiers:
-    - "Standard"
-    - "Premium"
+    - Standard
+    - Premium
   has_24x7: false
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.greenhouse.com/customers/services"
-  note: "Premium Support and CSM tiers referenced; response times not publicly disclosed."
+  source_url: https://www.greenhouse.com/customers/services
+  note: Premium Support and CSM tiers referenced; response times not publicly disclosed. Chat + email/portal and 24/7 self-serve resources; no vendor-confirmed phone line. Account Services provides CSMs/AMs/TAMs. Chat + email/portal and 24/7 self-serve resources; no vendor-confirmed phone line. Account Services provides CSMs/AMs/TAMs.
+  channels:
+    - chat
+    - email
+    - portal
 ---
 
 Greenhouse is a HR & People Operations provider. See the official SLA at [https://www.greenhouse.com/service-level-agreement](https://www.greenhouse.com/service-level-agreement).

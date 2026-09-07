@@ -7,14 +7,14 @@ category: Productivity
 website: https://www.clickup.com
 scope: global
 sla_url: https://clickup.com/terms
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://help.clickup.com
@@ -87,22 +87,25 @@ services:
     source_url: https://clickup.com/terms
 support:
   tiers:
-    - "Free"
-    - "Unlimited"
-    - "Business"
-    - "Enterprise"
-    - "Premium (add-on)"
+    - Free
+    - Unlimited
+    - Business
+    - Enterprise
+    - Premium (add-on)
   has_24x7: true
-  fastest_response: "8 hours"
+  fastest_response: 8 hours (first reply, Enterprise)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://clickup.com/support-services"
-  note: "Published first-response targets, not contractual SLAs."
+  source_url: https://clickup.com/support-services
+  note: Published first-response targets, not contractual SLAs. Live chat + portal, no phone; ClickUp Assist provides 1:1 sessions, onboarding and training.
+  channels:
+    - chat
+    - portal
 ---
 
 ClickUp is a Productivity & Collaboration provider. See the official SLA at [https://clickup.com/terms](https://clickup.com/terms).

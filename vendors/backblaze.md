@@ -7,8 +7,8 @@ category: Cloud Infrastructure
 website: https://www.backblaze.com
 scope: global
 sla_url: https://www.backblaze.com/company/policy/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 10
 claim_deadline_days: 30
@@ -86,11 +86,11 @@ services:
     source_url: https://www.backblaze.com/company/policy/sla
 support:
   tiers:
-    - "GIGA"
-    - "TERA"
-    - "PETA"
-  has_24x7: true
-  fastest_response: "2 hours"
+    - GIGA
+    - TERA
+    - PETA
+  has_24x7: false
+  fastest_response: 2 business hours (PETA target)
   response_is_sla: false
   designated_contact: none
   architecture_review: false
@@ -98,8 +98,11 @@ support:
   success_program: false
   training: false
   pricing: flat
-  source_url: "https://www.backblaze.com/help/customer-support"
-  note: "PETA tier publishes a 2-hour response target; we treat it as a target unless an explicit credit schedule is provided."
+  source_url: https://www.backblaze.com/help/customer-support
+  note: PETA tier publishes a 2-hour response target; we treat it as a target unless an explicit credit schedule is provided. Only the PETA tier has a 24/7 availability hotline; email support is business hours (9-5 PT). 2-5 named contacts, no TAM/CSM.
+  channels:
+    - email
+    - phone
 ---
 
 Backblaze is a Cloud Infrastructure provider. See the official SLA at [https://www.backblaze.com/company/policy/sla](https://www.backblaze.com/company/policy/sla).

@@ -7,34 +7,30 @@ category: Cloud Infrastructure
 website: https://www.oci.com
 scope: global
 sla_url: https://www.oracle.com/cloud/sla/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.995
-max_credit_percent: 100
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.99
+max_credit_percent: 25
 claim_deadline_days: 60
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Per the Oracle PaaS/IaaS Pillar Document (parsed). OCI uses a two-tier credit schedule across services: 10% (below the Service Commitment, >=99.0%) and 25% (<99.0%, >=95.0%); there is no 100% tier. Commitments vary by service (e.g. 99.995%, 99.99%, 99.95%, 99.9%). (Corrected: prior record had a 100% max.)'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
-  max_credit_percent: 100
+  max_credit_percent: 25
   credit_tiers:
     - uptime_below: 99.99
       credit_percent: 10
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 25
-    - uptime_below: 95.0
-      credit_percent: 100
 claim_process:
   deadlines:
     - type: submission
       days: 60
       business_days: false
       anchor_point: incident_date
-      description: >-
-        "Oracle must receive the claim within sixty (60) calendar days from when
-        the issue occurred" (PaaS and IaaS Pillar Document, sec. 3.3 Claims)
+      description: '"Oracle must receive the claim within sixty (60) calendar days from when the issue occurred" (PaaS and IaaS Pillar Document, sec. 3.3 Claims)'
   submission_method: Contact your Oracle account manager
   submission_url: https://www.oracle.com/cloud/sla/
   required_evidence:
@@ -204,254 +200,335 @@ services:
   - id: oracle-exadata-exascale-vm-image
     name: Oracle Exadata Exascale VM Image
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-sql-watch
     name: Oracle Cloud Infrastructure - SQL Watch
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: mysql-heatwave-aws-storage
     name: MySQL HeatWave - AWS - Storage
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: mysql-database-aws-ingress
     name: MySQL Database - AWS - Ingress
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: mysql-database-aws-egress-private
     name: MySQL Database - AWS - Egress Private
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-exadata-exascale-rdma
     name: Oracle Exadata Exascale RDMA
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-exadata-exascale-database
     name: Oracle Exadata Exascale Database
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-exadata-exascale-database-additional
     name: Oracle Exadata Exascale Database - Additional
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-exadata-exascale-additional-storage
     name: Oracle Exadata Exascale Additional Storage
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: mysql-database-aws-private-endpoint
     name: MySQL Database - AWS - Private Endpoint
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-generative-ai
     name: Oracle Cloud Infrastructure - Generative AI
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-ai-agent
     name: Oracle Cloud Infrastructure - AI Agent
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: exadata-database-ecpu-dedicated
     name: Exadata Database ECPU - Dedicated
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-data-integrator-cloud
     name: Oracle Data Integrator Cloud Service
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-big-data-cloud-enterprise
     name: Oracle Big Data Cloud Enterprise
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-database-cloud-service
     name: Oracle Database Cloud Service - All Editions
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-data-integrator-cloud-byol
     name: Oracle Data Integrator Cloud Service - BYOL
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-autonomous-data-warehouse-byol
     name: Oracle Autonomous Data Warehouse - BYOL - OCPU Per Hour
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-autonomous-data-warehouse
     name: Oracle Autonomous Data Warehouse - OCPU Per Hour
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-database-migration
     name: Oracle Cloud Infrastructure - Database Migration
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-analytics-cloud-professional
     name: Oracle Analytics Cloud - Professional
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-analytics-cloud-enterprise
     name: Oracle Analytics Cloud - Enterprise
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-autonomous-transaction-processing
     name: Oracle Autonomous Transaction Processing - OCPU
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-autonomous-transaction-processing-byol
     name: Oracle Autonomous Transaction Processing - BYOL
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-base-database-standard
     name: Oracle Base Database Service - Standard Edition
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-base-database-enterprise
     name: Oracle Base Database Service - Enterprise Edition
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-base-database-all
     name: Oracle Base Database Service - All Editions
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-cloud-sql-compute
     name: Oracle Cloud SQL - Compute Capacity
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-big-data-compute-standard
     name: Oracle Big Data Service - Compute - Standard
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-big-data-compute-dense-io
     name: Oracle Big Data Service - Compute - Dense IO
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-big-data-compute-high-memory
     name: Oracle Big Data Service - Compute - High Memory
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-data-safe
     name: Oracle Cloud Infrastructure - Data Safe
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-atp-exadata
     name: Oracle Autonomous Transaction Processing - Exadata
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-adw-exadata
     name: Oracle Autonomous Data Warehouse - Exadata
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-adw-ecpu
     name: Oracle Autonomous Data Warehouse - ECPU
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-autonomous-json-database
     name: Oracle Autonomous JSON Database
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-analytics-professional
     name: Oracle Analytics - Professional
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-analytics-enterprise
     name: Oracle Analytics - Enterprise
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-database-postgresql
     name: Oracle Cloud Infrastructure - Database with PostgreSQL
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: exadata-cloud-quarter-rack
     name: Exadata Cloud Infrastructure - Quarter Rack
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: exadata-cloud-half-rack
     name: Exadata Cloud Infrastructure - Half Rack
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: exadata-cloud-full-rack
     name: Exadata Cloud Infrastructure - Full Rack
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-ai-services
     name: Oracle Cloud Infrastructure - AI Services
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-iam-standard
     name: Oracle Cloud Infrastructure Identity and Access Management - Standard
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-iam-premium
     name: Oracle Cloud Infrastructure Identity and Access Management - Premium
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-health-checks
     name: Oracle Cloud Infrastructure - Health Checks
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-document-understanding
     name: Oracle Cloud Infrastructure - AI Services - Document Understanding
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-big-data-service-ocpu
     name: Oracle Big Data Service - OCPU Per Hour
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-streaming
     name: Oracle Cloud Infrastructure - Streaming
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-data-science
     name: Oracle Cloud Infrastructure - Data Science
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: media-services-standard-h264
     name: Media Services - Media Flow - Standard - H264
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: media-services-speed
     name: Media Services - Media Flow - Speed
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: media-services-quality
     name: Media Services - Media Flow - Quality
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: mysql-database-aws-storage
     name: MySQL Database - AWS - Storage
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-queue
     name: Oracle Cloud Infrastructure Queue
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-adw-serverless
     name: Oracle Autonomous Data Warehouse - Serverless
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-atp-serverless
     name: Oracle Autonomous Transaction Processing - Serverless
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-adw-dedicated
     name: Oracle Autonomous Data Warehouse - Dedicated
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-adw-storage
     name: Oracle Autonomous Data Warehouse - Storage
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-api-gateway
     name: Oracle Cloud Infrastructure - API Gateway
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-events
     name: Oracle Cloud Infrastructure - Events
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-language-nlp
     name: Oracle Cloud Infrastructure - Language - NLP
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-language-translation
     name: Oracle Cloud Infrastructure - Language - Translation
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: mysql-heatwave-aws-node
     name: MySQL HeatWave - AWS - HeatWave Node
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: mysql-database-aws-ecpu
     name: MySQL Database - AWS - ECPU
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-access-governance-standard
     name: Oracle Access Governance - Standard
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-access-governance-premium
     name: Oracle Access Governance - Premium
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-access-governance-enterprise
     name: Oracle Access Governance - Enterprise
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-base-database-arm-standard
     name: Oracle Base Database Service on Arm - Standard
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-base-database-arm-enterprise
     name: Oracle Base Database Service on Arm - Enterprise
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-base-database-arm-high-performance
     name: Oracle Base Database Service on Arm - High Performance
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-base-database-arm-extreme-performance
     name: Oracle Base Database Service on Arm - Extreme Performance
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-notifications
     name: Oracle Cloud Infrastructure - Notifications
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-functions
     name: Oracle Cloud Infrastructure - Functions
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-oke
     name: Oracle Cloud Infrastructure - Container Engine for Kubernetes
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-database-block-volume
     name: Oracle Cloud Infrastructure Database - Block Volume
     uptime_commitment: 99.99
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oci-database-object-storage
     name: Oracle Cloud Infrastructure Database - Object Storage
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-globally-distributed-adb-standard
     name: Oracle Globally Distributed Autonomous Database - Standard
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-globally-distributed-adb-premium
     name: Oracle Globally Distributed Autonomous Database - Premium
     uptime_commitment: 99.995
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-ajd-serverless
     name: Oracle Autonomous JSON Database - Serverless
     uptime_commitment: 99.95
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
   - id: oracle-apex
     name: Oracle APEX Application Development
     uptime_commitment: 99.9
+    source_url: https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf
 support:
   tiers:
-    - "Basic"
-    - "Developer"
-    - "Premier"
-    - "Advanced Customer Services"
+    - Basic
+    - Developer
+    - Premier
+    - Advanced Customer Services
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 15 min (Sev1)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -459,8 +536,12 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/contactingsupport.htm"
-  note: "Premier Support included with paid OCI; Advanced Customer Services adds a TAM and architecture services."
+  source_url: https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/contactingsupport.htm
+  note: Premier Support included with paid OCI; Advanced Customer Services adds a TAM and architecture services. Sev1 24/7 worked until resolved; <15-min response per Oracle Cloud Hosting & Delivery Policies (prior 1-hour figure was understated). Oracle consulting available.
+  channels:
+    - portal
+    - phone
+    - chat
 ---
 
 OCI is a Cloud Infrastructure provider. See the official SLA at [https://www.oracle.com/cloud/sla/](https://www.oracle.com/cloud/sla/). The authoritative terms are in the [Oracle PaaS and IaaS Public Cloud Services Pillar Document (PDF)](https://www.oracle.com/contracts/docs/paas_iaas_pub_cld_srvs_pillar_4021422.pdf).

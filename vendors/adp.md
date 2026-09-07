@@ -7,30 +7,19 @@ category: HR & People Operations
 website: https://www.adp.com
 scope: global
 sla_url: https://www.adp.com/legal.aspx
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'ADP publishes no standard uptime SLA. Availability and any service-credit terms are negotiated per client in the Master Services Agreement and are not posted publicly (the ADP legal index has no SLA/uptime page). SLA help wanted: a contract holder can contribute the negotiated terms.'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
-  deadlines:
-    - type: submission
-      days: 60
-      business_days: false
-      anchor_point: incident_date
-      description: Submit within 60 days of incident
-  submission_method: Account Manager
+  submission_method: N/A - No public SLA credits
   submission_url: https://www.adp.com/contact-us.aspx
-  required_evidence:
-    - Account ID
-    - Affected services
-    - Incident timestamps
-    - Impact description
-  review_timeline: 30 business days
-  credit_application: Applied to next invoice
+  required_evidence: []
 global_exclusions:
   - Scheduled maintenance
   - Force majeure events
@@ -93,7 +82,7 @@ services:
     source_url: https://www.adp.com/legal.aspx
 support:
   tiers:
-    - "Standard"
+    - Standard
   has_24x7: true
   response_is_sla: false
   designated_contact: team
@@ -102,8 +91,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.adp.com/contact-us/customer-service.aspx"
-  note: "24/7 phone support is included; professional services and client success are available, but no published support tiers."
+  source_url: https://www.adp.com/contact-us/customer-service.aspx
+  note: 24/7 phone support is included; professional services and client success are available, but no published support tiers. 24/7/365 live payroll phone support; chat is business hours. Dedicated service team; implementation/managed HR services available. 24/7/365 live payroll phone support; chat is business hours. Dedicated service team; implementation/managed HR services available.
+  channels:
+    - phone
+    - chat
+    - portal
 ---
 
 ADP is a HR & People Operations provider. ADP does not publish a public uptime SLA with service credits; its [Terms and Conditions](https://www.adp.com/legal.aspx) provide services "as is" and service-level terms are governed by individually negotiated Master Services Agreements.

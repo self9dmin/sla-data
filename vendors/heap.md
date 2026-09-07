@@ -7,23 +7,18 @@ category: Analytics & BI
 website: https://www.heap.com
 scope: global
 sla_url: https://contentsquare.com/legal/support-package-slc/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.9
-max_credit_percent: 25
+last_verified: '2026-06-23'
+last_updated: '2026-06-24'
+uptime_commitment: 99.5
+credit_unit: days
+max_credit_days: 10
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Heap is now Contentsquare. Verified SLA: 99.5% availability; credit is a service-term extension of one day for each 1% of availability below 99.5%, capped at 10 days per license year (claim within 30 days). Applies to Experience/Product Analytics and Voice of Customer Pro/Enterprise. (Corrected: prior record had a fabricated 99.9% / 10-25% percent schedule.)'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
-  max_credit_percent: 25
-  credit_tiers:
-    - uptime_below: 99.9
-      credit_percent: 10
-    - uptime_below: 99
-      credit_percent: 25
 claim_process:
   deadlines:
     - type: submission
@@ -93,19 +88,23 @@ services:
     source_url: https://contentsquare.com/legal/support-package-slc/
 support:
   tiers:
-    - "Basic"
-    - "Standard"
-    - "Premium"
+    - Basic
+    - Standard
+    - Premium
   has_24x7: false
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://help.heap.io/hc/en-us/articles/37271906133521-Heap-support-offerings"
-  note: "CSM included from Pro plan; severity response table not publicly accessible."
+  source_url: https://help.heap.io/hc/en-us/articles/37271906133521-Heap-support-offerings
+  note: CSM included from Pro plan; severity response table not publicly accessible. Email all tiers; phone is Premium-only and escalation-only. Premium is 5x16 (no 24x7). Senior Backline Engineers at Premium; onboarding + managed services.
+  channels:
+    - email
+    - phone
+  fastest_response: 2 business hours (P0, Premium)
 ---
 
 Heap is a Monitoring & Observability provider. Heap (Product Analytics) is now a Contentsquare company; its governing SLA is the Contentsquare Support Package & SLA at [https://contentsquare.com/legal/support-package-slc/](https://contentsquare.com/legal/support-package-slc/) (referenced from Heap's Master Services Agreement). The former heap.io SLA page is no longer published.

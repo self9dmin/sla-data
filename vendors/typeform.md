@@ -7,14 +7,14 @@ category: Productivity
 website: https://www.typeform.com
 scope: global
 sla_url: https://www.typeform.com/terms-service/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Typeform's Master Enterprise Agreement disclaims uninterrupted/error-free service — no committed uptime % and no service credits. The only remedy is the generic right to terminate for an uncured material breach (15-day cure), which is a contract right, not an SLA remedy. No public SLA.
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://www.typeform.com/help/
@@ -81,8 +81,8 @@ services:
     source_url: https://www.typeform.com/mea
 support:
   tiers:
-    - "Standard"
-    - "Enterprise"
+    - Standard
+    - Enterprise
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -91,8 +91,10 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.typeform.com/enterprise/"
-  note: "Enterprise includes a dedicated CSM and VIP priority support; no published response SLA."
+  source_url: https://www.typeform.com/enterprise/
+  note: Enterprise includes a dedicated CSM and VIP priority support; no published response SLA. Enterprise VIP support + dedicated CSM and a Technical Implementation Specialist; email/help-center (no confirmed phone), no published 24x7.
+  channels:
+    - email
 ---
 
 Typeform is a Enterprise Software provider. See the official SLA at [https://www.typeform.com/terms-service/](https://www.typeform.com/terms-service/).

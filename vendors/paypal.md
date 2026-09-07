@@ -7,10 +7,10 @@ category: Finance & Payments
 website: https://www.paypal.com
 scope: global
 sla_url: https://www.paypal.com/us/legalhub/braintree/home
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
@@ -94,14 +94,18 @@ services:
 support:
   has_24x7: false
   response_is_sla: false
-  designated_contact: none
+  designated_contact: tam
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: false
   training: false
   pricing: custom
-  source_url: "https://www.paypal.com/us/cshelp/business"
-  note: "No public support tiers; PayPal support is general customer service, not a tiered enterprise plan."
+  source_url: https://www.paypal.com/us/cshelp/business
+  note: No public support tiers; PayPal support is general customer service, not a tiered enterprise plan. Merchant Technical Support ticket portal + chat + (business-hours) phone. A TAM covers integration + 30 days, then general MTS. PayPal Professional Services Solutions exist (sales-led).
+  channels:
+    - portal
+    - chat
+    - phone
 ---
 
 PayPal is a Finance & Payments provider. See the official Braintree legal hub at [https://www.paypal.com/us/legalhub/braintree/home](https://www.paypal.com/us/legalhub/braintree/home). Note: the Braintree Payment Services Agreement does not publish a public uptime SLA or service credits; the service is provided "as is" with no guarantee of uninterrupted access.

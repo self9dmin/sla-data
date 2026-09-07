@@ -7,14 +7,14 @@ category: Cloud Infrastructure
 website: https://www.ibm.com/cloud
 scope: global
 sla_url: https://cloud.ibm.com/docs/overview?topic=overview-slas
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 100
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.99
 max_credit_percent: 10
-claim_deadline_days: 3
+claim_deadline_days: 60
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'IBM Cloud publishes per-service availability targets and credits (the SLA hub links out to individual service SLA docs); a single headline figure is a simplification and the recorded values could not be confirmed against one consolidated public schedule. needs_review: per-service SLA breakdown needed.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -476,11 +476,11 @@ services:
     source_url: https://www.ibm.com/support/customer/csol/terms/?id=i126-9268
 support:
   tiers:
-    - "Basic"
-    - "Advanced"
-    - "Premium"
+    - Basic
+    - Advanced
+    - Premium
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (Sev1, Premium)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -488,8 +488,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans"
-  note: "Premium adds a TAM and a 15-min Sev1 target; response times are targets, not credit-backed."
+  source_url: https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans
+  note: Premium adds a TAM and a 15-min Sev1 target; response times are targets, not credit-backed. Advanced = 30-min Sev1; Premium = 15-min Sev1 + TAM. (IBM ended free human support for Basic in 2025.)
+  channels:
+    - portal
+    - phone
+    - chat
+    - email
 ---
 
 IBM Cloud is a Cloud Infrastructure provider. See the official SLA at [https://cloud.ibm.com/docs/overview?topic=overview-slas](https://cloud.ibm.com/docs/overview?topic=overview-slas). IBM Cloud SLAs are per-service: each service's availability target and credit amounts are defined in its individual Transaction Document / Service Description.

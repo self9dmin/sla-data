@@ -6,15 +6,23 @@ legal_entity: Databricks
 category: Databases & Data Infrastructure
 website: https://www.databricks.com
 scope: global
-sla_url: https://www.databricks.com/legal/platform-services-schedule
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+sla_url: https://www.databricks.com/legal/mcsa
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.95
+max_credit_percent: 25
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Databricks'' first-party Platform Availability SLA (Master Cloud Services Agreement): 99.9% monthly uptime; service credits of 10% (<99.9%, >=99.0%) or 25% (<99.0%) of fees for affected workspaces; credit applied within 45 days of claim verification.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
+  max_credit_percent: 25
+  credit_tiers:
+    - uptime_below: 99.9
+      credit_percent: 10
+    - uptime_below: 99
+      credit_percent: 25
 claim_process:
   deadlines:
     - type: submission
@@ -93,20 +101,24 @@ services:
     source_url: https://www.databricks.com/legal/platform-services-schedule
 support:
   tiers:
-    - "Business"
-    - "Production"
-    - "Mission Critical"
+    - Business
+    - Production
+    - Mission Critical
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 1 hour (Sev1, Production/Mission Critical)
   response_is_sla: false
-  designated_contact: team
+  designated_contact: tam
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: false
   training: false
   pricing: custom
-  source_url: "https://www.databricks.com/support"
-  note: "Mission Critical lists a 15-min Sev1 target and 24/7 escalation managers; pro services sold separately."
+  source_url: https://www.databricks.com/support
+  note: Mission Critical lists a 15-min Sev1 target and 24/7 escalation managers; pro services sold separately. Cases via portal/email (no first-line phone; engineer calls are scheduled). Production/Mission Critical = 24x7x365 for Sev1/2. Designated Support Engineer add-on; professional services sold separately. Cases via portal/email (no first-line phone; engineer calls are scheduled). Production/Mission Critical = 24x7x365 for Sev1/2. Designated Support Engineer add-on; professional services sold separately.
+  channels:
+    - portal
+    - email
+    - chat
 ---
 
 Databricks is a Database & Data Infrastructure provider. See the official SLA at [https://www.databricks.com/legal/platform-services-schedule](https://www.databricks.com/legal/platform-services-schedule).

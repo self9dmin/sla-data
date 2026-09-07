@@ -7,8 +7,8 @@ category: Developer Tools
 website: https://www.postman.com
 scope: global
 sla_url: https://www.postman.com/legal/enterprise-sla/
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 needs_review: false
 uptime_commitment: 99.9
 has_automatic_credits: false
@@ -94,19 +94,24 @@ services:
     source_url: https://www.postman.com/legal/enterprise-sla/
 support:
   tiers:
-    - "Standard"
-    - "Premium Support"
+    - Standard
+    - Premium Support
   has_24x7: false
-  fastest_response: "1 business day"
+  fastest_response: 1 hour (critical, Premium add-on)
   response_is_sla: false
-  designated_contact: none
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: false
   training: true
   pricing: custom
-  source_url: "https://www.postman.com/pricing/"
-  note: "Enterprise support 24x5 PT; onboarding and training available as paid services."
+  source_url: https://www.postman.com/pricing/
+  note: Enterprise support 24x5 PT; onboarding and training available as paid services. Standard Enterprise support is 24x5 email/portal (1 business day); phone/chat and 24x7 require the paid Premium Support add-on.
+  channels:
+    - email
+    - portal
+    - phone
+    - chat
 ---
 
 Postman is a DevOps & Development provider. See the official SLA at [https://www.postman.com/legal/enterprise-sla/](https://www.postman.com/legal/enterprise-sla/).

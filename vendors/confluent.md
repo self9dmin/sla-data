@@ -7,24 +7,24 @@ category: Databases & Data Infrastructure
 website: https://www.confluent.io
 scope: global
 sla_url: https://assets.confluent.io/m/7cc915b8d26e73a7/original/Confluent-Cloud-Unified-SLA-July-2025-Legal.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.95
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 5
 has_automatic_credits: false
-min_plan_for_sla: basic
+min_plan_for_sla: standard
+credit_note: 'Confluent''s SLA is a matrix by cluster type. Schedule shown is for Standard / Enterprise (1 ECKU) single-zone clusters (99.95% Service Level): <99.95% -> 10%, <99.9% -> 25%, <99% -> 100%. Dedicated/Enterprise multi-zone commit 99.99% (see SLA tiers); Basic clusters carry a lower 99% level. Claim within 5 days; service credits are the sole and exclusive remedy.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
   max_credit_percent: 100
   credit_tiers:
-    - uptime_below: 99.99
+    - uptime_below: 99.95
       credit_percent: 10
-    - uptime_below: 99
+    - uptime_below: 99.9
       credit_percent: 25
-    - uptime_below: 95
+    - uptime_below: 99
       credit_percent: 100
 claim_process:
   deadlines:
@@ -32,9 +32,7 @@ claim_process:
       days: 5
       business_days: false
       anchor_point: month_end
-      description: >-
-        Request must be received within 5 calendar days after the last day of
-        the month in which the Service Level was not met
+      description: Request must be received within 5 calendar days after the last day of the month in which the Service Level was not met
   submission_method: Support ticket (community-supported customers email cloud-support@confluent.io)
   submission_url: https://support.confluent.io/hc
   required_evidence:
@@ -112,19 +110,19 @@ services:
     sla_eligible: true
     source_url: https://assets.confluent.io/m/7cc915b8d26e73a7/original/Confluent-Cloud-Unified-SLA-July-2025-Legal.pdf
 sla_tiers:
-  - name: 'Dedicated Multi-Zone cluster'
-    requirement: 'Multi-zone Dedicated cluster (min 2 CKU across 3 AZs)'
+  - name: Dedicated Multi-Zone cluster
+    requirement: Multi-zone Dedicated cluster (min 2 CKU across 3 AZs)
     uptime_commitment: 99.99
     max_credit_percent: 100
-    source_url: 'https://www.confluent.io/confluent-cloud-uptime-sla/'
+    source_url: https://www.confluent.io/confluent-cloud-uptime-sla/
 support:
   tiers:
-    - "Free"
-    - "Developer"
-    - "Business"
-    - "Premier"
+    - Free
+    - Developer
+    - Business
+    - Premier
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (P1, Premier)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -132,8 +130,11 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.confluent.io/confluent-cloud/support/"
-  note: "Premier 30-min critical-response is a published target; CSTA assigned at Premier."
+  source_url: https://www.confluent.io/confluent-cloud/support/
+  note: Premier 30-min critical-response is a published target; CSTA assigned at Premier. Support portal / Cloud Console cases (no phone at any tier). Business & Premier are 24x7; Premier includes a Customer Success Technical Architect. Support portal / Cloud Console cases (no phone at any tier). Business & Premier are 24x7; Premier includes a Customer Success Technical Architect.
+  channels:
+    - portal
+    - email
 ---
 
 Confluent is a Database & Data Infrastructure provider. See the official Confluent Cloud Service Level Agreement (effective July 25, 2025) at [Confluent Cloud Unified SLA (July 2025)](https://assets.confluent.io/m/7cc915b8d26e73a7/original/Confluent-Cloud-Unified-SLA-July-2025-Legal.pdf), linked from [confluent.io/legal/archive](https://www.confluent.io/legal/archive/confluent-cloud-service-level-agreement/).

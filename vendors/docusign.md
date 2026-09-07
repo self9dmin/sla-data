@@ -7,14 +7,14 @@ category: Productivity
 website: https://www.docusign.com
 scope: global
 sla_url: https://www.docusign.com/legal/terms-and-conditions/schedule-docusign-signature/attachment-eu-advanced-signature-sla
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.99
-max_credit_percent: 25
+last_verified: '2026-06-23'
+last_updated: '2026-06-24'
+max_credit_percent: 15
+credit_unit: percent
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'DocuSign''s SLAs are per-product attachments that do NOT commit a numeric uptime % ("commercially reasonable efforts"); credits are by cumulative Unavailable Time per month: >45 min = 5%, >4.5 hours = 10%, >9 hours = 15% of the affected Service''s monthly fee (max 15%). (Corrected: removed the unsupported 99.99% uptime figure.)'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -26,20 +26,14 @@ credit_policy:
       credit_percent: 10
     - uptime_below: null
       credit_percent: 5
-  credit_tier_note: >-
-    Credits are based on cumulative Unavailable Time in a calendar month, not
-    on a monthly uptime percentage. Per the live DocuSign SLA: Unavailable Time
-    more than 45 minutes = 5%; more than 4.5 hours = 10%; more than 9 hours =
-    15% of the monthly fee for the affected Service.
+  credit_tier_note: 'Credits are based on cumulative Unavailable Time in a calendar month, not on a monthly uptime percentage. Per the live DocuSign SLA: Unavailable Time more than 45 minutes = 5%; more than 4.5 hours = 10%; more than 9 hours = 15% of the monthly fee for the affected Service.'
 claim_process:
   deadlines:
     - type: submission
       days: null
       business_days: false
       anchor_point: end_of_term
-      description: >-
-        Customer must provide DocuSign with written notice no later than the end
-        of the Term during which the breach occurred.
+      description: Customer must provide DocuSign with written notice no later than the end of the Term during which the breach occurred.
   submission_method: Written notice to DocuSign
   submission_url: https://support.docusign.com
   required_evidence:
@@ -105,21 +99,24 @@ services:
     source_url: https://www.docusign.com/legal/terms-and-conditions/msa-service-schedules
 support:
   tiers:
-    - "Standard"
-    - "Plus"
-    - "Premier"
-    - "Enterprise Premier"
+    - Standard
+    - Plus
+    - Premier
+    - Enterprise Premier
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (P1, Premier/Enterprise Premier)
   response_is_sla: false
-  designated_contact: none
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://www.docusign.com/legal/terms-and-conditions/schedule-support"
-  note: "Response times are targets, not SLAs; 24/7 only for Sev1."
+  source_url: https://www.docusign.com/legal/terms-and-conditions/schedule-support
+  note: Response times are targets, not SLAs; 24/7 only for Sev1. Support is via the DocuSign Support Portal; out-of-scope work is billed under an SoW.
+  channels:
+    - portal
+    - phone
 ---
 
 DocuSign is a Enterprise Software provider. See the official SLA at [https://www.docusign.com/legal/terms-and-conditions/schedule-docusign-signature/attachment-eu-advanced-signature-sla](https://www.docusign.com/legal/terms-and-conditions/schedule-docusign-signature/attachment-eu-advanced-signature-sla). Current Master Services Agreement schedules and SLA attachments are indexed at [https://www.docusign.com/legal/terms-and-conditions/msa-service-schedules](https://www.docusign.com/legal/terms-and-conditions/msa-service-schedules).

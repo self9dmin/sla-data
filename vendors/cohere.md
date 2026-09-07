@@ -7,8 +7,8 @@ category: AI & Machine Learning
 website: https://www.cohere.com
 scope: global
 sla_url: https://cohere.com/slo
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.5
 max_credit_percent: 30
 has_automatic_credits: false
@@ -81,6 +81,15 @@ services:
     uptime_commitment: 99.5
     sla_eligible: true
     source_url: https://cohere.com/slo
+support:
+  channels:
+    - email
+    - portal
+  designated_contact: team
+  professional_services: true
+  has_24x7: false
+  note: Email/portal + sales (no public phone/Slack or response-time matrix). Bespoke model customization, private/VPC/on-prem deployment, solution engineering. Email/portal + sales (no public phone/Slack or response-time matrix). Bespoke model customization, private/VPC/on-prem deployment, solution engineering.
+  source_url: https://cohere.com/pricing
 ---
 
 Cohere is a AI & Machine Learning provider. See the official Service Level Objective (SLO) at [https://cohere.com/slo](https://cohere.com/slo).

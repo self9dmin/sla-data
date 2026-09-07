@@ -7,14 +7,14 @@ category: Developer Tools
 website: https://www.browserstack.com
 scope: global
 sla_url: https://www.browserstack.com/terms
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: BrowserStack's Terms disclaim uninterrupted/error-free service (liability capped at $1) — no public uptime SLA or credits. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,11 +93,11 @@ services:
     source_url: https://www.browserstack.com/terms
 support:
   tiers:
-    - "Standard"
-    - "Premium"
-    - "Ultimate"
+    - Standard
+    - Premium
+    - Ultimate
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (P0, Ultimate tier)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
@@ -105,8 +105,12 @@ support:
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://www.browserstack.com/enterprise-support"
-  note: "Published initial-response targets across tiers; not explicitly contractual."
+  source_url: https://www.browserstack.com/enterprise-support
+  note: Published initial-response targets across tiers; not explicitly contractual.
+  channels:
+    - email
+    - chat
+    - phone
 ---
 
 BrowserStack is a DevOps & Development provider. See the official SLA at [https://www.browserstack.com/terms](https://www.browserstack.com/terms).

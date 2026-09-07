@@ -7,31 +7,27 @@ category: Enterprise & Operations
 website: https://www.sap.com
 scope: global
 sla_url: https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/service-level-agreement-for-sap-cloud-services-english-v8-2023.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.7
 max_credit_percent: 100
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Verified against SAP's SLA for Cloud Services (PDF). 99.7% System Availability commitment; credit is 2% of monthly fees for each 1% below the SLA, capped at 100%; claim within 30 days. (Existing record confirmed accurate.)
 credit_policy:
   calculation_type: linear
   remedy_type: credit
   max_credit_percent: 100
   credit_per_percent_below: 2
-  credit_note: >-
-    "Credit" means 2% of the Monthly Subscription Fees for each 1% below the
-    System Availability SLA, not to exceed 100% of the fees paid (v8-2023).
+  credit_note: '"Credit" means 2% of the Monthly Subscription Fees for each 1% below the System Availability SLA, not to exceed 100% of the fees paid (v8-2023).'
 claim_process:
   deadlines:
     - type: submission
       days: 30
       business_days: true
       anchor_point: end_of_month
-      description: >-
-        Claim via documented support case within 30 business days after the
-        end of the relevant Month in which SAP missed the System Availability SLA
+      description: Claim via documented support case within 30 business days after the end of the relevant Month in which SAP missed the System Availability SLA
   submission_method: Documented support case (SAP ONE Support)
   submission_url: https://support.sap.com
   required_evidence:
@@ -144,19 +140,19 @@ services:
     sla_eligible: true
     source_url: https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/service-level-agreement-for-sap-cloud-services-english-v8-2023.pdf
 sla_tiers:
-  - name: 'BTP High Availability'
-    requirement: 'Paid High Availability option (HANA Cloud, ASE, etc.)'
+  - name: BTP High Availability
+    requirement: Paid High Availability option (HANA Cloud, ASE, etc.)
     uptime_commitment: 99.95
-    source_url: 'https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/sap-business-technology-platform-supplement-english-v11-2025.pdf'
+    source_url: https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/sap-business-technology-platform-supplement-english-v11-2025.pdf
 support:
   tiers:
-    - "Standard"
-    - "Enterprise Support"
-    - "Preferred Success"
-    - "ActiveAttention"
-    - "MaxAttention"
+    - Standard
+    - Enterprise Support
+    - Preferred Success
+    - ActiveAttention
+    - MaxAttention
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Very High/P1, Enterprise Support, 24x7)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -164,8 +160,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://support.sap.com/en/offerings-programs.html"
-  note: "Enterprise Support priced as a percentage of license; premium engagements add designated SAP contacts. Targets, not credit-backed."
+  source_url: https://support.sap.com/en/offerings-programs.html
+  note: 'Enterprise Support priced as a percentage of license; premium engagements add designated SAP contacts. Targets, not credit-backed. Enterprise Support Mission Critical: 1-hour P1 initial response (contractual). MaxAttention/Preferred Care add a dedicated team.'
+  channels:
+    - portal
+    - phone
+    - email
 ---
 
 SAP is a Enterprise Software provider. See the official SLA at [Service Level Agreement for SAP Cloud Services (v8-2023)](https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/service-level-agreement-for-sap-cloud-services-english-v8-2023.pdf).

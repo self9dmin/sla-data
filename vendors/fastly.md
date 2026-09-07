@@ -7,8 +7,8 @@ category: CDN & Edge
 website: https://www.fastly.com
 scope: global
 sla_url: https://docs.fastly.com/products/network-services-service-availability-sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 100
 max_credit_percent: 50
 claim_deadline_days: 30
@@ -35,15 +35,11 @@ claim_process:
       days: 30
       business_days: false
       anchor_point: degraded_performance_period
-      description: >-
-        Requests for Invoice Credits for Degraded Performance must be made
-        within 30 days of the period of Degraded Performance.
+      description: Requests for Invoice Credits for Degraded Performance must be made within 30 days of the period of Degraded Performance.
   submission_method: Credit request to Fastly Support
   submission_url: https://support.fastly.com
   required_evidence: []
-  credit_application: >-
-    Credits will be applied to the Invoice two months following the month an
-    invoice credit was incurred.
+  credit_application: Credits will be applied to the Invoice two months following the month an invoice credit was incurred.
 global_exclusions:
   - Reduction in availability due to maintenance
   - Customer hardware or software failures
@@ -122,20 +118,24 @@ services:
     source_url: https://docs.fastly.com/products/security-service-sla
 support:
   tiers:
-    - "Standard"
-    - "Gold"
-    - "Enterprise"
+    - Standard
+    - Gold
+    - Enterprise
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 15 min (Sev1, Enterprise)
   response_is_sla: true
-  designated_contact: team
+  designated_contact: tam
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://docs.fastly.com/products/network-services-support-description-and-sla"
-  note: "Contractual: a fixed credit applies to a missed Sev1 response target on Gold/Enterprise."
+  source_url: https://docs.fastly.com/products/network-services-support-description-and-sla
+  note: 'Contractual: a fixed credit applies to a missed Sev1 response target on Gold/Enterprise. 24/7/365 on Gold & Enterprise (Gold Sev1 = 2 hr); phone + private Slack at Enterprise. Dedicated TAM is a paid add-on. Professional Services packages + hours. 24/7/365 on Gold & Enterprise (Gold Sev1 = 2 hr); phone + private Slack at Enterprise. Dedicated TAM is a paid add-on. Professional Services packages + hours.'
+  channels:
+    - phone
+    - slack
+    - email
 ---
 
 Fastly is a CDN & Edge provider. See the official Network Services service availability SLA at [https://docs.fastly.com/products/network-services-service-availability-sla](https://docs.fastly.com/products/network-services-service-availability-sla).

@@ -7,25 +7,27 @@ category: Productivity
 website: https://www.airtable.com
 scope: global
 sla_url: https://www.airtable.com/company/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
+max_credit_percent: 10
+credit_unit: multiplier
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: enterprise
+credit_note: Credit equals 10x the fees for the downtime portion of the month (no stated cap); service credits are the sole and exclusive remedy; claim within 30 days.
 credit_policy:
   calculation_type: downtime_multiplier
   remedy_type: credit
-  credit_description: Service credit equal to ten (10) times the fees paid for the
-    affected Services for the portion of the calendar month that constituted Downtime.
+  max_credit_percent: 10
+  credit_description: Service credit equal to ten (10) times the fees paid for the affected Services for the portion of the calendar month that constituted Downtime.
 claim_process:
   deadlines:
     - type: submission
       days: 30
       business_days: false
       anchor_point: month_end
-      description: Customers must send an email to Airtable within thirty (30) days
-        of the end of the month in which the Uptime Commitment was not met
+      description: Customers must send an email to Airtable within thirty (30) days of the end of the month in which the Uptime Commitment was not met
   submission_method: Email
   submission_url: mailto:support@airtable.com
   required_evidence:
@@ -104,10 +106,10 @@ services:
     source_url: https://www.airtable.com/company/sla
 support:
   tiers:
-    - "Standard"
-    - "Premium Support"
+    - Standard
+    - Premium Support
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Critical, Premium add-on)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -115,8 +117,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.airtable.com/services/premium-support"
-  note: "Premium Support is a paid add-on with a TAM, 24/7 coverage, and a 1-hour critical-issue target."
+  source_url: https://www.airtable.com/services/premium-support
+  note: Premium Support is a paid add-on with a TAM, 24/7 coverage, and a 1-hour critical-issue target. No phone; email/chat/portal. 24x7 and 1-hour response are Premium-Support-gated.
+  channels:
+    - email
+    - chat
+    - portal
 ---
 
 Airtable is a Productivity & Collaboration provider. See the official SLA at [https://www.airtable.com/company/sla](https://www.airtable.com/company/sla).

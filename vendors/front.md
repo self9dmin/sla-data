@@ -7,14 +7,14 @@ category: Communication & Collaboration
 website: https://www.front.com
 scope: global
 sla_url: https://front.com/legal/saas-services-agreement
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Front's SaaS Services Agreement sets no committed uptime % or credit mechanism (reasonable-efforts maintenance language only) — no public SLA. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -87,11 +87,11 @@ services:
     source_url: https://front.com/legal/saas-services-agreement
 support:
   tiers:
-    - "Starter"
-    - "Growth"
-    - "Scale"
-    - "Premier"
-  has_24x7: true
+    - Starter
+    - Growth
+    - Scale
+    - Premier
+  has_24x7: false
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
@@ -99,8 +99,10 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://front.com/pricing"
-  note: "24/5 helpdesk; no published response-time SLA with credits."
+  source_url: https://front.com/pricing
+  note: 24/5 helpdesk; no published response-time SLA with credits. Email/in-app only (no phone support); response-time SLAs and 24x7 not published. Paid Success Services add a CSM and consulting. Email/in-app only (no phone support); response-time SLAs and 24x7 not published. Paid Success Services add a CSM and consulting.
+  channels:
+    - email
 ---
 
 Front is a Communication & Collaboration provider. Front does not publish a public uptime SLA with service credits on its own domain; the canonical legal terms are the [SaaS Services Agreement](https://front.com/legal/saas-services-agreement), which disclaims availability rather than committing to an uptime percentage. The uptime/credit values in this record are unverified and flagged for review.

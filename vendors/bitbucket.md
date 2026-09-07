@@ -4,11 +4,11 @@ slug: bitbucket
 vendor_name: Bitbucket
 legal_entity: Bitbucket
 category: Developer Tools
-website: https://www.bitbucket.com
+website: https://bitbucket.org
 scope: global
 sla_url: https://www.atlassian.com/legal/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 50
 claim_deadline_days: 15
@@ -21,9 +21,9 @@ credit_policy:
   credit_tiers:
     - uptime_below: 99.9
       credit_percent: 10
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 25
-    - uptime_below: 95.0
+    - uptime_below: 95
       credit_percent: 50
 claim_process:
   deadlines:
@@ -94,21 +94,26 @@ services:
     source_url: https://www.atlassian.com/legal/sla
 support:
   tiers:
-    - "Free"
-    - "Standard"
-    - "Premium"
-    - "Enterprise"
+    - Free
+    - Standard
+    - Premium
+    - Enterprise
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (L1, Enterprise tier)
   response_is_sla: false
   designated_contact: team
   architecture_review: false
-  professional_services: true
+  professional_services: false
   success_program: false
   training: true
   pricing: flat
-  source_url: "https://confluence.atlassian.com/support/atlassian-support-offerings-193299636.html"
-  note: "Premium/Enterprise list response targets with re-performance as the stated remedy, not credits."
+  source_url: https://confluence.atlassian.com/support/atlassian-support-offerings-193299636.html
+  note: Premium/Enterprise list response targets with re-performance as the stated remedy, not credits. Implementation/migration are partner-delivered, not Atlassian first-party SoW.
+  channels:
+    - portal
+    - email
+    - chat
+    - phone
 ---
 
 Bitbucket is a DevOps & Development provider. See the official SLA at [https://www.atlassian.com/legal/sla](https://www.atlassian.com/legal/sla).

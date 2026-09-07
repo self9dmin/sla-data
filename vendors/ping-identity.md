@@ -7,23 +7,17 @@ category: Security & Identity
 website: https://www.pingidentity.com
 scope: global
 sla_url: https://www.pingidentity.com/en/legal/support-policy.html
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+needs_review: false
+sla_help_wanted: false
 uptime_commitment: 99.99
-max_credit_percent: 25
-claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Ping Identity''s public Support Policy commits 99.99% Uptime Availability but publishes no service-credit schedule — credit remedies (if any) are in the customer agreement. (Corrected: prior record asserted a 10/25% schedule that is not public.) needs_review: credit schedule not public.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
-  max_credit_percent: 25
-  credit_tiers:
-    - uptime_below: 99.99
-      credit_percent: 10
-    - uptime_below: 99.9
-      credit_percent: 25
 claim_process:
   deadlines:
     - type: submission
@@ -107,12 +101,12 @@ services:
     source_url: https://www.pingidentity.com/en/legal/support-policy.html
 support:
   tiers:
-    - "Base"
-    - "Select"
-    - "Premium"
-    - "Elite"
+    - Base
+    - Select
+    - Premium
+    - Elite
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (Sev1, Elite)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
@@ -120,8 +114,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.pingidentity.com/en/legal/support-policy.html"
-  note: "Elite includes a TAM up to 20 hrs/month; CSR at Select and above. Targets, not credit-backed."
+  source_url: https://www.pingidentity.com/en/legal/support-policy.html
+  note: Elite includes a TAM up to 20 hrs/month; CSR at Select and above. Targets, not credit-backed. Phone + portal (no email per policy); Sev1 24x7 from Base. Named success resource at Select+, TAM hours at Elite.
+  channels:
+    - phone
+    - portal
 ---
 
 Ping Identity is a Security & Identity provider. The 99.99% uptime commitment is published in the official [Support Policy](https://www.pingidentity.com/en/legal/support-policy.html) ("maintain Uptime Availability for the Service of 99.99%", Section 1.1(c)). The previous SLA page (legal/sla.html) now returns HTTP 404. The service-credit tier table, maximum credit, claim deadline, and submission process are not published on any public pingidentity.com page (they are referenced as a "Customer's entitlement to service credits" but the terms live in contractual/login-gated documents), so those fields are unverified and flagged for review.

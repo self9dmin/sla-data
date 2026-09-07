@@ -7,8 +7,8 @@ category: Databases & Data Infrastructure
 website: https://www.neon.com
 scope: global
 sla_url: https://neon.com/neon-business-sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.95
 max_credit_percent: 80
 claim_deadline_days: 1
@@ -126,22 +126,27 @@ services:
     source_url: https://neon.com/neon-business-sla
 support:
   tiers:
-    - "Free"
-    - "Launch"
-    - "Scale"
-    - "Business"
-    - "Production"
-  has_24x7: true
-  fastest_response: "1 hour"
+    - Free
+    - Launch
+    - Scale
+    - Business
+    - Production
+  has_24x7: false
+  fastest_response: 1 hour (Sev1, Production plan)
   response_is_sla: false
-  designated_contact: none
+  designated_contact: team
   architecture_review: false
   professional_services: false
   success_program: false
   training: false
   pricing: flat
-  source_url: "https://neon.com/docs/introduction/support"
-  note: "Response times are targets/commercially reasonable; dedicated engineer is a paid add-on."
+  source_url: https://neon.com/docs/introduction/support
+  note: Response times are targets/commercially reasonable; dedicated engineer is a paid add-on. Discord + AI chat (all), tickets (Launch+), Slack Connect + Dedicated Support Engineer add-on (no phone). No published 24x7 commitment; policy excludes consulting/training/custom dev. Discord + AI chat (all), tickets (Launch+), Slack Connect + Dedicated Support Engineer add-on (no phone). No published 24x7 commitment; policy excludes consulting/training/custom dev.
+  channels:
+    - discord
+    - chat
+    - portal
+    - slack
 ---
 
 Neon is a Database & Data Infrastructure provider. See the official SLA at [https://neon.com/neon-business-sla](https://neon.com/neon-business-sla).

@@ -7,14 +7,14 @@ category: Productivity
 website: https://www.surveymonkey.com
 scope: global
 sla_url: https://www.surveymonkey.com/mp/legal/terms-of-use/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://help.surveymonkey.com
@@ -81,9 +81,9 @@ services:
     source_url: https://www.surveymonkey.com/mp/legal/terms-of-use/
 support:
   tiers:
-    - "Standard"
-    - "Premier"
-    - "Enterprise"
+    - Standard
+    - Premier
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -92,8 +92,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.surveymonkey.com/mp/enterprise/"
-  note: "Enterprise adds a dedicated CSM, 24/7 phone/email, and professional services."
+  source_url: https://www.surveymonkey.com/mp/enterprise/
+  note: 'Enterprise adds a dedicated CSM, 24/7 phone/email, and professional services. Enterprise: 24x7 email & phone + CSM; separate professional-services add-on (survey design, dashboards, migration).'
+  channels:
+    - email
+    - phone
 ---
 
 SurveyMonkey (Momentive) is a Enterprise Software provider. See the official legal terms at [https://www.surveymonkey.com/mp/legal/terms-of-use/](https://www.surveymonkey.com/mp/legal/terms-of-use/) and the [Governing Services Agreement](https://www.surveymonkey.com/mp/legal/gsa/).

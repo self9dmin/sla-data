@@ -7,19 +7,20 @@ category: Databases & Data Infrastructure
 website: https://redis.io
 scope: global
 sla_url: https://redis.io/legal/redis-cloud-service-level-agreement/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 1
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Schedule shown is the Standard SLA (99.9%, Essentials and single-AZ). Multi-AZ deployments commit 99.99% and Active-Active 99.999% (see SLA tiers). Credits require replication enabled; max aggregate 25%/month.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
   max_credit_percent: 25
   credit_tiers:
-    - uptime_below: 99.999
+    - uptime_below: 99.9
       credit_percent: 10
     - uptime_below: 99
       credit_percent: 25
@@ -29,14 +30,10 @@ claim_process:
       days: 1
       business_days: false
       anchor_point: awareness_of_downtime
-      description: >-
-        Log a support ticket within 24 hours of first becoming aware of the
-        Downtime event
+      description: Log a support ticket within 24 hours of first becoming aware of the Downtime event
     - type: submission
       anchor_point: end_of_second_billing_cycle
-      description: >-
-        Submit a written SLA Credit Request by the end of the second billing
-        cycle after the incident
+      description: Submit a written SLA Credit Request by the end of the second billing cycle after the incident
   submission_method: Support ticket / written request
   submission_url: https://redis.io/legal/redis-cloud-service-level-agreement/
   required_evidence:
@@ -116,29 +113,35 @@ services:
     sla_eligible: true
     source_url: https://redis.io/legal/redis-cloud-service-level-agreement/
 sla_tiers:
-  - name: 'Multi-AZ'
-    requirement: 'Multi-AZ deployment with replication'
+  - name: Multi-AZ
+    requirement: Multi-AZ deployment with replication
     uptime_commitment: 99.99
-    source_url: 'https://redis.io/legal/redis-cloud-service-level-agreement/'
-  - name: 'Active-Active'
-    requirement: 'Active-Active geo-replicated deployment'
+    max_credit_percent: 25
+    source_url: https://redis.io/legal/redis-cloud-service-level-agreement/
+  - name: Active-Active
+    requirement: Active-Active geo-replicated deployment
     uptime_commitment: 99.999
-    source_url: 'https://redis.io/legal/redis-cloud-service-level-agreement/'
+    max_credit_percent: 25
+    source_url: https://redis.io/legal/redis-cloud-service-level-agreement/
 support:
   tiers:
-    - "Standard"
-    - "Production"
-    - "Premium"
+    - Standard
+    - Production
+    - Premium
   has_24x7: true
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
-  professional_services: true
+  professional_services: false
   success_program: false
   training: true
   pricing: percent_of_spend
-  source_url: "https://redis.io/legal/redis-enterprise-cloud-support-policy/"
-  note: "Premium adds 24/7 coverage, a designated TAM, and proactive monitoring; ~10-20% uplift."
+  source_url: https://redis.io/legal/redis-enterprise-cloud-support-policy/
+  note: Premium adds 24/7 coverage, a designated TAM, and proactive monitoring; ~10-20% uplift. 24/7 web portal (all); phone is real and 24x7 but Business+ only. TAM from Developer tier. Support policy excludes professional services (sold separately). 24/7 web portal (all); phone is real and 24x7 but Business+ only. TAM from Developer tier. Support policy excludes professional services (sold separately).
+  channels:
+    - portal
+    - phone
+  fastest_response: 15 min (P1/Critical, Enterprise)
 ---
 
 Redis Cloud is a Database & Data Infrastructure provider. See the official SLA at [https://redis.io/legal/redis-cloud-service-level-agreement/](https://redis.io/legal/redis-cloud-service-level-agreement/).

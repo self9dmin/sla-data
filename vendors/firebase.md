@@ -7,8 +7,8 @@ category: Databases & Data Infrastructure
 website: https://www.firebase.com
 scope: global
 sla_url: https://firebase.google.com/terms/service-level-agreement
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.95
 max_credit_percent: 30
 claim_deadline_days: 60
@@ -121,12 +121,12 @@ services:
     source_url: https://firebase.google.com/terms/service-level-agreement
 support:
   tiers:
-    - "Basic"
-    - "Standard"
-    - "Enhanced"
-    - "Premium"
+    - Basic
+    - Standard
+    - Enhanced
+    - Premium
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (P1, Premium)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -134,8 +134,12 @@ support:
   success_program: true
   training: true
   pricing: flat
-  source_url: "https://cloud.google.com/terms/tssg/firebase"
-  note: "Inherits Google Cloud Customer Care; response times are SLOs/targets per TSSG."
+  source_url: https://cloud.google.com/terms/tssg/firebase
+  note: Inherits Google Cloud Customer Care; response times are SLOs/targets per TSSG. Via Google Cloud Customer Care; Enhanced/Premium 24x7 for P1/P2 (Premium 15-min P1, TAM). Google steers to chat as the fastest channel. Google Cloud Consulting. Via Google Cloud Customer Care; Enhanced/Premium 24x7 for P1/P2 (Premium 15-min P1, TAM). Google steers to chat as the fastest channel. Google Cloud Consulting.
+  channels:
+    - email
+    - chat
+    - portal
 ---
 
 Firebase is a Database provider. See the official SLA at [https://firebase.google.com/terms/service-level-agreement](https://firebase.google.com/terms/service-level-agreement).

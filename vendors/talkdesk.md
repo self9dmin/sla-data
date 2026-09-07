@@ -7,8 +7,8 @@ category: Communication & Collaboration
 website: https://www.talkdesk.com
 scope: global
 sla_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 100
 max_credit_percent: 10
 claim_deadline_days: 7
@@ -105,11 +105,11 @@ services:
     source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
 support:
   tiers:
-    - "Standard"
-    - "Premium Care"
-    - "Premium Care Plus"
+    - Standard
+    - Premium Care
+    - Premium Care Plus
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (Urgent, Premium Care)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -117,8 +117,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.talkdesk.com/cx-services/customer-care/"
-  note: "Premium Care Plus adds quarterly technical reviews and business continuity."
+  source_url: https://www.talkdesk.com/cx-services/customer-care/
+  note: Premium Care Plus adds quarterly technical reviews and business continuity. 24x7x365; Premium Care adds faster response. Phone + online portal (not email). 24x7x365; Premium Care adds faster response. Phone + online portal (not email).
+  channels:
+    - phone
+    - portal
 ---
 
 Talkdesk is a Communication & Collaboration provider. See the official SLA at [https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate](https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate).

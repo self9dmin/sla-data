@@ -7,12 +7,13 @@ category: Productivity
 website: https://www.asana.com
 scope: global
 sla_url: https://asana.com/service-levels
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 0
 has_automatic_credits: false
 min_plan_for_sla: enterprise
+credit_note: 'Asana''s Service Level Addendum commits to 99.9% availability per fiscal quarter on Enterprise & Enterprise+ plans only — but specifies NO remedy (no service credits, no termination right) if missed. So the 99.9% target is captured, but the bucket stays No SLA: a commitment with no enforceable remedy.'
 credit_policy:
   calculation_type: none
   remedy_type: none
@@ -79,11 +80,11 @@ services:
     source_url: https://asana.com/service-levels
 support:
   tiers:
-    - "Standard"
-    - "Enterprise"
-    - "Enterprise+"
+    - Standard
+    - Enterprise
+    - Enterprise+
   has_24x7: true
-  fastest_response: "2 business hours"
+  fastest_response: 2 business hours (target, Enterprise/Enterprise+)
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
@@ -91,8 +92,11 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://asana.com/service-levels"
-  note: "Asana publishes a 2-hour response target on top tiers; not credit-backed."
+  source_url: https://asana.com/service-levels
+  note: Asana publishes a 2-hour response target on top tiers; not credit-backed. Email/portal only, no phone; 2-hour response is a target, not credit-backed.
+  channels:
+    - email
+    - portal
 ---
 
 Asana is a Productivity & Collaboration provider. See the official SLA at [https://asana.com/service-levels](https://asana.com/service-levels).

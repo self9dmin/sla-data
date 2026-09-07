@@ -7,14 +7,14 @@ category: Developer Tools
 website: https://linear.app
 scope: global
 sla_url: https://linear.app/terms
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://linear.app/contact
@@ -81,8 +81,8 @@ services:
     source_url: https://linear.app/terms
 support:
   tiers:
-    - "Standard"
-    - "Enterprise"
+    - Standard
+    - Enterprise
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -91,8 +91,11 @@ support:
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://linear.app/enterprise"
-  note: "Enterprise adds a dedicated CSM and custom SLAs; no public tiered support catalog."
+  source_url: https://linear.app/enterprise
+  note: Enterprise adds a dedicated CSM and custom SLAs; no public tiered support catalog. Email + in-app/Slack only; no phone and no published response-time SLA.
+  channels:
+    - email
+    - slack
 ---
 
 Linear is a DevOps & Development provider operated by Linear Orbit, Inc. See the official Terms of Service at [https://linear.app/terms](https://linear.app/terms).

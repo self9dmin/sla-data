@@ -7,10 +7,10 @@ category: Communication & Collaboration
 website: https://www.helpscout.com
 scope: global
 sla_url: https://www.helpscout.com/company/legal/terms-of-service/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
@@ -81,19 +81,22 @@ services:
     source_url: https://www.helpscout.com/company/legal/terms-of-service/
 support:
   tiers:
-    - "Standard"
-    - "Plus"
-    - "Pro"
+    - Standard
+    - Plus
+    - Pro
   has_24x7: false
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: none
   architecture_review: false
   professional_services: false
   success_program: true
   training: false
   pricing: included
-  source_url: "https://www.helpscout.com/pricing/"
-  note: "Pro plan adds priority email and a strategic account manager; no published response SLAs."
+  source_url: https://www.helpscout.com/pricing/
+  note: Pro plan adds priority email and a strategic account manager; no published response SLAs. Support is email + chat, 24/6 (not 24/7). The "phone" feature is a Help Scout product, not its support channel. Support is email + chat, 24/6 (not 24/7). The "phone" feature is a Help Scout product, not its support channel.
+  channels:
+    - email
+    - chat
 ---
 
 Help Scout is a Other SaaS provider. See the official SLA at [https://www.helpscout.com/company/legal/terms-of-service/](https://www.helpscout.com/company/legal/terms-of-service/).

@@ -7,8 +7,8 @@ category: CRM & Marketing
 website: https://www.activecampaign.com
 scope: global
 sla_url: https://www.activecampaign.com/legal/service-level-agreement
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.5
 max_credit_percent: 10
 claim_deadline_days: 10
@@ -30,17 +30,13 @@ claim_process:
       days: 10
       business_days: true
       anchor_point: reporting_period_end
-      description: >-
-        Client must request a credit within ten business days after the end of
-        the relevant Reporting Period
+      description: Client must request a credit within ten business days after the end of the relevant Reporting Period
   submission_method: Written request to ActiveCampaign (method not specified in SLA)
   submission_url: null
   required_evidence:
     - All credit requests verified against ActiveCampaign's system records
   review_timeline: Not specified
-  credit_application: >-
-    Applied to reduce, on a dollar-for-dollar basis, the amount payable for the
-    following Reporting Period
+  credit_application: Applied to reduce, on a dollar-for-dollar basis, the amount payable for the following Reporting Period
 global_exclusions:
   - Maintenance Time (scheduled and emergency unscheduled maintenance)
   - Force majeure events
@@ -101,8 +97,8 @@ services:
     source_url: https://www.activecampaign.com/legal/service-level-agreement
 support:
   tiers:
-    - "Basic (Starter/Plus)"
-    - "Priority (Pro/Enterprise)"
+    - Basic (Starter/Plus)
+    - Priority (Pro/Enterprise)
   has_24x7: false
   response_is_sla: false
   designated_contact: team
@@ -111,8 +107,11 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://www.activecampaign.com/pricing"
-  note: "Enterprise plans get a dedicated account team and priority support; no published response-time SLA."
+  source_url: https://www.activecampaign.com/pricing
+  note: Enterprise plans get a dedicated account team and priority support; no published response-time SLA. Email + in-app chat (no human phone; listed numbers are AI/sales). Mon-Fri business hours even at Enterprise, which adds a dedicated account team. Email + in-app chat (no human phone; listed numbers are AI/sales). Mon-Fri business hours even at Enterprise, which adds a dedicated account team.
+  channels:
+    - email
+    - chat
 ---
 
 ActiveCampaign is a Marketing & Analytics provider. See the official SLA at [https://www.activecampaign.com/legal/service-level-agreement](https://www.activecampaign.com/legal/service-level-agreement).

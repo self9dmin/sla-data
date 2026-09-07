@@ -7,8 +7,8 @@ category: Analytics & BI
 website: https://www.segment.com
 scope: global
 sla_url: https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 0
 claim_deadline_days: 30
@@ -25,18 +25,12 @@ claim_process:
       days: 30
       business_days: false
       anchor_point: awareness_date
-      description: >-
-        Customer must exercise the Special Termination Right within thirty (30)
-        days of reasonably becoming aware of the Data Ingestion API failing to
-        achieve the Target Availability or such right will be deemed waived
+      description: Customer must exercise the Special Termination Right within thirty (30) days of reasonably becoming aware of the Data Ingestion API failing to achieve the Target Availability or such right will be deemed waived
   submission_method: Written notice to Twilio
   submission_url: https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api
   required_evidence: []
   review_timeline: Not specified
-  credit_application: >-
-    No service credits. Remedy is a Special Termination Right with refund of
-    pre-paid fees for the impacted Segment Services, paid within thirty (30)
-    days of the termination effective date.
+  credit_application: No service credits. Remedy is a Special Termination Right with refund of pre-paid fees for the impacted Segment Services, paid within thirty (30) days of the termination effective date.
 global_exclusions:
   - Customer's unauthorized use
   - General Internet problems, force majeure, or other factors outside Twilio's reasonable control (including DDoS attacks)
@@ -71,21 +65,19 @@ services:
   - id: data-ingestion-api
     name: Segment Data Ingestion API
     category: Data Integration
-    description: >-
-      The identify, track, page, screen, group, and alias HTTP endpoints that
-      ingest data the Customer submits to the Segment Services.
+    description: The identify, track, page, screen, group, and alias HTTP endpoints that ingest data the Customer submits to the Segment Services.
     uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api
 support:
   tiers:
-    - "Standard"
-    - "Advanced"
-    - "Premium"
-    - "Premium+"
-    - "Personalized"
+    - Standard
+    - Advanced
+    - Premium
+    - Premium+
+    - Personalized
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (P1, Advanced+)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -93,8 +85,11 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.twilio.com/en-us/support-plans/cdp"
-  note: "Premium+ adds a TAM and business reviews; pricing 8-15% of license. Targets, not credit-backed."
+  source_url: https://www.twilio.com/en-us/support-plans/cdp
+  note: Premium+ adds a TAM and business reviews; pricing 8-15% of license. Targets, not credit-backed. No phone (the "Support Escalation Line" is a labeled feature, not a published number). 24x7 P1 on Advanced+ (Standard business hours); TAM at Premium+. Advisory/jumpstart/resident-architect services. (Now under Twilio CDP support plans.)
+  channels:
+    - email
+    - portal
 ---
 
 Segment is a Monitoring & Observability provider. See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api](https://www.twilio.com/en-us/legal/service-level-agreement/segment-data-ingestion-api).

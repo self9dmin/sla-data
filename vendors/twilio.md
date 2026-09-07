@@ -7,8 +7,8 @@ category: Communication & Collaboration
 website: https://www.twilio.com
 scope: global
 sla_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.95
 max_credit_percent: 10
 claim_deadline_days: 30
@@ -123,19 +123,19 @@ services:
     sla_eligible: true
     source_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
 sla_tiers:
-  - name: 'Enterprise Edition'
-    requirement: 'Twilio Enterprise Edition'
+  - name: Enterprise Edition
+    requirement: Twilio Enterprise Edition
     uptime_commitment: 99.99
     max_credit_percent: 10
-    source_url: 'https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis'
+    source_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
 support:
   tiers:
-    - "Developer"
-    - "Production"
-    - "Business"
-    - "Personalized"
+    - Developer
+    - Production
+    - Business
+    - Personalized
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (P1, Business+ — 24/7)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -143,8 +143,12 @@ support:
   success_program: false
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.twilio.com/en-us/support-plans"
-  note: "Paid tiers priced as flat minimum or % of spend; response times are targets."
+  source_url: https://www.twilio.com/en-us/support-plans
+  note: Paid tiers priced as flat minimum or % of spend; response times are targets. Phone/chat at Production+; designated TAM only at Personalized; 24x7 is tier-gated (Production+). Phone/chat at Production+; designated TAM only at Personalized; 24x7 is tier-gated (Production+).
+  channels:
+    - portal
+    - phone
+    - chat
 ---
 
 Twilio is a Communication & Collaboration provider. See the official SLA at [https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis](https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis).

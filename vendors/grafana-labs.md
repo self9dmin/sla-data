@@ -7,8 +7,8 @@ category: Monitoring & Observability
 website: https://grafana.com
 scope: global
 sla_url: https://grafana.com/legal/grafana-cloud-sla/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.5
 max_credit_percent: 100
 claim_deadline_days: 10
@@ -103,12 +103,12 @@ services:
     source_url: https://grafana.com/legal/grafana-cloud-sla/
 support:
   tiers:
-    - "Pro"
-    - "Advanced"
-    - "Enterprise"
-    - "Premium"
+    - Pro
+    - Advanced
+    - Enterprise
+    - Premium
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (P1, Enterprise)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -116,8 +116,10 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://grafana.com/support/"
-  note: "Premium publishes a 30-min P1 target; treated as a target without verified credit schedule."
+  source_url: https://grafana.com/support/
+  note: Premium publishes a 30-min P1 target; treated as a target without verified credit schedule. Cloud Portal / account team, 24/7 at Advanced & Enterprise (Pro is 24/5). Phone not enumerated on the support page. Designated senior-support contact at Enterprise. Cloud Portal / account team, 24/7 at Advanced & Enterprise (Pro is 24/5). Phone not enumerated on the support page. Designated senior-support contact at Enterprise.
+  channels:
+    - portal
 ---
 
 Grafana Labs is a Monitoring & Observability provider. See the official SLA at [https://grafana.com/legal/grafana-cloud-sla/](https://grafana.com/legal/grafana-cloud-sla/).

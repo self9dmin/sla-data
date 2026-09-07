@@ -7,14 +7,14 @@ category: Security & Identity
 website: https://www.1password.com
 scope: global
 sla_url: https://1password.com/legal-center
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 1Password's Legal Center publishes no uptime SLA or service credits for its main services (only a legacy Trelica SLA exists). (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -87,19 +87,22 @@ services:
     source_url: https://1password.com/legal-center
 support:
   tiers:
-    - "Teams"
-    - "Business"
-    - "Enterprise"
+    - Teams
+    - Business
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: true
   training: true
   pricing: included
-  source_url: "https://1password.com/pricing"
-  note: "24/7 support and a CSM are marketed inclusions, not contractual response-time SLAs."
+  source_url: https://1password.com/pricing
+  note: 24/7 support and a CSM are marketed inclusions, not contractual response-time SLAs. Email/forum 24/7; live/phone help is business hours only. Enterprise adds a CSM, training and implementation.
+  channels:
+    - email
+    - phone
 ---
 
 1Password is a Security & Identity provider. 1Password does not publish a public credit SLA for its core service; its [Terms of Service](https://1password.com/legal/terms-of-service/) provide the service "AS IS" / "AS AVAILABLE" with no uptime warranty. See 1Password's [Legal Center](https://1password.com/legal-center) for all policies. The only published SLA on 1password.com is the legacy [Trelica / SaaS Manager SLA](https://1password.com/legal/saas-manager/service-level-agreement), which covers a separate acquired product rather than the 1Password password manager.

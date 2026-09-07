@@ -7,14 +7,14 @@ category: E-commerce
 website: https://www.bigcommerce.com
 scope: global
 sla_url: https://www.commerce.com/terms/
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: BigCommerce (now operating as "Commerce") provides its platform "as is" / "as available" in the binding MSA, with no committed uptime % or service credits; the sole remedy for material breach is termination after a 30-day cure period. (The legacy support-portal SLA URL is dead after the commerce.com migration.)
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://support.bigcommerce.com
@@ -81,8 +81,8 @@ services:
     source_url: https://www.commerce.com/terms/
 support:
   tiers:
-    - "Standard"
-    - "Enterprise"
+    - Standard
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -91,8 +91,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.bigcommerce.com/blog/professional-services-technical-support/"
-  note: "24/7 chat/phone on all plans; Enterprise adds a CSM and Solutions Architect."
+  source_url: https://www.bigcommerce.com/blog/professional-services-technical-support/
+  note: 24/7 chat/phone on all plans; Enterprise adds a CSM and Solutions Architect. 24/7 US-based chat/phone/email (phone availability tier-gated by sales plan); Enterprise reaches Tier 2 + a CSM. Implementation PM and TAM offered.
+  channels:
+    - chat
+    - email
+    - phone
+  fastest_response: ~2 min (live chat/phone); ~12 hrs email
 ---
 
 BigCommerce is a E-commerce provider. The former SLA URL (https://www.bigcommerce.com/terms/sla/) now returns 404, and bigcommerce.com/terms/ redirects to commerce.com following the rebrand to "Commerce". See the official Master Services Agreement at [https://www.commerce.com/terms/](https://www.commerce.com/terms/). No public uptime/SLA or service-credit terms were found in the official legal documents; SLA details appear to be gated to support.bigcommerce.com help-center articles that could not be programmatically verified.

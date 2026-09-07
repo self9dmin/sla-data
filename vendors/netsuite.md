@@ -7,8 +7,8 @@ category: Enterprise & Operations
 website: https://www.netsuite.com
 scope: global
 sla_url: https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.7
 max_credit_percent: 25
 claim_deadline_days: 30
@@ -103,13 +103,13 @@ services:
     source_url: https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf
 support:
   tiers:
-    - "Basic"
-    - "Premium"
-    - "ACS Advise"
-    - "ACS Monitor"
-    - "ACS Optimize"
-    - "ACS Architect"
-    - "ACS Platform"
+    - Basic
+    - Premium
+    - ACS Advise
+    - ACS Monitor
+    - ACS Optimize
+    - ACS Architect
+    - ACS Platform
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
@@ -118,8 +118,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.netsuite.com/portal/services/support-services/advanced-customer-support.shtml"
-  note: "Premium adds 24/7 for Sev1/2; ACS tiers add CSM, reviews, and optimization services."
+  source_url: https://www.netsuite.com/portal/services/support-services/advanced-customer-support.shtml
+  note: 'Premium adds 24/7 for Sev1/2; ACS tiers add CSM, reviews, and optimization services. Premium SuiteSupport: 24x7 for critical (Sev 1); Advanced Customer Support (ACS) is a separate paid proactive program with assigned advisors. No public per-severity response time.'
+  channels:
+    - phone
+    - portal
 ---
 
 NetSuite is a Finance & Payments provider. See the official Service Level Commitment at [https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf](https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf).

@@ -7,8 +7,8 @@ category: Databases & Data Infrastructure
 website: https://www.mongodb.com
 scope: global
 sla_url: https://www.mongodb.com/legal/sla/cloud/atlas-database
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 needs_review: false
 uptime_commitment: 99.995
 max_credit_percent: 100
@@ -122,12 +122,12 @@ services:
     source_url: https://www.mongodb.com/legal/sla/cloud/atlas-database
 support:
   tiers:
-    - "Developer"
-    - "Basic"
-    - "Pro"
-    - "Enterprise"
+    - Developer
+    - Basic
+    - Pro
+    - Enterprise
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (Sev1, Platinum)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -135,8 +135,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.mongodb.com/services/support"
-  note: "Response times are targets; TAM and architecture review at Enterprise."
+  source_url: https://www.mongodb.com/services/support
+  note: Response times are targets; TAM and architecture review at Enterprise. Case portal is 24/7 on all plans; phone is real but Pro/Enterprise-only; chat business hours. Named Technical Services Engineer at Enterprise/Platinum. Flex Consulting. Case portal is 24/7 on all plans; phone is real but Pro/Enterprise-only; chat business hours. Named Technical Services Engineer at Enterprise/Platinum. Flex Consulting.
+  channels:
+    - portal
+    - chat
+    - phone
 ---
 
 MongoDB Atlas is a Database & Data Infrastructure provider. See the official SLA at [https://www.mongodb.com/legal/service-level-agreement](https://www.mongodb.com/legal/sla/cloud/atlas-database).

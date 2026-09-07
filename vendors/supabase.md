@@ -7,17 +7,18 @@ category: Databases & Data Infrastructure
 website: https://www.supabase.com
 scope: global
 sla_url: https://supabase.com/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
-max_credit_percent: 20
+max_credit_percent: 30
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: enterprise
+credit_note: Per-incident credit is tiered up to 30% of the monthly fee (below 96% availability). Total Service Credits are separately capped at 20% of fees paid over the preceding 12 months.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
-  max_credit_percent: 20
+  max_credit_percent: 30
   credit_tiers:
     - uptime_below: 99.9
       credit_percent: 10
@@ -33,9 +34,7 @@ claim_process:
       days: 30
       business_days: false
       anchor_point: end_of_month
-      description: >-
-        Customer must email support within 30 days of the end of the month in
-        which the Uptime Commitment was not met
+      description: Customer must email support within 30 days of the end of the month in which the Uptime Commitment was not met
   submission_method: Email
   submission_url: mailto:support@supabase.io
   required_evidence:
@@ -121,21 +120,25 @@ services:
     source_url: https://supabase.com/sla
 support:
   tiers:
-    - "Free"
-    - "Pro"
-    - "Team"
-    - "Enterprise"
+    - Free
+    - Pro
+    - Team
+    - Enterprise
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Urgent, Enterprise)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: true
-  professional_services: true
+  professional_services: false
   success_program: true
   training: false
   pricing: flat
-  source_url: "https://supabase.com/support-policy"
-  note: "Team and Enterprise list response targets; Priority Plus add-on available."
+  source_url: https://supabase.com/support-policy
+  note: Team and Enterprise list response targets; Priority Plus add-on available. Dashboard + email + dedicated Slack (no phone). 24/7 is Urgent-only on Enterprise Standard (Priority Plus = 24/7 all severities). No documented professional services. Dashboard + email + dedicated Slack (no phone). 24/7 is Urgent-only on Enterprise Standard (Priority Plus = 24/7 all severities). No documented professional services.
+  channels:
+    - portal
+    - email
+    - slack
 ---
 
 Supabase is a Database & Data Infrastructure provider. See the official SLA at [https://supabase.com/sla](https://supabase.com/sla).

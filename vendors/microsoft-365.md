@@ -7,14 +7,13 @@ category: Productivity
 website: https://www.microsoft.com/microsoft-365
 scope: global
 sla_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 60
 has_automatic_credits: false
 min_plan_for_sla: standard
-needs_review: true
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -32,10 +31,7 @@ claim_process:
       days: null
       business_days: false
       anchor_point: end_of_month_following_incident
-      description: >-
-        Microsoft must receive the claim by the end of the Applicable Period
-        (calendar month) following the month in which the Incident occurred.
-        Example: an Incident on February 15th must be claimed by March 31st.
+      description: 'Microsoft must receive the claim by the end of the Applicable Period (calendar month) following the month in which the Incident occurred. Example: an Incident on February 15th must be claimed by March 31st.'
   submission_method: Microsoft customer support
   submission_url: https://admin.microsoft.com
   required_evidence:
@@ -148,11 +144,11 @@ services:
     source_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
 support:
   tiers:
-    - "Unified Core"
-    - "Unified Advanced"
-    - "Unified Performance"
+    - Unified Core
+    - Unified Advanced
+    - Unified Performance
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Sev A, 24x7)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -160,8 +156,11 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.microsoft.com/en-us/microsoft-unified/plan-details"
-  note: "Covered under Microsoft Unified; CSAM and proactive services scale by tier. Targets, not credit-backed."
+  source_url: https://www.microsoft.com/en-us/microsoft-unified/plan-details
+  note: Covered under Microsoft Unified; CSAM and proactive services scale by tier. Targets, not credit-backed. Via Microsoft Unified (Services Hub portal + phone); CSAM assigned. Sev A initial response ~1 hour (Performance edition ~30 min) — the 15-min figure is Azure-only.
+  channels:
+    - portal
+    - phone
 ---
 
 Microsoft 365 is a Enterprise Software provider. See the official SLA at [https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).

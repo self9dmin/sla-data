@@ -7,8 +7,8 @@ category: Content & Media
 website: https://www.adobe.com
 scope: global
 sla_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 30
@@ -117,19 +117,19 @@ services:
     sla_eligible: true
     source_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf
 sla_tiers:
-  - name: 'AEM as a Cloud Service 99.99% SLA'
-    requirement: 'AEM as a Cloud Service with the Additional Publish Region and 99.99% SLA add-ons'
+  - name: AEM as a Cloud Service 99.99% SLA
+    requirement: AEM as a Cloud Service with the Additional Publish Region and 99.99% SLA add-ons
     uptime_commitment: 99.99
     max_credit_percent: 25
-    source_url: 'https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/unified-sla-actionabilityaddendum2025oct12.pdf'
+    source_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/unified-sla-actionabilityaddendum2025oct12.pdf
 support:
   tiers:
-    - "Standard"
-    - "Business"
-    - "Enterprise"
-    - "Elite"
+    - Standard
+    - Business
+    - Enterprise
+    - Elite
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 30 min (P1, Enterprise Support)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -137,8 +137,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://experienceleague.adobe.com/docs/support-resources/data-sheets/data-sheets/enterprise.html"
-  note: "Elite adds a TAM and Named Support Engineer with a 15-min target; service-level targets are not credit-backed."
+  source_url: https://experienceleague.adobe.com/docs/support-resources/data-sheets/data-sheets/enterprise.html
+  note: Elite adds a TAM and Named Support Engineer with a 15-min target; service-level targets are not credit-backed. P1 is 24x7 on both tiers (Online 1 hr, Enterprise 30 min); Enterprise adds a Named Support Engineer + TAM and Launch Advisory/Field Services. (Prior 15-min figure was overstated.)
+  channels:
+    - portal
+    - email
+    - phone
 ---
 
 Adobe is a Content & Media provider. The official Unified SLA (effective 12 October 2025) covers Adobe On-demand and Managed Services including Analytics, Campaign, Commerce, Experience Manager, Marketo, and Target, with a 99.9% Minimum Uptime Percentage and tiered service credits (5/10/15/25% of Monthly Fees), capped at a 25% cumulative monthly credit. Customers must notify Adobe in writing within 30 days of the Downtime. See [Adobe Service Commitments](https://www.adobe.com/legal/service-commitments.html) and the [Unified SLA PDF](https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf).

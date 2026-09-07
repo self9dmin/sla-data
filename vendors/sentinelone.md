@@ -7,10 +7,10 @@ category: Security & Identity
 website: https://www.sentinelone.com
 scope: global
 sla_url: https://www.sentinelone.com/legal/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: tiered
@@ -87,11 +87,11 @@ services:
     source_url: https://www.sentinelone.com/legal/terms-of-service/
 support:
   tiers:
-    - "Standard"
-    - "Premium Support"
-    - "Technical Account Management"
+    - Standard
+    - Premium Support
+    - Technical Account Management
   has_24x7: true
-  fastest_response: "2 hours"
+  fastest_response: 30 min (Sev1)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
@@ -99,8 +99,12 @@ support:
   success_program: true
   training: true
   pricing: flat
-  source_url: "https://www.sentinelone.com/global-services/services-overview/"
-  note: "Premium adds 24/7 and a published response target; TAM sold separately."
+  source_url: https://www.sentinelone.com/global-services/services-overview/
+  note: Premium adds 24/7 and a published response target; TAM sold separately. Sev1 30-min response (per S1 terms; reconfirm against current contract). Enterprise/Elite 24x7; SentinelOne GO guided onboarding.
+  channels:
+    - portal
+    - phone
+    - email
 ---
 
 SentinelOne is a Security & Identity provider. See the official SLA at [https://www.sentinelone.com/legal/](https://www.sentinelone.com/legal/).

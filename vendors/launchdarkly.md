@@ -7,22 +7,18 @@ category: Developer Tools
 website: https://www.launchdarkly.com
 scope: global
 sla_url: https://launchdarkly.com/policies/service-level-agreement/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
-max_credit_percent: 50
+max_credit_percent: 0
 claim_deadline_days: 5
 has_automatic_credits: false
-min_plan_for_sla: premium
+min_plan_for_sla: enterprise
+credit_note: Enterprise (99.9%) baseline remedy is termination with a prorated refund — no service credits. Premium Support (99.99%) instead earns service credits up to 50% (see SLA tiers).
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
-  max_credit_percent: 50
-  credit_tiers:
-    - uptime_below: 99.99
-      credit_percent: 10
-    - uptime_below: 98
-      credit_percent: 25
+  calculation_type: none
+  remedy_type: termination_with_refund
+  max_credit_percent: 0
 claim_process:
   deadlines:
     - type: submission
@@ -99,27 +95,32 @@ services:
     sla_eligible: true
     source_url: https://launchdarkly.com/policies/service-level-agreement/
 sla_tiers:
-  - name: 'Premium Support'
-    requirement: 'Premium Support subscription'
+  - name: Premium Support
+    requirement: Premium Support subscription
     uptime_commitment: 99.99
-    source_url: 'https://launchdarkly.com/policies/service-level-agreement/'
+    max_credit_percent: 50
+    source_url: https://launchdarkly.com/policies/service-level-agreement/
 support:
   tiers:
-    - "Starter"
-    - "Pro"
-    - "Enterprise"
-    - "Premium Support"
+    - Starter
+    - Pro
+    - Enterprise
+    - Premium Support
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Sev-1, Gold/Platinum)
   response_is_sla: false
-  designated_contact: tam
+  designated_contact: csm
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://support.launchdarkly.com/hc/en-us/articles/4408252686875"
-  note: "Premium Support adds 24/7, a 30-min Sev1 target, and a TAM. Pro Services are sold separately."
+  source_url: https://support.launchdarkly.com/hc/en-us/articles/4408252686875
+  note: Premium Support adds 24/7, a 30-min Sev1 target, and a TAM. Pro Services are sold separately. Designated contact is a CSM (not a TAM). Inbound phone is Platinum-only.
+  channels:
+    - email
+    - portal
+    - phone
 ---
 
 LaunchDarkly is a DevOps & Development provider. See the official SLA at [https://launchdarkly.com/policies/service-level-agreement/](https://launchdarkly.com/policies/service-level-agreement/).

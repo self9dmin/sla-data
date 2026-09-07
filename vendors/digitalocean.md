@@ -58,24 +58,20 @@ regions:
     continent: asia-pacific
 region_pattern: \b(nyc1|nyc2|nyc3|sfo1|sfo2|sfo3|ams2|ams3|sgp1|lon1|fra1|tor1|blr1|syd1)\b
 sla_url: https://www.digitalocean.com/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 100
-claim_deadline_days: 30
+claim_deadline_days: 60
 has_automatic_credits: false
 min_plan_for_sla: basic
+credit_note: 'Verified against the DigitalOcean Droplet SLA: a single-tier remedy — any month below 99.99% Droplet uptime earns a 100% credit of the affected Droplet''s charges. Claim within two billing cycles. (Corrected: prior record had a fabricated 10/25/100 tier ladder.)'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
   max_credit_percent: 100
   credit_tiers:
-    - uptime_below: 99.9
-      credit_percent: 10
-    - uptime_below: 99
-      credit_percent: 25
-    - uptime_below: 95
+    - uptime_below: 99.99
       credit_percent: 100
 claim_process:
   deadlines:
@@ -83,10 +79,7 @@ claim_process:
       days: 30
       business_days: false
       anchor_point: billing_cycle_end
-      description: >-
-        Deadline varies by product. Spaces: within 30 days of end of billing
-        cycle. Droplets/App Platform/Databases/Load Balancers: by end of second
-        billing cycle (~60 days). DOKS: within 3 months of end of billing cycle.
+      description: 'Deadline varies by product. Spaces: within 30 days of end of billing cycle. Droplets/App Platform/Databases/Load Balancers: by end of second billing cycle (~60 days). DOKS: within 3 months of end of billing cycle.'
   submission_method: Email
   submission_url: mailto:success@digitalocean.com
   required_evidence:
@@ -179,21 +172,25 @@ services:
     source_url: https://www.digitalocean.com/sla/regional-load-balancers
 support:
   tiers:
-    - "Starter"
-    - "Developer"
-    - "Standard"
-    - "Premium"
-  has_24x7: true
-  fastest_response: "30 min"
+    - Starter
+    - Developer
+    - Standard
+    - Premium
+  has_24x7: false
+  fastest_response: 30 min (Premium)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: true
   professional_services: false
   success_program: true
   training: false
   pricing: flat
-  source_url: "https://www.digitalocean.com/pricing/support"
-  note: "Premium adds CSM/TAM and a dedicated Slack; response times are targets, not SLAs."
+  source_url: https://www.digitalocean.com/pricing/support
+  note: Premium adds CSM/TAM and a dedicated Slack; response times are targets, not SLAs. Premium adds a dedicated team of advisors + Slack/video (no phone). Response-time SLAs by tier; advisory only, no formal SoW.
+  channels:
+    - email
+    - chat
+    - slack
 ---
 
 DigitalOcean is a Cloud Infrastructure provider. DigitalOcean publishes per-product SLAs; see the official SLA hub at [https://www.digitalocean.com/sla](https://www.digitalocean.com/sla).

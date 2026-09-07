@@ -7,8 +7,8 @@ category: CDN & Edge
 website: https://www.cloudflare.com
 scope: global
 sla_url: https://www.cloudflare.com/business-sla/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 needs_review: false
 uptime_commitment: 100
 max_credit_percent: 100
@@ -150,98 +150,128 @@ services:
     sla_eligible: true
     source_url: https://www.cloudflare.com/business-sla/
   - id: cloudflare-workers-kv
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Workers KV
     uptime_commitment: 100
   - id: cloudflare-durable-objects
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Durable Objects
     uptime_commitment: 100
   - id: cloudflare-r2
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare R2 Storage
     uptime_commitment: 100
   - id: cloudflare-stream
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Stream
     uptime_commitment: 100
   - id: cloudflare-images
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Images
     uptime_commitment: 100
   - id: cloudflare-load-balancing
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Load Balancing
     uptime_commitment: 100
   - id: cloudflare-argo
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Argo Smart Routing
     uptime_commitment: 100
   - id: cloudflare-ddos
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare DDoS Protection
     uptime_commitment: 100
   - id: cloudflare-bot-management
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Bot Management
     uptime_commitment: 100
   - id: cloudflare-access
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Access
     uptime_commitment: 100
   - id: cloudflare-gateway
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Gateway
     uptime_commitment: 100
   - id: cloudflare-tunnel
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Tunnel
     uptime_commitment: 100
   - id: cloudflare-magic-transit
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Magic Transit
     uptime_commitment: 100
   - id: cloudflare-magic-wan
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Magic WAN
     uptime_commitment: 100
   - id: cloudflare-spectrum
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Spectrum
     uptime_commitment: 100
   - id: cloudflare-ssl-tls
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare SSL/TLS
     uptime_commitment: 100
   - id: cloudflare-rate-limiting
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Rate Limiting
     uptime_commitment: 100
   - id: cloudflare-api-gateway
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare API Gateway
     uptime_commitment: 100
   - id: cloudflare-waiting-room
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Waiting Room
     uptime_commitment: 100
   - id: cloudflare-turnstile
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Turnstile
     uptime_commitment: 100
   - id: cloudflare-warp
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare WARP
     uptime_commitment: 100
   - id: cloudflare-browser-isolation
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Browser Isolation
     uptime_commitment: 100
   - id: cloudflare-casb
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare CASB
     uptime_commitment: 100
   - id: cloudflare-email-security
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Email Security
     uptime_commitment: 100
   - id: cloudflare-1111
+    source_url: https://www.cloudflare.com/business-sla/
     name: 1.1.1.1 DNS Resolver
   - id: cloudflare-d1
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare D1
   - id: cloudflare-email-routing
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Email Routing
   - id: cloudflare-registrar
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Registrar
   - id: cloudflare-always-online
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Always Online
   - id: cloudflare-time-services
+    source_url: https://www.cloudflare.com/business-sla/
     name: Cloudflare Time Services
 support:
   tiers:
-    - "Basic"
-    - "Pro"
-    - "Business"
-    - "Enterprise"
-    - "Premium Success"
+    - Basic
+    - Pro
+    - Business
+    - Enterprise
+    - Premium Success
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 30 min (P1, paid TAM Service; ~1 hr base Premium Enterprise)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -249,8 +279,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.cloudflare.com/plans/enterprise/"
-  note: "Enterprise includes 24/7/365 support; TAM and Premium Success are paid add-ons. Response times are targets."
+  source_url: https://www.cloudflare.com/plans/enterprise/
+  note: Enterprise includes 24/7/365 support; TAM and Premium Success are paid add-ons. Response times are targets. 30-min/sub-1-hr P1 is paid-gated (TAM Service / Premium Enterprise SLA); base Enterprise is 2-hr P1. Chat is Business+, emergency phone is Enterprise P1-only. Professional Services + Managed Defense. 30-min/sub-1-hr P1 is paid-gated (TAM Service / Premium Enterprise SLA); base Enterprise is 2-hr P1. Chat is Business+, emergency phone is Enterprise P1-only. Professional Services + Managed Defense.
+  channels:
+    - portal
+    - chat
+    - phone
+    - discord
 ---
 
 Cloudflare is a CDN & Edge provider. See the official SLA at [https://www.cloudflare.com/business-sla/](https://www.cloudflare.com/business-sla/).

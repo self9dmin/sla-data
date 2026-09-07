@@ -7,12 +7,13 @@ category: Communication & Collaboration
 website: https://www.zendesk.com
 scope: global
 sla_url: https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zendesk-service-availability
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
+claim_deadline_days: 60
 has_automatic_credits: false
 min_plan_for_sla: premier
+credit_note: 99.9% availability for Premier Support on qualifying plans; service credits are the only remedy (no refunds), claimed within 60 days of the impacted month and applied to future charges. Zendesk does not publish the credit percentage schedule.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -106,12 +107,12 @@ services:
     source_url: https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zendesk-service-availability
 support:
   tiers:
-    - "Standard"
-    - "Premier Access"
-    - "Premier Plus"
-    - "Premier Enterprise"
+    - Standard
+    - Premier Access
+    - Premier Plus
+    - Premier Enterprise
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Critical, Premier tiers)
   response_is_sla: true
   designated_contact: tam
   architecture_review: true
@@ -119,8 +120,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://support.zendesk.com/hc/en-us/articles/10563447642906"
-  note: "Zendesk Premier tiers carry credit-backed availability and support SLAs; Premier Enterprise adds weekly TAM reviews."
+  source_url: https://support.zendesk.com/hc/en-us/articles/10563447642906
+  note: Zendesk Premier tiers carry credit-backed availability and support SLAs; Premier Enterprise adds weekly TAM reviews. 24/7 technical support is Premier-only (Standard is 8x5). Direct phone at Premier Plus/Enterprise, which add a TAM. 24/7 technical support is Premier-only (Standard is 8x5). Direct phone at Premier Plus/Enterprise, which add a TAM.
+  channels:
+    - portal
+    - phone
+    - chat
 ---
 
 Zendesk is a Communication & Collaboration provider. See the official SLA at [https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zendesk-service-availability](https://support.zendesk.com/hc/en-us/articles/9974862958746-About-Zendesk-service-availability).

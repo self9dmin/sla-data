@@ -7,8 +7,8 @@ category: Security & Identity
 website: https://www.onelogin.com
 scope: global
 sla_url: https://resources.onelogin.com/professional-services/onelogin-ssa-us.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 30
@@ -18,11 +18,7 @@ credit_policy:
   calculation_type: per_incident
   remedy_type: credit
   max_credit_percent: 100
-  credit_note: >-
-    For every 15 minutes of downtime, Subscriber receives a credit equal to 5%
-    of the annual fee for the affected OneLogin Services, divided by 12. Total
-    credit in any calendar month cannot exceed 100% of the fees for the affected
-    services attributable to that month.
+  credit_note: For every 15 minutes of downtime, Subscriber receives a credit equal to 5% of the annual fee for the affected OneLogin Services, divided by 12. Total credit in any calendar month cannot exceed 100% of the fees for the affected services attributable to that month.
 claim_process:
   deadlines:
     - type: submission
@@ -93,11 +89,11 @@ services:
     source_url: https://resources.onelogin.com/professional-services/onelogin-ssa-us.pdf
 support:
   tiers:
-    - "Standard"
-    - "Premier"
-    - "Premier Plus"
+    - Standard
+    - Premier
+    - Premier Plus
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Sev1, OneVIP/Premier)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -105,8 +101,11 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://support.onelogin.com/hc/en-us/articles/115001710103-Severity-Definitions-Target-Response-SLA-s"
-  note: "OneLogin explicitly labels response times as targets; no credits. Premier Plus adds a TAM."
+  source_url: https://support.onelogin.com/hc/en-us/articles/115001710103-Severity-Definitions-Target-Response-SLA-s
+  note: OneLogin explicitly labels response times as targets; no credits. Premier Plus adds a TAM. Sev1 must be reported by phone; Sev1 24x7 on OnePrime/OneVIP.
+  channels:
+    - portal
+    - phone
 ---
 
 OneLogin is a Security & Identity provider. The SLA is part of the OneLogin Service Subscription Agreement (Section 5.1): see the official agreement at [https://resources.onelogin.com/professional-services/onelogin-ssa-us.pdf](https://resources.onelogin.com/professional-services/onelogin-ssa-us.pdf).

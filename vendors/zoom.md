@@ -7,14 +7,17 @@ category: Communication & Collaboration
 website: https://www.zoom.com
 scope: global
 sla_url: https://www.zoom.com/en/trust/terms/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.9
+max_credit_percent: 50
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Zoom's Availability SLA commits to 99.9% Monthly Availability per service, with tiered service credits up to 50% of the affected Service SKU fee (20% for 98–99.9%, 50% below 98%). A support ticket must be opened during the downtime; credits are applied within 90 days. Zoom Phone separately markets 99.999%.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
+  max_credit_percent: 50
 claim_process:
   deadlines:
     - type: submission
@@ -93,20 +96,24 @@ services:
     source_url: https://www.zoom.com/en/trust/premier-support-terms/
 support:
   tiers:
-    - "Standard"
-    - "Premier"
-    - "Premier+"
+    - Standard
+    - Premier
+    - Premier+
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (P1, Premier; 30 min at Premier Elite)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://www.zoom.com/en/support-plans/"
-  note: "Premier+ adds an assigned TAM and prioritized tickets; response times are objectives."
+  source_url: https://www.zoom.com/en/support-plans/
+  note: Premier+ adds an assigned TAM and prioritized tickets; response times are objectives. Premier support tiers; assigned TAM at Premier+. Professional/onboarding services exist (prior prof_services=false was wrong). Premier support tiers; assigned TAM at Premier+. Professional/onboarding services exist (prior prof_services=false was wrong).
+  channels:
+    - portal
+    - chat
+    - phone
 ---
 
 Zoom is a Communication & Collaboration provider. See the official SLA at [https://www.zoom.com/en/trust/terms/](https://www.zoom.com/en/trust/terms/).

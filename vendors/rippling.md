@@ -7,14 +7,14 @@ category: HR & People Operations
 website: https://www.rippling.com
 scope: global
 sla_url: https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://www.rippling.com/support
@@ -87,18 +87,22 @@ services:
     source_url: https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html
 support:
   tiers:
-    - "Standard"
-    - "Premium"
+    - Standard
+    - Premium
   has_24x7: false
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: none
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.rippling.com/support-status"
-  note: "Premium tier adds a dedicated account manager; published metrics are not SLA-backed."
+  source_url: https://www.rippling.com/support-status
+  note: Premium tier adds a dedicated account manager; published metrics are not SLA-backed. Live chat + email/web + screen-share calls (no phone line); no dedicated CSM on the standard support page (HR Help Desk is a paid add-on). Median figures are vendor stats, not an SLA.
+  channels:
+    - chat
+    - email
+  fastest_response: ~30 sec median (live chat); ~2 hr median email
 ---
 
 Rippling is a HR & People Operations provider. Rippling does not publish a public uptime SLA or service-credit commitment; its Customer Terms of Service explicitly disclaims any specified service level. See the official terms at [https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html](https://static-assets.ripplingcdn.com/legal/en-US/customer_terms_of_service.html).

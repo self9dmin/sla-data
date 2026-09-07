@@ -7,14 +7,14 @@ category: Security & Identity
 website: https://www.bitwarden.com
 scope: global
 sla_url: https://bitwarden.com/terms/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://bitwarden.com/contact/
@@ -81,19 +81,22 @@ services:
     source_url: https://bitwarden.com/terms/
 support:
   tiers:
-    - "Free"
-    - "Priority (Premium/Teams/Enterprise)"
-    - "Enterprise Services"
+    - Free
+    - Priority (Premium/Teams/Enterprise)
+    - Enterprise Services
   has_24x7: true
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: flat
-  source_url: "https://bitwarden.com/products/business-support/"
-  note: "24/7/365 priority support; published as a target, not a credit-backed SLA."
+  source_url: https://bitwarden.com/products/business-support/
+  note: 24/7/365 priority support; published as a target, not a credit-backed SLA. Portal/email only (no phone); 24x7 ticket support. Priority Enterprise adds an accounts-team contact, onboarding and adoption.
+  channels:
+    - portal
+    - email
 ---
 
 Bitwarden is a Security & Identity provider. See the official SLA at [https://bitwarden.com/terms/](https://bitwarden.com/terms/).

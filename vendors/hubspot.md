@@ -7,30 +7,26 @@ category: CRM & Marketing
 website: https://www.hubspot.com
 scope: global
 sla_url: https://legal.hubspot.com/product-specific-terms
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.95
+credit_unit: time
 claim_deadline_days: 20
 has_automatic_credits: false
 min_plan_for_sla: starter
+credit_note: Credit triggers only if uptime is below 99.95% for two consecutive months; equals the pro-rated fees for the downtime (no fixed % tiers or cap). Claim within 20 days; applied to the next renewal term.
 credit_policy:
   calculation_type: pro_rated
   remedy_type: credit
   credit_tiers: []
-  note: >-
-    Credit only triggers if Service Uptime falls below 99.95% for two (2) or
-    more consecutive calendar months; credit equals the pro-rated amount of
-    fees applicable to the downtime. No fixed tiers or maximum credit cap are
-    stated.
+  note: Credit only triggers if Service Uptime falls below 99.95% for two (2) or more consecutive calendar months; credit equals the pro-rated amount of fees applicable to the downtime. No fixed tiers or maximum credit cap are stated.
 claim_process:
   deadlines:
     - type: submission
       days: 20
       business_days: false
       anchor_point: month_end
-      description: >-
-        Request credit within twenty (20) days of the end of the relevant
-        calendar month in which uptime fell below 99.95%
+      description: Request credit within twenty (20) days of the end of the relevant calendar month in which uptime fell below 99.95%
   submission_method: Contact HubSpot
   submission_url: https://legal.hubspot.com/product-specific-terms
   required_evidence: []
@@ -105,19 +101,24 @@ services:
     source_url: https://legal.hubspot.com/product-specific-terms
 support:
   tiers:
-    - "Starter"
-    - "Professional"
-    - "Enterprise"
-  has_24x7: true
+    - Starter
+    - Professional
+    - Enterprise
+  has_24x7: false
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: none
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: included
-  source_url: "https://www.hubspot.com/customer-support"
-  note: "24/7 chat/email on paid tiers; phone on Pro/Enterprise. CSM and Academy."
+  source_url: https://www.hubspot.com/customer-support
+  note: 24/7 chat/email on paid tiers; phone on Pro/Enterprise. CSM and Academy. No 24/7 commitment; pooled support (no named CSM/TAM). Chat/email at Starter+, phone call-back at Pro/Enterprise (English-only). Paid onboarding. No 24/7 commitment; pooled support (no named CSM/TAM). Chat/email at Starter+, phone call-back at Pro/Enterprise (English-only). Paid onboarding.
+  channels:
+    - chat
+    - email
+    - phone
+  fastest_response: 5 min (phone call-back, Pro/Enterprise)
 ---
 
 HubSpot is a CRM & Sales provider. The "Service Uptime Commitment" is published in HubSpot's [Product Specific Terms](https://legal.hubspot.com/product-specific-terms): a 99.95% monthly Service Uptime target for paid Subscription Services. A credit (pro-rated fees for the downtime) is available only if uptime falls below 99.95% for two (2) or more consecutive calendar months, and the customer must request it within twenty (20) days of the end of the relevant month. There is no tiered credit schedule or stated maximum credit cap, and credits are not automatic.

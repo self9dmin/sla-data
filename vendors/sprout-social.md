@@ -7,23 +7,14 @@ category: CRM & Marketing
 website: https://sproutsocial.com
 scope: global
 sla_url: https://sproutsocial.com/legal/terms/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.9
-max_credit_percent: 25
-claim_deadline_days: 30
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Sprout Social''s Terms (s3.6) use commercially-reasonable-efforts availability and explicitly state interruptions do not entitle a refund or credit — no uptime SLA or service credits. (Corrected: prior record had a fabricated 99.9% / 25% credit schedule.)'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
-  max_credit_percent: 25
-  credit_tiers:
-    - uptime_below: 99.9
-      credit_percent: 10
-    - uptime_below: 99.5
-      credit_percent: 25
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -105,6 +96,18 @@ services:
     uptime_commitment: 99.9
     sla_eligible: true
     source_url: https://sproutsocial.com/legal/terms/
+support:
+  channels:
+    - phone
+    - chat
+    - email
+    - portal
+  designated_contact: team
+  professional_services: true
+  has_24x7: false
+  fastest_response: 2 hours (first reply, Premier Success add-on)
+  note: Phone is Mon-Fri (no 24x7). Premier Success (add-on) guarantees a 2-hour first reply + consulting/custom training. Phone is Mon-Fri (no 24x7). Premier Success (add-on) guarantees a 2-hour first reply + consulting/custom training.
+  source_url: https://sproutsocial.com/premier-success/
 ---
 
 Sprout Social is a Marketing & Analytics provider. See the official Terms of Service at [https://sproutsocial.com/legal/terms/](https://sproutsocial.com/legal/terms/). Sprout Social does not publish a public, credit-bearing SLA; availability is addressed only as a non-binding internal KPI ("strives to maintain 99.9% uptime").

@@ -7,8 +7,8 @@ category: HR & People Operations
 website: https://www.docebo.com
 scope: global
 sla_url: https://www.docebo.com/company/service-level-agreement/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 30
 has_automatic_credits: true
@@ -20,7 +20,7 @@ credit_policy:
   credit_tiers:
     - uptime_below: 99.9
       credit_percent: 10
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 30
 claim_process:
   submission_method: Automatic
@@ -89,13 +89,13 @@ services:
     source_url: https://www.docebo.com/company/service-level-agreement/
 support:
   tiers:
-    - "Standard"
-    - "Essential"
-    - "Advantage"
-    - "Premier"
-    - "Elite"
+    - Standard
+    - Essential
+    - Advantage
+    - Premier
+    - Elite
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 15 min (Urgent, Elite tier)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
@@ -103,8 +103,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.docebo.com/company/service-level-agreement/"
-  note: "Premier publishes a 30-min urgent target; Elite advertises a 15-min target. Treated as targets without verified credit schedules."
+  source_url: https://www.docebo.com/company/service-level-agreement/
+  note: Premier publishes a 30-min urgent target; Elite advertises a 15-min target. Treated as targets without verified credit schedules. 24/7 phone + ticket on premium tiers (chat 24/5); Premier/Elite add a Named Technical Advisor. 24/7 phone + ticket on premium tiers (chat 24/5); Premier/Elite add a Named Technical Advisor.
+  channels:
+    - phone
+    - chat
+    - portal
 ---
 
 Docebo is a Other SaaS provider. See the official SLA at [https://www.docebo.com/company/service-level-agreement/](https://www.docebo.com/company/service-level-agreement/).

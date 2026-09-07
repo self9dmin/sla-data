@@ -7,8 +7,8 @@ category: Cloud Infrastructure
 website: https://www.vercel.com
 scope: global
 sla_url: https://vercel.com/legal/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 50
 claim_deadline_days: 30
@@ -79,21 +79,23 @@ services:
     source_url: https://vercel.com/legal/sla
 support:
   tiers:
-    - "Community"
-    - "Standard"
-    - "Premium"
-    - "Enterprise"
+    - Community
+    - Standard
+    - Premium
+    - Enterprise
   has_24x7: true
-  fastest_response: "2 hours"
+  fastest_response: 2 hours (Sev1, Premium Enterprise)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: none
   architecture_review: true
   professional_services: true
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://vercel.com/legal/support-terms"
-  note: "Enterprise tiers (Standard/Premium) publish severity-based response targets; pro services available."
+  source_url: https://vercel.com/legal/support-terms
+  note: Enterprise tiers (Standard/Premium) publish severity-based response targets; pro services available. Ticket/forum based (Slack is explicitly not a formal support channel; no phone). Standard Enterprise <4 business hrs Sev1, Premium Enterprise <2 hrs 24/7. No documented TAM/CSM.
+  channels:
+    - portal
 ---
 
 Vercel is a Cloud Infrastructure provider. See the official SLA at [https://vercel.com/legal/sla](https://vercel.com/legal/sla).

@@ -7,8 +7,8 @@ category: Analytics & BI
 website: https://www.qlik.com
 scope: global
 sla_url: https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 15
@@ -21,9 +21,9 @@ credit_policy:
   credit_tiers:
     - uptime_below: 99.9
       credit_percent: 10
-    - uptime_below: 99.0
+    - uptime_below: 99
       credit_percent: 30
-    - uptime_below: 95.0
+    - uptime_below: 95
       credit_percent: 100
 claim_process:
   deadlines:
@@ -107,11 +107,11 @@ services:
     source_url: https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf
 support:
   tiers:
-    - "Base"
-    - "Standard"
-    - "Signature"
+    - Base
+    - Standard
+    - Signature
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 30 min (Sev1)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -119,8 +119,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.qlik.com/us/services"
-  note: "Signature Success includes a CSM, 24/7 senior engineers, and a 15-min critical-response target."
+  source_url: https://www.qlik.com/us/services
+  note: Signature Success includes a CSM, 24/7 senior engineers, and a 15-min critical-response target. Sev1 30-min response 24x7x365 for all Enterprise Support (Sev2/3 business hours). Signature Success assigns a Customer Success Engineer; Qlik Consulting Services with SoW terms. (Prior 15-min figure was wrong.)
+  channels:
+    - portal
+    - chat
+    - phone
 ---
 
 Qlik is a Business Intelligence provider. See the official SLA at [https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf](https://assets.qlik.com/image/upload/v1712595250/qlik/docs/Legal/terms-and-conditions/service-level-agreement_hzecsf.pdf).

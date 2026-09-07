@@ -7,8 +7,8 @@ category: Monitoring & Observability
 website: https://www.pagerduty.com
 scope: global
 sla_url: https://www.pagerduty.com/standard-service-level-agreement/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 30
 claim_deadline_days: 15
@@ -94,13 +94,13 @@ services:
     source_url: https://www.pagerduty.com/standard-service-level-agreement/
 support:
   tiers:
-    - "Tech Touch"
-    - "Standard Success"
-    - "Premium Support"
-    - "Silver Services"
-    - "Gold Services"
+    - Tech Touch
+    - Standard Success
+    - Premium Support
+    - Silver Services
+    - Gold Services
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (P1/Urgent, Premium+)
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
@@ -108,8 +108,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.pagerduty.com/support-policy/"
-  note: "CSM at Standard Success; Silver/Gold add QBRs and instructor-led training."
+  source_url: https://www.pagerduty.com/support-policy/
+  note: CSM at Standard Success; Silver/Gold add QBRs and instructor-led training. 24x7 at Premium+ (off-hours limited to P1/P2). Gold Services adds a designated CSM + Customer Success Engineer + ~40 hrs/quarter professional services. 24x7 at Premium+ (off-hours limited to P1/P2). Gold Services adds a designated CSM + Customer Success Engineer + ~40 hrs/quarter professional services.
+  channels:
+    - email
+    - phone
+    - chat
 ---
 
 PagerDuty is a Monitoring & Observability provider. See the official SLA at [https://www.pagerduty.com/standard-service-level-agreement/](https://www.pagerduty.com/standard-service-level-agreement/).

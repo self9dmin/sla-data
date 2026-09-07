@@ -7,14 +7,14 @@ category: Security & Identity
 website: https://www.fortinet.com
 scope: global
 sla_url: https://www.fortinet.com/support/support-services
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Fortinet publishes availability TARGETS only (≈99.99% portal/POPs, up to 99.999% with HA) on a commercially-reasonable basis, with NO service credits or termination remedy in its general cloud service terms. Treated as no SLA — a target with no enforceable remedy.
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,11 +93,11 @@ services:
     source_url: https://www.fortinet.com/support/support-services
 support:
   tiers:
-    - "FortiCare Essential"
-    - "FortiCare Premium"
-    - "FortiCare Elite"
+    - FortiCare Essential
+    - FortiCare Premium
+    - FortiCare Elite
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 1 hour (critical/P1, Premium & Elite)
   response_is_sla: false
   designated_contact: team
   architecture_review: false
@@ -105,8 +105,12 @@ support:
   success_program: false
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticare.pdf"
-  note: "Per-device tier; commercially reasonable efforts language, no credit remedy."
+  source_url: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticare.pdf
+  note: 'Per-device tier; commercially reasonable efforts language, no credit remedy. FortiCare Premium/Elite: 24x7 critical response (1 hour, not 15 min); web + phone.'
+  channels:
+    - portal
+    - phone
+    - email
 ---
 
 Fortinet is a Security & Identity provider. See the official SLA at [https://www.fortinet.com/support/support-services](https://www.fortinet.com/support/support-services).

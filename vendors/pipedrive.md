@@ -7,10 +7,10 @@ category: CRM & Marketing
 website: https://www.pipedrive.com
 scope: global
 sla_url: https://www.pipedrive.com/en/terms-of-service
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
@@ -81,21 +81,25 @@ services:
     source_url: https://www.pipedrive.com/en/terms-of-service
 support:
   tiers:
-    - "Essential"
-    - "Advanced"
-    - "Professional"
-    - "Power"
-    - "Enterprise"
+    - Essential
+    - Advanced
+    - Professional
+    - Power
+    - Enterprise
   has_24x7: true
   response_is_sla: false
-  designated_contact: none
+  designated_contact: csm
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: included
-  source_url: "https://www.pipedrive.com/en/pricing"
-  note: "24/7 chat/phone on Power and Enterprise; personalized onboarding above a spend threshold."
+  source_url: https://www.pipedrive.com/en/pricing
+  note: 24/7 chat/phone on Power and Enterprise; personalized onboarding above a spend threshold. 24/7 chat (EN & PT) on top plans; phone/inbound calling at Power & Enterprise (business hours). Dedicated CSM for customers spending $1,000+/mo. 24/7 chat (EN & PT) on top plans; phone/inbound calling at Power & Enterprise (business hours). Dedicated CSM for customers spending $1,000+/mo.
+  channels:
+    - email
+    - chat
+    - phone
 ---
 
 Pipedrive is a CRM & Sales provider. See the official SLA at [https://www.pipedrive.com/en/terms-of-service](https://www.pipedrive.com/en/terms-of-service).

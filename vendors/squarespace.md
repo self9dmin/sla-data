@@ -7,14 +7,14 @@ category: E-commerce
 website: https://www.squarespace.com
 scope: global
 sla_url: https://www.squarespace.com/terms-of-service
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Squarespace's Terms provide the Services "as is"/"as available" and warrant no timely/uninterrupted/error-free service — no public uptime SLA or credits. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,17 +93,20 @@ services:
     source_url: https://www.squarespace.com/terms-of-service
 support:
   tiers:
-    - "Standard"
-  has_24x7: true
+    - Standard
+  has_24x7: false
   response_is_sla: false
-  designated_contact: none
+  designated_contact: team
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: false
   training: true
   pricing: included
-  source_url: "https://support.squarespace.com/hc/en-us/articles/206541167-Contacting-Customer-Support"
-  note: "Flat 24/7 email and live chat included; no paid tiers."
+  source_url: https://support.squarespace.com/hc/en-us/articles/206541167-Contacting-Customer-Support
+  note: Flat 24/7 email and live chat included; no paid tiers. No phone support (explicitly disclaimed). Email + social 24/7 but live chat is weekday business hours only. Enterprise adds a dedicated account manager + onboarding/training/consultations.
+  channels:
+    - email
+    - chat
 ---
 
 Squarespace is a E-commerce provider. See the official SLA at [https://www.squarespace.com/terms-of-service](https://www.squarespace.com/terms-of-service).

@@ -7,14 +7,15 @@ category: Enterprise & Operations
 website: https://blueyonder.com
 scope: global
 sla_url: https://blueyonder.com/legal
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'Blue Yonder publishes no standard uptime SLA; availability and any service- credit terms are set in the customer SaaS agreement, not posted publicly. SLA help wanted: a contract holder can contribute the negotiated terms.'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -91,6 +92,16 @@ services:
     description: Warehouse management system
     sla_eligible: true
     source_url: https://blueyonder.com/legal
+support:
+  channels:
+    - phone
+    - chat
+    - portal
+  designated_contact: tam
+  professional_services: true
+  has_24x7: true
+  note: 24x7 critical incident management is Premium/Cloud-tier; Regional TAM for SaaS customers; broad SoW professional services (implementation, migration, change management). No public response-time figure.
+  source_url: https://info.blueyonder.com/blue-yonder-platform/what-are-blue-yonder-customer-success-support-services
 ---
 
 Blue Yonder is a Enterprise Software provider. See the official SLA at [https://blueyonder.com/legal](https://blueyonder.com/legal).

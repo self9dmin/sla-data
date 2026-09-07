@@ -7,8 +7,8 @@ category: Communication & Collaboration
 website: https://www.mailgun.com
 scope: global
 sla_url: https://www.mailgun.com/legal/sla/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 50
 claim_deadline_days: 30
@@ -86,11 +86,11 @@ services:
     source_url: https://www.mailgun.com/legal/sla/
 support:
   tiers:
-    - "Free"
-    - "Basic"
-    - "Foundation"
-    - "Scale"
-    - "Enterprise"
+    - Free
+    - Basic
+    - Foundation
+    - Scale
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: tam
@@ -99,8 +99,13 @@ support:
   success_program: false
   training: false
   pricing: included
-  source_url: "https://www.mailgun.com/pricing/"
-  note: "Scale adds phone/chat; Enterprise adds a TAM and managed deliverability consulting."
+  source_url: https://www.mailgun.com/pricing/
+  note: Scale adds phone/chat; Enterprise adds a TAM and managed deliverability consulting. 24/7/365 phone/chat/ticket; email is excluded from the response-time SLA. Dedicated TAM at Enterprise/Optimize. 24/7/365 phone/chat/ticket; email is excluded from the response-time SLA. Dedicated TAM at Enterprise/Optimize.
+  channels:
+    - phone
+    - chat
+    - portal
+  fastest_response: 15 min (Sev1, Enterprise SLA)
 ---
 
 Mailgun is a Communication & Collaboration provider. See the official SLA at [https://www.mailgun.com/legal/sla/](https://www.mailgun.com/legal/sla/).

@@ -100,9 +100,8 @@ regions:
     continent: africa
 region_pattern: \b(us-central1|us-east1|us-east4|us-east5|us-south1|us-west1|us-west2|us-west3|us-west4|northamerica-northeast1|northamerica-northeast2|southamerica-east1|southamerica-west1|europe-west1|europe-west2|europe-west3|europe-west4|europe-west6|europe-west8|europe-west9|europe-central2|europe-north1|europe-southwest1|asia-east1|asia-east2|asia-northeast1|asia-northeast2|asia-northeast3|asia-south1|asia-south2|asia-southeast1|asia-southeast2|australia-southeast1|australia-southeast2|me-west1|me-central1|me-central2|africa-south1)\b
 sla_url: https://cloud.google.com/terms/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 100
 claim_deadline_days: 60
@@ -214,7 +213,7 @@ services:
     name: Cloud SQL
     category: Database
     description: Managed MySQL, PostgreSQL, SQL Server
-    uptime_commitment: 99.95
+    uptime_commitment: 99.99
     sla_eligible: true
     source_url: https://cloud.google.com/sql/sla
   - id: cloud-spanner
@@ -279,247 +278,322 @@ services:
   - id: compute
     name: Compute Engine and Load Balancing
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/compute/sla
   - id: functions
     name: Cloud Run functions
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/functions/sla
   - id: appengine
     name: App Engine
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/appengine/sla
   - id: dns
     name: Cloud DNS
     uptime_commitment: 100
+    source_url: https://cloud.google.com/dns/sla
   - id: memorystore
     name: Memorystore
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/memorystore/sla
   - id: firestore
     name: Firestore
     uptime_commitment: 99.999
+    source_url: https://cloud.google.com/firestore/sla
   - id: bigtable
     name: Cloud Bigtable
     uptime_commitment: 99.999
+    source_url: https://cloud.google.com/bigtable/sla
   - id: dataflow
     name: Dataflow
     uptime_commitment: 99.9
+    source_url: https://cloud.google.com/dataflow/sla
   - id: alloydb
     name: AlloyDB
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/alloydb/sla
   - id: anti-money-laundering-ai
     name: Anti Money Laundering AI
     uptime_commitment: 99.9
+    source_url: https://cloud.google.com/anti-money-laundering-ai/sla
   - id: apigee
     name: Apigee
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/apigee/sla
   - id: application-integration
     name: Application Integration
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/application-integration/sla
   - id: translate-automl
     name: AutoML Translation
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/translate/automl/sla
   - id: bare-metal
     name: Bare Metal Solution
-    uptime_commitment: 99.99
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/bare-metal/sla
   - id: blockchain-node-engine
     name: Blockchain Node Engine
-    uptime_commitment: 99.5
+    uptime_commitment: 99
+    source_url: https://cloud.google.com/blockchain-node-engine/sla
   - id: certificate-authority-service
     name: Certificate Authority Service
-    uptime_commitment: 99.95
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/certificate-authority-service/sla
   - id: build
     name: Cloud Build
-    uptime_commitment: 99.5
+    uptime_commitment: 99.95
+    source_url: https://cloud.google.com/build/sla
   - id: composer
     name: Cloud Composer
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/composer/sla
   - id: data-fusion
     name: Cloud Data Fusion
-    uptime_commitment: 99.9
+    uptime_commitment: 99.5
+    source_url: https://cloud.google.com/data-fusion/sla
   - id: dlp
     name: Cloud DLP
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/sensitive-data-protection/sla
   - id: ekm
     name: Cloud External Key Manager
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/ekm/sla
   - id: healthcare
     name: Cloud Healthcare
     uptime_commitment: 99.9
+    source_url: https://cloud.google.com/healthcare-api/sla
   - id: kms
     name: Cloud HSM
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/kms/sla
   - id: identity
     name: Cloud Identity Services
     uptime_commitment: 99.9
+    source_url: https://cloud.google.com/identity/sla
   - id: network-connectivity-interconnect
     name: Cloud Interconnect
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/network-connectivity/docs/interconnect/sla
   - id: nat
     name: Cloud NAT
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/nat/sla
   - id: natural-language
     name: Cloud Natural Language API
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/natural-language/sla
   - id: firewall
     name: Cloud NGFW
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/firewall/sla
   - id: operations
     name: Cloud Observability (Monitoring, Logging)
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/operations/sla
   - id: scheduler
     name: Cloud Scheduler
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/scheduler/sla
   - id: service-mesh
     name: Cloud Service Mesh
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/terms/service-mesh/sla
   - id: tasks
     name: Cloud Tasks
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/tasks/sla
   - id: translate
     name: Cloud Translation
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/translate/sla
   - id: vision
     name: Cloud Vision
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/vision/sla
   - id: network-connectivity-vpn
     name: Cloud VPN
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/network-connectivity/docs/vpn/sla
   - id: workstations
     name: Cloud Workstations
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/workstations/sla
   - id: data-catalog
     name: Data Catalog
     uptime_commitment: 99.9
+    source_url: https://cloud.google.com/data-catalog/sla
   - id: dataplex
     name: Dataplex
-    uptime_commitment: 99.9
+    uptime_commitment: 99.5
+    source_url: https://cloud.google.com/dataplex/sla
   - id: dataproc
     name: Dataproc
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/dataproc/sla
   - id: dataproc-metastore
     name: Dataproc Metastore
-    uptime_commitment: 99.9
+    uptime_commitment: 99.5
+    source_url: https://cloud.google.com/dataproc-metastore/sla
   - id: datastore
     name: Datastore
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/datastore/sla
   - id: dialogflow
     name: Dialogflow
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/dialogflow/sla
   - id: document-ai
     name: Document AI
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/document-ai/sla
   - id: filestore
     name: Filestore
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/filestore/sla
   - id: gemini-enterprise
     name: Gemini Enterprise
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/terms/gemini-enterprise/sla
   - id: gemini
     name: Gemini for Google Cloud
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/gemini/sla
   - id: vertex-ai-generative-ai
     name: Gemini on Vertex
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/vertex-ai/generative-ai/sla
   - id: armor
     name: Google Cloud Armor
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/armor/sla
   - id: netapp-volumes
     name: Google Cloud NetApp Volumes
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/netapp/volumes/sla
   - id: vmware-engine
     name: Google Cloud VMware Engine
     uptime_commitment: 99.99
+    source_url: https://cloud.google.com/vmware-engine/sla
   - id: earth-engine
     name: Google Earth Engine
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/earth-engine/sla
   - id: identity-platform
     name: Identity Platform
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/identity-platform/sla
   - id: iot
     name: IoT Core
-    uptime_commitment: 99.5
+    source_url: https://cloud.google.com/terms/sla/
   - id: looker-core
     name: Looker (Google Cloud core)
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/terms/looker-core/sla
   - id: looker-studio
     name: Looker Studio Pro
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/looker-studio/sla
   - id: managed-service-for-apache-kafka
     name: Managed Service for Apache Kafka
-    uptime_commitment: 99.9
+    uptime_commitment: 99.95
+    source_url: https://cloud.google.com/terms/managed-service-for-apache-kafka/sla
   - id: managed-microsoft-ad
     name: Managed Service for Microsoft Active Directory
     uptime_commitment: 99.9
+    source_url: https://cloud.google.com/managed-microsoft-ad/sla
   - id: media-cdn
     name: Media CDN
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/media-cdn/sla
   - id: ncc
     name: Network Connectivity Center
     uptime_commitment: 99.9
+    source_url: https://cloud.google.com/ncc/sla
   - id: parallelstore
     name: Parallelstore
-    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/terms/sla/
   - id: recaptcha-enterprise
     name: reCAPTCHA Enterprise
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/recaptcha-enterprise/sla
   - id: secret-manager
     name: Secret Manager
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/secret-manager/sla
   - id: secure-web-proxy
     name: Secure Web Proxy
-    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/terms/sla/
   - id: security-command-center
     name: Security Command Center
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/security-command-center/sla
   - id: sas
     name: Spectrum Access System
-    uptime_commitment: 99.9
+    uptime_commitment: 99.99
+    source_url: https://cloud.google.com/sas/sla
   - id: speech-to-text
     name: Speech-to-Text
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/speech-to-text/sla
   - id: talent-solution
     name: Talent Solution
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/talent-solution/sla
   - id: text-to-speech
     name: Text-to-Speech
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/text-to-speech/sla
   - id: transcoder
     name: Transcoder API
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/terms/transcoder/sla
   - id: vertex-ai-featurestore
     name: Vertex AI Feature Store
-    uptime_commitment: 99.5
+    uptime_commitment: 99
+    source_url: https://cloud.google.com/terms/vertex-ai/featurestore/sla
   - id: vertex-ai
     name: Vertex AI Platform
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/vertex-ai/sla
   - id: retail
     name: Vertex AI Search for commerce
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/retail/sla
   - id: vector-search
     name: Vertex AI Vector Search
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/terms/vector-search/sla
   - id: vertex-ai-vision
     name: Vertex AI Vision
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/vertex-ai-vision/sla
   - id: video-intelligence
     name: Video Intelligence API
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/video-intelligence/sla
   - id: workflows
     name: Workflows
-    uptime_commitment: 99.5
+    uptime_commitment: 99.9
+    source_url: https://cloud.google.com/workflows/sla
   - id: ai-platform-training
     name: AI Platform Training and Prediction
     uptime_commitment: 99.5
+    source_url: https://cloud.google.com/ai-platform/training-and-prediction/sla
   - id: firebase-storage
     name: Cloud Storage for Firebase
-    uptime_commitment: 99.95
+    source_url: https://cloud.google.com/terms/sla/
   - id: kms
     name: Cloud Key Management Service
     uptime_commitment: 99.95
+    source_url: https://cloud.google.com/kms/sla
 support:
   tiers:
-    - "Standard"
-    - "Enhanced"
-    - "Premium"
+    - Standard
+    - Enhanced
+    - Premium
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (P1, Premium)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -527,8 +601,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://cloud.google.com/support"
-  note: "Premium (>=$15k/mo or percent-of-spend) adds a TAM, a 15-minute P1 response target, and event/onboarding guidance. Response times are targets, not credit-backed; per-product uptime SLAs are the credited layer."
+  source_url: https://cloud.google.com/support
+  note: Premium (>=$15k/mo or percent-of-spend) adds a TAM, a 15-minute P1 response target, and event/onboarding guidance. Response times are targets, not credit-backed; per-product uptime SLAs are the credited layer. Enhanced 1-hr P1; Premium 15-min P1 + TAM (min ~$15k/mo). Google Cloud PSO.
+  channels:
+    - portal
+    - phone
+    - chat
 ---
 
 GCP is a Cloud Infrastructure provider. See the official SLA at [https://cloud.google.com/terms/sla](https://cloud.google.com/terms/sla).

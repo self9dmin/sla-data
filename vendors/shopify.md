@@ -6,13 +6,14 @@ legal_entity: Shopify
 category: E-commerce
 website: https://www.shopify.com
 scope: global
-sla_url: https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-plus-plan
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+sla_url: https://www.shopify.com/plus/legal/terms
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 uptime_commitment: 99.99
 has_automatic_credits: false
 min_plan_for_sla: plus
+credit_note: 'Shopify Plus provides a contractual 99.99% uptime SLA with financial service credits for breaches. The exact credit schedule, cap, and claim window live in the Plus Terms (behind an authenticated admin URL) and are not public. SLA help wanted: a Plus customer can contribute the credit schedule.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -100,18 +101,23 @@ services:
     source_url: https://www.shopify.com/legal/terms
 support:
   tiers:
-    - "Standard"
-    - "Plus Priority"
+    - Standard
+    - Plus Priority
   has_24x7: true
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
-  professional_services: true
+  professional_services: false
   success_program: true
   training: true
   pricing: included
-  source_url: "https://www.shopify.com/plus/services/merchant-success"
-  note: "Plus includes Merchant Success; a dedicated MSM applies above a revenue threshold."
+  source_url: https://www.shopify.com/plus/services/merchant-success
+  note: Plus includes Merchant Success; a dedicated MSM applies above a revenue threshold. 24/7 chat on all plans; Shopify Plus adds a direct phone line + priority chat + Merchant Success Managers. Only published response figure is ~48-hour Plus email tickets; no formal SoW professional services.
+  channels:
+    - chat
+    - phone
+    - email
+  fastest_response: 48 hours (Plus email tickets)
 ---
 
 Shopify is a E-commerce provider. See the official SLA at [https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-plus-plan](https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features/shopify-plus-plan).

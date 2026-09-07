@@ -7,9 +7,9 @@ category: Analytics & BI
 website: https://www.looker.com
 scope: global
 sla_url: https://cloud.google.com/terms/looker-core/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
-uptime_commitment: 99.5
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.9
 max_credit_percent: 25
 claim_deadline_days: 30
 has_automatic_credits: false
@@ -19,7 +19,7 @@ credit_policy:
   remedy_type: credit
   max_credit_percent: 25
   credit_tiers:
-    - uptime_below: 99.5
+    - uptime_below: 99.9
       credit_percent: 10
     - uptime_below: 99
       credit_percent: 25
@@ -91,19 +91,19 @@ services:
     sla_eligible: true
     source_url: https://cloud.google.com/terms/looker-core/sla
 sla_tiers:
-  - name: 'Advanced / Elite edition'
-    requirement: 'Looker Advanced or Elite (Enterprise/Embed) edition'
+  - name: Advanced / Elite edition
+    requirement: Looker Advanced or Elite (Enterprise/Embed) edition
     uptime_commitment: 99.9
     max_credit_percent: 25
-    source_url: 'https://cloud.google.com/terms/looker/legal/customers/sla'
+    source_url: https://cloud.google.com/terms/looker/legal/customers/sla
 support:
   tiers:
-    - "Basic"
-    - "Standard"
-    - "Enhanced"
-    - "Premium"
+    - Basic
+    - Standard
+    - Enhanced
+    - Premium
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (P1, Premium)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -111,8 +111,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://cloud.google.com/terms/tssg/looker"
-  note: "Looker support is delivered via Google Cloud Customer Care; response times are targets per TSSG."
+  source_url: https://cloud.google.com/terms/tssg/looker
+  note: Looker support is delivered via Google Cloud Customer Care; response times are targets per TSSG. Via Google Cloud Customer Care; 24/7 phone + 15-min P1 at Premium (Enhanced 1-hr P1). TAM at Premium only. Google Cloud Consulting / Looker PS.
+  channels:
+    - portal
+    - phone
+    - chat
 ---
 
 Looker is a Business Intelligence provider. See the official SLA at [https://cloud.google.com/terms/looker-core/sla](https://cloud.google.com/terms/looker-core/sla).

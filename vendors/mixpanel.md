@@ -7,14 +7,14 @@ category: Analytics & BI
 website: https://www.mixpanel.com
 scope: global
 sla_url: https://mixpanel.com/legal/terms-of-use/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Mixpanel's Terms disclaim uninterrupted/error-free/always-available service — no public uptime SLA or credits. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -81,11 +81,11 @@ services:
     source_url: https://mixpanel.com/legal/terms-of-use/
 support:
   tiers:
-    - "Standard"
-    - "Premium"
-    - "Enterprise"
+    - Standard
+    - Premium
+    - Enterprise
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (critical, Premium Plus)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -93,8 +93,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://mixpanel.com/pricing/services/"
-  note: "Tiered support with response targets; CSM and services on higher plans."
+  source_url: https://mixpanel.com/pricing/services/
+  note: Tiered support with response targets; CSM and services on higher plans. No phone. 24x7 only on the Premium Plus add-on (Premium Support / Enterprise are 24x5). Shared Slack at top tiers; Enterprise adds an Onboarding Specialist + CSM.
+  channels:
+    - email
+    - portal
+    - slack
 ---
 
 Mixpanel is a Monitoring & Observability provider. As of 2026-06-19 Mixpanel publishes no public Service Level Agreement; the prior SLA URL (https://mixpanel.com/legal/sla/) returns a 404 and the legal index lists no SLA document. See the official legal terms at [https://mixpanel.com/legal/terms-of-use/](https://mixpanel.com/legal/terms-of-use/), which disclaim any availability commitment.

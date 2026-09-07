@@ -7,10 +7,10 @@ category: Finance & Payments
 website: https://www.plaid.com
 scope: global
 sla_url: https://plaid.com/legal/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
@@ -87,19 +87,22 @@ services:
     source_url: https://plaid.com/legal/
 support:
   tiers:
-    - "Pay-as-you-go"
-    - "Growth"
-    - "Scale/Enterprise"
-  has_24x7: false
+    - Pay-as-you-go
+    - Growth
+    - Scale/Enterprise
+  has_24x7: true
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: team
   architecture_review: false
-  professional_services: true
+  professional_services: false
   success_program: true
   training: false
   pricing: custom
-  source_url: "https://plaid.com/pricing/"
-  note: "Growth adds priority support and an account manager; Enterprise adds dedicated support and integration help."
+  source_url: https://plaid.com/pricing/
+  note: Growth adds priority support and an account manager; Enterprise adds dedicated support and integration help. Dashboard tickets + "Ask Bill" chatbot + community (no email/phone support). 24/7 for Sev1/2 is Premium-only (Plus is business hours); Premium adds a designated Support Pod. Professional services not documented on support pages.
+  channels:
+    - portal
+    - chat
 ---
 
 Plaid is a Finance & Payments provider. Plaid does not publish a public uptime SLA with service credits; uptime and response-time SLA commitments are offered only through paid Support Packages negotiated by contract. See Plaid's legal documents at [https://plaid.com/legal/](https://plaid.com/legal/).

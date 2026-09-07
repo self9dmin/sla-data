@@ -6,15 +6,15 @@ legal_entity: Zapier
 category: Developer Tools
 website: https://www.zapier.com
 scope: global
-sla_url: https://zapier.com/legal
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+sla_url: https://zapier.com/legal/terms-of-service
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Zapier's Terms of Service contain no uptime SLA, service level, or service credit provisions (service provided "as is"). (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -87,20 +87,24 @@ services:
     source_url: https://zapier.com/legal/terms-of-service
 support:
   tiers:
-    - "Professional"
-    - "Team"
-    - "Enterprise"
+    - Professional
+    - Team
+    - Enterprise
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (first-response goal, Enterprise)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: true
   training: true
   pricing: included
-  source_url: "https://help.zapier.com/hc/en-us/articles/8496213764877-Get-help-and-support-with-Zapier"
-  note: "Response times are explicitly stated as \"goals,\" not credit-backed. Enterprise gets 6 hrs/month TAM."
+  source_url: https://help.zapier.com/hc/en-us/articles/8496213764877-Get-help-and-support-with-Zapier
+  note: Response times are explicitly stated as "goals," not credit-backed. Enterprise gets 6 hrs/month TAM. No phone; channels are email + chat + screen-share. Response time is a goal, not an SLA. Guided implementation + embedded resources available.
+  channels:
+    - email
+    - chat
+    - screen-share
 ---
 
 Zapier is a Integration & Automation provider. See Zapier's legal documents at [https://zapier.com/legal](https://zapier.com/legal). Note: Zapier does not publish a public standalone SLA; its uptime SLA is Enterprise-tier and provided under the Enterprise Agreement.

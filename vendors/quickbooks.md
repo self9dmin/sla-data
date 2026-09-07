@@ -7,10 +7,10 @@ category: Finance & Payments
 website: https://www.quickbooks.com
 scope: global
 sla_url: https://www.intuit.com/legal/terms/en-us/quickbooks/online/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
@@ -81,18 +81,21 @@ services:
     source_url: https://quickbooks.intuit.com/global/terms-of-service/
 support:
   tiers:
-    - "Standard"
-    - "Priority Circle"
+    - Standard
+    - Priority Circle
   has_24x7: true
   response_is_sla: false
   designated_contact: team
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: true
   training: true
   pricing: included
-  source_url: "https://quickbooks.intuit.com/priority-circle/"
-  note: "Priority Circle included with Enterprise and Online Advanced; premium care specialists plus a training library."
+  source_url: https://quickbooks.intuit.com/priority-circle/
+  note: Priority Circle included with Enterprise and Online Advanced; premium care specialists plus a training library. Phone + chat with live experts; standard plans business hours, 24/7 only on Advanced/Desktop Enterprise (Priority Circle), which also bundles ~$3,000 of training.
+  channels:
+    - phone
+    - chat
 ---
 
 QuickBooks is a Finance & Payments provider. Intuit does not publish a public uptime SLA with service credits for QuickBooks Online; the Terms of Service provide the Platform "as-is" and disclaim availability. See the official terms at [https://www.intuit.com/legal/terms/en-us/quickbooks/online/](https://www.intuit.com/legal/terms/en-us/quickbooks/online/).

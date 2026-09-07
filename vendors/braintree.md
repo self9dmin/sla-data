@@ -7,12 +7,12 @@ category: Finance & Payments
 website: https://www.braintree.com
 scope: global
 sla_url: https://www.paypal.com/us/legalhub/braintree/home
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 max_credit_percent: 0
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
-needs_review: true
 credit_policy:
   calculation_type: none
   remedy_type: no_credit
@@ -81,6 +81,15 @@ services:
     description: Venmo checkout
     sla_eligible: true
     source_url: https://www.paypal.com/us/legalhub/braintree/payment-services-agreement
+support:
+  channels:
+    - portal
+    - email
+  designated_contact: tam
+  professional_services: false
+  has_24x7: false
+  note: Web help form/portal + email (the phone line is sales, not support). Assigned CSM/AM/TAM for enterprise merchants. A <4-hour P1 target exists only for the Data Lens product, not account-wide. 24x7 not stated.
+  source_url: https://developer.paypal.com/braintree/help/
 ---
 
 Braintree is a Finance & Payments provider. See the official legal agreements at [https://www.paypal.com/us/legalhub/braintree/home](https://www.paypal.com/us/legalhub/braintree/home). Braintree (a PayPal service) does not publish a public uptime SLA with service credits; the Braintree Payment Services Agreement provides the service "AS IS" without any warranty (Section 8.03).

@@ -7,8 +7,8 @@ category: Enterprise & Operations
 website: https://dynamics.microsoft.com
 scope: global
 sla_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 100
 claim_deadline_days: 30
@@ -29,10 +29,7 @@ claim_process:
   deadlines:
     - type: submission
       anchor_point: end_of_month_following_incident
-      description: >-
-        Claim must be received by the end of the Applicable Period (calendar
-        month) following the month in which the Incident occurred (e.g. an
-        Incident on February 15th must be claimed by March 31st).
+      description: Claim must be received by the end of the Applicable Period (calendar month) following the month in which the Incident occurred (e.g. an Incident on February 15th must be claimed by March 31st).
   submission_method: Microsoft customer support
   required_evidence:
     - Detailed description of the Incident
@@ -116,11 +113,11 @@ services:
     source_url: https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
 support:
   tiers:
-    - "Unified Core"
-    - "Unified Advanced"
-    - "Unified Performance"
+    - Unified Core
+    - Unified Advanced
+    - Unified Performance
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Severity A, ProDirect/Unified, 24x7)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -128,8 +125,12 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.microsoft.com/en-us/microsoft-unified/plan-details"
-  note: "D365 served via Microsoft Unified; Sev1 1-hour response target, 24/7."
+  source_url: https://www.microsoft.com/en-us/microsoft-unified/plan-details
+  note: D365 served via Microsoft Unified; Sev1 1-hour response target, 24/7. CSAM on Unified; Sev A initial response under 1 hour (a target, not a credit-backed SLA).
+  channels:
+    - phone
+    - portal
+    - email
 ---
 
 Microsoft Dynamics 365 is a Enterprise Software provider. See the official SLA at [https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services).

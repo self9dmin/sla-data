@@ -7,34 +7,23 @@ category: Enterprise & Operations
 website: https://www.bmc.com
 scope: global
 sla_url: https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
-uptime_commitment: 99.9
-max_credit_percent: 15
-claim_deadline_days: 30
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+uptime_commitment: 99.95
+credit_unit: time
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: 'Verified against BMC''s SLA PDF: Control-M SaaS commits 99.95% monthly. The service credit is the shortfall (Service Commitment minus Actual Availability) converted to minutes and pro-rated against fees — there is no fixed % tier schedule or stated cap. Sole and exclusive remedy; claim via SLArequest@bmc.com. (Corrected: prior record had a fabricated 99.9% / 5-10-15% tier schedule.)'
 credit_policy:
-  calculation_type: tiered
+  calculation_type: pro_rated
   remedy_type: credit
-  max_credit_percent: 15
-  credit_tiers:
-    - uptime_below: 99.9
-      credit_percent: 5
-    - uptime_below: 99.5
-      credit_percent: 10
-    - uptime_below: 99
-      credit_percent: 15
 claim_process:
   deadlines:
     - type: submission
       days: 30
       business_days: false
       anchor_point: end_of_month
-      description: >-
-        Service Credit Request must be received by BMC within 30 days after the
-        end of the month in which the Non-Excluded Downtime occurred
+      description: Service Credit Request must be received by BMC within 30 days after the end of the month in which the Non-Excluded Downtime occurred
   submission_method: Email to SLArequest@bmc.com
   submission_url: https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf
   required_evidence:
@@ -111,11 +100,11 @@ services:
     source_url: https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf
 support:
   tiers:
-    - "Base Support"
-    - "Premier Support Foundation"
-    - "Premier Support Gold"
+    - Base Support
+    - Premier Support Foundation
+    - Premier Support Gold
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Sev-1A SaaS outage); 1 hour (Sev-1)
   response_is_sla: false
   designated_contact: team
   architecture_review: true
@@ -123,8 +112,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.bmc.com/it-services/customer-support-offerings.html"
-  note: "Response times are stated as goals/targets, not contractual SLAs."
+  source_url: https://www.bmc.com/it-services/customer-support-offerings.html
+  note: Response times are stated as goals/targets, not contractual SLAs. Premier Support adds a dedicated analyst team + account manager; 30-min applies specifically to Sev-1A SaaS outages.
+  channels:
+    - phone
+    - portal
+    - email
 ---
 
 BMC Software is a Other SaaS provider. See the official SLA at [https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf](https://www.bmc.com/content/dam/bmc/corporate/service-level-agreement.pdf).

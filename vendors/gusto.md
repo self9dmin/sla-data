@@ -7,14 +7,14 @@ category: HR & People Operations
 website: https://www.gusto.com
 scope: global
 sla_url: https://gusto.com/legal/terms
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://gusto.com/support
@@ -87,9 +87,9 @@ services:
     source_url: https://gusto.com/legal/terms
 support:
   tiers:
-    - "Simple"
-    - "Plus"
-    - "Premium"
+    - Simple
+    - Plus
+    - Premium
   has_24x7: false
   response_is_sla: false
   designated_contact: csm
@@ -98,8 +98,12 @@ support:
   success_program: true
   training: false
   pricing: included
-  source_url: "https://gusto.com/product/pricing"
-  note: "Premium adds a CSM and priority support; no published response-time SLA."
+  source_url: https://gusto.com/product/pricing
+  note: Premium adds a CSM and priority support; no published response-time SLA. Phone/email/chat Mon-Fri business hours (Voice AI after hours); Premium adds priority support + a dedicated CSM. Phone/email/chat Mon-Fri business hours (Voice AI after hours); Premium adds priority support + a dedicated CSM.
+  channels:
+    - phone
+    - email
+    - chat
 ---
 
 Gusto is a HR & People Operations provider. See the official terms at [https://gusto.com/legal/terms](https://gusto.com/legal/terms). Gusto does not publish a public uptime SLA with service credits.

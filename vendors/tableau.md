@@ -7,14 +7,15 @@ category: Analytics & BI
 website: https://www.tableau.com
 scope: global
 sla_url: https://www.tableau.com/legal
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'Tableau Cloud''s public terms carry no contractual uptime SLA or service credits; the 99.9% figure is a stability/marketing target. Firm SLAs are negotiated in enterprise agreements (private), consistent with parent Salesforce. SLA help wanted: a contract holder can contribute the terms.'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -87,20 +88,24 @@ services:
     source_url: https://www.tableau.com/legal/tosa
 support:
   tiers:
-    - "Standard"
-    - "Premier"
-    - "Signature"
+    - Standard
+    - Premier
+    - Signature
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (Sev1, Signature)
   response_is_sla: false
-  designated_contact: tam
+  designated_contact: team
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.salesforce.com/services/success-plans/signature/"
-  note: "Tableau uses Salesforce Success Plans; Signature priced as % of net spend. Targets, not credit-backed."
+  source_url: https://www.salesforce.com/services/success-plans/signature/
+  note: Tableau uses Salesforce Success Plans; Signature priced as % of net spend. Targets, not credit-backed. Via Salesforce Success Plans; Premier/Signature 24x7 (Sev1/2 incl. weekends), Signature adds a dedicated hotline + CSM/TAM + Proactive Monitoring. Standard phone is Sev1-only. Consulting under SoW/PSA.
+  channels:
+    - portal
+    - email
+    - phone
 ---
 
 Tableau is a Business Intelligence provider. See the official SLA at [https://www.tableau.com/legal](https://www.tableau.com/legal).

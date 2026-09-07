@@ -7,14 +7,14 @@ category: Security & Identity
 website: https://www.lastpass.com
 scope: global
 sla_url: https://www.lastpass.com/legal-center/terms-of-service/business
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: LastPass Business Terms of Service contain no uptime SLA, service level, or service credit provisions (service provided "as is"). (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -87,9 +87,9 @@ services:
     source_url: https://www.lastpass.com/legal-center/terms-of-service/business
 support:
   tiers:
-    - "Basic"
-    - "Personal"
-    - "Business"
+    - Basic
+    - Personal
+    - Business
   has_24x7: false
   response_is_sla: false
   designated_contact: none
@@ -98,8 +98,12 @@ support:
   success_program: false
   training: true
   pricing: included
-  source_url: "https://support.lastpass.com/help/what-levels-of-customer-support-does-lastpass-offer"
-  note: "Tiers tied to product plan; Business adds phone/chat; no published response SLAs."
+  source_url: https://support.lastpass.com/help/what-levels-of-customer-support-does-lastpass-offer
+  note: Tiers tied to product plan; Business adds phone/chat; no published response SLAs. Portal/email + phone (business hours, M–F 9–5 ET); no 24x7.
+  channels:
+    - portal
+    - email
+    - phone
 ---
 
 LastPass is a Security & Identity provider. LastPass does not publish a public uptime SLA with service credits; see the [LastPass Business Terms of Service](https://www.lastpass.com/legal-center/terms-of-service/business) (Last Updated January 2024), which disclaims any uptime/availability warranty.

@@ -7,9 +7,11 @@ category: Communication & Collaboration
 website: https://www.webex.com
 scope: global
 sla_url: https://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+needs_review: false
+sla_help_wanted: false
+uptime_commitment: 99.99
 has_automatic_credits: false
 min_plan_for_sla: standard
 credit_policy:
@@ -93,11 +95,11 @@ services:
     source_url: https://www.cisco.com/c/dam/en_us/about/doing_business/legal/OfferDescriptions/webex.pdf
 support:
   tiers:
-    - "Basic"
-    - "Enhanced"
-    - "Premium"
+    - Basic
+    - Enhanced
+    - Premium
   has_24x7: true
-  fastest_response: "60 min"
+  fastest_response: 60 min (S1, Cisco Software Support)
   response_is_sla: false
   designated_contact: csm
   architecture_review: true
@@ -105,8 +107,13 @@ support:
   success_program: true
   training: true
   pricing: flat
-  source_url: "https://www.cisco.com/c/dam/en/us/products/collateral/conferencing/webex-meeting-center/cisco-software-support-data-sheet.pdf"
-  note: "Basic included; Enhanced/Premium are paid add-ons; Premium has a designated service manager."
+  source_url: https://www.cisco.com/c/dam/en/us/products/collateral/conferencing/webex-meeting-center/cisco-software-support-data-sheet.pdf
+  note: Basic included; Enhanced/Premium are paid add-ons; Premium has a designated service manager. 24/7 break-fix from Basic; phone mandatory for S1/S2. Enhanced/Premium add adoption help + a designated Service Manager. 24/7 break-fix from Basic; phone mandatory for S1/S2. Enhanced/Premium add adoption help + a designated Service Manager.
+  channels:
+    - phone
+    - portal
+    - email
+credit_note: Webex Calling & Contact Center publicly commit 99.99% availability with tiered service credits (per Cisco offer descriptions; outage reported via support ticket within ~24h). Cisco publishes no single consolidated Webex SLA — credit terms live in per-product offer descriptions/contracts — and Webex Meetings/App and free tiers are provided "as is". Recorded uptime reflects the Calling/Contact Center commitment.
 ---
 
 Webex is a Communication & Collaboration provider. Cisco's official terms are published at [https://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html](https://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html). Cisco does not publish a public uptime SLA with service credits for Webex; the [Webex Offer Description](https://www.cisco.com/c/dam/en_us/about/doing_business/legal/OfferDescriptions/webex.pdf) defines support response objectives only.

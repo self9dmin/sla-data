@@ -7,8 +7,8 @@ category: Developer Tools
 website: https://www.gitlab.com
 scope: global
 sla_url: https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 max_credit_percent: 10
 claim_deadline_days: 30
@@ -107,10 +107,10 @@ services:
     source_url: https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/
 support:
   tiers:
-    - "Free"
-    - "Priority"
+    - Free
+    - Priority
   has_24x7: true
-  fastest_response: "30 min"
+  fastest_response: 30 min (Emergency/Sev-1, on-call)
   response_is_sla: false
   designated_contact: tam
   architecture_review: true
@@ -118,8 +118,11 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://about.gitlab.com/support/"
-  note: "Priority Support is included with Premium/Ultimate; 30-min Sev1 target, 24/7 emergency only."
+  source_url: https://about.gitlab.com/support/
+  note: Priority Support is included with Premium/Ultimate; 30-min Sev1 target, 24/7 emergency only. 24x7 covers emergency tickets only; a dedicated TAM is a separate paid offering.
+  channels:
+    - portal
+    - email
 ---
 
 GitLab is a DevOps & Development provider. See the official SLA at [https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/service-level-agreement/).

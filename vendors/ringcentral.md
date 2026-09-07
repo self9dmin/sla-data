@@ -7,11 +7,14 @@ category: Communication & Collaboration
 website: https://www.ringcentral.com
 scope: global
 sla_url: https://www.ringcentral.com/legal/ringex-service-attachment.html
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: false
+uptime_commitment: 99.999
+max_credit_percent: 100
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'RingCentral commits 99.999% availability for RingEX, backed by service credits. Eligibility requires 50+ Digital Lines on a 12-month term; an outage must be reported within 24 hours and a written claim filed within 30 days. The exact per-tier credit % lives in the MSA SLA section (not consolidated publicly). SLA help wanted: a contract holder can contribute the credit table.'
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
@@ -87,9 +90,9 @@ services:
     source_url: https://www.ringcentral.com/legal/ringex-service-attachment.html
 support:
   tiers:
-    - "Standard"
-    - "Premium Support"
-    - "Enterprise Support"
+    - Standard
+    - Premium Support
+    - Enterprise Support
   has_24x7: true
   response_is_sla: false
   designated_contact: tam
@@ -98,8 +101,12 @@ support:
   success_program: false
   training: true
   pricing: flat
-  source_url: "https://www.ringcentral.com/legal/advancedsupport-service-attachment.html"
-  note: "Premium Support add-on adds a TAM; Enterprise Support adds priority routing."
+  source_url: https://www.ringcentral.com/legal/advancedsupport-service-attachment.html
+  note: Premium Support add-on adds a TAM; Enterprise Support adds priority routing. Advanced Support is a 24x7 global service with a designated remote TAM and monthly TASC consultation hours. Advanced Support is a 24x7 global service with a designated remote TAM and monthly TASC consultation hours.
+  channels:
+    - phone
+    - portal
+  fastest_response: 15 min (L1 Critical)
 ---
 
 RingCentral is a Communication & Collaboration provider. See the official RingEX Service Attachment at [https://www.ringcentral.com/legal/ringex-service-attachment.html](https://www.ringcentral.com/legal/ringex-service-attachment.html). Note: as of 2026-06-19 RingCentral does not appear to publish a standalone public RingEX/MVP SLA document; the prior SLA URL (last-version-sla.html) returns 404, and SLA uptime/credit terms are provided contractually per Order Form. SLA figures below are unverified pending a confirmed source.

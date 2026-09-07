@@ -2,7 +2,7 @@
 
 The community-maintained dataset of Service Level Agreement terms: uptime commitments, service credits, claim windows, and **per-service** SLAs for cloud, SaaS, and developer platforms. This is the open data behind **[sla.directory](https://sla.directory)**.
 
-- **159 vendors**, each as one Markdown file with YAML front matter in [`vendors/`](vendors/).
+- **300 vendors**, each as one Markdown file with YAML front matter in [`vendors/`](vendors/).
 - Field reference: [`DATA_SCHEMA.md`](DATA_SCHEMA.md).
 - Every data point should cite an **official source** (the vendor's own SLA page).
 
@@ -28,6 +28,10 @@ SLA pages move and terms change, so the dataset is kept honest by a mix of sourc
    - When nothing is flagged, the workflow comments and **closes the issue automatically**, so an open `data-health` issue always means there is real work to do.
 
 The result: broken source links and year-old records surface on their own, get re-verified, and the tracking issue heals itself when the data is clean.
+
+## Relationship to the website repository
+
+The publication source for the live site is [`self9dmin/sla-directory`](https://github.com/self9dmin/sla-directory), specifically its `site/content/vendors/` directory. This repository is the data mirror used for independent validation and data consumption. Keep vendor additions and updates synchronized between the two repositories. The monthly workflow validates the records in this repository and reports findings in the `data-health` issue.
 
 ## License
 

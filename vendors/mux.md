@@ -7,14 +7,15 @@ category: Content & Media
 website: https://www.mux.com
 scope: global
 sla_url: https://www.mux.com/terms
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'Mux publishes no public uptime SLA. Its Terms reference only an optional SLA "agreed to between the parties" (privately negotiated), which would be the sole remedy — no public uptime % or service credits. SLA help wanted: a contract holder can contribute the negotiated terms.'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -88,14 +89,18 @@ services:
 support:
   has_24x7: false
   response_is_sla: false
-  designated_contact: none
+  designated_contact: team
   architecture_review: false
   professional_services: false
   success_program: false
   training: false
   pricing: custom
-  source_url: "https://www.mux.com/contact"
-  note: "No public support tiers; enterprise support negotiated per agreement."
+  source_url: https://www.mux.com/contact
+  note: No public support tiers; enterprise support negotiated per agreement. Email + AI chat (+ shared Slack on Advanced packages); no phone. Human support 5 days/week, 8am-8pm ET. Advanced Customer Success Packages add a dedicated support/CSM team + live-event support.
+  channels:
+    - email
+    - chat
+    - slack
 ---
 
 Mux is a Content & Media provider. See the official SLA at [https://www.mux.com/terms](https://www.mux.com/terms).

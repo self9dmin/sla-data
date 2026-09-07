@@ -7,12 +7,12 @@ category: Security & Identity
 website: https://www.zscaler.com
 scope: global
 sla_url: https://www.zscaler.com/legal/sla-support
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.999
 max_credit_percent: 30
 credit_unit: days
-credit_note: "Credits are calendar days of paid SaaS (ZIA tiers: 3 / 7 / 15 / 30 days), capped at 30 days; not a percentage of fees."
+credit_note: 'Credits are calendar days of paid SaaS (ZIA tiers: 3 / 7 / 15 / 30 days), capped at 30 days; not a percentage of fees.'
 claim_deadline_days: 10
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -32,16 +32,12 @@ claim_process:
       days: 1
       business_days: false
       anchor_point: incident_start
-      description: >-
-        Report the incident via a support ticket within 24 hours from the start
-        of the incident (failure forfeits the credit)
+      description: Report the incident via a support ticket within 24 hours from the start of the incident (failure forfeits the credit)
     - type: submission
       days: 10
       business_days: false
       anchor_point: incident_date
-      description: >-
-        Request a Service Credit via a support ticket within 10 days from the
-        date of the incident (failure forfeits the credit)
+      description: Request a Service Credit via a support ticket within 10 days from the date of the incident (failure forfeits the credit)
   submission_method: Support ticket
   submission_url: https://help.zscaler.com
   required_evidence:
@@ -49,9 +45,7 @@ claim_process:
     - Affected services
     - Incident timestamps
     - Impact description
-  review_timeline: >-
-    Zscaler responds no later than 10 days after the end of the month in which
-    the incident occurred
+  review_timeline: Zscaler responds no later than 10 days after the end of the month in which the incident occurred
   credit_application: Applied against future Fees for the applicable SaaS
 global_exclusions:
   - Scheduled maintenance
@@ -113,22 +107,26 @@ services:
     source_url: https://www.zscaler.com/legal/sla-support
 support:
   tiers:
-    - "Standard"
-    - "Essentials"
-    - "Support Plus"
-    - "Premium Advanced"
-    - "Premium Advanced Plus"
+    - Standard
+    - Essentials
+    - Support Plus
+    - Premium Advanced
+    - Premium Advanced Plus
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 15 min (P1/Urgent, Premium Support Advanced Plus)
   response_is_sla: false
-  designated_contact: team
+  designated_contact: tam
   architecture_review: true
-  professional_services: false
+  professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://help.zscaler.com/support-offerings"
-  note: "Premium tiers add biannual architecture reviews and a focal support pod; response times are SLOs, not credit-backed SLAs."
+  source_url: https://help.zscaler.com/support-offerings
+  note: Premium tiers add biannual architecture reviews and a focal support pod; response times are SLOs, not credit-backed SLAs. 24x7x365 ZTAC; named TAM at Premium Plus/Advanced Plus; proactive Customer Success / Focal Support.
+  channels:
+    - portal
+    - phone
+    - email
 ---
 
 Zscaler is a Security & Identity provider. See the official SLA at [https://www.zscaler.com/legal/sla-support](https://www.zscaler.com/legal/sla-support).

@@ -6,16 +6,16 @@ legal_entity: Zoho
 category: CRM & Marketing
 website: https://www.zoho.com
 scope: global
-sla_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+sla_url: https://help.zoho.com/portal/en/kb/crm/crm-reference/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Zoho publishes a 99.9% monthly uptime commitment (Zoho CRM) but no service- credit schedule or remedy — a commitment without an enforceable remedy, so it is bucketed No SLA with the uptime captured.
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -104,20 +104,24 @@ services:
     source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
 support:
   tiers:
-    - "Classic"
-    - "Premium"
-    - "Enterprise"
+    - Classic
+    - Premium
+    - Enterprise
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Enterprise)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
-  professional_services: false
+  professional_services: true
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.zoho.com/one/pricing/support-plans.html"
-  note: "Premium 20% / Enterprise 25% of license; response times are targets, no credit remedy."
+  source_url: https://www.zoho.com/one/pricing/support-plans.html
+  note: Premium 20% / Enterprise 25% of license; response times are targets, no credit remedy. Per-product plans (Classic/Premium/Enterprise). Enterprise = 24/7 all channels + dedicated TAM; Premium email 24/7 but chat/calls weekday-only. Jumpstart/EBS implementation available. Per-product plans (Classic/Premium/Enterprise). Enterprise = 24/7 all channels + dedicated TAM; Premium email 24/7 but chat/calls weekday-only. Jumpstart/EBS implementation available.
+  channels:
+    - email
+    - phone
+    - chat
 ---
 
 Zoho is a CRM & Sales provider. See the official SLA at [https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability](https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability).

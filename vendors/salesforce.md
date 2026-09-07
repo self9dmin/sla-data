@@ -7,14 +7,15 @@ category: CRM & Marketing
 website: https://www.salesforce.com
 scope: global
 sla_url: https://www.salesforce.com/company/legal/agreements/
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
+sla_help_wanted: true
 has_automatic_credits: false
-min_plan_for_sla: standard
+min_plan_for_sla: enterprise
+credit_note: 'Salesforce''s standard MSA promises only "commercially reasonable efforts" to make the Services available 24/7 — no committed uptime % and no service credits on standard subscriptions. Firm SLAs exist only via negotiated enterprise addenda (private). (MuleSoft, a separate product, has its own public 99.9% SLA.) SLA help wanted: a contract holder can contribute the enterprise SLA terms.'
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -118,20 +119,23 @@ services:
     source_url: https://www.heroku.com/policy/agreements/
 support:
   tiers:
-    - "Standard"
-    - "Premier"
-    - "Signature"
+    - Standard
+    - Premier
+    - Signature
   has_24x7: true
-  fastest_response: "15 min"
+  fastest_response: 1 hour (Sev1, Premier/Signature)
   response_is_sla: false
-  designated_contact: csm
+  designated_contact: tam
   architecture_review: true
   professional_services: true
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: "https://www.salesforce.com/services/success-plans/"
-  note: "Premier (roughly 30 percent of license) and Signature (custom) add 24x7 support and faster Sev1 targets; Signature adds a designated CSM, annual technical health review, and architect reviews. Salesforce publishes no credited uptime SLA, and support response times are targets."
+  source_url: https://www.salesforce.com/services/success-plans/
+  note: Premier (roughly 30 percent of license) and Signature (custom) add 24x7 support and faster Sev1 targets; Signature adds a designated CSM, annual technical health review, and architect reviews. Salesforce publishes no credited uptime SLA, and support response times are targets. Sev1/Sev2 24/7 + 24/7 phone on Premier/Signature (Standard is ~2 business days, not 24/7). Signature designates a technical account team. (Prior 15-min figure was unsupported.) Sev1/Sev2 24/7 + 24/7 phone on Premier/Signature (Standard is ~2 business days, not 24/7). Signature designates a technical account team. (Prior 15-min figure was unsupported.)
+  channels:
+    - portal
+    - phone
 ---
 
 Salesforce is a CRM & Marketing provider. See the official SLA at [https://www.salesforce.com/company/legal/agreements/](https://www.salesforce.com/company/legal/agreements/).

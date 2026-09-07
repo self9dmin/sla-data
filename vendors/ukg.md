@@ -6,22 +6,25 @@ legal_entity: UKG
 category: HR & People Operations
 website: https://www.ukg.com
 scope: global
-sla_url: https://www.ukg.com/legal
-last_verified: '2026-06-20'
-last_updated: '2026-06-19'
-needs_review: true
+sla_url: https://www.ukg.com/ukgworkforce-central-cloud/service-level-agreement
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+uptime_commitment: 99.75
+max_credit_percent: 100
+credit_note: UKG Workforce Central Cloud commits to 99.75% monthly application availability. If missed, the credit is 3% of the monthly PEPM fees for each 1% below 99.75%, up to a maximum of 100% of the monthly fee; customers request it within 60 days of the monthly availability report. Other UKG modules may carry separate terms.
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
+  max_credit_percent: 100
 claim_process:
   deadlines:
     - type: submission
-      days: 30
+      days: 60
       business_days: false
       anchor_point: incident_date
-      description: Submit within 30 days of incident
+      description: Request within 60 days of the monthly availability report
   submission_method: Support
   submission_url: https://www.ukg.com/support
   required_evidence:
@@ -93,9 +96,9 @@ services:
     source_url: https://www.ukg.com/legal
 support:
   tiers:
-    - "Gold"
-    - "Platinum"
-    - "Plus TAM"
+    - Gold
+    - Platinum
+    - Plus TAM
   has_24x7: true
   response_is_sla: false
   designated_contact: tam
@@ -104,8 +107,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.ukg.com/support"
-  note: "Gold business-hours; Platinum faster priority response; Plus TAM adds a dedicated TAM."
+  source_url: https://www.ukg.com/support
+  note: Gold business-hours; Platinum faster priority response; Plus TAM adds a dedicated TAM. Platinum = 24/7/365 for high-priority (Gold is business hours); Plus TAM Support Plan adds a dedicated senior TAM. Platinum = 24/7/365 for high-priority (Gold is business hours); Plus TAM Support Plan adds a dedicated senior TAM.
+  channels:
+    - phone
+    - portal
+    - email
 ---
 
 UKG is a HR & People Operations provider. See the official SLA at [https://www.ukg.com/legal](https://www.ukg.com/legal).

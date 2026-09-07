@@ -7,8 +7,8 @@ category: Security & Identity
 website: https://www.tenable.com
 scope: global
 sla_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.95
 max_credit_percent: 20
 claim_deadline_days: 10
@@ -105,13 +105,13 @@ services:
     source_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
 support:
   tiers:
-    - "Standard"
-    - "Advanced"
-    - "Premier"
-    - "Elite"
-    - "Dedicated Elite"
+    - Standard
+    - Advanced
+    - Premier
+    - Elite
+    - Dedicated Elite
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (P1/Critical, higher tiers)
   response_is_sla: false
   designated_contact: tam
   architecture_review: false
@@ -119,8 +119,13 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://www.tenable.com/support/plans"
-  note: "Five tiers; 24/7 from Advanced up; TAM add-on; Dedicated Elite assigns a named engineer."
+  source_url: https://www.tenable.com/support/plans
+  note: 'Five tiers; 24/7 from Advanced up; TAM add-on; Dedicated Elite assigns a named engineer. Advanced+ : 24x7x365, chat + phone. TAM is an add-on at Premier/Elite.'
+  channels:
+    - portal
+    - chat
+    - phone
+    - email
 ---
 
 Tenable is a Security & Identity provider. See the official SLA at [https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf](https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf).

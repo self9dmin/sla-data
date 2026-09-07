@@ -7,14 +7,14 @@ category: AI & Machine Learning
 website: https://huggingface.co
 scope: global
 sla_url: https://huggingface.co/terms-of-service
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime/availability commitment and no SLA-breach remedy. (Corrected from termination_only.)'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: none
-  remedy_type: termination_only
+  remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
   submission_url: https://huggingface.co/support
@@ -81,9 +81,9 @@ services:
     source_url: https://huggingface.co/terms-of-service
 support:
   tiers:
-    - "Enterprise"
-    - "Enterprise Plus"
-    - "Expert Acceleration Program"
+    - Enterprise
+    - Enterprise Plus
+    - Expert Acceleration Program
   has_24x7: false
   response_is_sla: false
   designated_contact: team
@@ -92,8 +92,12 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://huggingface.co/support"
-  note: "Enterprise Plus adds private Slack with Solutions Engineering; Expert Acceleration is custom advisory."
+  source_url: https://huggingface.co/support
+  note: Enterprise Plus adds private Slack with Solutions Engineering; Expert Acceleration is custom advisory. Forum (free) -> email with SLA (Enterprise) -> Slack (Enterprise Plus); no phone. Expert Support / Expert Acceleration Program (paid). Response numbers/severities not published. Forum (free) -> email with SLA (Enterprise) -> Slack (Enterprise Plus); no phone. Expert Support / Expert Acceleration Program (paid). Response numbers/severities not published.
+  channels:
+    - portal
+    - email
+    - slack
 ---
 
 Hugging Face is a AI & Machine Learning provider. See the official SLA at [https://huggingface.co/terms-of-service](https://huggingface.co/terms-of-service).

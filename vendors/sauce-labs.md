@@ -7,10 +7,10 @@ category: Developer Tools
 website: https://saucelabs.com
 scope: global
 sla_url: https://saucelabs.com/doc/service-specific-terms
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
+credit_note: 'Verified: terms provide the service "as is" / "as available" with no uptime SLA or service credits.'
 min_plan_for_sla: standard
 credit_policy:
   calculation_type: tiered
@@ -87,20 +87,25 @@ services:
     source_url: https://saucelabs.com/doc/terms-of-service
 support:
   tiers:
-    - "Essential"
-    - "Professional"
-    - "Premium"
+    - Essential
+    - Professional
+    - Premium
   has_24x7: true
-  fastest_response: "1 hour"
+  fastest_response: 1 hour (Sev-1, Premium tier)
   response_is_sla: false
-  designated_contact: tam
+  designated_contact: team
   architecture_review: false
   professional_services: true
   success_program: true
   training: true
   pricing: custom
-  source_url: "https://saucelabs.com/enterprise-support"
-  note: "Premium adds a private Slack channel and a designated TAM queue. Targets, not credit-backed."
+  source_url: https://saucelabs.com/enterprise-support
+  note: Premium adds a private Slack channel and a designated TAM queue. Targets, not credit-backed.
+  channels:
+    - email
+    - phone
+    - portal
+    - slack
 ---
 
 Sauce Labs is a DevOps & Development provider. As of 2026-06-19, Sauce Labs does not appear to publish a public uptime SLA with service credits; its current official terms ([Service-Specific Terms](https://saucelabs.com/doc/service-specific-terms), [Terms of Service](https://saucelabs.com/doc/terms-of-service), and [Support Policy](https://saucelabs.com/doc/support-policy)) define only support response-time tiers. The numeric SLA fields in this record are unverified and flagged for review.

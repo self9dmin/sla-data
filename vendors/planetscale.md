@@ -7,24 +7,23 @@ category: Databases & Data Infrastructure
 website: https://www.planetscale.com
 scope: global
 sla_url: https://planetscale.com/legal/sla
-last_verified: '2026-06-19'
-last_updated: '2026-06-19'
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 uptime_commitment: 99.99
 max_credit_percent: 50
 claim_deadline_days: 30
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Schedule shown is for single-region clusters (99.99% commitment). Multi-region clusters carry a higher 99.999% commitment (see SLA tiers).
 credit_policy:
   calculation_type: tiered
   remedy_type: credit
   max_credit_percent: 50
   credit_tiers:
-    - uptime_below: 99.999
-      credit_percent: 10
     - uptime_below: 99.99
-      credit_percent: 20
+      credit_percent: 10
     - uptime_below: 99.9
-      credit_percent: 40
+      credit_percent: 20
     - uptime_below: 99
       credit_percent: 50
 claim_process:
@@ -88,25 +87,30 @@ services:
     sla_eligible: true
     source_url: https://planetscale.com/legal/sla
 sla_tiers:
-  - name: 'Multi-region'
-    requirement: 'Multi-region database cluster'
+  - name: Multi-region
+    requirement: Multi-region database cluster
     uptime_commitment: 99.999
-    source_url: 'https://planetscale.com/legal/sla'
+    source_url: https://planetscale.com/legal/sla
 support:
   tiers:
-    - "Standard"
-    - "Business"
-    - "Enterprise"
+    - Standard
+    - Business
+    - Enterprise
   has_24x7: true
   response_is_sla: false
   designated_contact: team
   architecture_review: true
-  professional_services: false
+  professional_services: true
   success_program: false
   training: false
   pricing: custom
-  source_url: "https://planetscale.com/enterprise"
-  note: "Enterprise support adds a Slack channel, bi-weekly architecture meetings, optional TAM, and phone escalation."
+  source_url: https://planetscale.com/enterprise
+  note: Enterprise support adds a Slack channel, bi-weekly architecture meetings, optional TAM, and phone escalation. Email + web tickets (all); Enterprise adds Slack + escalation-only phone (not a full phone line). 24x7 P1/P2 at Business & Enterprise. Query analysis, load testing, sharding/migration services. Email + web tickets (all); Enterprise adds Slack + escalation-only phone (not a full phone line). 24x7 P1/P2 at Business & Enterprise. Query analysis, load testing, sharding/migration services.
+  channels:
+    - email
+    - portal
+    - slack
+  fastest_response: 15 min (P1/Urgent, Enterprise)
 ---
 
 PlanetScale is a Database & Data Infrastructure provider. See the official SLA at [https://planetscale.com/legal/sla](https://planetscale.com/legal/sla).

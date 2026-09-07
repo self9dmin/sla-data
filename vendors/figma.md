@@ -7,14 +7,14 @@ category: Productivity
 website: https://www.figma.com
 scope: global
 sla_url: https://www.figma.com/ssa/
-last_verified: '2025-12-20'
-last_updated: '2026-06-19'
-needs_review: true
+last_verified: '2026-06-23'
+last_updated: '2026-06-23'
 has_automatic_credits: false
 min_plan_for_sla: standard
+credit_note: Figma's Services Agreement gives only "industry standard" reliability language with no committed uptime % or service credits — no public SLA. (Previously recorded as credit without support.)
 credit_policy:
-  calculation_type: tiered
-  remedy_type: credit
+  calculation_type: none
+  remedy_type: no_sla
 claim_process:
   deadlines:
     - type: submission
@@ -93,10 +93,10 @@ services:
     source_url: https://www.figma.com/legal/tos/
 support:
   tiers:
-    - "Professional"
-    - "Organization"
-    - "Enterprise"
-  has_24x7: true
+    - Professional
+    - Organization
+    - Enterprise
+  has_24x7: false
   response_is_sla: false
   designated_contact: csm
   architecture_review: false
@@ -104,8 +104,11 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: "https://www.figma.com/enterprise/plan/"
-  note: "Enterprise advertises priority response targets and a CSM; not credit-backed."
+  source_url: https://www.figma.com/enterprise/plan/
+  note: Enterprise advertises priority response targets and a CSM; not credit-backed. Email + AI chatbot + Support Hub; no phone, no live human chat, and no published 24x7 or response-time commitment.
+  channels:
+    - email
+    - portal
 ---
 
 Figma is a Productivity & Collaboration provider. Figma does not publish a public service-level agreement with uptime commitments or service credits; its Software Services Agreement governs Organization and Enterprise plans. See [https://www.figma.com/ssa/](https://www.figma.com/ssa/).
