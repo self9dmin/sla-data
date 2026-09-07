@@ -27,6 +27,7 @@ SLA pages move and terms change, so the dataset is kept honest by a mix of sourc
    - **Publication parity:** the monthly run compares this repository's vendor set with the live website API, so a website/data drift such as a partial mirror is surfaced automatically.
    - **Bounded remediation:** permanent HTTPS redirects that stay on the same vendor host are identified as safe canonicalization candidates. Confirmed-dead SLA sources are never guessed or silently replaced; the issue includes them for official-source verification so the data mirror and published site can be updated together.
    - Findings are collected into a single tracking issue labeled [`data-health`](../../issues?q=label%3Adata-health). A maintainer triages it and re-verifies against the official source.
+   - Pull requests that change vendor data run a lightweight structural and remediation test before merge.
    - When nothing is flagged, the workflow comments and **closes the issue automatically**, so an open `data-health` issue always means there is real work to do.
 
 The result: broken source links and year-old records surface on their own, get re-verified, and the tracking issue heals itself when the data is clean.
