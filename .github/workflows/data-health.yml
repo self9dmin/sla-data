@@ -8,6 +8,10 @@ on:
     - cron: '0 8 1 * *'   # 08:00 UTC on the 1st of each month
   workflow_dispatch:
 
+concurrency:
+  group: sla-data-health
+  cancel-in-progress: false
+
 permissions:
   contents: read
   issues: write
@@ -20,6 +24,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install validation dependency
+        run: npm install --no-save --ignore-scripts js-yaml@4.1.0
+      - name: Validate data structure
+        run: node scripts/validate-data.cjs
       - id: check
         run: node scripts/data-health.cjs
       - name: Open or update tracking issue

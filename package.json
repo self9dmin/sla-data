@@ -1,0 +1,8 @@
+{
+  "name": "sla-data-health",
+  "private": true,
+  "type": "commonjs",
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
