@@ -412,8 +412,10 @@ These rules are enforced by CI on every PR:
 
 ### Source Verification Rules
 
-16. `sla_url` must return HTTP 200 (checked weekly, not on every PR)
-17. `status_page` URL must return HTTP 200 (if provided)
+16. The monthly data-health workflow checks `sla_url`, `source_url`, `submission_url`, and `website` fields. It can also be run on demand with `workflow_dispatch`.
+17. Any HTTP status below 400 is considered reachable. HTTP 404/410 and persistent 5xx responses are treated as broken. Authentication, bot protection, rate limiting, timeouts, network errors, and other non-dead responses are treated as unable to verify, not as proof that a source is broken.
+18. Structural validation runs on pull requests. External URL checks are not run on every pull request.
+19. `status_page` is part of the data schema but is not currently included in the automated monthly link-health scope.
 
 ---
 

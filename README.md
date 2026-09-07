@@ -32,6 +32,15 @@ SLA pages move and terms change, so the dataset is kept honest by a mix of sourc
 
 The result: broken source links and year-old records surface on their own, get re-verified, and the tracking issue heals itself when the data is clean.
 
+## Maintainer routine
+
+1. Review the open `data-health` issue after the first-of-month run, or start the workflow manually when an earlier check is needed.
+2. Verify flagged records against the vendor's official SLA or legal source.
+3. Apply matching changes in this repository and in [`sla-directory`](https://github.com/self9dmin/sla-directory), the publication source for the live site.
+4. Let the pull-request checks and site build pass before merging and publishing.
+
+No always-on computer or separate service is required for the scheduled check.
+
 ## Relationship to the website repository
 
 The publication source for the live site is [`self9dmin/sla-directory`](https://github.com/self9dmin/sla-directory), specifically its `site/content/vendors/` directory. This repository is the data mirror used for independent validation and data consumption. Keep vendor additions and updates synchronized between the two repositories. The monthly workflow validates the records in this repository and reports findings in the `data-health` issue.
