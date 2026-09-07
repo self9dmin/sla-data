@@ -43,9 +43,9 @@ jobs:
         name: Verify website data mirror parity
         if: steps.install.outcome == 'success'
         continue-on-error: true
-        run: |
-          git clone --depth 1 https://github.com/self9dmin/sla-directory.git website-repo
-          node scripts/check-mirror-parity.cjs
+        env:
+          SITE_VENDORS_URL: https://sla.directory/api/v1/vendors.json
+        run: node scripts/check-mirror-parity.cjs
       - name: Open or update tracking issue
         if: always()
         uses: actions/github-script@v9
