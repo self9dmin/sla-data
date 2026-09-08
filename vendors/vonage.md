@@ -25,7 +25,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: Support
-  submission_url: https://developer.vonage.com/support
+  submission_url: https://www.vonage.com/communications-apis/services/support/
   required_evidence:
     - Account ID
     - Affected services

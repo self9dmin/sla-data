@@ -103,7 +103,7 @@ support:
   success_program: true
   training: false
   pricing: included
-  source_url: https://www.adyen.com/en_GB/customer-success/your-journey-with-us
+  source_url: https://www.adyen.com/legal/terms-and-conditions
   note: 24/7 technical support and a CSM are included; no tiered support plans. 24/7 is urgent/critical-only (follow-the-sun); phone connects 24/7 for urgent matters. Assigned Account Manager (pooled CS for mid-market); professional services are partner-led, not a merchant SKU.
   channels:
     - portal

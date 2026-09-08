@@ -19,7 +19,7 @@ credit_policy:
   calculation_type: tiered
 claim_process:
   submission_method: Support ticket
-  submission_url: https://bunny.net/support/
+  submission_url: https://bunny.net/contact/
   required_evidence:
     - Dates and times of service unavailability
     - Affected CDN zone or storage zone details

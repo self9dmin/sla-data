@@ -6,7 +6,7 @@ legal_entity: Affirm, Inc.
 category: Finance & Payments
 website: https://www.affirm.com
 scope: global
-sla_url: https://www.affirm.com/merchant-terms
+sla_url: https://www.affirm.com/terms
 last_verified: '2026-06-25'
 last_updated: '2026-06-25'
 has_automatic_credits: false
@@ -45,7 +45,7 @@ services:
     category: Finance & Payments
     description: Buy Now Pay Later payment solution for merchants enabling flexible consumer payment plans at checkout
     sla_eligible: false
-    source_url: https://www.affirm.com/merchant-terms
+    source_url: https://www.affirm.com/terms
 ---
 
 Affirm (Affirm, Inc., Delaware) is a Buy Now Pay Later payment platform for merchants. Standard merchant agreements contain no uptime percentage or credit schedule — a professional standards clause references "SLA Standards" but specific metrics are redacted in SEC filings. Affirm does negotiate private SLAs for major partnerships. Merchants should request custom SLA terms through Affirm enterprise sales.

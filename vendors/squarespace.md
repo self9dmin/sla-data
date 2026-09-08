@@ -102,7 +102,7 @@ support:
   success_program: false
   training: true
   pricing: included
-  source_url: https://support.squarespace.com/hc/en-us/articles/206541167-Contacting-Customer-Support
+  source_url: https://support.squarespace.com
   note: Flat 24/7 email and live chat included; no paid tiers. No phone support (explicitly disclaimed). Email + social 24/7 but live chat is weekday business hours only. Enterprise adds a dedicated account manager + onboarding/training/consultations.
   channels:
     - email

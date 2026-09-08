@@ -136,7 +136,7 @@ support:
   success_program: false
   training: true
   pricing: percent_of_spend
-  source_url: https://redis.io/legal/redis-enterprise-cloud-support-policy/
+  source_url: https://redis.io/legal/redis-cloud-service-level-agreement/
   note: Premium adds 24/7 coverage, a designated TAM, and proactive monitoring; ~10-20% uplift. 24/7 web portal (all); phone is real and 24x7 but Business+ only. TAM from Developer tier. Support policy excludes professional services (sold separately). 24/7 web portal (all); phone is real and 24x7 but Business+ only. TAM from Developer tier. Support policy excludes professional services (sold separately).
   channels:
     - portal

@@ -105,7 +105,7 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: https://mailchimp.com/help/about-mailchimp-support/
+  source_url: https://mailchimp.com/legal/terms/
   note: Premium plan gets phone support and dedicated onboarding; no published response SLAs. 24/7 chat/email at Essentials+; phone is Premium-only and English-only. Premium "team" is pooled, not named. Assisted onboarding on Standard/Premium. 24/7 chat/email at Essentials+; phone is Premium-only and English-only. Premium "team" is pooled, not named. Assisted onboarding on Standard/Premium.
   channels:
     - chat

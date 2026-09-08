@@ -6,13 +6,13 @@ legal_entity: Checkr, Inc.
 category: HR & Workforce
 website: https://checkr.com
 scope: global
-sla_url: https://checkr.com/customer-terms
+sla_url: https://checkr.com/legal/terms-of-service
 last_verified: '2026-06-25'
 last_updated: '2026-06-25'
 has_automatic_credits: false
 min_plan_for_sla: paid
 needs_review: false
-credit_note: 'Verified against Checkr Customer Terms (checkr.com/customer-terms). No contractual uptime SLA found. Verbatim: "Checkr makes no representation, warranty or guarantee regarding the continuous availability or performance of the Platform." Standard as-is / as-available disclaimers apply. No uptime percentage, no credit mechanism, and no financial remedy for availability failures. Aggregate liability cap (general): the greater of $100,000 or fees paid in the 12 months preceding the claim. Legal entity: Checkr, Inc. (Delaware corporation; EIN 46-5213376), San Francisco, CA.'
+credit_note: 'Verified against Checkr Customer Terms (checkr.com/legal/terms-of-service). No contractual uptime SLA found. Verbatim: "Checkr makes no representation, warranty or guarantee regarding the continuous availability or performance of the Platform." Standard as-is / as-available disclaimers apply. No uptime percentage, no credit mechanism, and no financial remedy for availability failures. Aggregate liability cap (general): the greater of $100,000 or fees paid in the 12 months preceding the claim. Legal entity: Checkr, Inc. (Delaware corporation; EIN 46-5213376), San Francisco, CA.'
 credit_policy:
   remedy_type: no_sla
   calculation_type: none
@@ -42,7 +42,7 @@ services:
     category: HR & Workforce
     description: Automated background check and identity verification platform for employment and gig economy screening
     sla_eligible: false
-    source_url: https://checkr.com/customer-terms
+    source_url: https://checkr.com/legal/terms-of-service
 ---
 
 Checkr (Checkr, Inc., Delaware; San Francisco, CA; EIN 46-5213376) is a background screening and identity verification platform. The Customer Terms explicitly state: "Checkr makes no representation, warranty or guarantee regarding the continuous availability or performance of the Platform." No uptime SLA, no credit mechanism, and no financial remedy for availability failures exists in the public terms.

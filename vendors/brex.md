@@ -6,7 +6,7 @@ legal_entity: Brex Inc.
 category: Fintech & Payments
 website: https://www.brex.com
 scope: global
-sla_url: https://www.brex.com/legal/terms-of-service
+sla_url: https://www.brex.com/legal/platform-agreement
 last_verified: '2026-06-25'
 last_updated: '2026-06-25'
 has_automatic_credits: false
@@ -44,7 +44,7 @@ services:
     category: Fintech & Payments
     description: Corporate cards, expense management, and business banking platform for startups and enterprises
     sla_eligible: false
-    source_url: https://www.brex.com/legal/terms-of-service
+    source_url: https://www.brex.com/legal/platform-agreement
 ---
 
 Brex (Brex Inc., Delaware; acquired by Capital One April 7, 2026) was a corporate card and spend management platform for startups. The Terms of Service contained explicit as-is disclaimers with no uptime guarantee, no credit mechanism, and no availability warranty. No financial remedy for availability failures existed in the public terms. Following the Capital One acquisition, terms are subject to change.

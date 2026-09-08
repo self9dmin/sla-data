@@ -112,7 +112,7 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: https://www.hubspot.com/customer-support
+  source_url: https://legal.hubspot.com/product-specific-terms
   note: 24/7 chat/email on paid tiers; phone on Pro/Enterprise. CSM and Academy. No 24/7 commitment; pooled support (no named CSM/TAM). Chat/email at Starter+, phone call-back at Pro/Enterprise (English-only). Paid onboarding. No 24/7 commitment; pooled support (no named CSM/TAM). Chat/email at Starter+, phone call-back at Pro/Enterprise (English-only). Paid onboarding.
   channels:
     - chat

@@ -34,7 +34,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit a written request within 5 business days after the affected month
   submission_method: Email
-  submission_url: https://writer.com/contact/
+  submission_url: https://writer.com/contact-us/
   required_evidence:
     - Account/Project ID
     - Affected service
