@@ -6,7 +6,7 @@ legal_entity: PlanetScale
 category: Databases & Data Infrastructure
 website: https://www.planetscale.com
 scope: global
-sla_url: https://planetscale.com/legal/sla
+sla_url: https://planetscale.com/legal/planetscale-service-level-agreement
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 uptime_commitment: 99.99
@@ -78,19 +78,19 @@ services:
     description: Multi-region production database clusters
     uptime_commitment: 99.999
     sla_eligible: true
-    source_url: https://planetscale.com/legal/sla
+    source_url: https://planetscale.com/legal/planetscale-service-level-agreement
   - id: single-region
     name: Single-Region Database Clusters
     category: Database
     description: Single-region production database clusters
     uptime_commitment: 99.99
     sla_eligible: true
-    source_url: https://planetscale.com/legal/sla
+    source_url: https://planetscale.com/legal/planetscale-service-level-agreement
 sla_tiers:
   - name: Multi-region
     requirement: Multi-region database cluster
     uptime_commitment: 99.999
-    source_url: https://planetscale.com/legal/sla
+    source_url: https://planetscale.com/legal/planetscale-service-level-agreement
 support:
   tiers:
     - Standard

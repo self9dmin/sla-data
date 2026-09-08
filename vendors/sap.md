@@ -4,7 +4,7 @@ slug: sap
 vendor_name: SAP
 legal_entity: SAP
 category: Enterprise & Operations
-website: https://www.sap.com
+website: https://www.sap.com/index.html
 scope: global
 sla_url: https://assets.cdn.sap.com/agreements/product-use-and-support-terms/cls/en/service-level-agreement-for-sap-cloud-services-english-v8-2023.pdf
 last_verified: '2026-06-23'
@@ -29,7 +29,7 @@ claim_process:
       anchor_point: end_of_month
       description: Claim via documented support case within 30 business days after the end of the relevant Month in which SAP missed the System Availability SLA
   submission_method: Documented support case (SAP ONE Support)
-  submission_url: https://support.sap.com
+  submission_url: https://support.sap.com/en/index.html
   required_evidence:
     - Documented support case
   review_timeline: Not specified in SLA

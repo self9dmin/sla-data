@@ -6,7 +6,7 @@ legal_entity: Fortinet
 category: Security & Identity
 website: https://www.fortinet.com
 scope: global
-sla_url: https://www.fortinet.com/support/support-services
+sla_url: https://www.fortinet.com/support
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 has_automatic_credits: false
@@ -23,7 +23,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: FortiCare
-  submission_url: https://support.fortinet.com
+  submission_url: https://support.fortinet.com/welcome/#/
   required_evidence:
     - Account ID
     - Affected services
@@ -66,31 +66,31 @@ services:
     category: SIEM
     description: Security analytics and logging
     sla_eligible: true
-    source_url: https://www.fortinet.com/support/support-services
+    source_url: https://www.fortinet.com/support
   - id: forticloud-management
     name: FortiCloud Management
     category: Cloud Management
     description: Centralized device management
     sla_eligible: true
-    source_url: https://www.fortinet.com/support/support-services
+    source_url: https://www.fortinet.com/support
   - id: fortiedr
     name: FortiEDR
     category: Endpoint Security
     description: Endpoint detection and response
     sla_eligible: true
-    source_url: https://www.fortinet.com/support/support-services
+    source_url: https://www.fortinet.com/support
   - id: fortigate-cloud
     name: FortiGate Cloud
     category: Firewall
     description: Cloud-based firewall management
     sla_eligible: true
-    source_url: https://www.fortinet.com/support/support-services
+    source_url: https://www.fortinet.com/support
   - id: fortisase
     name: FortiSASE
     category: SASE
     description: Secure access service edge
     sla_eligible: true
-    source_url: https://www.fortinet.com/support/support-services
+    source_url: https://www.fortinet.com/support
 support:
   tiers:
     - FortiCare Essential

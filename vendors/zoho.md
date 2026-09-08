@@ -66,42 +66,42 @@ services:
     description: Accounting software
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+    source_url: https://help.zoho.com/portal/en/kb/crm/crm-reference/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
   - id: campaigns
     name: Zoho Campaigns
     category: Email Marketing
     description: Email marketing
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+    source_url: https://help.zoho.com/portal/en/kb/crm/crm-reference/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
   - id: crm
     name: Zoho CRM
     category: CRM
     description: Customer relationship management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+    source_url: https://help.zoho.com/portal/en/kb/crm/crm-reference/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
   - id: desk
     name: Zoho Desk
     category: Customer Service
     description: Help desk software
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+    source_url: https://help.zoho.com/portal/en/kb/crm/crm-reference/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
   - id: people
     name: Zoho People
     category: HR
     description: HR management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+    source_url: https://help.zoho.com/portal/en/kb/crm/crm-reference/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
   - id: projects
     name: Zoho Projects
     category: Project Management
     description: Project management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://help.zoho.com/portal/en/kb/crm/getting-started/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
+    source_url: https://help.zoho.com/portal/en/kb/crm/crm-reference/product-architecture-and-reliability/articles/zoho-crm-uptime-sla-and-availability
 support:
   tiers:
     - Classic

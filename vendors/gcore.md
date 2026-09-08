@@ -6,7 +6,7 @@ legal_entity: G-Core Labs S.A.
 category: CDN & Edge
 website: https://gcore.com
 scope: global
-sla_url: https://gcore.com/legal/
+sla_url: https://gcore.com/legal
 last_verified: '2026-06-24'
 last_updated: '2026-06-24'
 uptime_commitment: 99.9
@@ -52,7 +52,7 @@ services:
     description: Global CDN with edge caching, delivery optimization, and DDoS protection
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://gcore.com/legal/
+    source_url: https://gcore.com/legal
 ---
 
 Gcore (G-Core Labs S.A., Luxembourg) provides CDN, cloud, and edge services globally. Public SLA terms with specific uptime percentages and credit structures are not confirmed from accessible sources — enterprise customers should request SLA terms directly.

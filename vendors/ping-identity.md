@@ -4,7 +4,7 @@ slug: ping-identity
 vendor_name: Ping Identity
 legal_entity: Ping Identity
 category: Security & Identity
-website: https://www.pingidentity.com
+website: https://www.pingidentity.com/en.html
 scope: global
 sla_url: https://www.pingidentity.com/en/legal/support-policy.html
 last_verified: '2026-06-23'
@@ -26,7 +26,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: Support
-  submission_url: https://support.pingidentity.com
+  submission_url: https://support.pingidentity.com/s/
   required_evidence:
     - Account ID
     - Affected services

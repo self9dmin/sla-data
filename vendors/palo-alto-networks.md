@@ -42,7 +42,7 @@ claim_process:
       anchor_point: incident_date
       description: Prisma Access and Cloud NGFW also require submitting a claim on the Claim Dashboard within 5 business days of the outage.
   submission_method: Support Portal
-  submission_url: https://support.paloaltonetworks.com
+  submission_url: https://support.paloaltonetworks.com/Support/Index
   required_evidence:
     - Account ID
     - Affected services
@@ -131,7 +131,7 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: https://www.paloaltonetworks.com/services/support
+  source_url: https://www.paloaltonetworks.com/services/solution-assurance.html
   note: TAM via Focused Services add-on; support priced as a percentage of product list. Targets, not credit-backed. 24x7 phone across tiers; Platinum adds a dedicated senior-engineer team and Focused Services.
   channels:
     - portal

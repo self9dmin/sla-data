@@ -23,7 +23,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: Support
-  submission_url: https://www.braze.com/docs/support_contact/
+  submission_url: https://www.braze.com/docs/support_contact
   required_evidence:
     - Account ID
     - Affected services

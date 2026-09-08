@@ -21,7 +21,7 @@ credit_policy:
   credit_unit: time
 claim_process:
   submission_method: Support ticket
-  submission_url: https://sendbird.com/contact-us/
+  submission_url: https://sendbird.com/contact-us
   required_evidence:
     - Dates and times of API unavailability
     - Affected application and account details

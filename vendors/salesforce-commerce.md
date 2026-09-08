@@ -4,7 +4,7 @@ slug: salesforce-commerce
 vendor_name: Salesforce Commerce Cloud
 legal_entity: Salesforce, Inc.
 category: E-commerce
-website: https://www.salesforce.com/products/commerce/overview/
+website: https://www.salesforce.com/commerce/
 scope: global
 sla_url: https://www.salesforce.com/company/legal/customer-agreements/
 last_verified: '2026-06-24'

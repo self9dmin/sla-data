@@ -6,7 +6,7 @@ legal_entity: Blue Yonder
 category: Enterprise & Operations
 website: https://blueyonder.com
 scope: global
-sla_url: https://blueyonder.com/legal
+sla_url: https://blueyonder.com/
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 sla_help_wanted: true
@@ -67,31 +67,31 @@ services:
     category: Demand Planning
     description: AI-driven demand forecasting
     sla_eligible: true
-    source_url: https://blueyonder.com/legal
+    source_url: https://blueyonder.com/
   - id: by-luminate-commerce
     name: Luminate Commerce
     category: Commerce
     description: Omnichannel fulfillment
     sla_eligible: true
-    source_url: https://blueyonder.com/legal
+    source_url: https://blueyonder.com/
   - id: by-luminate-logistics
     name: Luminate Logistics
     category: Logistics
     description: Transportation and warehouse management
     sla_eligible: true
-    source_url: https://blueyonder.com/legal
+    source_url: https://blueyonder.com/
   - id: by-luminate-planning
     name: Luminate Planning
     category: Supply Chain Planning
     description: End-to-end supply chain planning
     sla_eligible: true
-    source_url: https://blueyonder.com/legal
+    source_url: https://blueyonder.com/
   - id: by-warehouse-management
     name: Warehouse Management
     category: WMS
     description: Warehouse management system
     sla_eligible: true
-    source_url: https://blueyonder.com/legal
+    source_url: https://blueyonder.com/
 support:
   channels:
     - phone

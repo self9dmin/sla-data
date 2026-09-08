@@ -6,7 +6,7 @@ legal_entity: Okta
 category: Security & Identity
 website: https://www.okta.com
 scope: global
-sla_url: https://www.okta.com/agreements/
+sla_url: https://www.okta.com/legal/
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 uptime_commitment: 99.99
@@ -35,7 +35,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 5 business days of incident - VERY SHORT
   submission_method: Support Ticket
-  submission_url: https://support.okta.com
+  submission_url: https://support.okta.com/help/s/?language=en_US
   required_evidence:
     - Account ID
     - Affected services
@@ -78,31 +78,31 @@ services:
     category: Security
     description: API authorization
     sla_eligible: true
-    source_url: https://www.okta.com/agreements/
+    source_url: https://www.okta.com/legal/
   - id: lifecycle
     name: Lifecycle Management
     category: Identity
     description: User provisioning
     sla_eligible: true
-    source_url: https://www.okta.com/agreements/
+    source_url: https://www.okta.com/legal/
   - id: mfa
     name: Okta MFA
     category: Security
     description: Multi-factor authentication
     sla_eligible: true
-    source_url: https://www.okta.com/agreements/
+    source_url: https://www.okta.com/legal/
   - id: sso
     name: Okta Single Sign-On
     category: Identity
     description: SSO for applications
     sla_eligible: true
-    source_url: https://www.okta.com/agreements/
+    source_url: https://www.okta.com/legal/
   - id: directory
     name: Universal Directory
     category: Identity
     description: Identity management
     sla_eligible: true
-    source_url: https://www.okta.com/agreements/
+    source_url: https://www.okta.com/legal/
 support:
   tiers:
     - Basic

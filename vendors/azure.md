@@ -4,7 +4,7 @@ slug: azure
 vendor_name: Azure
 legal_entity: Microsoft Azure
 category: Cloud Infrastructure
-website: https://azure.microsoft.com/en-us/
+website: https://azure.microsoft.com/en-us
 scope: regional
 regions:
   - code: eastus

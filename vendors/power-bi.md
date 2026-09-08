@@ -27,7 +27,7 @@ credit_policy:
       credit_percent: 100
 claim_process:
   submission_method: Support ticket
-  submission_url: https://support.microsoft.com
+  submission_url: https://support.microsoft.com/en-us/
   credit_application: Applied to future charges as account credit; non-refundable
   required_evidence:
     - Detailed description of the incident

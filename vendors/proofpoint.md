@@ -4,7 +4,7 @@ slug: proofpoint
 vendor_name: Proofpoint
 legal_entity: Proofpoint
 category: Security & Identity
-website: https://www.proofpoint.com
+website: https://www.proofpoint.com/us
 scope: global
 sla_url: https://www.proofpoint.com/us/legal/license
 last_verified: '2026-06-23'

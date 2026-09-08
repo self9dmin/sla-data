@@ -37,7 +37,7 @@ claim_process:
       anchor_point: degraded_performance_period
       description: Requests for Invoice Credits for Degraded Performance must be made within 30 days of the period of Degraded Performance.
   submission_method: Credit request to Fastly Support
-  submission_url: https://support.fastly.com
+  submission_url: https://support.fastly.com/s/
   required_evidence: []
   credit_application: Credits will be applied to the Invoice two months following the month an invoice credit was incurred.
 global_exclusions:

@@ -91,7 +91,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.intercom.com/help/en/articles/5952022-premier-services
+  source_url: https://www.intercom.com/help/en/articles/5952022-premier-support
   note: Premier tiers add onboarding, support, and rapid response with a dedicated point of contact. Premier Support tiers are paid add-ons, 24/7 follow-the-sun. Email/chat (+video on Rapid Response); no phone. Premier Support tiers are paid add-ons, 24/7 follow-the-sun. Email/chat (+video on Rapid Response); no phone.
   channels:
     - email

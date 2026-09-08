@@ -370,7 +370,7 @@ services:
   - id: identity
     name: Cloud Identity Services
     uptime_commitment: 99.9
-    source_url: https://cloud.google.com/identity/sla
+    source_url: https://cloud.google.com/terms/identity/sla
   - id: network-connectivity-interconnect
     name: Cloud Interconnect
     uptime_commitment: 99.99
@@ -458,7 +458,7 @@ services:
   - id: gemini
     name: Gemini for Google Cloud
     uptime_commitment: 99.9
-    source_url: https://cloud.google.com/gemini/sla
+    source_url: https://cloud.google.com/products/gemini/sla
   - id: vertex-ai-generative-ai
     name: Gemini on Vertex
     uptime_commitment: 99.5
@@ -485,7 +485,7 @@ services:
     source_url: https://cloud.google.com/identity-platform/sla
   - id: iot
     name: IoT Core
-    source_url: https://cloud.google.com/terms/sla/
+    source_url: https://cloud.google.com/terms/sla
   - id: looker-core
     name: Looker (Google Cloud core)
     uptime_commitment: 99.9
@@ -512,18 +512,18 @@ services:
     source_url: https://cloud.google.com/ncc/sla
   - id: parallelstore
     name: Parallelstore
-    source_url: https://cloud.google.com/terms/sla/
+    source_url: https://cloud.google.com/terms/sla
   - id: recaptcha-enterprise
     name: reCAPTCHA Enterprise
     uptime_commitment: 99.9
-    source_url: https://cloud.google.com/recaptcha-enterprise/sla
+    source_url: https://cloud.google.com/recaptcha/sla
   - id: secret-manager
     name: Secret Manager
     uptime_commitment: 99.95
     source_url: https://cloud.google.com/secret-manager/sla
   - id: secure-web-proxy
     name: Secure Web Proxy
-    source_url: https://cloud.google.com/terms/sla/
+    source_url: https://cloud.google.com/terms/sla
   - id: security-command-center
     name: Security Command Center
     uptime_commitment: 99.9
@@ -582,7 +582,7 @@ services:
     source_url: https://cloud.google.com/ai-platform/training-and-prediction/sla
   - id: firebase-storage
     name: Cloud Storage for Firebase
-    source_url: https://cloud.google.com/terms/sla/
+    source_url: https://cloud.google.com/terms/sla
   - id: kms
     name: Cloud Key Management Service
     uptime_commitment: 99.95

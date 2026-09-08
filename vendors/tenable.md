@@ -6,7 +6,7 @@ legal_entity: Tenable
 category: Security & Identity
 website: https://www.tenable.com
 scope: global
-sla_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
+sla_url: https://static.tenable.com/prod_docs/Service_Level_Agreement.pdf
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 uptime_commitment: 99.95
@@ -74,35 +74,35 @@ services:
     description: External attack surface discovery
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
+    source_url: https://static.tenable.com/prod_docs/Service_Level_Agreement.pdf
   - id: cs
     name: Tenable Cloud Security
     category: CSPM
     description: Cloud security posture management
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
+    source_url: https://static.tenable.com/prod_docs/Service_Level_Agreement.pdf
   - id: ad
     name: Tenable Identity Exposure
     category: Identity Security
     description: Active Directory security
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
+    source_url: https://static.tenable.com/prod_docs/Service_Level_Agreement.pdf
   - id: lumin
     name: Tenable Lumin
     category: Risk Analytics
     description: Cyber exposure analytics
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
+    source_url: https://static.tenable.com/prod_docs/Service_Level_Agreement.pdf
   - id: io
     name: Tenable Vulnerability Management
     category: Vulnerability Management
     description: Cloud-based vulnerability scanning
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://static.tenable.com/prod_docs/Service_Level_Commitment.pdf
+    source_url: https://static.tenable.com/prod_docs/Service_Level_Agreement.pdf
 support:
   tiers:
     - Standard

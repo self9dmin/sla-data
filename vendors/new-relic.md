@@ -19,7 +19,7 @@ credit_policy:
   max_credit_percent: 0
 claim_process:
   submission_method: File a support ticket on the New Relic support site to request the Service Availability attainment for the previous month
-  submission_url: https://support.newrelic.com
+  submission_url: https://support.newrelic.com/s/
   required_evidence:
     - Account ID
     - Affected services

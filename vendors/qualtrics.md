@@ -6,7 +6,7 @@ legal_entity: Qualtrics
 category: Analytics & BI
 website: https://www.qualtrics.com
 scope: global
-sla_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
+sla_url: https://www.qualtrics.com/legal/customers/service-level-agreement-2026/
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 uptime_commitment: 99.93
@@ -78,35 +78,35 @@ services:
     description: Brand experience management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
+    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement-2026/
   - id: cx
     name: CustomerXM
     category: CX
     description: Customer experience management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
+    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement-2026/
   - id: ex
     name: EmployeeXM
     category: EX
     description: Employee experience management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
+    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement-2026/
   - id: px
     name: ProductXM
     category: Product
     description: Product experience management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
+    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement-2026/
   - id: research
     name: Research Core
     category: Research
     description: Survey and research platform
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement/
+    source_url: https://www.qualtrics.com/legal/customers/service-level-agreement-2026/
 support:
   tiers:
     - Standard

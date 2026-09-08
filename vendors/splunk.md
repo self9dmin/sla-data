@@ -35,7 +35,7 @@ claim_process:
       anchor_point: end_of_calendar_quarter
       description: File a claim within 5 days following the end of the calendar quarter in which the SLA was missed (calendar days)
   submission_method: Email to splunk-cloud-billing@cisco.com
-  submission_url: https://www.splunk.com/en_us/support.html
+  submission_url: https://www.splunk.com/en_us/customer-success/support-programs.html
   required_evidence:
     - Complete description of the downtime
     - How the Customer was adversely affected
@@ -113,7 +113,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.splunk.com/en_us/support-and-services/support-programs.html
+  source_url: https://www.splunk.com/en_us/customer-success/support-programs.html
   note: Premium publishes a 30-min P1 target; not stated as a credit-backed SLA. Portal all tiers + phone for P1; Premium 24x7x365 all severities (Standard 24x7 for P1 only). No named TAM/CSM tied to support tiers. OnDemand + Professional Services. Portal all tiers + phone for P1; Premium 24x7x365 all severities (Standard 24x7 for P1 only). No named TAM/CSM tied to support tiers. OnDemand + Professional Services.
   channels:
     - portal

@@ -4,7 +4,7 @@ slug: kinaxis
 vendor_name: Kinaxis
 legal_entity: Kinaxis
 category: Enterprise & Operations
-website: https://www.kinaxis.com
+website: https://www.kinaxis.com/en
 scope: global
 sla_url: https://www.kinaxis.com/en/trust-center
 last_verified: '2026-06-23'

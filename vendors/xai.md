@@ -51,19 +51,19 @@ services:
     category: AI
     description: Chat/reasoning completions (Grok 4 family)
     sla_eligible: false
-    source_url: https://docs.x.ai
+    source_url: https://docs.x.ai/overview
   - id: grok-fast
     name: Grok Mini / Fast
     category: AI
     description: Lower-cost / faster models
     sla_eligible: false
-    source_url: https://docs.x.ai
+    source_url: https://docs.x.ai/overview
   - id: live-search
     name: Live Search API
     category: AI
     description: Real-time search-grounded responses
     sla_eligible: false
-    source_url: https://docs.x.ai
+    source_url: https://docs.x.ai/overview
 support:
   channels:
     - email

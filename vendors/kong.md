@@ -34,7 +34,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: Support
-  submission_url: https://support.konghq.com
+  submission_url: https://support.konghq.com/support/s/
   required_evidence:
     - Account ID
     - Affected services

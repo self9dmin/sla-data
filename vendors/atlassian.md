@@ -136,7 +136,7 @@ services:
     category: Incident Management
     description: On-call and alerting; covered by a separate product-specific SLA
     sla_eligible: false
-    source_url: https://www.atlassian.com/software/opsgenie/sla
+    source_url: https://www.atlassian.com/legal/product-terms
   - id: statuspage
     name: Statuspage
     category: Status Communication

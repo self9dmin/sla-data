@@ -21,7 +21,7 @@ credit_policy:
   max_credit_percent: 100
 claim_process:
   submission_method: Ticket
-  submission_url: https://www.hetzner.com/support
+  submission_url: https://www.hetzner.com/support/
   credit_application: Non-refundable Cloud Credits for future Hetzner Cloud usage only
   required_evidence:
     - Affected Cloud Server IDs

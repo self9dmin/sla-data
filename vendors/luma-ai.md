@@ -6,7 +6,7 @@ legal_entity: Luma AI, Inc.
 category: AI & Machine Learning
 website: https://lumalabs.ai
 scope: global
-sla_url: https://lumalabs.ai/legal/tos
+sla_url: https://lumalabs.ai/legal/terms-of-service
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 sla_help_wanted: true

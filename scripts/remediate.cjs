@@ -31,8 +31,15 @@ function isSafePermanentRedirect(finding) {
 
 function replaceFrontMatterUrl(text, from, to) {
   const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-  if (!match || !match[1].includes(from)) return { changed: false, text };
-  const frontMatter = match[1].split(from).join(to);
+  if (!match) return { changed: false, text };
+  // Match a complete YAML URL token. Without a boundary, a shorter redirect
+  // such as https://vendor.example can rewrite the prefix of a longer URL
+  // such as https://vendor.example/en/legal/sla, causing cascading edits when
+  // several redirects for the same host are applied in one pass.
+  const escaped = from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const urlToken = new RegExp(`${escaped}(?=$|[\\s"'<>),.;])`, 'g');
+  const frontMatter = match[1].replace(urlToken, to);
+  if (frontMatter === match[1]) return { changed: false, text };
   return { changed: true, text: text.replace(match[1], frontMatter) };
 }
 

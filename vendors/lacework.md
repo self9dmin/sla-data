@@ -19,7 +19,7 @@ credit_policy:
   calculation_type: none
 claim_process:
   submission_method: Contact support
-  submission_url: https://support.fortinet.com
+  submission_url: https://support.fortinet.com/welcome/#/
 global_exclusions:
   - SLA terms require Premium (FortiCare Elite) support tier
   - Standard support customers have no guaranteed credit remedy

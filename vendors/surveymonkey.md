@@ -17,7 +17,7 @@ credit_policy:
   remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
-  submission_url: https://help.surveymonkey.com
+  submission_url: https://help.surveymonkey.com/en/
   required_evidence:
     - Account ID
     - Affected services
@@ -92,7 +92,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.surveymonkey.com/mp/enterprise/
+  source_url: https://www.surveymonkey.com/product/enterprise/
   note: 'Enterprise adds a dedicated CSM, 24/7 phone/email, and professional services. Enterprise: 24x7 email & phone + CSM; separate professional-services add-on (survey design, dashboards, migration).'
   channels:
     - email

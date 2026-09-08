@@ -111,7 +111,7 @@ support:
   success_program: true
   training: true
   pricing: included
-  source_url: https://www.shopify.com/plus/services/merchant-success
+  source_url: https://www.shopify.com/plus
   note: Plus includes Merchant Success; a dedicated MSM applies above a revenue threshold. 24/7 chat on all plans; Shopify Plus adds a direct phone line + priority chat + Merchant Success Managers. Only published response figure is ~48-hour Plus email tickets; no formal SoW professional services.
   channels:
     - chat

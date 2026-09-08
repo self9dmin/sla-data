@@ -6,7 +6,7 @@ legal_entity: Lever
 category: HR & People Operations
 website: https://www.lever.co
 scope: global
-sla_url: https://www.lever.co/agreements/sla/
+sla_url: https://www.lever.co/agreements/sla
 last_verified: '2026-06-24'
 last_updated: '2026-06-23'
 uptime_commitment: 99.9
@@ -58,28 +58,28 @@ services:
     description: Recruiting analytics
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.lever.co/agreements/sla/
+    source_url: https://www.lever.co/agreements/sla
   - id: api
     name: Lever API
     category: API
     description: Integration API
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.lever.co/agreements/sla/
+    source_url: https://www.lever.co/agreements/sla
   - id: nurture
     name: Lever Nurture
     category: CRM
     description: Candidate relationship management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.lever.co/agreements/sla/
+    source_url: https://www.lever.co/agreements/sla
   - id: hire
     name: LeverTRM for Hire
     category: ATS
     description: Talent acquisition platform
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.lever.co/agreements/sla/
+    source_url: https://www.lever.co/agreements/sla
 support:
   tiers:
     - Lever Care

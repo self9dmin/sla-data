@@ -279,7 +279,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.cloudflare.com/plans/enterprise/
+  source_url: https://www.cloudflare.com/plans/enterprise/externa/
   note: Enterprise includes 24/7/365 support; TAM and Premium Success are paid add-ons. Response times are targets. 30-min/sub-1-hr P1 is paid-gated (TAM Service / Premium Enterprise SLA); base Enterprise is 2-hr P1. Chat is Business+, emergency phone is Enterprise P1-only. Professional Services + Managed Defense. 30-min/sub-1-hr P1 is paid-gated (TAM Service / Premium Enterprise SLA); base Enterprise is 2-hr P1. Chat is Business+, emergency phone is Enterprise P1-only. Professional Services + Managed Defense.
   channels:
     - portal

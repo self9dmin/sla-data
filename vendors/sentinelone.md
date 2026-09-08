@@ -23,7 +23,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: Support Portal
-  submission_url: https://www.sentinelone.com/support/
+  submission_url: https://www.sentinelone.com/global-services/get-support-now/
   required_evidence:
     - Account ID
     - Affected services

@@ -21,7 +21,7 @@ credit_policy:
   credit_formula: 'Credits = 30× the excess downtime duration (time beyond the SLO allowance), capped at 3 months of preceding Cloud Services fees. Applied as time credits for future Cloud Services use.'
 claim_process:
   submission_method: Support ticket
-  submission_url: https://aiven.io/support
+  submission_url: https://aiven.io/docs/platform/howto/support
   credit_application: Applied as service credits for future Cloud Services use, expiring 90 days from issuance
   required_evidence:
     - Dates and times of downtime

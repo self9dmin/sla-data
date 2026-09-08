@@ -48,13 +48,13 @@ services:
     category: AI
     description: Mistral model API (chat, embeddings, FIM)
     sla_eligible: false
-    source_url: https://mistral.ai/pricing
+    source_url: https://mistral.ai/pricing/
   - id: enterprise-api
     name: Enterprise API
     category: AI
     description: Dedicated/regional deployment with negotiated SLA
     sla_eligible: true
-    source_url: https://mistral.ai/products
+    source_url: https://mistral.ai/products/
 support:
   channels:
     - chat

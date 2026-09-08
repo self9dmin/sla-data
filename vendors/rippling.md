@@ -17,7 +17,7 @@ credit_policy:
   remedy_type: no_sla
 claim_process:
   submission_method: N/A - No SLA credits available
-  submission_url: https://www.rippling.com/support
+  submission_url: https://www.rippling.com/company/contact
   required_evidence:
     - Account ID
     - Affected services

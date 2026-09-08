@@ -23,7 +23,7 @@ claim_process:
       anchor_point: incident_date
       description: No SLA credits available - termination only
   submission_method: Support
-  submission_url: https://www.paypal.com/us/smarthelp/contact-us
+  submission_url: https://www.paypal.com/us/cshelp/contact-us
   required_evidence:
     - Account ID
     - Affected services

@@ -20,7 +20,7 @@ credit_policy:
   max_credit_percent: 0
 claim_process:
   submission_method: N/A - No SLA service credits offered
-  submission_url: https://help.asana.com/
+  submission_url: https://help.asana.com/s/?language=en_US
   required_evidence: []
 global_exclusions:
   - Beta, trial, proof of concept, and sandbox versions

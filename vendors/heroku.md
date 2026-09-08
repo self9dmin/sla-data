@@ -6,7 +6,7 @@ legal_entity: Heroku
 category: Cloud Infrastructure
 website: https://www.heroku.com
 scope: global
-sla_url: https://www.heroku.com/policy/promise
+sla_url: https://www.heroku.com/policy/
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 has_automatic_credits: false

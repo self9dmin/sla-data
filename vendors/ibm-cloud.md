@@ -4,7 +4,7 @@ slug: ibm-cloud
 vendor_name: IBM Cloud
 legal_entity: IBM Cloud
 category: Cloud Infrastructure
-website: https://www.ibm.com/cloud
+website: https://www.ibm.com/products/cloud
 scope: global
 sla_url: https://cloud.ibm.com/docs/overview?topic=overview-slas
 last_verified: '2026-06-23'
@@ -37,7 +37,7 @@ claim_process:
       anchor_point: end_of_billing_month
       description: Submit formal claim within 3 BUSINESS DAYS of month end
   submission_method: IBM Support
-  submission_url: https://www.ibm.com/cloud/support
+  submission_url: https://www.ibm.com/products/cloud/support
   required_evidence:
     - Account ID
     - Affected services
