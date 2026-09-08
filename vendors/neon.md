@@ -6,7 +6,7 @@ legal_entity: Neon
 category: Databases & Data Infrastructure
 website: https://www.neon.com
 scope: global
-sla_url: https://neon.com/neon-business-sla
+sla_url: https://neon.com/sla
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 uptime_commitment: 99.95
@@ -40,7 +40,7 @@ claim_process:
       anchor_point: end_of_following_month
       description: Submit your claim and all required information by the end of the month immediately following the month in which the Downtime occurred
   submission_method: Support ticket
-  submission_url: https://neon.com/neon-business-sla
+  submission_url: https://neon.com/sla
   required_evidence:
     - Affected Compute Endpoints
     - Incident timestamps
@@ -98,32 +98,32 @@ services:
     description: Availability of Compute Endpoints (Serverless Postgres compute) - the only component covered by the SLA
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://neon.com/neon-business-sla
+    source_url: https://neon.com/sla
   - id: database
     name: Neon Serverless Postgres
     category: Database
     description: Serverless PostgreSQL
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://neon.com/neon-business-sla
+    source_url: https://neon.com/sla
   - id: api
     name: Neon API
     category: APIs
     description: Management API - not covered by the SLA (SLA applies only to Compute Endpoints)
     sla_eligible: false
-    source_url: https://neon.com/neon-business-sla
+    source_url: https://neon.com/sla
   - id: autoscaling
     name: Neon Autoscaling
     category: Database
     description: Auto-scaling compute - not separately covered by the SLA
     sla_eligible: false
-    source_url: https://neon.com/neon-business-sla
+    source_url: https://neon.com/sla
   - id: branching
     name: Neon Branching
     category: Database
     description: Instant database branching - not covered by the SLA
     sla_eligible: false
-    source_url: https://neon.com/neon-business-sla
+    source_url: https://neon.com/sla
 support:
   tiers:
     - Free

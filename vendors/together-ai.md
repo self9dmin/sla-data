@@ -18,7 +18,7 @@ credit_policy:
   remedy_type: no_sla
 claim_process:
   submission_method: N/A - No public SLA credits
-  submission_url: https://www.together.ai/contact
+  submission_url: https://www.together.ai/contact-sales
   required_evidence: []
 global_exclusions:
   - Scheduled maintenance

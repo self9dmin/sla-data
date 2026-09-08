@@ -137,7 +137,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://experienceleague.adobe.com/docs/support-resources/data-sheets/data-sheets/enterprise.html
+  source_url: https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/prior-plans/data-sheets/enterprise
   note: Elite adds a TAM and Named Support Engineer with a 15-min target; service-level targets are not credit-backed. P1 is 24x7 on both tiers (Online 1 hr, Enterprise 30 min); Enterprise adds a Named Support Engineer + TAM and Launch Advisory/Field Services. (Prior 15-min figure was overstated.)
   channels:
     - portal

@@ -4,7 +4,7 @@ slug: netsuite
 vendor_name: NetSuite
 legal_entity: NetSuite
 category: Enterprise & Operations
-website: https://www.netsuite.com
+website: https://www.netsuite.com/portal/home.shtml
 scope: global
 sla_url: https://www.oracle.com/a/ocom/docs/corporate/netsuite-service-level-commitment-v04012021.pdf
 last_verified: '2026-06-23'

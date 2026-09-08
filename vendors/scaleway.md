@@ -4,7 +4,7 @@ slug: scaleway
 vendor_name: Scaleway
 legal_entity: Scaleway SAS
 category: Cloud Infrastructure
-website: https://www.scaleway.com
+website: https://www.scaleway.com/en/
 scope: regional
 sla_url: https://www.scaleway.com/en/virtual-instances/sla/
 last_verified: '2026-06-24'

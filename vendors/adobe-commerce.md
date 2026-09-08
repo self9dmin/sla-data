@@ -4,7 +4,7 @@ slug: adobe-commerce
 vendor_name: Adobe Commerce
 legal_entity: Adobe Inc.
 category: E-commerce
-website: https://business.adobe.com/products/magento/magento-commerce.html
+website: https://business.adobe.com/products/commerce.html
 scope: global
 sla_url: https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/sla-adobeon-demand-managedservices-2025oct12.pdf
 last_verified: '2026-06-24'

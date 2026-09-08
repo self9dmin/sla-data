@@ -4,7 +4,7 @@ slug: avalara
 vendor_name: Avalara
 legal_entity: Avalara, Inc.
 category: Finance & Payments
-website: https://www.avalara.com
+website: https://www.avalara.com/us/en/index.html
 scope: global
 sla_url: https://legal.avalara.com/
 last_verified: '2026-06-24'

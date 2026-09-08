@@ -6,7 +6,7 @@ legal_entity: Salesforce, Inc.
 category: CRM & Marketing
 website: https://www.salesforce.com
 scope: global
-sla_url: https://www.salesforce.com/company/legal/agreements/
+sla_url: https://www.salesforce.com/company/legal/
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 sla_help_wanted: true
@@ -24,7 +24,7 @@ claim_process:
       anchor_point: end_of_billing_month
       description: Submit claim within 30 days of billing cycle end
   submission_method: Salesforce Support
-  submission_url: https://help.salesforce.com
+  submission_url: https://help.salesforce.com/s/?language=en_US
   required_evidence:
     - Organization ID
     - Affected services
@@ -86,31 +86,31 @@ services:
     category: CRM
     description: Sales automation and CRM
     sla_eligible: true
-    source_url: https://www.salesforce.com/company/legal/agreements/
+    source_url: https://www.salesforce.com/company/legal/
   - id: service-cloud
     name: Service Cloud
     category: Customer Service
     description: Customer service platform
     sla_eligible: true
-    source_url: https://www.salesforce.com/company/legal/agreements/
+    source_url: https://www.salesforce.com/company/legal/
   - id: marketing-cloud
     name: Marketing Cloud
     category: Marketing
     description: Digital marketing platform
     sla_eligible: true
-    source_url: https://www.salesforce.com/company/legal/agreements/
+    source_url: https://www.salesforce.com/company/legal/
   - id: commerce-cloud
     name: Commerce Cloud
     category: E-commerce
     description: E-commerce platform
     sla_eligible: true
-    source_url: https://www.salesforce.com/company/legal/agreements/
+    source_url: https://www.salesforce.com/company/legal/
   - id: platform
     name: Salesforce Platform
     category: PaaS
     description: Application development platform
     sla_eligible: true
-    source_url: https://www.salesforce.com/company/legal/agreements/
+    source_url: https://www.salesforce.com/company/legal/
   - id: heroku
     name: Heroku
     category: PaaS

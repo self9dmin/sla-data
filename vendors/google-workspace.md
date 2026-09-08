@@ -6,7 +6,7 @@ legal_entity: Google Workspace
 category: Productivity
 website: https://workspace.google.com
 scope: global
-sla_url: https://workspace.google.com/terms/sla.html
+sla_url: https://workspace.google.com/terms/sla/
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 needs_review: false
@@ -80,49 +80,49 @@ services:
     description: Email service - credits as Days of Service
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://workspace.google.com/terms/sla.html
+    source_url: https://workspace.google.com/terms/sla/
   - id: gworkspace-calendar
     name: Google Calendar
     category: Productivity
     description: Calendar service - credits as Days of Service
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://workspace.google.com/terms/sla.html
+    source_url: https://workspace.google.com/terms/sla/
   - id: gworkspace-chat
     name: Google Chat
     category: Collaboration
     description: Messaging service - credits as Days of Service
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://workspace.google.com/terms/sla.html
+    source_url: https://workspace.google.com/terms/sla/
   - id: gworkspace-drive
     name: Google Drive
     category: Storage
     description: Cloud storage - credits as Days of Service
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://workspace.google.com/terms/sla.html
+    source_url: https://workspace.google.com/terms/sla/
   - id: gworkspace-meet
     name: Google Meet
     category: Collaboration
     description: Video conferencing - credits as Days of Service
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://workspace.google.com/terms/sla.html
+    source_url: https://workspace.google.com/terms/sla/
   - id: gworkspace-voice-premier
     name: Google Voice (Premier)
     category: Communications
     description: Business phone - Premier tier with advanced features
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://workspace.google.com/terms/sla.html
+    source_url: https://workspace.google.com/terms/sla/
   - id: gworkspace-voice-standard
     name: Google Voice (Standard)
     category: Communications
     description: Business phone - Standard tier
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://workspace.google.com/terms/sla.html
+    source_url: https://workspace.google.com/terms/sla/
 support:
   tiers:
     - Standard

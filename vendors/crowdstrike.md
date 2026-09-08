@@ -4,7 +4,7 @@ slug: crowdstrike
 vendor_name: CrowdStrike
 legal_entity: CrowdStrike
 category: Security & Identity
-website: https://www.crowdstrike.com
+website: https://www.crowdstrike.com/en-us/
 scope: global
 sla_url: https://www.crowdstrike.com/en-us/legal/terms-conditions/
 last_verified: '2026-06-23'
@@ -24,7 +24,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: Support Portal
-  submission_url: https://supportportal.crowdstrike.com
+  submission_url: https://supportportal.crowdstrike.com/s/get-help
   required_evidence:
     - Account ID
     - Affected services

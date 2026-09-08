@@ -6,7 +6,7 @@ legal_entity: Culture Amp Pty Ltd
 category: HR & Workforce
 website: https://www.cultureamp.com
 scope: global
-sla_url: https://www.cultureamp.com/legal
+sla_url: https://www.cultureamp.com/company/legal
 last_verified: '2026-06-25'
 last_updated: '2026-06-25'
 has_automatic_credits: false
@@ -44,7 +44,7 @@ services:
     category: HR & Workforce
     description: Employee engagement, performance management, and analytics platform for people-first organizations
     sla_eligible: false
-    source_url: https://www.cultureamp.com/legal
+    source_url: https://www.cultureamp.com/company/legal
 ---
 
 Culture Amp (Culture Amp Pty Ltd, Melbourne, Australia) is an employee engagement and performance management platform. No public uptime SLA or credit structure exists in Culture Amp's General Terms or any publicly accessible document. SLA terms for enterprise customers are negotiated privately via enterprise sales agreements.

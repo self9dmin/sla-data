@@ -48,13 +48,13 @@ services:
     category: AI
     description: Search-grounded LLM answer API
     sla_eligible: false
-    source_url: https://docs.perplexity.ai
+    source_url: https://docs.perplexity.ai/docs/getting-started/overview
   - id: search-api
     name: Search API
     category: AI
     description: Web search results API
     sla_eligible: false
-    source_url: https://docs.perplexity.ai
+    source_url: https://docs.perplexity.ai/docs/getting-started/overview
 support:
   channels:
     - email

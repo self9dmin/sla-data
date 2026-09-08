@@ -31,7 +31,7 @@ claim_process:
       anchor_point: end_of_billing_month
       description: Submit within 30 days of end of billing month
   submission_method: Support Portal
-  submission_url: https://help.databricks.com
+  submission_url: https://help.databricks.com/s/
   required_evidence:
     - Account ID
     - Affected services

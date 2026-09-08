@@ -4,7 +4,7 @@ slug: snowflake
 vendor_name: Snowflake
 legal_entity: Snowflake
 category: Databases & Data Infrastructure
-website: https://www.snowflake.com
+website: https://www.snowflake.com/en/
 scope: global
 sla_url: https://www.snowflake.com/en/legal/addenda/support-policy-and-service-level-agreement/
 last_verified: '2026-06-23'

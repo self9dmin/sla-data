@@ -33,7 +33,7 @@ claim_process:
       anchor_point: quarter_end
       description: Log a support ticket within ten (10) business days after the last day of the Quarter
   submission_method: Support ticket
-  submission_url: https://www.ibm.com/mysupport
+  submission_url: https://www.ibm.com/mysupport/s/?language=en_US
   required_evidence:
     - Detailed description of events resulting in Downtime, including request logs documenting errors
     - Time and duration of the Downtime

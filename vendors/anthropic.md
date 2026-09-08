@@ -81,7 +81,7 @@ support:
   professional_services: false
   has_24x7: false
   note: Email/portal (support.claude.com, Console); no published response-time SLA, phone, or named CSM. Enterprise onboarding via sales. ("Priority Tier" is API throughput, not support.) Email/portal (support.claude.com, Console); no published response-time SLA, phone, or named CSM. Enterprise onboarding via sales. ("Priority Tier" is API throughput, not support.)
-  source_url: https://claude.com/pricing/enterprise
+  source_url: https://claude.com/solutions/enterprise
 ---
 
 Anthropic is an AI & Machine Learning provider. Anthropic does not publish a credit-backed SLA. The Standard API tier is best-effort with no uptime guarantee. The Priority Tier targeted 99.5% uptime but is no longer available for new purchases — existing commitments are honored through their contract end date. Enterprise customers may negotiate separate availability terms. For credit-backed SLA coverage, use Claude via a hyperscaler (AWS Bedrock, Google Vertex AI) where the cloud provider's SLA applies.

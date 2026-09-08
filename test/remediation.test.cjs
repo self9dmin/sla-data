@@ -47,6 +47,20 @@ test('replaces URLs only inside YAML front matter', () => {
   assert.match(result.text, /historical URL remains documented: https:\/\/vendor\.example\/old-sla/);
 });
 
+test('does not rewrite a shorter URL inside a longer URL', () => {
+  const source = [
+    '---',
+    'website: https://vendor.example',
+    'source_url: https://vendor.example/en/legal/sla',
+    '---',
+    '',
+  ].join('\n');
+  const result = replaceFrontMatterUrl(source, 'https://vendor.example', 'https://vendor.example/en/');
+  assert.equal(result.changed, true);
+  assert.match(result.text, /website: https:\/\/vendor\.example\/en\//);
+  assert.match(result.text, /source_url: https:\/\/vendor\.example\/en\/legal\/sla/);
+});
+
 test('reports dead links as human-verification work', () => {
   const report = buildReport({
     broken: [{ file: 'vendor.md', url: 'https://vendor.example/dead', status: 404 }],

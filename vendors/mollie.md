@@ -6,7 +6,7 @@ legal_entity: Mollie B.V.
 category: Finance & Payments
 website: https://www.mollie.com
 scope: Europe
-sla_url: https://www.mollie.com/en/user-agreement
+sla_url: https://www.mollie.com/legal/user-agreement
 last_verified: '2026-06-24'
 last_updated: '2026-06-24'
 has_automatic_credits: false
@@ -43,7 +43,7 @@ services:
     category: Finance & Payments
     description: Online payment processing for European businesses with multi-method support
     sla_eligible: false
-    source_url: https://www.mollie.com/en/user-agreement
+    source_url: https://www.mollie.com/legal/user-agreement
 ---
 
 Mollie (Mollie B.V., KvK 30204462, Netherlands) is a European payment processor. The standard User Agreement explicitly states Mollie "cannot guarantee availability" — no numeric uptime commitment or credit remedy applies. Enterprise customers should contact Mollie directly for any SLA terms.

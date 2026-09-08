@@ -6,7 +6,7 @@ legal_entity: Typeform
 category: Productivity
 website: https://www.typeform.com
 scope: global
-sla_url: https://www.typeform.com/terms-service/
+sla_url: https://www.typeform.com/legal
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 has_automatic_credits: false
@@ -91,7 +91,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.typeform.com/enterprise/
+  source_url: https://www.typeform.com/enterprise
   note: Enterprise includes a dedicated CSM and VIP priority support; no published response SLA. Enterprise VIP support + dedicated CSM and a Technical Implementation Specialist; email/help-center (no confirmed phone), no published 24x7.
   channels:
     - email

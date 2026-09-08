@@ -6,7 +6,7 @@ legal_entity: Paychex, Inc.
 category: HR & Workforce
 website: https://www.paychex.com
 scope: global
-sla_url: https://www.paychex.com/legal
+sla_url: https://www.paychex.com/corporate/legal
 last_verified: '2026-06-25'
 last_updated: '2026-06-25'
 has_automatic_credits: false
@@ -44,7 +44,7 @@ services:
     category: HR & Workforce
     description: Payroll processing, HR management, benefits administration, and tax compliance for businesses of all sizes
     sla_eligible: false
-    source_url: https://www.paychex.com/legal
+    source_url: https://www.paychex.com/corporate/legal
 ---
 
 Paychex (Paychex, Inc., Delaware; NASDAQ: PAYX) is a payroll processing, HR management, and benefits administration platform. Paychex explicitly disclaims all availability warranties in its Terms of Use — services are provided "AS IS" and "AS AVAILABLE, with all faults." No uptime SLA or credit structure exists in any publicly accessible document. Paychex service agreements focus on payroll processing accuracy and tax remittance obligations rather than platform uptime guarantees.

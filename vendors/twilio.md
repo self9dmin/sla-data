@@ -4,7 +4,7 @@ slug: twilio
 vendor_name: Twilio
 legal_entity: Twilio
 category: Communication & Collaboration
-website: https://www.twilio.com
+website: https://www.twilio.com/en-us
 scope: global
 sla_url: https://www.twilio.com/en-us/legal/service-level-agreement/twilio-apis
 last_verified: '2026-06-23'

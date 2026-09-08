@@ -80,7 +80,7 @@ services:
     category: AI
     description: Developer platform / API
     sla_eligible: true
-    source_url: https://dev.writer.com
+    source_url: https://dev.writer.com/home/introduction
   - id: ai-hq
     name: AI HQ / Agents
     category: AI

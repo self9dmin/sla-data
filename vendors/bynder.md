@@ -4,7 +4,7 @@ slug: bynder
 vendor_name: Bynder
 legal_entity: Bynder B.V.
 category: Marketing & Analytics
-website: https://www.bynder.com
+website: https://www.bynder.com/en/
 scope: global
 sla_url: https://www.bynder.com/en/legal/service-level-agreement-v14/
 last_verified: '2026-06-25'

@@ -19,7 +19,7 @@ credit_policy:
   max_credit_percent: 0
 claim_process:
   submission_method: N/A - No SLA credits available
-  submission_url: https://www.bamboohr.com/contact/
+  submission_url: https://www.bamboohr.com/about-bamboohr/contact/
   required_evidence:
     - Account ID
     - Affected services

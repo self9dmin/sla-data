@@ -77,7 +77,7 @@ support:
   professional_services: false
   has_24x7: false
   note: Enterprise via sales form ("dedicated support", no published structure). GroqCloud "service tiers" are latency/throughput, not support. No defined professional services. Enterprise via sales form ("dedicated support", no published structure). GroqCloud "service tiers" are latency/throughput, not support. No defined professional services.
-  source_url: https://groq.com/enterprise-access
+  source_url: https://groq.com/contact
 ---
 
 Groq is an AI & Machine Learning provider. See the SLA/terms at [https://console.groq.com/docs/legal/services-agreement](https://console.groq.com/docs/legal/services-agreement).

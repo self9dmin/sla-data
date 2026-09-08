@@ -25,7 +25,7 @@ claim_process:
       anchor_point: end_of_impacted_month
       description: Email servicecredit@zendesk.com to submit a claim within 60 days of the impacted month when availability falls below 99.9%
   submission_method: Email to servicecredit@zendesk.com
-  submission_url: https://support.zendesk.com
+  submission_url: https://support.zendesk.com/hc/en-us
   required_evidence:
     - Account ID
     - Affected services
@@ -120,7 +120,7 @@ support:
   success_program: true
   training: true
   pricing: percent_of_spend
-  source_url: https://support.zendesk.com/hc/en-us/articles/10563447642906
+  source_url: https://support.zendesk.com/hc/en-us/articles/10563447642906-What-is-Zendesk-Premier-and-what-does-it-include
   note: Zendesk Premier tiers carry credit-backed availability and support SLAs; Premier Enterprise adds weekly TAM reviews. 24/7 technical support is Premier-only (Standard is 8x5). Direct phone at Premier Plus/Enterprise, which add a TAM. 24/7 technical support is Premier-only (Standard is 8x5). Direct phone at Premier Plus/Enterprise, which add a TAM.
   channels:
     - portal

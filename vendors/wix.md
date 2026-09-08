@@ -115,7 +115,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.wix.com/enterprise/services
+  source_url: https://www.wix.com/studio/enterprise
   note: 'Enterprise bundles 24/7 priority support, a 1-hour first-response commitment, and a dedicated CSM. Enterprise Priority Support: up to a 1-hour first response, 24/7 (verified on Wix Enterprise terms), via ticket/"Get Help" routed to a named CSM (phone not committed for top tier). Up to 15 educational hours included; further training scoped separately.'
   channels:
     - portal

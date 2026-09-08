@@ -177,7 +177,7 @@ services:
     description: Virtual servers in the cloud
     uptime_commitment: 99.99
     sla_eligible: true
-    source_url: https://aws.amazon.com/ec2/sla/
+    source_url: https://aws.amazon.com/compute/sla/
   - id: s3
     name: Amazon S3
     category: Storage
@@ -288,7 +288,7 @@ services:
   - id: opensearch
     name: Amazon OpenSearch Service
     uptime_commitment: 99.9
-    source_url: https://aws.amazon.com/elasticsearch-service/sla
+    source_url: https://aws.amazon.com/opensearch-service/sla/
   - id: bedrock
     name: Amazon Bedrock
     uptime_commitment: 99.9
@@ -398,19 +398,19 @@ services:
   - id: lex
     name: Amazon Lex
     uptime_commitment: 99.9
-    source_url: https://aws.amazon.com/machine-learning/language/sla
+    source_url: https://aws.amazon.com/ai/services/language-sla/
   - id: polly
     name: Amazon Polly
     uptime_commitment: 99.9
-    source_url: https://aws.amazon.com/machine-learning/language/sla
+    source_url: https://aws.amazon.com/ai/services/language-sla/
   - id: transcribe
     name: Amazon Transcribe
     uptime_commitment: 99.9
-    source_url: https://aws.amazon.com/machine-learning/language/sla
+    source_url: https://aws.amazon.com/ai/services/language-sla/
   - id: translate
     name: Amazon Translate
     uptime_commitment: 99.9
-    source_url: https://aws.amazon.com/machine-learning/language/sla
+    source_url: https://aws.amazon.com/ai/services/language-sla/
   - id: rekognition
     name: Amazon Rekognition
     uptime_commitment: 99.9
@@ -422,7 +422,7 @@ services:
   - id: comprehend
     name: Amazon Comprehend
     uptime_commitment: 99.9
-    source_url: https://aws.amazon.com/machine-learning/language/sla
+    source_url: https://aws.amazon.com/ai/services/language-sla/
   - id: codebuild
     name: AWS CodeBuild
     uptime_commitment: 99.9
@@ -446,7 +446,7 @@ services:
   - id: quicksight
     name: Amazon QuickSight
     uptime_commitment: 99.9
-    source_url: https://aws.amazon.com/quicksight/sla/
+    source_url: https://aws.amazon.com/quick/sla/
   - id: appsync
     name: AWS AppSync
     uptime_commitment: 99.95

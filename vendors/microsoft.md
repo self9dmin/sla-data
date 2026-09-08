@@ -37,7 +37,7 @@ claim_process:
       anchor_point: end_of_applicable_period
       description: For all other Services, claim must be received by the end of the Applicable Period following the month in which the Incident occurred
   submission_method: Microsoft Support
-  submission_url: https://support.microsoft.com
+  submission_url: https://support.microsoft.com/en-us/
   required_evidence:
     - Detailed description of the Incident
     - Time and duration of downtime

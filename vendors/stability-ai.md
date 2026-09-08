@@ -71,7 +71,7 @@ support:
   professional_services: true
   has_24x7: false
   note: Sales/enterprise contact only (partners@stability.ai); no published support channels, response times, or 24x7. Custom model training, custom workflows, ongoing technical support via implementation specialists. Sales/enterprise contact only (partners@stability.ai); no published support channels, response times, or 24x7. Custom model training, custom workflows, ongoing technical support via implementation specialists.
-  source_url: https://stability.ai/solutions
+  source_url: https://stability.ai/strategic-partnerships
 ---
 
 Stability AI is an AI & Machine Learning provider. See the SLA/terms at [https://stability.ai/terms-of-service](https://stability.ai/terms-of-service).

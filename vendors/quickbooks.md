@@ -17,7 +17,7 @@ credit_policy:
   remedy_type: no_credit
 claim_process:
   submission_method: N/A - No SLA credits available
-  submission_url: https://quickbooks.intuit.com/learn-support/
+  submission_url: https://quickbooks.intuit.com/learn-support/en-us/
   required_evidence:
     - Account ID
     - Affected services

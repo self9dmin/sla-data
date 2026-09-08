@@ -18,7 +18,7 @@ credit_policy:
   remedy_type: no_sla
 claim_process:
   submission_method: N/A - No public SLA credits
-  submission_url: https://www.adp.com/contact-us.aspx
+  submission_url: https://www.adp.com/contact-us/customer-service.aspx
   required_evidence: []
 global_exclusions:
   - Scheduled maintenance

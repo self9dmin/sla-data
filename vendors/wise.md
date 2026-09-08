@@ -6,7 +6,7 @@ legal_entity: Wise Payments Limited
 category: Finance & Payments
 website: https://wise.com
 scope: global
-sla_url: https://wise.com/terms-of-use
+sla_url: https://wise.com/en/legal/terms-and-conditions
 last_verified: '2026-06-24'
 last_updated: '2026-06-24'
 has_automatic_credits: false
@@ -43,7 +43,7 @@ services:
     category: Finance & Payments
     description: International money transfers, multi-currency accounts, and business payments
     sla_eligible: false
-    source_url: https://wise.com/terms-of-use
+    source_url: https://wise.com/en/legal/terms-and-conditions
 ---
 
 Wise (Wise Payments Limited, UK; also Wise Europe SA/NV and Wise US Inc.) is an international money transfer and multi-currency banking platform. The Terms of Use explicitly disclaim any uptime warranty — no numeric SLA commitment or credit structure applies to standard accounts. Contact Wise for any enterprise arrangements.

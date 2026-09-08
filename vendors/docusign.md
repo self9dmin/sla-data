@@ -35,7 +35,7 @@ claim_process:
       anchor_point: end_of_term
       description: Customer must provide DocuSign with written notice no later than the end of the Term during which the breach occurred.
   submission_method: Written notice to DocuSign
-  submission_url: https://support.docusign.com
+  submission_url: https://support.docusign.com/s/?language=en_US
   required_evidence:
     - Written notice of the Unavailable Time / breach
   review_timeline: Not specified

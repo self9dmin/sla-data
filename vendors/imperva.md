@@ -20,7 +20,7 @@ credit_policy:
   calculation_type: tiered
 claim_process:
   submission_method: Support ticket
-  submission_url: https://www.imperva.com/support/
+  submission_url: https://www.imperva.com/404
   required_evidence:
     - Incident dates and times (within 7 days of occurrence)
     - Affected service details

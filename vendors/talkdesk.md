@@ -6,7 +6,7 @@ legal_entity: Talkdesk
 category: Communication & Collaboration
 website: https://www.talkdesk.com
 scope: global
-sla_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
+sla_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate/
 last_verified: '2026-06-23'
 last_updated: '2026-06-23'
 uptime_commitment: 100
@@ -74,35 +74,35 @@ services:
     description: Virtual agents and AI assist
     uptime_commitment: 100
     sla_eligible: true
-    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
+    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate/
   - id: digital
     name: Talkdesk Digital Engagement
     category: Digital
     description: Chat, email, SMS
     uptime_commitment: 100
     sla_eligible: true
-    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
+    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate/
   - id: analytics
     name: Talkdesk Explore
     category: Analytics
     description: Reporting and analytics
     uptime_commitment: 100
     sla_eligible: true
-    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
+    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate/
   - id: voice
     name: Talkdesk Voice
     category: Voice
     description: Inbound/outbound voice
     uptime_commitment: 100
     sla_eligible: true
-    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
+    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate/
   - id: wfm
     name: Talkdesk Workforce Management
     category: WFM
     description: Scheduling and forecasting
     uptime_commitment: 100
     sla_eligible: true
-    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate
+    source_url: https://www.talkdesk.com/legal/service-level-agreement/essentials-elevate/
 support:
   tiers:
     - Standard

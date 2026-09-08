@@ -23,7 +23,7 @@ claim_process:
       anchor_point: incident_date
       description: Submit within 30 days of incident
   submission_method: Xero Central
-  submission_url: https://central.xero.com
+  submission_url: https://central.xero.com/0/
   required_evidence:
     - Account ID
     - Affected services
