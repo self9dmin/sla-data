@@ -117,7 +117,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.smartsheet.com/support-plans
+  source_url: https://www.smartsheet.com/legal/sla
   note: Enterprise includes 24/7 and a 1-hour P1 target; published as a target. 24x7 phone/chat at Standard & Premium. Support packages include Pro Desk coaching but no named CSM/TAM.
   channels:
     - portal

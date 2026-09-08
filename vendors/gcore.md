@@ -20,7 +20,7 @@ credit_policy:
   calculation_type: tiered
 claim_process:
   submission_method: Contact account team
-  submission_url: https://gcore.com/contacts/
+  submission_url: https://gcore.com/contact-us
   required_evidence:
     - Incident dates and times
     - Affected service and account details

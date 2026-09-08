@@ -6,7 +6,7 @@ legal_entity: Brightcove Inc.
 category: Content & Media
 website: https://www.brightcove.com
 scope: global
-sla_url: https://www.brightcove.com/en/legal/
+sla_url: https://www.brightcove.com/legal/terms-and-conditions
 last_verified: '2026-06-24'
 last_updated: '2026-06-24'
 uptime_commitment: 99.9
@@ -61,7 +61,7 @@ services:
     description: Enterprise video hosting, live streaming, and video player platform
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.brightcove.com/en/legal/
+    source_url: https://www.brightcove.com/legal/terms-and-conditions
 ---
 
 Brightcove (Brightcove Inc., Delaware) is an enterprise video platform. The SLA distinguishes between Player features (99.9%) and U/I features (99.5%) with a per-minute pro-rata credit formula. Claims must be submitted within 30 days of month-end. SLA credits are the sole and exclusive remedy for downtime.

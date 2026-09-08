@@ -6,7 +6,7 @@ legal_entity: OVH US LLC
 category: Cloud Infrastructure
 website: https://www.ovhcloud.com
 scope: global
-sla_url: https://www.ovhcloud.com/en/support/sla/
+sla_url: https://us.ovhcloud.com/legal/sla/public-cloud/
 last_verified: '2026-06-24'
 last_updated: '2026-06-24'
 uptime_commitment: 99.99

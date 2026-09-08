@@ -23,7 +23,7 @@ sla_tiers:
     source_url: https://console.groq.com/docs/performance-tier
 claim_process:
   submission_method: N/A - No public SLA credits
-  submission_url: https://groq.com/enterprise
+  submission_url: https://groq.com/contact
   required_evidence: []
 global_exclusions:
   - Scheduled maintenance

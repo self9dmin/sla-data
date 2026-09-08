@@ -112,7 +112,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://www.greenhouse.com/customers/services
+  source_url: https://www.greenhouse.com/service-level-agreement
   note: Premium Support and CSM tiers referenced; response times not publicly disclosed. Chat + email/portal and 24/7 self-serve resources; no vendor-confirmed phone line. Account Services provides CSMs/AMs/TAMs. Chat + email/portal and 24/7 self-serve resources; no vendor-confirmed phone line. Account Services provides CSMs/AMs/TAMs.
   channels:
     - chat

@@ -93,7 +93,7 @@ support:
   success_program: true
   training: true
   pricing: flat
-  source_url: https://www.lever.co/customer-success-agreement/
+  source_url: https://www.lever.co/agreements/sla
   note: Preferred/Premium add a CSM and elevated service levels for an additional fee. Help Center portal + email (no vendor-confirmed phone); Preferred/Premium add an assigned CSM and elevated service. Help Center portal + email (no vendor-confirmed phone); Preferred/Premium add an assigned CSM and elevated service.
   channels:
     - portal

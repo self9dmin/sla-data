@@ -93,7 +93,7 @@ support:
   success_program: true
   training: true
   pricing: custom
-  source_url: https://mixpanel.com/pricing/services/
+  source_url: https://mixpanel.com/legal/terms-of-use/
   note: Tiered support with response targets; CSM and services on higher plans. No phone. 24x7 only on the Premium Plus add-on (Premium Support / Enterprise are 24x5). Shared Slack at top tiers; Enterprise adds an Onboarding Specialist + CSM.
   channels:
     - email
