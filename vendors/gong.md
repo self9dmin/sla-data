@@ -6,13 +6,13 @@ legal_entity: Gong.io Inc.
 category: Sales & CRM
 website: https://www.gong.io
 scope: global
-sla_url: https://www.gong.io/legal/terms-of-service/
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://www.gong.io/legal/terms-and-conditions
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 has_automatic_credits: false
 min_plan_for_sla: paid
 needs_review: false
-credit_note: 'Verified against Gong Terms of Service (gong.io/legal/terms-of-service). No contractual uptime SLA found. The Terms of Service contain only "commercially reasonable efforts" availability language — not a binding uptime guarantee. The 99.5% figure cited in Gong marketing materials is a reliability benchmark, not a contractual SLA commitment. Gong disclaims availability warranties verbatim: the ToS includes standard "as is / as available" disclaimers and contains no uptime percentage, no credit mechanism, and no financial remedy for availability failures. Legal entity: Gong.io Inc. (California corporation; CA entity #3980774). Parent: Gong I.O Ltd (Israel). Headquarters: 201 Spear Street, Suite 1100, San Francisco, CA 94105.'
+credit_note: 'Verified against Gong Terms and Conditions (gong.io/legal/terms-and-conditions). No contractual uptime SLA found. The Terms and Conditions contain only "commercially reasonable efforts" availability language — not a binding uptime guarantee. The 99.5% figure cited in Gong marketing materials is a reliability benchmark, not a contractual SLA commitment. Gong disclaims availability warranties verbatim: the ToS includes standard "as is / as available" disclaimers and contains no uptime percentage, no credit mechanism, and no financial remedy for availability failures. Legal entity: Gong.io Inc. (California corporation; CA entity #3980774). Parent: Gong I.O Ltd (Israel). Headquarters: 201 Spear Street, Suite 1100, San Francisco, CA 94105.'
 credit_policy:
   remedy_type: no_sla
   calculation_type: none
@@ -43,7 +43,7 @@ services:
     category: Sales & CRM
     description: AI-powered revenue intelligence platform for sales call recording, coaching, and pipeline management
     sla_eligible: false
-    source_url: https://www.gong.io/legal/terms-of-service/
+    source_url: https://www.gong.io/legal/terms-and-conditions
 ---
 
 Gong (Gong.io Inc., California corporation; parent Gong I.O Ltd, Israel; San Francisco, CA) is an AI-powered revenue intelligence platform. The standard Terms of Service contain only commercially reasonable efforts availability language — no binding uptime percentage, no credit mechanism, and no SLA. The 99.5% figure cited in marketing is not a contractual commitment. Enterprise SLA terms, if any, are negotiated privately.

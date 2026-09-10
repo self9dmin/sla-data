@@ -6,9 +6,9 @@ legal_entity: Prefect Technologies, Inc.
 category: Developer Tools
 website: https://www.prefect.io
 scope: global
-sla_url: https://www.prefect.io/legal/saas-agreement
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://www.prefect.io/legal/terms
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 has_automatic_credits: false
 min_plan_for_sla: enterprise
 needs_review: false
@@ -44,7 +44,7 @@ services:
     category: Developer Tools
     description: Managed workflow orchestration platform built on the open-source Prefect engine for data pipeline management
     sla_eligible: false
-    source_url: https://www.prefect.io/legal/saas-agreement
+    source_url: https://www.prefect.io/legal/terms
 ---
 
 Prefect (Prefect Technologies, Inc., Delaware; Washington, DC) is a managed workflow orchestration platform. All legal pages return HTTP 403 — no SLA terms are publicly accessible. Published uptime figures (99.99% Enterprise, 99.9% Pro) appear in marketing sources but are not confirmed verbatim from any primary legal document. Note: Prefect's "SLA" product feature is a workflow-level monitoring tool for customer flow runs, distinct from a contractual platform availability SLA. Beta and POC offerings are explicitly excluded from all support and liability.

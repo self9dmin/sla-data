@@ -6,14 +6,14 @@ legal_entity: Better Stack, Inc.
 category: Monitoring & Observability
 website: https://betterstack.com
 scope: global
-sla_url: https://betterstack.com/terms-of-service
-last_verified: '2026-06-24'
-last_updated: '2026-06-24'
+sla_url: https://betterstack.com/terms
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 has_automatic_credits: false
 min_plan_for_sla: enterprise
 sla_help_wanted: true
 needs_review: false
-credit_note: 'Reviewed Better Stack Terms of Service (betterstack.com/terms-of-service). Per Better Stack''s own documentation referenced across multiple competitor comparisons: "Better Stack does not currently provide an SLA." Enterprise tier customers may negotiate custom SLA terms, but these are not publicly published. Standard and team plans have no uptime SLA or credit structure. sla_help_wanted: true for enterprise. needs_review: true — no primary source text confirmed directly.'
+credit_note: 'Reviewed Better Stack Terms of Service (betterstack.com/terms). Per Better Stack''s own documentation referenced across multiple competitor comparisons: "Better Stack does not currently provide an SLA." Enterprise tier customers may negotiate custom SLA terms, but these are not publicly published. Standard and team plans have no uptime SLA or credit structure. sla_help_wanted: true for enterprise. needs_review: true — no primary source text confirmed directly.'
 credit_policy:
   remedy_type: no_sla
   calculation_type: none
@@ -50,7 +50,7 @@ services:
     category: Monitoring & Observability
     description: Uptime monitoring, on-call alerting, incident management, and log management
     sla_eligible: false
-    source_url: https://betterstack.com/terms-of-service
+    source_url: https://betterstack.com/terms
 ---
 
 Better Stack is an uptime monitoring and observability platform. Per the vendor's own documentation, Better Stack does not currently provide an SLA for standard plans. Enterprise tier customers may negotiate custom SLA terms — contact Better Stack directly.

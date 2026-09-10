@@ -7,8 +7,8 @@ category: AI & Machine Learning
 website: https://lumalabs.ai
 scope: global
 sla_url: https://lumalabs.ai/legal/terms-of-service
-last_verified: '2026-06-23'
-last_updated: '2026-06-23'
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 sla_help_wanted: true
 has_automatic_credits: false
 min_plan_for_sla: enterprise
@@ -18,7 +18,7 @@ credit_policy:
   remedy_type: no_sla
 claim_process:
   submission_method: N/A - No public SLA credits
-  submission_url: https://lumalabs.ai/contact
+  submission_url: https://lumalabs.ai/contact-sales
   required_evidence: []
 global_exclusions:
   - Scheduled maintenance
@@ -75,4 +75,4 @@ support:
   source_url: https://lumalabs.ai/enterprise
 ---
 
-Luma AI is an AI & Machine Learning provider. See the SLA/terms at [https://lumalabs.ai/legal/tos](https://lumalabs.ai/legal/tos).
+Luma AI is an AI & Machine Learning provider. See the current terms at [https://lumalabs.ai/legal/terms-of-service](https://lumalabs.ai/legal/terms-of-service).

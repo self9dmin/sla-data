@@ -6,9 +6,9 @@ legal_entity: Druva, Inc.
 category: Storage & Backup
 website: https://www.druva.com
 scope: global
-sla_url: https://www.druva.com/legal/service-level-agreement
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://www.druva.com/msa
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 uptime_commitment: 99.5
 has_automatic_credits: false
 min_plan_for_sla: paid
@@ -56,14 +56,14 @@ services:
     description: SaaS data protection for endpoints, Microsoft 365, Google Workspace, and collaboration apps
     uptime_commitment: 99.5
     sla_eligible: true
-    source_url: https://www.druva.com/legal/service-level-agreement
+    source_url: https://www.druva.com/msa
   - id: druva-phoenix
     name: Druva Phoenix
     category: Storage & Backup
     description: SaaS backup and disaster recovery for servers, NAS, and databases
     uptime_commitment: 99.5
     sla_eligible: true
-    source_url: https://www.druva.com/legal/service-level-agreement
+    source_url: https://www.druva.com/msa
 ---
 
 Druva (Druva, Inc., Delaware; Santa Clara, CA) is a SaaS data protection platform. The standard SLA guarantees 99.5% monthly availability with a 10% of one month's fees credit per SLA failure type (Availability, Durability, or Reliability). The claim window is only 10 days after month-end — missing it forfeits the credit. A termination right activates after 3 consecutive months of the same failure. A separate Data Resiliency Guarantee provides actual cash payments up to $10M for qualifying data loss events (minimum $25K annual spend, not available to MSPs or Dell OEM customers).

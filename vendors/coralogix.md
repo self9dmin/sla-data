@@ -7,8 +7,8 @@ category: Monitoring & Observability
 website: https://coralogix.com
 scope: global
 sla_url: https://coralogix.com/terms-conditions/
-last_verified: '2026-06-24'
-last_updated: '2026-06-24'
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -19,7 +19,7 @@ credit_policy:
   calculation_type: tiered
 claim_process:
   submission_method: Contact support
-  submission_url: https://coralogix.com/contact-us/
+  submission_url: https://coralogix.com/contact/
   required_evidence:
     - Dates and times of service unavailability
     - Affected account details

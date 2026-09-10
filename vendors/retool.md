@@ -6,9 +6,9 @@ legal_entity: Retool, Inc.
 category: Developer Tools
 website: https://retool.com
 scope: global
-sla_url: https://retool.com/legal/customer-terms-of-service
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://docs.retool.com/legal
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 has_automatic_credits: false
 min_plan_for_sla: enterprise
 sla_help_wanted: true
@@ -58,7 +58,7 @@ services:
     category: Developer Tools
     description: Low-code platform for building internal tools, admin panels, and business applications
     sla_eligible: false
-    source_url: https://retool.com/legal/customer-terms-of-service
+    source_url: https://docs.retool.com/legal
 ---
 
 Retool (Retool, Inc.) is a low-code platform for building internal tools and admin panels. No public SLA exists — enterprise SLA terms are specified in the customer Order Form and require direct negotiation. Contact Retool enterprise sales for custom uptime commitments.
