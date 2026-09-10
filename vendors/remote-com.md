@@ -7,8 +7,8 @@ category: HR & People Operations
 website: https://remote.com
 scope: global
 sla_url: https://remote.com/policy/terms-of-service
-last_verified: '2026-06-24'
-last_updated: '2026-06-24'
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 has_automatic_credits: false
 min_plan_for_sla: standard
 max_credit_percent: 25
@@ -20,7 +20,7 @@ credit_policy:
   max_credit_percent: 25
 claim_process:
   submission_method: Contact account team
-  submission_url: https://remote.com/contact
+  submission_url: https://support.remote.com/hc/en-us/requests/new
   required_evidence:
     - Evidence of payroll service metric failure
     - Affected country or entity details

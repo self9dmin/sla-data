@@ -6,9 +6,9 @@ legal_entity: Outreach Corporation
 category: Sales & CRM
 website: https://www.outreach.io
 scope: global
-sla_url: https://www.outreach.io/legal/
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://support.outreach.io/support/solutions/articles/159000425952-outreach-technical-support-offerings
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 has_automatic_credits: false
 min_plan_for_sla: enterprise
 needs_review: false
@@ -43,7 +43,7 @@ services:
     category: Sales & CRM
     description: Sales engagement and revenue intelligence platform for outbound prospecting and pipeline management
     sla_eligible: false
-    source_url: https://www.outreach.io/legal/
+    source_url: https://support.outreach.io/support/solutions/articles/159000425952-outreach-technical-support-offerings
 ---
 
 Outreach (Outreach Corporation, Washington state; Seattle, WA) is a sales engagement and revenue intelligence platform. A dedicated SLA document is confirmed to exist but is gated (HTTP 403). Published support response targets (P1: 1 hour, P2: 4 hours) are response-time targets, not availability or financial SLAs. Uptime commitments and credit terms are available only through enterprise contract negotiation.

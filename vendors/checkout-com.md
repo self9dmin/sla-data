@@ -6,9 +6,9 @@ legal_entity: Checkout Ltd
 category: Finance & Payments
 website: https://www.checkout.com
 scope: global
-sla_url: https://www.checkout.com/legal/terms-of-use
-last_verified: '2026-06-24'
-last_updated: '2026-06-24'
+sla_url: https://www.checkout.com/legal/terms-and-policies
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 has_automatic_credits: false
 min_plan_for_sla: enterprise
 sla_help_wanted: true
@@ -44,7 +44,7 @@ services:
     category: Finance & Payments
     description: Global payment processing, acquiring, and fraud detection for enterprises
     sla_eligible: false
-    source_url: https://www.checkout.com/legal/terms-of-use
+    source_url: https://www.checkout.com/legal/terms-and-policies
 ---
 
 Checkout.com (Checkout Ltd, company no. 08037323, UK) is a global payment processing platform. No numeric uptime SLA or credit structure exists in publicly accessible terms — enterprise customers with dedicated agreements may have privately negotiated uptime commitments. Contact Checkout.com directly for enterprise SLA terms.

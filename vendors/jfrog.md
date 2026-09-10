@@ -6,15 +6,15 @@ legal_entity: JFrog Ltd
 category: Developer Tools
 website: https://jfrog.com
 scope: global
-sla_url: https://jfrog.com/platform/saas-sla/
-last_verified: '2026-06-24'
-last_updated: '2026-06-24'
+sla_url: https://jfrog.com/platform/sla/
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: standard
 claim_deadline_days: 30
 needs_review: false
-credit_note: 'Verified against JFrog SaaS SLA (jfrog.com/platform/saas-sla/). Uptime commitment: Standard plan 99.9%; Premium High Availability add-on 99.99%. Credits are measured in DAYS OF SERVICE EXTENSION, not percentage of fees. Verbatim: "Customer must notify JFrog in writing to service@jfrog.com within thirty (30) days following the end of the calendar month during which JFrog did not meet the Uptime Guarantee. Failure to comply with this requirement shall forfeit Customer''s right to receive a Service Credit." Credit cap verbatim: "thirty days of Services added to the end of Your term." Legal entities: JFrog Ltd (global, Israel), JFrog Inc. (Americas), JFrog SAS (select EMEA).'
+credit_note: 'Verified against JFrog Platform SLA (jfrog.com/platform/sla/). Uptime commitment: Standard plan 99.9%; Premium High Availability add-on 99.99%. Credits are measured in DAYS OF SERVICE EXTENSION, not percentage of fees. Verbatim: "Customer must notify JFrog in writing to service@jfrog.com within thirty (30) days following the end of the calendar month during which JFrog did not meet the Uptime Guarantee. Failure to comply with this requirement shall forfeit Customer''s right to receive a Service Credit." Credit cap verbatim: "thirty days of Services added to the end of Your term." Legal entities: JFrog Ltd (global, Israel), JFrog Inc. (Americas), JFrog SAS (select EMEA).'
 credit_policy:
   remedy_type: credit
   calculation_type: pro_rated
@@ -71,14 +71,14 @@ services:
     description: Artifact management, DevSecOps, and software supply chain security platform
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://jfrog.com/platform/saas-sla/
+    source_url: https://jfrog.com/platform/sla/
   - id: jfrog-platform-premium-ha
     name: JFrog Platform (Premium High Availability)
     category: Developer Tools
     description: High-availability JFrog Platform with Premium HA add-on
     uptime_commitment: 99.99
     sla_eligible: true
-    source_url: https://jfrog.com/platform/saas-sla/
+    source_url: https://jfrog.com/platform/sla/
 ---
 
 JFrog (JFrog Ltd, Israel) provides artifact management and DevSecOps platform services. The SLA commits to 99.9% uptime for Standard plans and 99.99% with the Premium HA add-on. Credits are issued as **service term extensions** (days added to subscription), not percentage refunds — capped at 30 days total. Claims must be submitted in writing to service@jfrog.com within 30 days of the month-end in which the breach occurred.

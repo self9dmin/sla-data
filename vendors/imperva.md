@@ -6,9 +6,9 @@ legal_entity: Imperva, Inc.
 category: CDN & Edge
 website: https://www.imperva.com
 scope: global
-sla_url: https://www.imperva.com/legal/service-level-agreement/
-last_verified: '2026-06-24'
-last_updated: '2026-06-24'
+sla_url: https://www.imperva.com/legal/imperva-eula-part-1-general-terms-and-conditions/
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 uptime_commitment: 99.999
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -60,14 +60,14 @@ services:
     description: DDoS protection and CDN for network-layer threats
     uptime_commitment: 99.999
     sla_eligible: true
-    source_url: https://www.imperva.com/legal/service-level-agreement/
+    source_url: https://www.imperva.com/legal/imperva-eula-part-1-general-terms-and-conditions/
   - id: imperva-protected-infrastructure
     name: Imperva Protected Infrastructure (PI)
     category: CDN & Edge
     description: Web application firewall and bot management services
     uptime_commitment: 99.95
     sla_eligible: true
-    source_url: https://www.imperva.com/legal/service-level-agreement/
+    source_url: https://www.imperva.com/legal/imperva-eula-part-1-general-terms-and-conditions/
 ---
 
 Imperva (a Thales Group subsidiary) provides DDoS protection and application security services. SLA uptime is measured ANNUALLY — 99.999% for Network Infrastructure and 99.95% for Protected Infrastructure. The claim window is critically short: credits must be requested within **7 days of the incident**, not from billing cycle end. Credit amounts require direct review of the SLA document.

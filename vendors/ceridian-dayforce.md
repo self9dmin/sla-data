@@ -6,9 +6,9 @@ legal_entity: Dayforce, Inc.
 category: HR & Workforce
 website: https://www.dayforce.com
 scope: global
-sla_url: https://www.dayforce.com/legal
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://help.dayforce.com/r/documents/all_legal_and_faq-en-US-lightMode-Web/Dayforce-Terms-of-Use
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 uptime_commitment: 99.75
 has_automatic_credits: false
 min_plan_for_sla: paid
@@ -46,7 +46,7 @@ services:
     description: Unified HCM platform covering payroll, workforce management, HR, benefits, and talent for large enterprises
     uptime_commitment: 99.75
     sla_eligible: true
-    source_url: https://www.dayforce.com/legal
+    source_url: https://help.dayforce.com/r/documents/all_legal_and_faq-en-US-lightMode-Web/Dayforce-Terms-of-Use
 ---
 
 Ceridian Dayforce (Dayforce, Inc., formerly Ceridian HCM Holding Inc.; NYSE/TSX: DAY) is a unified HCM platform covering payroll, workforce management, and talent for large enterprises. The publicly accessible G-Cloud 14 SLA commits to 99.75% monthly uptime with a procedural remedy: root cause analysis and escalation contact on failures. Financial credit terms, if any, are in the private MSA Appendix A accessible only via the authenticated Dayforce Client Contract Portal.

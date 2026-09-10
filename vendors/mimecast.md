@@ -6,9 +6,9 @@ legal_entity: Mimecast North America, Inc.
 category: Security & Identity
 website: https://www.mimecast.com
 scope: global
-sla_url: https://www.mimecast.com/company/mimecast-support-services/
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://assets.mimecast.com/api/public/content/6c6167a3beba44faa0667b41df8c648a?v=eb3cc7e8
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -21,7 +21,7 @@ credit_policy:
   max_credit_percent: 100
 claim_process:
   submission_method: Support case
-  submission_url: https://www.mimecast.com/support/
+  submission_url: https://www.mimecast.com/products/technical-support/
   required_evidence:
     - Details and dates of the relevant anomalies
     - Support case opened with Mimecast
@@ -68,13 +68,13 @@ services:
     description: Email security, threat intelligence, and compliance management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://www.mimecast.com/company/mimecast-support-services/
+    source_url: https://assets.mimecast.com/api/public/content/6c6167a3beba44faa0667b41df8c648a?v=eb3cc7e8
   - id: mimecast-email-security
     name: Mimecast Email Security
     category: Security & Identity
     description: Secure email gateway, anti-spam, anti-malware, and advanced threat protection
     sla_eligible: true
-    source_url: https://www.mimecast.com/company/mimecast-support-services/
+    source_url: https://assets.mimecast.com/api/public/content/6c6167a3beba44faa0667b41df8c648a?v=eb3cc7e8
 ---
 
 Mimecast (Mimecast North America, Inc.; UK: Mimecast Services Limited) provides email security, threat intelligence, and compliance services. The SLA commits to 99.9% monthly availability for Aware Management Services with credits up to 100% of monthly fees. Claims must be submitted via support case within 14 days of month end. Credit tier percentages are in the service levels PDF — contact Mimecast for the full schedule.

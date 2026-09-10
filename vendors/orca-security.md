@@ -6,9 +6,9 @@ legal_entity: Orca Security Ltd.
 category: Security & Identity
 website: https://orcasecurity.io
 scope: global
-sla_url: https://orcasecurity.io/legal/
-last_verified: '2026-06-25'
-last_updated: '2026-06-25'
+sla_url: https://d7umqicpi7263.cloudfront.net/eula/product/43dfb6ce-cd43-421a-8e0f-231d38421f3a/0b17e1f9-61b1-4b73-b3a8-31b42a61ac80.pdf
+last_verified: '2026-09-09'
+last_updated: '2026-09-09'
 uptime_commitment: 99.9
 has_automatic_credits: false
 min_plan_for_sla: standard
@@ -26,7 +26,7 @@ credit_policy:
       credit_percent: 20
 claim_process:
   submission_method: Support ticket
-  submission_url: https://orcasecurity.io/contact/
+  submission_url: https://orcasecurity.io/contact-us/
   required_evidence:
     - Detailed description of the Downtime incident
     - Time and duration of the incident
@@ -66,7 +66,7 @@ services:
     description: Agentless cloud security posture management (CSPM), workload protection, and vulnerability management
     uptime_commitment: 99.9
     sla_eligible: true
-    source_url: https://orcasecurity.io/legal/
+    source_url: https://d7umqicpi7263.cloudfront.net/eula/product/43dfb6ce-cd43-421a-8e0f-231d38421f3a/0b17e1f9-61b1-4b73-b3a8-31b42a61ac80.pdf
 ---
 
 Orca Security (Orca Security Ltd., Israel) provides agentless cloud security posture management. The SLA commits to 99.9% monthly uptime with a two-tier credit structure: 10% credit for uptime between 99.0%–99.9%, 20% credit below 99.0%, capped at 20% of total subscription fees per period. Claims must be filed within 30 days of the month end. Credits are the sole and exclusive remedy for downtime.
